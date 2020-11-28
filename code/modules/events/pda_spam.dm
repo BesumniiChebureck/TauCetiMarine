@@ -45,7 +45,7 @@
 				if(1)
 					sender = pick("MaxBet","MaxBet Online Casino","There is no better time to register","I'm excited for you to join us")
 					message = pick("Triple deposits are waiting for you at MaxBet Online when you register to play with us.",\
-					"You can qualify for a 200% Welcome Bonus at MaxBet Online when you sign up today.",\
+					"Проверка.",\
 					"Once you are a player with MaxBet, you will also receive lucrative weekly and monthly promotions.",\
 					"You will be able to enjoy over 450 top-flight casino games at MaxBet.")
 				if(2)
