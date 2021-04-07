@@ -6774,9 +6774,6 @@
 	},
 /turf/simulated/shuttle/floor/cargo,
 /area/shuttle/supply/velocity)
-"aqh" = (
-/turf/unsimulated/wall/splashscreen,
-/area/start)
 "aqi" = (
 /obj/structure/object_wall/standart{
 	dir = 4;
@@ -36947,7 +36944,7 @@ anM
 anM
 anM
 anM
-aqh
+anM
 aaM
 aaM
 aaM
