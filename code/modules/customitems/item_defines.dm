@@ -450,7 +450,6 @@
 	item_state = "lgloves"
 	siemens_coefficient = 0.30
 	permeability_coefficient = 0.01
-	item_color="white"
 	species_restricted = list("exclude" , UNATHI)
 
 /obj/item/clothing/gloves/fluff/walter_brooks_1 //botanistpower: Walter Brooks
@@ -459,7 +458,6 @@
 	icon = 'icons/obj/custom_items.dmi'
 	icon_state = "walter_brooks_1"
 	item_state = "bluegloves"
-	item_color="blue"
 
 /obj/item/clothing/gloves/fluff/chal_appara_1 //furlucis: Chal Appara
 	name = "Left Black Glove"
@@ -510,6 +508,8 @@
 	icon = 'icons/obj/custom_items.dmi'
 	icon_state = "taryn_kifer_1"
 	body_parts_covered = 0
+	force = 0
+	hitsound = list()
 
 /obj/item/clothing/head/fluff
 	body_parts_covered = 0
@@ -597,7 +597,7 @@
 
 /obj/item/clothing/under/fluff/milo_hachert //Field Dress Uniform - Milo Hachert - Commissar_Drew
 	name = "field dress uniform"
-	desc = "A uniform jacket, its buttons polished to a shine, coupled with a dark pair of trousers. 'Hachert' is embroidered upon the jacket�s shoulder bar."
+	desc = "A uniform jacket, its buttons polished to a shine, coupled with a dark pair of trousers. 'Hachert' is embroidered upon the jacket's shoulder bar."
 	icon = 'icons/obj/custom_items.dmi'
 	icon_state = "milohachert"
 	item_state = "milohachert"
@@ -756,7 +756,7 @@
 	item_state = "jane_sid_suit"
 	item_color = "jane_sid_suit"
 	has_sensor = 2
-	sensor_mode = 3
+	sensor_mode = SUIT_SENSOR_TRACKING
 	flags = ONESIZEFITSALL
 
 //Suit roll-down toggle.
