@@ -85,6 +85,11 @@
 /obj/machinery/porta_turret/AI_special
 	special_control = TRUE
 
+/obj/machinery/porta_turret/syndicat
+	lethal = TRUE
+	check_access = TRUE
+	installation = /obj/item/weapon/gun/energy/laser
+
 /obj/machinery/porta_turret/atom_init()
 	..()
 	req_one_access = list(access_security, access_heads)
@@ -103,6 +108,11 @@
 	. = ..()
 	req_one_access.Cut()
 	req_access = list(access_cent_specops)
+
+/obj/machinery/porta_turret/syndicat/atom_init()
+	. = ..()
+	req_one_access.Cut()
+	req_access = list(access_syndicate_main)
 
 /obj/machinery/porta_turret/Destroy()
 	qdel(spark_system)

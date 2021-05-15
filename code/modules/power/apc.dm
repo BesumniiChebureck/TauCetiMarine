@@ -1326,4 +1326,11 @@
 	last_nightshift_switch = world.time
 	set_nightshift(nightshift_lights, preset)
 
+//Warfare APC
+/obj/machinery/power/apc/syndicat
+	req_access = list(access_syndicat_engineering)
+
+/obj/machinery/power/apc/nanotrasen
+	req_access = list(access_nanotrasen_engineering)
+
 #undef APC_UPDATE_ICON_COOLDOWN
