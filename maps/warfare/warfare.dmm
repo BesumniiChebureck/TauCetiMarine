@@ -477,13 +477,12 @@
 /turf/simulated/floor/wood,
 /area/space)
 "aV" = (
-/obj/machinery/atmospherics/components/unary/thermomachine/freezer{
-	dir = 4
+/obj/machinery/porta_turret/syndicat{
+	lethal = 1;
+	name = "Syndicat turret"
 	},
-/turf/simulated/floor{
-	icon_state = "bot"
-	},
-/area/space)
+/turf/simulated/wall/r_wall,
+/area/warfare/syndicat/battleship/hangar)
 "aW" = (
 /turf/simulated/floor/wood,
 /area/space)
@@ -819,22 +818,21 @@
 	},
 /area/space)
 "bH" = (
-/obj/structure/table,
-/obj/item/weapon/crowbar,
-/obj/item/device/multitool{
-	pixel_x = 3
+/obj/machinery/light/small{
+	dir = 1
 	},
-/obj/item/device/multitool{
-	pixel_x = 3
+/obj/structure/sign/warning/securearea{
+	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
+	icon_state = "space";
+	layer = 4;
+	name = "EXTERNAL AIRLOCK";
+	pixel_x = -32
 	},
-/obj/item/clothing/glasses/welding,
-/obj/item/clothing/glasses/welding,
-/obj/machinery/recharger/wallcharger{
-	pixel_x = 32
+/obj/machinery/porta_turret/syndicat{
+	lethal = 1;
+	name = "Syndicat turret"
 	},
-/turf/simulated/floor{
-	icon_state = "delivery"
-	},
+/turf/simulated/floor/plating,
 /area/space)
 "bI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -984,16 +982,14 @@
 	},
 /area/space)
 "bV" = (
-/obj/structure/table,
-/obj/machinery/cell_charger,
-/obj/item/weapon/stock_parts/cell/high{
-	charge = 100;
-	maxcharge = 15000
+/obj/machinery/atmospherics/pipe/simple/hidden/red{
+	dir = 4
 	},
-/obj/item/weapon/gun/energy/pyrometer/engineering/robotics,
-/turf/simulated/floor{
-	icon_state = "delivery"
+/obj/machinery/porta_turret/syndicat{
+	lethal = 1;
+	name = "Syndicat turret"
 	},
+/turf/simulated/wall/r_wall,
 /area/space)
 "bW" = (
 /obj/structure/shuttle/engine/heater{
@@ -1165,29 +1161,13 @@
 /turf/simulated/floor/engine,
 /area/space)
 "ci" = (
-/obj/structure/table,
-/obj/item/weapon/hemostat,
-/obj/item/weapon/cautery,
-/obj/machinery/firealarm{
-	pixel_y = 24
-	},
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
-	},
+/obj/machinery/power/port_gen/pacman,
+/turf/simulated/floor/engine,
 /area/space)
 "cj" = (
-/obj/structure/table,
-/obj/item/weapon/retractor,
-/obj/item/weapon/FixOVein{
-	pixel_x = -5
-	},
-/obj/structure/window/reinforced/polarized{
-	dir = 4;
-	id = "op1"
-	},
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
-	},
+/obj/machinery/shieldwallgen,
+/obj/item/weapon/wrench,
+/turf/simulated/floor/engine,
 /area/space)
 "ck" = (
 /obj/structure/table,
@@ -1290,17 +1270,9 @@
 /turf/simulated/floor/plating,
 /area/space)
 "ct" = (
-/obj/structure/sink{
-	dir = 8;
-	pixel_x = -12
-	},
-/obj/machinery/windowtint{
-	id = "op1";
-	pixel_x = -27
-	},
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
-	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/shieldwallgen,
+/turf/simulated/floor/plating,
 /area/space)
 "cu" = (
 /obj/structure/grille,
@@ -1596,30 +1568,31 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/red{
 	dir = 6
 	},
+/obj/machinery/porta_turret/syndicat{
+	lethal = 1;
+	name = "Syndicat turret"
+	},
 /turf/simulated/wall/r_wall,
 /area/space)
 "cT" = (
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/obj/machinery/light/small,
+/obj/structure/closet/emergency_wall{
+	pixel_x = -32
 	},
+/turf/simulated/floor/plating,
 /area/space)
 "cU" = (
-/obj/structure/window/reinforced/polarized{
-	dir = 4;
-	id = "op1"
+/obj/machinery/light,
+/obj/item/stack/sheet/metal{
+	amount = 25
 	},
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
-	},
+/turf/simulated/floor/engine,
 /area/space)
 "cV" = (
-/obj/structure/window/reinforced/polarized{
-	dir = 8;
-	id = "op2"
+/obj/item/stack/sheet/mineral/phoron{
+	amount = 25
 	},
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
-	},
+/turf/simulated/floor/engine,
 /area/space)
 "cW" = (
 /obj/structure/grille,
@@ -1652,58 +1625,27 @@
 	},
 /area/space)
 "cY" = (
-/mob/living/simple_animal/cow{
-	name = "Betsy"
+/obj/structure/closet/crate,
+/obj/item/stack/sheet/metal{
+	amount = 25
 	},
-/obj/item/weapon/reagent_containers/glass/bucket,
-/turf/simulated/floor{
-	icon_state = "showroomfloor"
-	},
+/turf/simulated/floor/engine,
 /area/space)
 "cZ" = (
-/obj/structure/closet/crate{
-	desc = "It's a storage unit for kitchen clothes and equipment.";
-	name = "Kitchen Crate"
+/obj/structure/closet/crate,
+/obj/item/stack/rods{
+	amount = 50
 	},
-/obj/item/clothing/head/chefhat,
-/obj/item/clothing/under/rank/chef,
-/obj/item/weapon/storage/box/mousetraps{
-	pixel_x = 5;
-	pixel_y = 5
-	},
-/obj/item/weapon/storage/box/mousetraps,
-/obj/item/clothing/under/waiter,
-/obj/item/clothing/under/waiter,
-/obj/item/clothing/under/sundress,
-/obj/item/device/eftpos{
-	eftpos_name = "Kitchen EFTPOS scanner"
-	},
-/obj/machinery/light/small{
-	dir = 4
-	},
-/obj/item/clothing/under/rank/chef,
-/obj/item/clothing/under/rank/chef,
-/obj/item/clothing/head/chefhat,
-/obj/item/clothing/head/chefhat,
-/obj/item/weapon/soap/syndie,
-/turf/simulated/floor{
-	icon_state = "showroomfloor"
-	},
+/turf/simulated/floor/engine,
 /area/space)
 "da" = (
-/obj/structure/table,
-/obj/machinery/kitchen_machine/microwave{
-	pixel_x = -3;
-	pixel_y = 6
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/machinery/door/firedoor,
+/obj/item/tape/engineering{
+	icon_state = "engineering_door"
 	},
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = -24
-	},
-/turf/simulated/floor{
-	icon_state = "cafeteria"
-	},
-/area/space)
+/turf/simulated/floor/plating,
+/area/warfare/syndicat/battleship/hangar)
 "db" = (
 /turf/simulated/floor{
 	dir = 5;
@@ -1711,26 +1653,19 @@
 	},
 /area/space)
 "dc" = (
-/obj/structure/table,
-/obj/item/weapon/packageWrap,
-/obj/item/weapon/reagent_containers/food/condiment/enzyme{
-	layer = 5
+/obj/effect/decal/cleanable/dirt,
+/obj/item/tape/engineering{
+	icon_state = "engineering_h"
 	},
-/turf/simulated/floor{
-	dir = 5;
-	icon_state = "cafeteria"
-	},
+/turf/simulated/floor/plating,
 /area/space)
 "dd" = (
-/obj/structure/closet/crate,
-/obj/structure/window/reinforced{
-	dir = 1
+/obj/effect/decal/cleanable/blood/oil,
+/obj/item/tape/engineering{
+	icon_state = "engineering_h"
 	},
-/turf/simulated/floor{
-	dir = 9;
-	icon_state = "warndark"
-	},
-/area/warfare/syndicat/battleship/hangar)
+/turf/simulated/floor/plating,
+/area/space)
 "de" = (
 /obj/structure/closet/crate,
 /obj/structure/window/reinforced{
@@ -1752,28 +1687,13 @@
 	},
 /area/warfare/syndicat/battleship/hangar)
 "dg" = (
-/obj/machinery/newscaster{
-	pixel_x = -28;
-	pixel_y = 1
+/obj/item/stack/sheet/metal{
+	amount = 2
 	},
-/obj/structure/table/glass,
-/obj/item/weapon/reagent_containers/spray/cleaner,
-/obj/item/weapon/reagent_containers/food/drinks/britcup{
-	pixel_x = -4
+/obj/item/tape/engineering{
+	icon_state = "engineering_h"
 	},
-/obj/machinery/power/apc{
-	dir = 8;
-	name = "Syndicat Medical Checkpoint APC";
-	pixel_y = 25;
-	req_access = list(150)
-	},
-/obj/structure/cable{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/turf/simulated/floor{
-	icon_state = "whiteredcorner"
-	},
+/turf/simulated/floor/plating,
 /area/space)
 "dh" = (
 /obj/structure/table/glass,
@@ -1837,16 +1757,12 @@
 	},
 /area/space)
 "dl" = (
-/obj/structure/sign/poster/contraband/random{
-	pixel_x = -32
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/machinery/door/firedoor,
+/obj/item/tape/engineering{
+	icon_state = "engineering_door"
 	},
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/simulated/floor{
-	dir = 8;
-	icon_state = "darkred"
-	},
+/turf/simulated/floor/plating,
 /area/space)
 "dm" = (
 /obj/structure/stool/bed/chair/office/dark{
@@ -1876,18 +1792,20 @@
 	},
 /area/space)
 "do" = (
-/obj/machinery/iv_drip,
-/obj/machinery/light{
-	dir = 8
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
 	},
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/turf/simulated/floor/plating{
+	icon_state = "platingdmg1"
 	},
 /area/space)
 "dp" = (
-/obj/machinery/optable,
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/obj/machinery/atmospherics/pipe/simple/hidden/universal{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/red,
+/turf/simulated/floor{
+	icon_state = "dark"
 	},
 /area/space)
 "dq" = (
@@ -1902,12 +1820,12 @@
 /turf/simulated/floor/engine,
 /area/space)
 "ds" = (
-/obj/machinery/iv_drip,
-/obj/machinery/light{
-	dir = 4
+/obj/machinery/camera{
+	c_tag = "Kitchen Cold Room"
 	},
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/obj/structure/closet/secure_closet/freezer/kitchen,
+/turf/simulated/floor{
+	icon_state = "showroomfloor"
 	},
 /area/space)
 "dt" = (
@@ -1923,32 +1841,38 @@
 	},
 /area/space)
 "dv" = (
-/obj/machinery/kitchen_machine/oven,
-/obj/machinery/light{
-	dir = 8
+/obj/structure/table,
+/obj/item/weapon/hemostat,
+/obj/item/weapon/cautery,
+/obj/machinery/firealarm{
+	pixel_y = 24
 	},
 /turf/simulated/floor{
-	dir = 5;
-	icon_state = "cafeteria"
+	icon_state = "white"
 	},
 /area/space)
 "dw" = (
 /obj/structure/table,
-/obj/item/weapon/storage/box/donkpockets,
+/obj/item/weapon/retractor,
+/obj/item/weapon/FixOVein{
+	pixel_x = -5
+	},
+/obj/structure/window/reinforced/polarized{
+	dir = 4;
+	id = "op1"
+	},
 /turf/simulated/floor{
-	dir = 5;
-	icon_state = "cafeteria"
+	icon_state = "white"
 	},
 /area/space)
 "dx" = (
 /obj/structure/table,
-/obj/machinery/juicer,
-/obj/machinery/light{
-	dir = 4
+/obj/item/weapon/retractor,
+/obj/item/weapon/FixOVein{
+	pixel_x = -5
 	},
 /turf/simulated/floor{
-	dir = 5;
-	icon_state = "cafeteria"
+	icon_state = "white"
 	},
 /area/space)
 "dy" = (
@@ -1988,11 +1912,11 @@
 /area/warfare/syndicat/battleship/hangar)
 "dC" = (
 /obj/structure/closet/crate,
-/turf/simulated/floor{
-	dir = 8;
-	icon_state = "warndark"
+/obj/item/stack/sheet/glass{
+	amount = 50
 	},
-/area/warfare/syndicat/battleship/hangar)
+/turf/simulated/floor/engine,
+/area/space)
 "dD" = (
 /turf/simulated/floor/carpet/red,
 /area/space)
@@ -2058,10 +1982,8 @@
 	},
 /area/space)
 "dK" = (
-/turf/simulated/floor{
-	icon = 'icons/turf/shuttle.dmi';
-	icon_state = "floor3"
-	},
+/obj/machinery/shieldwallgen,
+/turf/simulated/floor/engine,
 /area/space)
 "dL" = (
 /obj/machinery/light{
@@ -2076,26 +1998,25 @@
 /turf/simulated/floor/wood,
 /area/space)
 "dN" = (
-/obj/machinery/kitchen_machine/grill,
+/obj/structure/closet/emergency_wall{
+	pixel_y = 32
+	},
 /turf/simulated/floor{
-	dir = 5;
-	icon_state = "cafeteria"
+	dir = 1;
+	icon_state = "warndark"
 	},
 /area/space)
 "dO" = (
 /obj/structure/table,
-/obj/item/weapon/reagent_containers/food/snacks/mint,
-/turf/simulated/floor{
-	dir = 5;
-	icon_state = "cafeteria"
-	},
+/obj/item/weapon/wrench,
+/turf/simulated/floor/engine,
 /area/space)
 "dP" = (
-/obj/structure/closet/secure_closet/freezer/fridge,
-/turf/simulated/floor{
-	dir = 5;
-	icon_state = "cafeteria"
+/obj/structure/girder/reinforced,
+/obj/item/stack/sheet/plasteel{
+	amount = 2
 	},
+/turf/simulated/floor/plating,
 /area/space)
 "dQ" = (
 /obj/machinery/computer/security/telescreen{
@@ -2124,19 +2045,13 @@
 	},
 /area/space)
 "dR" = (
-/obj/structure/closet/emergency_wall{
-	pixel_y = 32
-	},
-/obj/machinery/light/small{
-	dir = 1
-	},
+/obj/machinery/shieldwallgen,
 /turf/simulated/floor/plating,
 /area/space)
 "dS" = (
-/obj/machinery/recharge_station,
-/turf/unsimulated/floor{
-	dir = 10;
-	icon_state = "podhatch"
+/obj/machinery/shieldwallgen,
+/turf/simulated/floor/plating{
+	icon_state = "platingdmg3"
 	},
 /area/space)
 "dT" = (
@@ -2242,16 +2157,13 @@
 	},
 /area/space)
 "ee" = (
-/obj/structure/sink{
+/obj/structure/window/reinforced/polarized{
 	dir = 4;
-	pixel_x = 12
+	id = "op1"
 	},
-/obj/machinery/windowtint{
-	id = "op2";
-	pixel_x = 27
-	},
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "whitehall"
 	},
 /area/space)
 "ef" = (
@@ -2308,22 +2220,31 @@
 	},
 /area/space)
 "ej" = (
-/obj/structure/sign/warning/securearea{
-	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
-	icon_state = "space";
-	layer = 4;
-	name = "EXTERNAL AIRLOCK";
+/obj/structure/closet/emergency_wall{
 	pixel_x = -32
 	},
 /turf/simulated/floor/plating,
 /area/space)
 "ek" = (
-/obj/machinery/bodyscanner,
-/obj/structure/window/reinforced/polarized{
-	id = "op1"
+/obj/machinery/newscaster{
+	pixel_x = -28;
+	pixel_y = 1
 	},
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/obj/structure/table/glass,
+/obj/item/weapon/reagent_containers/spray/cleaner,
+/obj/item/weapon/reagent_containers/food/drinks/britcup{
+	pixel_x = -4
+	},
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/apc/syndicat{
+	name = "Syndicat Medical Checkpoint APC";
+	pixel_y = 32
+	},
+/turf/simulated/floor{
+	icon_state = "whiteredcorner"
 	},
 /area/space)
 "el" = (
@@ -2333,22 +2254,13 @@
 /turf/simulated/wall/r_wall,
 /area/space)
 "em" = (
-/obj/structure/table,
-/obj/structure/condiment_shelf{
-	pixel_y = 32
+/obj/machinery/porta_turret/syndicat{
+	lethal = 1;
+	name = "Syndicat turret"
 	},
-/obj/item/weapon/reagent_containers/food/condiment/sugar,
-/obj/item/weapon/reagent_containers/food/condiment/peppermill,
-/obj/item/weapon/reagent_containers/food/condiment/enzyme,
-/obj/item/weapon/reagent_containers/food/condiment/saltshaker,
-/obj/item/weapon/reagent_containers/food/condiment/ketchup,
-/obj/item/weapon/reagent_containers/food/condiment/rice,
-/obj/item/device/eftpos{
-	eftpos_name = "Bar EFTPOS scanner"
-	},
-/obj/item/weapon/packageWrap,
-/turf/simulated/floor{
-	icon_state = "cafeteria"
+/obj/effect/decal/warning_stripes/tauceti,
+/turf/unsimulated/floor{
+	icon_state = "podhatchfull"
 	},
 /area/space)
 "en" = (
@@ -2361,12 +2273,12 @@
 	},
 /area/space)
 "eo" = (
-/obj/machinery/body_scanconsole,
-/obj/structure/window/reinforced/polarized{
-	id = "op1"
+/obj/machinery/iv_drip,
+/obj/machinery/light{
+	dir = 8
 	},
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/turf/simulated/floor{
+	icon_state = "white"
 	},
 /area/space)
 "ep" = (
@@ -2377,18 +2289,15 @@
 	},
 /area/space)
 "eq" = (
-/obj/structure/table,
-/obj/item/weapon/packageWrap,
 /turf/simulated/floor{
-	dir = 5;
-	icon_state = "cafeteria"
+	dir = 8;
+	icon_state = "whitehall"
 	},
 /area/space)
 "er" = (
-/obj/structure/closet/secure_closet/freezer/kitchen,
+/obj/machinery/optable,
 /turf/simulated/floor{
-	dir = 5;
-	icon_state = "cafeteria"
+	icon_state = "white"
 	},
 /area/space)
 "es" = (
@@ -2464,12 +2373,12 @@
 	},
 /area/warfare/syndicat/battleship/hangar)
 "ez" = (
-/obj/structure/closet/secure_closet/freezer/meat,
-/obj/machinery/camera{
-	c_tag = "Kitchen Cold Room"
+/obj/machinery/iv_drip,
+/obj/machinery/light{
+	dir = 4
 	},
 /turf/simulated/floor{
-	icon_state = "showroomfloor"
+	icon_state = "white"
 	},
 /area/space)
 "eA" = (
@@ -2600,13 +2509,11 @@
 /turf/space,
 /area/space)
 "eM" = (
-/obj/structure/window/reinforced{
-	dir = 1
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
 	},
-/obj/structure/closet/secure_closet/personal/patient,
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
-	},
+/turf/simulated/floor/plating,
 /area/space)
 "eN" = (
 /obj/structure/closet/crate/radiation,
@@ -2616,19 +2523,19 @@
 	},
 /area/warfare/syndicat/battleship/hangar)
 "eO" = (
-/obj/machinery/chem_master/condimaster{
-	name = "CondiMaster Neo";
-	pixel_x = -5
+/obj/effect/decal/cleanable/blood/oil,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
 	},
-/turf/simulated/floor{
-	icon_state = "cafeteria"
-	},
+/turf/simulated/floor/plating,
 /area/space)
 "eP" = (
-/obj/machinery/vending/dinnerware,
-/turf/simulated/floor{
-	icon_state = "cafeteria"
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
 	},
+/turf/simulated/floor/plating,
 /area/space)
 "eQ" = (
 /obj/machinery/light/spot{
@@ -2719,34 +2626,39 @@
 	},
 /area/space)
 "eZ" = (
-/obj/structure/grille,
+/obj/machinery/door/airlock/security/glass{
+	name = "Syndicat Glass Airlock";
+	req_access = list(150)
+	},
 /obj/machinery/door/firedoor,
-/obj/structure/window/reinforced{
-	dir = 8
+/obj/machinery/atmospherics/pipe/simple/hidden/red,
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "warndark"
 	},
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
 /area/space)
 "fa" = (
 /obj/structure/lattice,
 /turf/space,
 /area/space)
 "fb" = (
-/obj/structure/stool/bed/roller,
-/obj/machinery/iv_drip,
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/obj/machinery/vending/hydroseeds{
+	anchored = 0
 	},
-/area/space)
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "warndark"
+	},
+/area/warfare/syndicat/battleship/hangar)
 "fc" = (
-/obj/structure/stool/bed/roller,
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkredcorners"
 	},
 /area/space)
 "fd" = (
@@ -2759,12 +2671,16 @@
 	},
 /area/space)
 "fe" = (
-/mob/living/simple_animal/chicken{
-	name = "Commander Clucky"
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12
+	},
+/obj/machinery/windowtint{
+	id = "op1";
+	pixel_x = -27
 	},
 /turf/simulated/floor{
-	dir = 5;
-	icon_state = "cafeteria"
+	icon_state = "white"
 	},
 /area/space)
 "ff" = (
@@ -2779,31 +2695,24 @@
 	},
 /area/space)
 "fg" = (
-/obj/structure/table,
-/obj/item/weapon/reagent_containers/food/snacks/pie,
 /turf/simulated/floor{
-	dir = 5;
-	icon_state = "cafeteria"
+	dir = 10;
+	icon_state = "whitehall"
 	},
 /area/space)
 "fh" = (
-/obj/structure/table,
-/obj/item/weapon/storage/box/donkpockets{
-	pixel_x = 3;
-	pixel_y = 3
-	},
 /turf/simulated/floor{
-	dir = 5;
-	icon_state = "cafeteria"
+	icon_state = "whitehall"
 	},
 /area/space)
 "fi" = (
-/obj/structure/table,
-/obj/item/weapon/paper_bin,
-/obj/item/weapon/pen,
+/obj/structure/window/reinforced/polarized{
+	dir = 4;
+	id = "op1"
+	},
 /turf/simulated/floor{
-	dir = 5;
-	icon_state = "cafeteria"
+	dir = 6;
+	icon_state = "whitehall"
 	},
 /area/space)
 "fj" = (
@@ -2814,18 +2723,10 @@
 	},
 /area/space)
 "fk" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced{
-	dir = 1
+/turf/simulated/floor{
+	dir = 6;
+	icon_state = "whitehall"
 	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/machinery/door/firedoor,
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
 /area/space)
 "fl" = (
 /obj/structure/window/reinforced{
@@ -2899,18 +2800,20 @@
 	},
 /area/space)
 "fs" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced{
-	dir = 8
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 12
 	},
-/obj/machinery/door/firedoor,
-/obj/structure/window/reinforced{
-	dir = 4
+/obj/machinery/windowtint{
+	id = "op2";
+	pixel_x = 27
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor{
+	icon_state = "white"
+	},
 /area/space)
 "ft" = (
-/obj/structure/closet/syndicate/personal,
+/obj/structure/dispenser/oxygen,
 /turf/unsimulated/floor{
 	dir = 10;
 	icon_state = "podhatch"
@@ -2926,9 +2829,12 @@
 	},
 /area/space)
 "fv" = (
-/obj/machinery/light,
-/turf/unsimulated/floor{
-	icon_state = "podhatch"
+/obj/machinery/bodyscanner,
+/obj/structure/window/reinforced/polarized{
+	id = "op1"
+	},
+/turf/simulated/floor{
+	icon_state = "white"
 	},
 /area/space)
 "fw" = (
@@ -2947,99 +2853,71 @@
 /turf/simulated/floor/plating,
 /area/space)
 "fy" = (
-/obj/mecha/medical/odysseus,
-/turf/simulated/floor/mech_bay_recharge_floor,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/machinery/space_heater,
+/turf/simulated/floor/plating,
 /area/space)
 "fz" = (
 /obj/mecha/combat/gygax/dark,
 /turf/simulated/floor/mech_bay_recharge_floor,
 /area/space)
 "fA" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced{
-	dir = 8
+/obj/structure/closet/secure_closet/freezer/meat,
+/turf/simulated/floor{
+	icon_state = "showroomfloor"
 	},
-/obj/machinery/door/firedoor,
-/obj/structure/window/reinforced,
-/obj/structure/sign/departments/medbay,
-/turf/simulated/floor/plating,
 /area/space)
 "fB" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced{
-	dir = 1
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2"
 	},
-/obj/machinery/door/firedoor,
-/obj/structure/window/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor{
+	icon_state = "darkredcorners"
+	},
 /area/space)
 "fC" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced{
-	dir = 1
+/turf/simulated/floor{
+	dir = 9;
+	icon_state = "whitehall"
 	},
-/obj/machinery/door/firedoor,
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/window/reinforced,
-/turf/simulated/floor/plating,
 /area/space)
 "fD" = (
-/obj/structure/shuttle/engine/propulsion{
-	dir = 8;
-	icon = 'icons/turf/3x3.dmi';
-	icon_state = "huge_engine";
-	layer = 2.1
+/obj/structure/shuttle/engine/propulsion/huge{
+	dir = 8
 	},
 /turf/space,
 /area/space)
 "fE" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced{
-	dir = 1
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "whitehall"
 	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/machinery/door/firedoor,
-/obj/structure/window/reinforced,
-/turf/simulated/floor/plating,
 /area/space)
 "fF" = (
-/obj/structure/table/reinforced,
-/obj/machinery/door/firedoor,
-/obj/structure/window/reinforced,
-/obj/structure/window/reinforced{
-	dir = 8
+/obj/structure/window/reinforced/polarized{
+	dir = 8;
+	id = "op2"
 	},
-/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/wine{
-	pixel_x = -4
+/turf/simulated/floor{
+	dir = 9;
+	icon_state = "whitehall"
 	},
-/turf/simulated/floor,
 /area/space)
 "fG" = (
-/obj/structure/table/reinforced,
-/obj/machinery/door/firedoor,
-/obj/machinery/door/window/westleft{
-	dir = 2;
-	name = "Cafeteria";
-	req_access = list(150)
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "whitehall"
 	},
-/obj/item/weapon/bell,
-/turf/simulated/floor,
 /area/space)
 "fH" = (
-/obj/structure/table/reinforced,
-/obj/machinery/door/firedoor,
-/obj/machinery/door/window/westleft{
-	dir = 2;
-	name = "Cafeteria";
-	req_access = list(150)
+/obj/machinery/atmospherics/pipe/simple/hidden/red,
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "warndark"
 	},
-/obj/item/weapon/storage/fancy/donut_box,
-/turf/simulated/floor,
 /area/space)
 "fI" = (
 /obj/structure/rack,
@@ -3080,14 +2958,17 @@
 	},
 /area/space)
 "fJ" = (
-/obj/structure/grille,
-/obj/machinery/door/firedoor,
 /obj/structure/window/reinforced{
-	dir = 4
+	dir = 1
 	},
-/obj/structure/window/reinforced,
-/turf/simulated/floor/plating,
-/area/space)
+/obj/machinery/vending/hydronutrients{
+	anchored = 0
+	},
+/turf/simulated/floor{
+	dir = 9;
+	icon_state = "warndark"
+	},
+/area/warfare/syndicat/battleship/hangar)
 "fK" = (
 /obj/machinery/mech_bay_recharge_port{
 	dir = 1
@@ -3122,10 +3003,22 @@
 /turf/simulated/floor/engine,
 /area/space)
 "fN" = (
-/turf/simulated/floor{
-	icon_state = "dark"
+/obj/structure/sign/poster/contraband/random{
+	pixel_x = -32
 	},
-/area/warfare/syndicat/battleship/central_hallway)
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkred"
+	},
+/area/space)
 "fO" = (
 /turf/simulated/floor{
 	dir = 4;
@@ -3169,11 +3062,11 @@
 /turf/simulated/wall/r_wall,
 /area/space)
 "fV" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor{
-	icon_state = "dark"
+	dir = 4;
+	icon_state = "whitehall"
 	},
-/area/warfare/syndicat/battleship/central_hallway)
+/area/space)
 "fW" = (
 /turf/simulated/wall/r_wall,
 /area/warfare/syndicat/battleship/central_hallway)
@@ -3214,17 +3107,11 @@
 /turf/simulated/floor/plating,
 /area/space)
 "gd" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door_control{
-	id = "synd_hangar_center_blast";
-	name = "Syndicat Hangar-Center Door Control";
-	pixel_x = 25;
-	pixel_y = 26
-	},
 /turf/simulated/floor{
-	icon_state = "dark"
+	dir = 1;
+	icon_state = "blue"
 	},
-/area/warfare/syndicat/battleship/hangar)
+/area/space)
 "ge" = (
 /turf/simulated/floor{
 	icon_state = "darkred"
@@ -3250,59 +3137,54 @@
 	},
 /area/warfare/syndicat/battleship/hangar)
 "gh" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door_control{
-	id = "synd_hangar_center_blast";
-	name = "Syndicat Hangar-Center Door Control";
-	pixel_x = -25;
-	pixel_y = 26
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/red{
+	dir = 5
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "warndark"
+	},
+/area/space)
+"gi" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor,
+/area/space)
+"gj" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "yellow"
+	},
+/area/space)
+"gk" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
 	},
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
 /area/warfare/syndicat/battleship/central_hallway)
-"gi" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/machinery/door/firedoor,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/structure/sign/departments/medbay,
-/turf/simulated/floor/plating,
-/area/space)
-"gj" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/machinery/door/firedoor,
-/obj/structure/window/reinforced,
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/space)
-"gk" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/machinery/door/firedoor,
-/obj/structure/window/reinforced,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/turf/simulated/floor/plating,
-/area/space)
 "gl" = (
-/obj/structure/shuttle/engine/propulsion{
-	dir = 8;
-	icon = 'icons/turf/2x2.dmi';
-	icon_state = "large_engine";
-	layer = 2.1
+/obj/structure/shuttle/engine/propulsion/large{
+	dir = 8
 	},
 /turf/space,
 /area/space)
@@ -3376,67 +3258,76 @@
 /turf/simulated/floor/plating,
 /area/space)
 "gs" = (
-/obj/structure/grille,
-/obj/machinery/door/firedoor,
-/obj/structure/window/reinforced/polarized{
-	id = "syndicat_privat_barracks"
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
-/obj/structure/window/reinforced/polarized{
-	dir = 1;
-	id = "syndicat_privat_barracks"
-	},
-/obj/structure/window/reinforced/polarized{
-	dir = 8;
-	id = "syndicat_privat_barracks"
-	},
-/turf/simulated/floor/plating,
-/area/space)
-"gt" = (
-/obj/structure/grille,
-/obj/machinery/door/firedoor,
-/obj/structure/window/reinforced/polarized{
-	id = "syndicat_privat_barracks"
-	},
-/obj/structure/window/reinforced/polarized{
-	dir = 1;
-	id = "syndicat_privat_barracks"
-	},
-/turf/simulated/floor/plating,
-/area/space)
-"gu" = (
-/obj/structure/grille,
-/obj/machinery/door/firedoor,
-/obj/structure/window/reinforced/polarized{
-	id = "syndicat_privat_barracks"
-	},
-/obj/structure/window/reinforced/polarized{
-	dir = 1;
-	id = "syndicat_privat_barracks"
-	},
-/obj/structure/window/reinforced/polarized{
-	dir = 4;
-	id = "syndicat_privat_barracks"
-	},
-/turf/simulated/floor/plating,
-/area/space)
-"gv" = (
-/obj/machinery/door/firedoor,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
 /area/warfare/syndicat/battleship/central_hallway)
+"gt" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 5
+	},
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"gu" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/unsimulated/floor{
+	icon_state = "podhatchfull"
+	},
+/area/space)
+"gv" = (
+/obj/structure/closet/crate,
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/unsimulated/floor{
+	icon_state = "podhatchfull"
+	},
+/area/space)
 "gw" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkgreen"
+	icon_state = "dark"
 	},
 /area/warfare/syndicat/battleship/central_hallway)
 "gx" = (
-/turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkyellow"
+/obj/structure/grille,
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced{
+	dir = 8
 	},
-/area/warfare/syndicat/battleship/central_hallway)
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/plating,
+/area/space)
 "gy" = (
 /obj/machinery/space_heater,
 /obj/effect/decal/cleanable/cobweb,
@@ -3453,14 +3344,9 @@
 	},
 /area/space)
 "gA" = (
-/obj/machinery/door/airlock/hatch{
-	req_access = list(150)
-	},
-/obj/machinery/door/firedoor,
-/turf/simulated/floor{
-	icon_state = "dark"
-	},
-/area/warfare/syndicat/battleship/central_hallway)
+/obj/structure/sign/warning/fire,
+/turf/simulated/wall/r_wall,
+/area/space)
 "gB" = (
 /obj/structure/closet/crate,
 /obj/item/stack/sheet/rglass{
@@ -3571,9 +3457,13 @@
 	},
 /area/space)
 "gJ" = (
+/obj/structure/window/reinforced/polarized{
+	dir = 8;
+	id = "op2"
+	},
 /turf/simulated/floor{
-	dir = 1;
-	icon_state = "arrival"
+	dir = 10;
+	icon_state = "whitehall"
 	},
 /area/space)
 "gK" = (
@@ -3656,8 +3546,14 @@
 /turf/simulated/floor/plating/airless/catwalk,
 /area/space)
 "gV" = (
-/obj/machinery/light{
-	dir = 1
+/obj/machinery/door/airlock/hatch{
+	req_access = list(150)
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
 /turf/simulated/floor{
 	icon_state = "dark"
@@ -3672,21 +3568,13 @@
 	},
 /area/space)
 "gX" = (
-/obj/structure/grille,
-/obj/machinery/door/firedoor,
+/obj/machinery/body_scanconsole,
 /obj/structure/window/reinforced/polarized{
-	dir = 1;
-	id = "syndicat_privat_barracks"
+	id = "op1"
 	},
-/obj/structure/window/reinforced/polarized{
-	dir = 4;
-	id = "syndicat_privat_barracks"
+/turf/simulated/floor{
+	icon_state = "white"
 	},
-/obj/structure/window/reinforced/polarized{
-	dir = 8;
-	id = "syndicat_privat_barracks"
-	},
-/turf/simulated/floor/plating,
 /area/space)
 "gY" = (
 /obj/structure/closet/crate,
@@ -3733,77 +3621,68 @@
 /turf/simulated/floor/carpet,
 /area/space)
 "hd" = (
-/obj/machinery/light/small{
-	dir = 8
-	},
 /turf/simulated/floor{
-	icon_state = "freezerfloor"
+	dir = 0;
+	icon_state = "blue"
 	},
 /area/space)
 "he" = (
-/obj/structure/toilet{
-	dir = 8;
-	pixel_y = 8
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
-/obj/structure/window/reinforced/tinted,
 /turf/simulated/floor{
-	icon_state = "freezerfloor"
+	dir = 0;
+	icon_state = "blue"
 	},
 /area/space)
 "hf" = (
 /turf/simulated/wall/r_wall,
 /area/warfare/syndicat/battleship/east_hallway)
 "hg" = (
-/obj/structure/grille,
-/obj/machinery/door/poddoor{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "atmos";
-	name = "Atmos Blast Door";
-	opacity = 0
-	},
-/obj/structure/window/reinforced{
-	dir = 5
-	},
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/plating,
-/area/warfare/syndicat/battleship/east_hallway)
-"hh" = (
-/obj/structure/table/reinforced,
-/obj/item/weapon/bell,
-/obj/machinery/door/firedoor,
-/obj/machinery/door/window/northleft{
-	name = "Syndicat Engineering Lobby door";
-	req_access = list(150)
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
 	},
 /turf/simulated/floor{
-	icon_state = "dark"
+	icon_state = "yellow"
 	},
-/area/warfare/syndicat/battleship/east_hallway)
-"hi" = (
-/obj/machinery/door/airlock/engineering/glass{
-	name = "Syndicat Engineering";
-	req_access = list(150)
-	},
-/obj/machinery/door/firedoor,
+/area/space)
+"hh" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor{
-	dir = 8;
-	icon_state = "yellowfull"
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
 	},
-/area/warfare/syndicat/battleship/east_hallway)
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
+"hi" = (
+/obj/structure/closet/syndicate/personal,
+/obj/structure/sign/poster/contraband/random{
+	pixel_y = -32
+	},
+/turf/unsimulated/floor{
+	dir = 10;
+	icon_state = "podhatch"
+	},
+/area/space)
 "hj" = (
-/turf/simulated/floor{
-	dir = 1;
-	icon_state = "warndark"
+/obj/machinery/light,
+/obj/machinery/recharge_station,
+/turf/unsimulated/floor{
+	icon_state = "podhatch"
 	},
-/area/warfare/syndicat/battleship/east_hallway)
+/area/space)
 "hk" = (
 /obj/machinery/camera/emp_proof{
 	c_tag = "Syndicat Turret West-North West";
@@ -3824,11 +3703,13 @@
 	},
 /area/space)
 "hm" = (
-/turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkyellow"
+/obj/machinery/light/small,
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
 	},
-/area/warfare/syndicat/battleship/east_hallway)
+/turf/simulated/floor/plating,
+/area/space)
 "hn" = (
 /obj/item/weapon/rack_parts,
 /obj/item/weapon/rack_parts,
@@ -3839,16 +3720,10 @@
 	},
 /area/space)
 "ho" = (
-/obj/structure/grille,
-/obj/machinery/door/firedoor,
-/obj/structure/window/reinforced,
-/obj/structure/window/reinforced{
-	dir = 8
+/obj/mecha/medical/odysseus{
+	name = "Demetr"
 	},
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/mech_bay_recharge_floor,
 /area/space)
 "hp" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
@@ -3960,13 +3835,16 @@
 	},
 /area/space)
 "hB" = (
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 10
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
 /turf/simulated/floor{
-	icon_state = "bot"
+	dir = 1;
+	icon_state = "darkred"
 	},
-/area/space)
+/area/warfare/syndicat/battleship/central_hallway)
 "hC" = (
 /turf/simulated/floor{
 	dir = 5;
@@ -4007,17 +3885,14 @@
 /turf/simulated/floor/plating,
 /area/space)
 "hF" = (
-/obj/structure/grille,
-/obj/machinery/door/firedoor,
-/obj/structure/window/reinforced/polarized{
-	dir = 4;
-	id = "syndicat_privat_barracks"
+/obj/structure/window/reinforced{
+	dir = 1
 	},
-/obj/structure/window/reinforced/polarized{
-	dir = 8;
-	id = "syndicat_privat_barracks"
+/obj/structure/closet/secure_closet/personal/patient,
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "vault"
 	},
-/turf/simulated/floor/plating,
 /area/space)
 "hG" = (
 /obj/structure/stool/bed,
@@ -4034,11 +3909,14 @@
 /turf/simulated/floor/wood,
 /area/space)
 "hJ" = (
-/obj/machinery/door/airlock{
-	name = "Unit 1"
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
 	},
 /turf/simulated/floor{
-	icon_state = "freezerfloor"
+	dir = 4;
+	icon_state = "yellow"
 	},
 /area/space)
 "hK" = (
@@ -4083,37 +3961,50 @@
 	},
 /area/space)
 "hN" = (
-/turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkbrown"
+/obj/structure/grille,
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced{
+	dir = 8
 	},
-/area/warfare/syndicat/battleship/central_hallway)
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/plating,
+/area/space)
 "hO" = (
-/obj/structure/sign/departments/cargo{
-	pixel_y = 32
-	},
+/obj/structure/stool/bed/roller,
+/obj/machinery/iv_drip,
 /turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkbrown"
+	dir = 5;
+	icon_state = "vault"
 	},
-/area/warfare/syndicat/battleship/central_hallway)
+/area/space)
 "hP" = (
+/obj/structure/stool/bed/roller,
 /turf/simulated/floor{
-	icon_state = "darkredcorners"
+	dir = 5;
+	icon_state = "vault"
 	},
-/area/warfare/syndicat/battleship/central_hallway)
+/area/space)
 "hQ" = (
 /turf/simulated/floor{
 	dir = 8;
-	icon_state = "darkredcorners"
+	icon_state = "blue"
 	},
-/area/warfare/syndicat/battleship/central_hallway)
+/area/space)
 "hR" = (
 /turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkblue"
+	dir = 4;
+	icon_state = "blue"
 	},
-/area/warfare/syndicat/battleship/central_hallway)
+/area/space)
 "hS" = (
 /obj/structure/reagent_dispensers/watertank,
 /obj/effect/decal/cleanable/cobweb2,
@@ -4195,11 +4086,18 @@
 	},
 /area/space)
 "ic" = (
-/obj/machinery/life_assist/cardiopulmonary_bypass,
-/obj/structure/window/reinforced/tinted,
-/turf/simulated/floor{
-	icon_state = "warning"
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 8
 	},
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced,
+/obj/structure/sign/departments/medbay,
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/plating,
 /area/space)
 "id" = (
 /obj/machinery/hydroponics/constructable,
@@ -4244,26 +4142,24 @@
 /area/space)
 "ii" = (
 /obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
 /obj/machinery/door/firedoor,
-/obj/structure/window/reinforced/polarized{
-	dir = 4;
-	id = "syndicat_privat_barracks"
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 8
 	},
-/obj/structure/window/reinforced/polarized{
-	dir = 8;
-	id = "syndicat_privat_barracks"
-	},
-/obj/structure/window/reinforced/polarized{
-	id = "syndicat_privat_barracks"
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2"
 	},
 /turf/simulated/floor/plating,
 /area/space)
 "ij" = (
-/turf/simulated/floor{
-	dir = 4;
-	icon_state = "darkred"
-	},
-/area/warfare/syndicat/battleship/east_hallway)
+/obj/structure/sign/departments/medbay,
+/turf/simulated/wall/r_wall,
+/area/space)
 "ik" = (
 /obj/item/weapon/reagent_containers/blood/AMinus{
 	pixel_x = -7;
@@ -4301,16 +4197,22 @@
 	dir = 1;
 	id = "op1"
 	},
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "vault"
 	},
 /area/space)
 "il" = (
-/turf/simulated/floor{
-	dir = 4;
-	icon_state = "darkredcorners"
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 5
 	},
-/area/warfare/syndicat/battleship/east_hallway)
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/plating,
+/area/space)
 "im" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/storage/box/ids,
@@ -4343,6 +4245,11 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
@@ -4360,24 +4267,33 @@
 	},
 /area/space)
 "ir" = (
-/obj/structure/table,
-/obj/machinery/reagentgrinder,
-/obj/machinery/light{
-	dir = 8
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/simulated/floor{
-	icon_state = "cafeteria"
+	icon_state = "dark"
 	},
-/area/space)
+/area/warfare/syndicat/battleship/hangar)
 "is" = (
-/obj/machinery/kitchen_machine/candymaker,
-/obj/machinery/light{
-	dir = 4
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "synd_hangar_center_blast";
+	name = "Hangar-Center Blast Door";
+	opacity = 0
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/simulated/floor{
-	icon_state = "cafeteria"
+	icon_state = "dark"
 	},
-/area/space)
+/area/warfare/syndicat/battleship/hangar)
 "it" = (
 /obj/machinery/hydroponics/constructable,
 /obj/item/weapon/reagent_containers/glass/bucket,
@@ -4422,15 +4338,33 @@
 	},
 /area/space)
 "iy" = (
-/turf/simulated/floor{
-	icon_state = "darkred"
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/area/warfare/syndicat/battleship/east_hallway)
+/obj/structure/sign/departments/cargo{
+	pixel_y = 32
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkbrown"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
 "iz" = (
-/turf/simulated/floor{
-	icon_state = "darkredcorners"
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/area/warfare/syndicat/battleship/east_hallway)
+/obj/structure/sign/poster/contraband/random{
+	pixel_y = 32
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkbrown"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
 "iA" = (
 /obj/machinery/atmospherics/components/unary/tank/air,
 /turf/simulated/floor/plating{
@@ -4496,8 +4430,8 @@
 /obj/structure/window/reinforced/polarized{
 	id = "op2"
 	},
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/turf/simulated/floor{
+	icon_state = "white"
 	},
 /area/space)
 "iH" = (
@@ -4525,18 +4459,18 @@
 /obj/structure/window/reinforced/polarized{
 	id = "op2"
 	},
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/turf/simulated/floor{
+	icon_state = "white"
 	},
 /area/space)
 "iK" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/medical{
-	name = "Syndicat Medbay Center";
-	req_access = list(150)
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
-/turf/simulated/floor{
-	icon_state = "darkbluefull"
+/turf/unsimulated/floor{
+	icon_state = "podhatch"
 	},
 /area/space)
 "iL" = (
@@ -4545,14 +4479,14 @@
 	},
 /area/space)
 "iM" = (
-/obj/machinery/light{
-	dir = 1
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
 	},
-/turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkyellow"
-	},
-/area/warfare/syndicat/battleship/east_hallway)
+/turf/simulated/floor/plating,
+/area/space)
 "iN" = (
 /turf/simulated/floor/bluegrid{
 	icon_state = "gcircuit"
@@ -4611,15 +4545,19 @@
 	},
 /area/space)
 "iT" = (
-/obj/machinery/deepfryer,
-/obj/machinery/alarm{
-	pixel_y = 28
+/obj/machinery/door/airlock/hatch{
+	req_access = list(150)
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
 /turf/simulated/floor{
-	dir = 5;
-	icon_state = "cafeteria"
+	icon_state = "dark"
 	},
-/area/space)
+/area/warfare/syndicat/battleship/central_hallway)
 "iU" = (
 /obj/machinery/door/firedoor,
 /turf/simulated/floor{
@@ -4681,7 +4619,13 @@
 	},
 /area/space)
 "ja" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/simulated/floor{
+	dir = 1;
 	icon_state = "darkbrown"
 	},
 /area/warfare/syndicat/battleship/central_hallway)
@@ -4692,16 +4636,33 @@
 	},
 /area/space)
 "jc" = (
-/obj/structure/sign/departments/cargo{
-	pixel_y = -32
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
 	},
 /turf/simulated/floor{
+	dir = 1;
 	icon_state = "darkbrown"
 	},
 /area/warfare/syndicat/battleship/central_hallway)
 "jd" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
 /turf/simulated/floor{
-	dir = 4;
 	icon_state = "darkredcorners"
 	},
 /area/warfare/syndicat/battleship/central_hallway)
@@ -4730,6 +4691,9 @@
 "jg" = (
 /obj/structure/sign/poster/contraband/random{
 	pixel_y = 32
+	},
+/obj/machinery/light{
+	dir = 1
 	},
 /turf/simulated/floor{
 	blocks_air = 1;
@@ -4765,8 +4729,9 @@
 	dir = 1;
 	id = "op1"
 	},
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "vault"
 	},
 /area/space)
 "jj" = (
@@ -4817,8 +4782,9 @@
 	dir = 1;
 	id = "op2"
 	},
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "vault"
 	},
 /area/space)
 "jq" = (
@@ -4871,13 +4837,16 @@
 	},
 /area/space)
 "jt" = (
-/obj/structure/table,
-/obj/machinery/chem_dispenser/beer,
-/turf/simulated/floor{
-	dir = 5;
-	icon_state = "cafeteria"
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/area/space)
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkred"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
 "ju" = (
 /obj/structure/rack,
 /obj/structure/window/reinforced{
@@ -5096,21 +5065,34 @@
 /turf/simulated/floor/plating,
 /area/space)
 "jF" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
 /obj/machinery/door/firedoor,
-/turf/simulated/floor{
-	dir = 5;
-	icon_state = "darkredfull"
+/obj/structure/window/reinforced,
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2"
 	},
-/area/warfare/syndicat/battleship/east_hallway)
+/turf/simulated/floor/plating,
+/area/space)
 "jG" = (
-/obj/structure/sign/poster/contraband/random{
-	pixel_y = 32
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 1
 	},
-/turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkyellow"
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 4
 	},
-/area/warfare/syndicat/battleship/east_hallway)
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/plating,
+/area/space)
 "jH" = (
 /obj/machinery/light{
 	dir = 8
@@ -5120,11 +5102,18 @@
 	},
 /area/space)
 "jI" = (
-/obj/structure/table,
-/obj/machinery/chem_dispenser/soda,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/medical{
+	name = "Syndicat Operating Theatre";
+	req_access = list(150)
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor{
-	dir = 5;
-	icon_state = "cafeteria"
+	icon_state = "darkbluefull"
 	},
 /area/space)
 "jJ" = (
@@ -5146,17 +5135,16 @@
 	},
 /area/space)
 "jL" = (
-/obj/machinery/door/airlock/security/glass{
-	name = "Syndicat Glass Airlock";
-	req_access = list(150)
+/obj/machinery/porta_turret/station_default{
+	dir = 1;
+	enabled = 0;
+	name = "Synciat Turret"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/door/firedoor,
 /turf/simulated/floor{
-	dir = 8;
+	dir = 1;
 	icon_state = "warndark"
 	},
-/area/space)
+/area/warfare/syndicat/battleship/central_hallway)
 "jM" = (
 /obj/structure/closet/crate/hydroponics,
 /obj/item/weapon/reagent_containers/glass/bucket,
@@ -5214,19 +5202,44 @@
 	},
 /area/space)
 "jS" = (
-/obj/structure/stool/bed,
-/obj/item/weapon/bedsheet/syndie,
-/obj/structure/sign/poster/contraband/random{
-	pixel_y = -32
+/obj/machinery/door/firedoor,
+/obj/machinery/door_control{
+	id = "synd_hangar_center_blast";
+	name = "Syndicat Hangar-Center Door Control";
+	pixel_x = 25;
+	pixel_y = 26
 	},
-/turf/simulated/floor/wood,
-/area/space)
-"jT" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkred"
+	icon_state = "dark"
 	},
-/area/warfare/syndicat/battleship/east_hallway)
+/area/warfare/syndicat/battleship/hangar)
+"jT" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door_control{
+	id = "synd_hangar_center_blast";
+	name = "Syndicat Hangar-Center Door Control";
+	pixel_x = -25;
+	pixel_y = 26
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
 "jU" = (
 /obj/structure/dresser,
 /turf/simulated/floor/wood,
@@ -5269,16 +5282,10 @@
 	},
 /area/space)
 "jZ" = (
-/obj/structure/closet/secure_closet/engineering_personal,
-/obj/item/clothing/suit/space/syndicate/civilian,
-/obj/item/clothing/shoes/magboots,
-/obj/item/clothing/head/helmet/space/syndicate/civilian,
-/obj/item/weapon/tank/jetpack/oxygen/harness,
-/obj/item/weapon/tank/emergency_oxygen/engi,
-/obj/item/clothing/mask/gas/syndicate,
+/obj/structure/table,
+/obj/machinery/reagentgrinder,
 /turf/simulated/floor{
-	dir = 4;
-	icon_state = "yellow"
+	icon_state = "cafeteria"
 	},
 /area/space)
 "ka" = (
@@ -5292,8 +5299,9 @@
 /area/space)
 "kb" = (
 /obj/machinery/light,
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "blue"
 	},
 /area/space)
 "kc" = (
@@ -5507,16 +5515,16 @@
 /turf/simulated/floor/wood,
 /area/space)
 "kx" = (
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/machinery/atmospherics/components/unary/tank/air{
-	dir = 8
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/simulated/floor{
-	icon_state = "bot"
+	dir = 1;
+	icon_state = "darkgreen"
 	},
-/area/space)
+/area/warfare/syndicat/battleship/central_hallway)
 "ky" = (
 /obj/structure/window/reinforced/tinted,
 /obj/machinery/door/window/eastleft{
@@ -5687,8 +5695,11 @@
 	dir = 1;
 	id = "op1"
 	},
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/obj/machinery/life_assist/artificial_ventilation,
+/obj/machinery/life_assist/cardiopulmonary_bypass,
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "vault"
 	},
 /area/space)
 "kP" = (
@@ -5697,8 +5708,9 @@
 	dir = 1;
 	id = "op1"
 	},
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "vault"
 	},
 /area/space)
 "kQ" = (
@@ -5799,9 +5811,6 @@
 	id = "SIM_flasher";
 	pixel_y = 16
 	},
-/obj/machinery/light{
-	dir = 8
-	},
 /turf/simulated/floor{
 	blocks_air = 1;
 	dir = 8;
@@ -5861,12 +5870,12 @@
 /turf/simulated/floor/plating,
 /area/space)
 "lh" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden{
-	dir = 4
+/mob/living/simple_animal/cow{
+	name = "Laila"
 	},
-/obj/machinery/meter,
+/obj/item/weapon/reagent_containers/glass/bucket,
 /turf/simulated/floor{
-	icon_state = "bot"
+	icon_state = "showroomfloor"
 	},
 /area/space)
 "li" = (
@@ -5921,88 +5930,120 @@
 /turf/simulated/floor/plating,
 /area/warfare/syndicat/battleship/east_hallway)
 "ll" = (
+/obj/structure/closet/crate{
+	desc = "It's a storage unit for kitchen clothes and equipment.";
+	name = "Kitchen Crate"
+	},
+/obj/item/clothing/head/chefhat,
+/obj/item/clothing/under/rank/chef,
+/obj/item/weapon/storage/box/mousetraps{
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/obj/item/weapon/storage/box/mousetraps,
+/obj/item/clothing/under/waiter,
+/obj/item/clothing/under/waiter,
+/obj/item/clothing/under/sundress,
+/obj/item/device/eftpos{
+	eftpos_name = "Kitchen EFTPOS scanner"
+	},
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/item/clothing/under/rank/chef,
+/obj/item/clothing/under/rank/chef,
+/obj/item/clothing/head/chefhat,
+/obj/item/clothing/head/chefhat,
+/obj/item/device/eftpos{
+	eftpos_name = "Bar EFTPOS scanner"
+	},
+/obj/item/weapon/soap/syndie,
 /turf/simulated/floor{
-	icon_state = "bot"
+	icon_state = "showroomfloor"
 	},
 /area/space)
 "lm" = (
-/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
 /turf/simulated/floor{
 	dir = 1;
-	icon_state = "warning"
+	icon_state = "darkyellow"
 	},
-/area/space)
+/area/warfare/syndicat/battleship/central_hallway)
 "ln" = (
-/obj/machinery/portable_atmospherics/powered/pump,
-/obj/machinery/atmospherics/pipe/simple/hidden/universal{
-	dir = 1
+/obj/structure/table/reinforced,
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 8
 	},
+/obj/item/weapon/reagent_containers/food/snacks/mint,
 /turf/simulated/floor,
-/area/space)
+/area/warfare/syndicat/battleship/east_hallway)
 "lo" = (
 /obj/machinery/light/small,
 /turf/simulated/floor/plating,
 /area/space)
 "lp" = (
-/obj/structure/table,
-/obj/item/clothing/head/welding{
-	pixel_x = -5;
-	pixel_y = 3
+/obj/structure/closet/secure_closet/freezer/fridge,
+/turf/simulated/floor{
+	icon_state = "showroomfloor"
 	},
-/obj/item/clothing/head/welding{
-	pixel_x = -5;
-	pixel_y = 3
-	},
-/obj/item/clothing/glasses/welding,
-/obj/item/weapon/airlock_painter,
-/obj/item/device/multitool{
-	pixel_x = 5
-	},
-/turf/simulated/floor,
 /area/space)
 "lq" = (
-/obj/structure/table,
-/obj/item/weapon/cartridge/atmos,
-/obj/item/weapon/cartridge/atmos,
-/obj/item/stack/sheet/metal{
-	amount = 50;
-	pixel_x = 2;
-	pixel_y = 2
+/obj/machinery/light/small{
+	dir = 1
 	},
-/obj/item/stack/sheet/glass{
-	amount = 50
+/turf/simulated/floor{
+	icon_state = "showroomfloor"
 	},
-/obj/item/device/t_scanner,
-/obj/item/weapon/wrench,
-/obj/item/device/radio/headset/headset_eng,
-/turf/simulated/floor,
 /area/space)
 "lr" = (
-/obj/machinery/pipedispenser/disposal,
-/turf/simulated/floor,
-/area/space)
+/obj/structure/sign/poster/contraband/random,
+/turf/simulated/wall/r_wall,
+/area/warfare/syndicat/battleship/east_hallway)
 "ls" = (
-/turf/simulated/floor{
-	dir = 1;
-	icon_state = "warning"
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 1
 	},
-/area/space)
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced,
+/turf/simulated/floor/plating,
+/area/warfare/syndicat/battleship/east_hallway)
 "lt" = (
 /turf/simulated/wall,
 /area/warfare/syndicat/battleship/east_hallway)
 "lu" = (
-/obj/machinery/meter{
-	frequency = 1443;
-	id = "dloop_atm_meter";
-	name = "Distribution Loop"
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 1
 	},
-/obj/structure/reagent_dispensers/fueltank,
-/turf/simulated/floor,
-/area/space)
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/warfare/syndicat/battleship/east_hallway)
 "lv" = (
-/obj/machinery/light,
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/simulated/floor{
-	icon_state = "darkyellow"
+	dir = 1;
+	icon_state = "warndark"
 	},
 /area/warfare/syndicat/battleship/east_hallway)
 "lw" = (
@@ -6019,13 +6060,14 @@
 /turf/simulated/floor/plating,
 /area/space)
 "lx" = (
-/obj/structure/window/reinforced,
-/obj/machinery/portable_atmospherics/powered/pump,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
+/obj/machinery/light{
+	dir = 4
 	},
-/turf/simulated/floor,
-/area/space)
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "warndark"
+	},
+/area/warfare/syndicat/battleship/east_hallway)
 "ly" = (
 /obj/structure/table,
 /obj/machinery/recharger/wallcharger{
@@ -6107,19 +6149,46 @@
 /turf/simulated/floor/plating/airless/catwalk,
 /area/space)
 "lI" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
 /turf/simulated/floor{
-	dir = 1;
+	dir = 8;
 	icon_state = "darkredcorners"
 	},
 /area/warfare/syndicat/battleship/central_hallway)
 "lJ" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
 /turf/simulated/floor{
+	dir = 1;
 	icon_state = "darkblue"
 	},
 /area/warfare/syndicat/battleship/central_hallway)
 "lK" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/simulated/floor{
-	icon_state = "darkgreen"
+	dir = 1;
+	icon_state = "darkblue"
 	},
 /area/warfare/syndicat/battleship/central_hallway)
 "lL" = (
@@ -6135,6 +6204,11 @@
 /area/space)
 "lM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "warndark"
@@ -6145,17 +6219,16 @@
 /turf/simulated/floor/plating,
 /area/space)
 "lO" = (
-/obj/structure/table,
-/obj/machinery/recharger{
-	pixel_y = 4
+/obj/machinery/door/firedoor,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/obj/item/weapon/reagent_containers/spray/cleaner,
-/obj/item/device/megaphone,
 /turf/simulated/floor{
-	dir = 5;
-	icon_state = "darkredfull"
+	icon_state = "dark"
 	},
-/area/space)
+/area/warfare/syndicat/battleship/central_hallway)
 "lP" = (
 /obj/structure/table,
 /obj/item/weapon/paper_bin,
@@ -6173,9 +6246,21 @@
 /turf/simulated/floor/plating,
 /area/space)
 "lR" = (
-/obj/machinery/atmospherics/pipe/simple/visible/red,
-/turf/simulated/wall/r_wall,
-/area/space)
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
 "lS" = (
 /obj/machinery/door/poddoor{
 	id = "synd_shark_one_blast";
@@ -6184,8 +6269,13 @@
 /turf/simulated/floor/plating,
 /area/space)
 "lT" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/simulated/floor{
-	icon_state = "darkyellow"
+	icon_state = "dark"
 	},
 /area/warfare/syndicat/battleship/central_hallway)
 "lU" = (
@@ -6196,21 +6286,26 @@
 	},
 /area/space)
 "lV" = (
-/obj/structure/sign/poster/contraband/random{
-	pixel_y = 32
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/simulated/floor{
-	icon_state = "bot"
+	icon_state = "darkredcorners"
 	},
-/area/space)
+/area/warfare/syndicat/battleship/central_hallway)
 "lW" = (
-/obj/structure/table,
-/obj/item/weapon/razor,
-/obj/item/weapon/handcuffs,
-/turf/simulated/floor{
-	icon_state = "dark"
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/area/space)
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkredcorners"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
 "lX" = (
 /obj/structure/table,
 /obj/item/weapon/reagent_containers/glass/beaker{
@@ -6227,27 +6322,37 @@
 	},
 /area/space)
 "lY" = (
-/obj/machinery/flasher{
-	id = "SIM_flasher";
-	pixel_y = 16
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/obj/machinery/light{
-	dir = 4
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
 	},
 /turf/simulated/floor{
-	blocks_air = 1;
-	dir = 8;
-	icon_state = "vault"
+	dir = 1;
+	icon_state = "darkgreen"
 	},
-/area/warfare/syndicat/battleship/east_hallway)
+/area/warfare/syndicat/battleship/central_hallway)
 "lZ" = (
-/obj/machinery/atmospherics/components/unary/thermomachine/heater{
-	dir = 4
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/door_control{
+	id = "atmos";
+	name = "Atmospherics Lockdown";
+	pixel_y = 27
 	},
 /turf/simulated/floor{
-	icon_state = "bot"
+	dir = 1;
+	icon_state = "darkgreen"
 	},
-/area/space)
+/area/warfare/syndicat/battleship/central_hallway)
 "ma" = (
 /obj/structure/stool/bed/chair{
 	dir = 8
@@ -6274,8 +6379,14 @@
 /turf/simulated/floor/plating,
 /area/space)
 "mc" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor{
-	icon_state = "darkyellow"
+	dir = 1;
+	icon_state = "darkred"
 	},
 /area/warfare/syndicat/battleship/east_hallway)
 "md" = (
@@ -6292,50 +6403,81 @@
 /turf/simulated/floor/plating,
 /area/space)
 "me" = (
-/obj/structure/window/reinforced,
-/obj/machinery/space_heater,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6
+/obj/machinery/alarm{
+	pixel_y = 28
 	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 1
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "cafeteria"
 	},
-/turf/simulated/floor,
 /area/space)
 "mf" = (
-/obj/structure/window/reinforced,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9
+/turf/simulated/floor{
+	icon_state = "cafeteria"
 	},
-/obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/simulated/floor,
 /area/space)
 "mg" = (
-/obj/machinery/atmospherics/pipe/simple/visible/universal,
-/obj/machinery/meter{
-	frequency = 1443;
-	id = "wloop_atm_meter";
-	name = "Waste Loop"
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
-/obj/structure/reagent_dispensers/aqueous_foam_tank,
-/turf/simulated/floor,
-/area/space)
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkred"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
 "mh" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
-/turf/simulated/floor,
-/area/space)
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkred"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
 "mi" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on,
-/turf/simulated/floor,
+/obj/machinery/door/airlock{
+	name = "Kitchen cold room";
+	req_access = list(150)
+	},
+/turf/simulated/floor{
+	icon_state = "showroomfloor"
+	},
 /area/space)
 "mj" = (
-/obj/machinery/pipedispenser,
-/turf/simulated/floor,
-/area/space)
+/obj/machinery/door/firedoor,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "darkredfull"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
 "mk" = (
-/obj/structure/window/reinforced,
-/obj/machinery/portable_atmospherics/powered/scrubber,
-/turf/simulated/floor,
+/obj/structure/table,
+/obj/structure/condiment_shelf{
+	pixel_y = 32
+	},
+/obj/item/weapon/reagent_containers/food/condiment/sugar,
+/obj/item/weapon/reagent_containers/food/condiment/peppermill,
+/obj/item/weapon/reagent_containers/food/condiment/enzyme,
+/obj/item/weapon/reagent_containers/food/condiment/saltshaker,
+/obj/item/weapon/reagent_containers/food/condiment/ketchup,
+/obj/item/weapon/reagent_containers/food/condiment/rice,
+/turf/simulated/floor{
+	icon_state = "cafeteria"
+	},
 /area/space)
 "ml" = (
 /obj/machinery/atmospherics/components/unary/tank/air{
@@ -6347,31 +6489,34 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
+/obj/machinery/portable_atmospherics/powered/pump,
 /turf/simulated/floor/plating,
 /area/space)
 "mn" = (
-/obj/structure/window/reinforced,
-/obj/machinery/space_heater,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/turf/simulated/floor,
-/area/space)
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkyellow"
+	},
+/area/warfare/syndicat/battleship/east_hallway)
 "mo" = (
-/obj/machinery/door/window/northleft{
-	dir = 2;
-	name = "Syndicat Atmos door";
-	req_access = list(150)
+/obj/machinery/light{
+	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkyellow"
 	},
-/turf/simulated/floor,
-/area/space)
+/area/warfare/syndicat/battleship/east_hallway)
 "mp" = (
 /obj/structure/table/woodentable/poker,
 /obj/item/weapon/reagent_containers/food/drinks/bottle/pwine{
@@ -6402,41 +6547,40 @@
 /turf/simulated/floor/engine,
 /area/space)
 "mr" = (
-/obj/structure/rack,
-/obj/item/weapon/storage/briefcase/inflatable{
-	pixel_x = 3;
-	pixel_y = 3
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/obj/item/weapon/storage/briefcase/inflatable,
-/obj/structure/window/reinforced,
-/turf/simulated/floor,
-/area/space)
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/warfare/syndicat/battleship/east_hallway)
 "ms" = (
-/obj/structure/stool/bed/chair/comfy/black{
-	dir = 4
-	},
 /turf/simulated/floor{
-	dir = 4;
-	icon_state = "yellow"
+	icon_state = "dark"
 	},
-/area/space)
+/area/warfare/syndicat/battleship/east_hallway)
 "mt" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor{
-	dir = 1;
-	icon_state = "yellow"
-	},
-/area/space)
-"mu" = (
-/obj/structure/cable/yellow{
+/obj/structure/cable{
 	d1 = 2;
 	d2 = 4;
 	icon_state = "2-4"
 	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor{
-	dir = 1;
-	icon_state = "yellow"
+	dir = 4;
+	icon_state = "darkred"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
+"mu" = (
+/obj/machinery/kitchen_machine/candymaker,
+/turf/simulated/floor{
+	icon_state = "cafeteria"
 	},
 /area/space)
 "mv" = (
@@ -6447,18 +6591,20 @@
 	},
 /area/space)
 "mw" = (
-/obj/machinery/power/terminal{
-	dir = 4
-	},
-/obj/structure/cable/yellow{
+/obj/structure/cable{
+	d1 = 4;
 	d2 = 8;
-	icon_state = "0-8"
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
 	},
 /turf/simulated/floor{
-	dir = 1;
-	icon_state = "yellow"
+	icon_state = "dark"
 	},
-/area/space)
+/area/warfare/syndicat/battleship/east_hallway)
 "mx" = (
 /obj/machinery/airlock_sensor{
 	frequency = 1331;
@@ -6468,84 +6614,71 @@
 /turf/simulated/floor/plating,
 /area/space)
 "my" = (
-/obj/machinery/power/smes,
-/obj/structure/cable{
-	d2 = 2;
-	icon_state = "0-2"
+/obj/structure/table,
+/obj/item/weapon/packageWrap,
+/obj/item/weapon/reagent_containers/food/condiment/enzyme{
+	layer = 5
+	},
+/obj/item/weapon/reagent_containers/food/condiment/enzyme{
+	layer = 5
 	},
 /turf/simulated/floor{
-	dir = 8;
-	icon_state = "yellow"
+	dir = 5;
+	icon_state = "cafeteria"
 	},
 /area/space)
 "mz" = (
-/obj/structure/table/glass,
-/obj/item/weapon/storage/firstaid/regular{
-	pixel_x = -2;
-	pixel_y = 4
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24
 	},
-/obj/item/weapon/storage/fancy/donut_box,
+/obj/structure/table,
+/obj/item/weapon/storage/box/donkpockets,
 /turf/simulated/floor{
-	dir = 4;
-	icon_state = "yellow"
+	icon_state = "cafeteria"
 	},
 /area/space)
 "mA" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 8
+/obj/structure/table,
+/obj/item/weapon/reagent_containers/food/snacks/pie,
+/turf/simulated/floor{
+	icon_state = "cafeteria"
 	},
-/turf/simulated/floor,
 /area/space)
 "mB" = (
-/obj/structure/table,
-/obj/machinery/atmospherics/components/unary/vent_pump/on{
-	dir = 8
-	},
-/obj/item/stack/rods{
-	amount = 50
-	},
-/obj/item/stack/sheet/plasteel{
-	amount = 10
-	},
-/obj/item/stack/sheet/plasteel{
-	amount = 10
-	},
-/obj/item/stack/sheet/mineral/phoron{
-	amount = 50
-	},
-/turf/simulated/floor{
-	dir = 8;
-	icon_state = "yellowfull"
-	},
-/area/space)
-"mC" = (
-/obj/structure/cable/yellow{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
-/obj/structure/cable/yellow{
+/obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkgreen"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
+"mC" = (
+/obj/machinery/deepfryer,
+/turf/simulated/floor{
+	icon_state = "cafeteria"
+	},
 /area/space)
 "mD" = (
-/obj/machinery/power/smes,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/cable{
-	d2 = 2;
-	icon_state = "0-2"
+/obj/structure/table,
+/obj/machinery/chem_dispenser/soda{
+	dir = 8
 	},
 /turf/simulated/floor{
-	dir = 8;
-	icon_state = "yellow"
+	icon_state = "cafeteria"
 	},
 /area/space)
 "mE" = (
@@ -6563,12 +6696,24 @@
 	},
 /area/space)
 "mF" = (
-/obj/structure/table/reinforced,
-/obj/item/weapon/twohanded/flora,
-/turf/unsimulated/floor{
-	icon_state = "podhatchfull"
+/obj/machinery/light{
+	dir = 1
 	},
-/area/space)
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkgreen"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
 "mG" = (
 /obj/machinery/alarm{
 	dir = 1;
@@ -6582,164 +6727,37 @@
 	},
 /area/space)
 "mH" = (
-/obj/structure/closet/secure_closet/engineering_personal,
-/obj/item/clothing/suit/space/syndicate/civilian,
-/obj/item/clothing/shoes/magboots,
-/obj/item/clothing/head/helmet/space/syndicate/civilian,
-/obj/item/weapon/tank/jetpack/oxygen/harness,
-/obj/item/weapon/tank/emergency_oxygen/engi,
-/obj/item/clothing/mask/gas/syndicate,
 /obj/structure/sign/poster/contraband/random{
 	pixel_x = -32
 	},
+/obj/machinery/chem_master/condimaster{
+	name = "CondiMaster Neo";
+	pixel_x = -5
+	},
 /turf/simulated/floor{
-	dir = 4;
-	icon_state = "yellow"
+	icon_state = "cafeteria"
 	},
 /area/space)
 "mI" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor,
-/area/space)
-"mJ" = (
-/obj/structure/table,
-/obj/item/weapon/storage/toolbox/mechanical{
-	pixel_y = 5
-	},
-/obj/item/weapon/storage/toolbox/mechanical{
-	pixel_y = 5
-	},
-/obj/item/weapon/storage/toolbox/electrical{
-	pixel_y = 2
-	},
-/obj/item/weapon/storage/belt/utility,
-/obj/item/weapon/storage/belt/utility,
-/obj/item/weapon/storage/belt/utility,
-/turf/simulated/floor{
-	dir = 8;
-	icon_state = "yellowfull"
-	},
-/area/space)
-"mK" = (
-/obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/turf/simulated/floor,
-/area/space)
-"mL" = (
-/obj/structure/cable/yellow{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
-/turf/simulated/floor,
-/area/space)
-"mM" = (
-/obj/machinery/autolathe,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/sign/poster/contraband/random{
-	pixel_x = 32
-	},
-/turf/simulated/floor{
-	dir = 8;
-	icon_state = "yellow"
-	},
-/area/space)
-"mN" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor,
-/area/space)
-"mO" = (
-/obj/structure/table,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
-	dir = 8
-	},
-/obj/item/device/flashlight{
-	pixel_x = 1;
-	pixel_y = 5
-	},
-/obj/item/device/flashlight{
-	pixel_x = 1;
-	pixel_y = 5
-	},
-/obj/item/device/flashlight{
-	pixel_x = 1;
-	pixel_y = 5
-	},
-/obj/item/device/flashlight{
-	pixel_x = 1;
-	pixel_y = 5
-	},
-/obj/item/weapon/airlock_painter,
-/obj/item/weapon/storage/box/lights/mixed,
-/obj/item/weapon/storage/box/lights/mixed,
-/turf/simulated/floor{
-	dir = 8;
-	icon_state = "yellowfull"
-	},
-/area/space)
-"mP" = (
-/obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/unsimulated/floor{
-	icon_state = "podhatchfull"
-	},
-/area/space)
-"mQ" = (
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
-/turf/simulated/floor,
-/area/space)
-"mR" = (
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/structure/cable/yellow{
+/obj/structure/cable{
 	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+	d2 = 8;
+	icon_state = "1-8"
 	},
-/turf/simulated/floor,
-/area/space)
-"mS" = (
-/obj/structure/table,
-/obj/item/stack/sheet/metal{
-	amount = 50;
-	pixel_x = 2;
-	pixel_y = 2
+/turf/simulated/floor{
+	icon_state = "darkredcorners"
 	},
-/obj/item/stack/sheet/metal{
-	amount = 50;
-	pixel_x = 2;
-	pixel_y = 2
-	},
-/obj/item/stack/sheet/metal{
-	amount = 50;
-	pixel_x = 2;
-	pixel_y = 2
-	},
-/obj/item/stack/sheet/glass{
-	amount = 50
-	},
-/obj/item/stack/sheet/glass{
-	amount = 50
-	},
-/obj/item/stack/sheet/glass{
-	amount = 50
+/area/warfare/syndicat/battleship/central_hallway)
+"mJ" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /obj/structure/cable{
 	d1 = 1;
@@ -6748,9 +6766,110 @@
 	},
 /turf/simulated/floor{
 	dir = 8;
-	icon_state = "yellow"
+	icon_state = "darkredcorners"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
+"mK" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkyellow"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
+"mL" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkyellow"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
+"mM" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkyellow"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
+"mN" = (
+/obj/machinery/kitchen_machine/oven,
+/turf/simulated/floor{
+	icon_state = "cafeteria"
 	},
 /area/space)
+"mO" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/window/westleft{
+	dir = 2;
+	name = "Cafeteria";
+	req_access = list(150)
+	},
+/obj/item/weapon/bell,
+/turf/simulated/floor,
+/area/warfare/syndicat/battleship/east_hallway)
+"mP" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/unsimulated/floor{
+	icon_state = "podhatchfull"
+	},
+/area/space)
+"mQ" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/window/westleft{
+	dir = 2;
+	name = "Cafeteria";
+	req_access = list(150)
+	},
+/obj/item/weapon/storage/fancy/donut_box,
+/turf/simulated/floor,
+/area/warfare/syndicat/battleship/east_hallway)
+"mR" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor,
+/area/space)
+"mS" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/glass{
+	name = "Syndicat Kitchen";
+	req_access = list(150)
+	},
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "cafeteria"
+	},
+/area/warfare/syndicat/battleship/east_hallway)
 "mT" = (
 /obj/structure/table,
 /obj/item/toy/cards,
@@ -6814,62 +6933,61 @@
 	},
 /area/space)
 "mY" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
+/obj/machinery/kitchen_machine/grill,
+/turf/simulated/floor{
+	icon_state = "cafeteria"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5
-	},
-/turf/simulated/floor,
 /area/space)
 "mZ" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
+/obj/machinery/light{
+	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
+/obj/structure/stool/bed/chair/metal/black,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkyellow"
 	},
-/turf/simulated/floor,
-/area/space)
+/area/warfare/syndicat/battleship/east_hallway)
 "na" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/hatch{
+	name = "Syndicat Bridge Battle Ship";
+	req_access = list(150)
+	},
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "synd_cockpit_blast";
+	name = "Syndicat Cockpit Blast Door";
+	opacity = 0
+	},
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 10
-	},
-/turf/simulated/floor,
-/area/space)
-"nb" = (
-/obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor,
-/area/space)
-"nc" = (
-/obj/machinery/power/port_gen/pacman/super,
-/obj/structure/cable/yellow{
+	d1 = 4;
 	d2 = 8;
-	icon_state = "0-8"
-	},
-/obj/item/stack/sheet/mineral/phoron{
-	amount = 50
+	icon_state = "4-8"
 	},
 /turf/simulated/floor{
-	dir = 8;
-	icon_state = "yellow"
+	dir = 5;
+	icon_state = "darkredfull"
+	},
+/area/space)
+"nb" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkred"
+	},
+/area/space)
+"nc" = (
+/obj/structure/table,
+/obj/machinery/juicer,
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "cafeteria"
 	},
 /area/space)
 "nd" = (
@@ -6885,14 +7003,12 @@
 	},
 /area/space)
 "ne" = (
-/obj/machinery/computer/security/engineering{
-	dir = 4;
-	name = "Syndicat Ship Engineering Camera Monitor";
-	network = list("SyndicatBattleship")
-	},
+/obj/structure/table,
+/obj/item/weapon/paper_bin,
+/obj/item/weapon/pen,
+/obj/item/weapon/packageWrap,
 /turf/simulated/floor{
-	dir = 4;
-	icon_state = "yellow"
+	icon_state = "cafeteria"
 	},
 /area/space)
 "nf" = (
@@ -6903,14 +7019,6 @@
 /area/space)
 "ng" = (
 /obj/structure/table,
-/obj/item/weapon/airlock_electronics{
-	pixel_x = -4;
-	pixel_y = -3
-	},
-/obj/item/weapon/module/power_control{
-	pixel_x = 2;
-	pixel_y = 5
-	},
 /obj/item/weapon/module/power_control{
 	pixel_x = 2;
 	pixel_y = 5
@@ -6918,18 +7026,6 @@
 /obj/item/weapon/airlock_electronics{
 	pixel_x = -4;
 	pixel_y = -3
-	},
-/obj/item/weapon/airlock_electronics{
-	pixel_x = -4;
-	pixel_y = -3
-	},
-/obj/item/weapon/module/power_control{
-	pixel_x = 2;
-	pixel_y = 5
-	},
-/obj/item/weapon/module/power_control{
-	pixel_x = 2;
-	pixel_y = 5
 	},
 /obj/item/weapon/airlock_electronics{
 	pixel_x = -4;
@@ -6952,28 +7048,34 @@
 	},
 /area/space)
 "ni" = (
-/obj/structure/closet/secure_closet/engineering_electrical,
-/obj/item/clothing/gloves/yellow,
-/obj/item/clothing/gloves/yellow,
-/obj/item/device/multitool,
-/obj/item/device/multitool,
-/obj/item/stack/cable_coil/red,
-/turf/simulated/floor{
-	icon_state = "yellow"
-	},
-/area/space)
-"nj" = (
+/obj/machinery/door/firedoor,
 /obj/structure/cable{
 	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+	d2 = 4;
+	icon_state = "1-4"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/simulated/floor{
-	icon_state = "yellow"
+	icon_state = "dark"
 	},
-/area/space)
+/area/warfare/syndicat/battleship/central_hallway)
+"nj" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/sign/departments/cargo{
+	pixel_y = -32
+	},
+/turf/simulated/floor{
+	icon_state = "darkbrown"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
 "nk" = (
 /obj/machinery/door/poddoor/shutters{
 	density = 0;
@@ -7013,11 +7115,13 @@
 	},
 /area/space)
 "no" = (
-/obj/structure/sign/poster/contraband/random{
-	pixel_y = 32
-	},
 /obj/machinery/light{
 	dir = 1
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/simulated/floor{
 	dir = 1;
@@ -7027,6 +7131,11 @@
 "np" = (
 /obj/structure/sign/poster/contraband/random{
 	pixel_y = 32
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/simulated/floor{
 	dir = 1;
@@ -7046,26 +7155,36 @@
 	dir = 5
 	},
 /obj/machinery/door/firedoor,
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2"
+	},
 /turf/simulated/floor/plating,
 /area/space)
 "nr" = (
-/obj/structure/table/reinforced,
-/obj/item/weapon/bell,
-/obj/machinery/door/firedoor,
-/obj/machinery/door/window/northleft{
-	name = "Syndicat Engineering Lobby door";
-	req_access = list(150)
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/sign/poster/contraband/random{
+	pixel_y = -32
 	},
 /turf/simulated/floor{
-	icon_state = "dark"
+	icon_state = "darkbrown"
 	},
-/area/space)
+/area/warfare/syndicat/battleship/central_hallway)
 "ns" = (
+/obj/machinery/light{
+	dir = 1
+	},
 /obj/structure/sign/poster/contraband/random{
 	pixel_y = 32
 	},
-/obj/machinery/light{
-	dir = 1
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/simulated/floor{
 	dir = 1;
@@ -7079,29 +7198,22 @@
 	network = list("Syndicat_Prison");
 	pixel_y = 30
 	},
+/obj/structure/stool/bed/chair/metal/black,
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "darkyellow"
 	},
 /area/warfare/syndicat/battleship/east_hallway)
 "nu" = (
-/obj/machinery/door/airlock/engineering/glass{
-	name = "Syndicat Engineering";
-	req_access = list(150)
-	},
-/obj/machinery/door/firedoor,
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor{
-	dir = 8;
-	icon_state = "yellowfull"
+	icon_state = "darkbrown"
 	},
-/area/space)
+/area/warfare/syndicat/battleship/central_hallway)
 "nv" = (
 /obj/structure/stool/bed/chair/metal/black,
 /turf/simulated/floor{
@@ -7111,9 +7223,6 @@
 /area/warfare/syndicat/battleship/east_hallway)
 "nw" = (
 /obj/item/weapon/twohanded/flora/pottedplant/stoutbush,
-/obj/machinery/light{
-	dir = 1
-	},
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "warndark"
@@ -7123,9 +7232,10 @@
 /obj/structure/sign/poster/contraband/random{
 	pixel_y = 32
 	},
+/obj/structure/stool/bed/chair/metal/black,
 /turf/simulated/floor{
-	dir = 5;
-	icon_state = "darkred"
+	dir = 1;
+	icon_state = "darkyellow"
 	},
 /area/warfare/syndicat/battleship/east_hallway)
 "ny" = (
@@ -7154,9 +7264,10 @@
 	},
 /area/warfare/syndicat/battleship/east_hallway)
 "nB" = (
+/obj/structure/stool/bed/chair/metal/black,
 /turf/simulated/floor{
 	dir = 1;
-	icon_state = "escape"
+	icon_state = "darkyellow"
 	},
 /area/warfare/syndicat/battleship/east_hallway)
 "nC" = (
@@ -7167,9 +7278,16 @@
 	},
 /area/warfare/syndicat/battleship/east_hallway)
 "nD" = (
-/obj/machinery/portable_atmospherics/powered/scrubber,
-/turf/simulated/floor,
-/area/space)
+/obj/machinery/door/firedoor,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
 "nE" = (
 /obj/structure/sign/warning/smoking{
 	pixel_x = -32
@@ -7242,7 +7360,16 @@
 /turf/simulated/floor,
 /area/warfare/syndicat/battleship/east_hallway)
 "nN" = (
-/turf/simulated/floor,
+/obj/machinery/door/firedoor,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "darkredfull"
+	},
 /area/warfare/syndicat/battleship/east_hallway)
 "nO" = (
 /obj/structure/table,
@@ -7262,26 +7389,36 @@
 	},
 /area/space)
 "nR" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass{
-	name = "Syndicat Kitchen";
-	req_access = list(150)
-	},
-/turf/simulated/floor{
-	dir = 5;
-	icon_state = "cafeteria"
-	},
-/area/space)
-"nS" = (
-/obj/structure/cable/yellow{
+/obj/structure/cable{
 	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/simulated/floor{
-	icon_state = "yellow"
+	dir = 1;
+	icon_state = "darkyellow"
 	},
-/area/space)
+/area/warfare/syndicat/battleship/east_hallway)
+"nS" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/warfare/syndicat/battleship/east_hallway)
 "nT" = (
 /obj/structure/table,
 /turf/simulated/floor{
@@ -7305,7 +7442,7 @@
 "nW" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/security/glass{
-	name = "Syndicat Medical Checkpoint";
+	name = "Syndicat ParaMedical Checkpoint";
 	req_access = list(150)
 	},
 /turf/simulated/floor{
@@ -7337,19 +7474,25 @@
 	},
 /area/space)
 "nZ" = (
-/obj/machinery/vending/snack{
-	name = "hacked Getmore Chocolate Corp";
-	prices = list()
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/obj/machinery/recharger/wallcharger{
-	pixel_x = 5;
-	pixel_y = 30
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
 	},
 /turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkredcorners"
+	icon_state = "dark"
 	},
-/area/space)
+/area/warfare/syndicat/battleship/east_hallway)
 "oa" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced{
@@ -7487,13 +7630,15 @@
 /turf/simulated/floor/plating,
 /area/space)
 "oo" = (
-/obj/machinery/door/airlock/hatch{
-	req_access = list(150)
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/simulated/floor{
-	icon_state = "escape"
+	icon_state = "darkblue"
 	},
-/area/space)
+/area/warfare/syndicat/battleship/central_hallway)
 "op" = (
 /obj/item/weapon/vending_refill/coffee{
 	name = "Hot Drinks canister";
@@ -7542,19 +7687,31 @@
 	},
 /area/space)
 "os" = (
-/obj/structure/stool/bed,
-/obj/item/weapon/bedsheet/red,
-/turf/simulated/floor/wood,
-/area/space)
-"ot" = (
-/obj/structure/stool/bed,
-/obj/item/weapon/bedsheet/red,
-/obj/machinery/windowtint{
-	id = "syndicat_privat_dorm_civilian";
-	pixel_y = 24
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/turf/simulated/floor/wood,
-/area/space)
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
+"ot" = (
+/obj/machinery/light,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor{
+	icon_state = "darkgreen"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
 "ou" = (
 /obj/structure/closet/secure_closet/personal,
 /obj/machinery/light_switch{
@@ -7595,11 +7752,15 @@
 	},
 /area/space)
 "oy" = (
-/turf/simulated/floor{
-	dir = 5;
-	icon_state = "darkred"
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/area/space)
+/turf/simulated/floor{
+	icon_state = "darkgreen"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
 "oz" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Syndicat Guard Office";
@@ -7670,21 +7831,35 @@
 	dir = 1;
 	id = "op2"
 	},
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "vault"
 	},
 /area/space)
 "oF" = (
-/obj/structure/sign/poster/contraband/random{
-	pixel_y = -32
+/obj/machinery/door/firedoor,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/simulated/floor{
-	icon_state = "darkred"
+	icon_state = "dark"
 	},
-/area/space)
+/area/warfare/syndicat/battleship/hangar)
 "oG" = (
 /obj/machinery/light{
 	dir = 1
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
 	},
 /turf/simulated/floor{
 	dir = 1;
@@ -7694,6 +7869,16 @@
 "oH" = (
 /obj/machinery/light{
 	dir = 1
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
 	},
 /turf/simulated/floor{
 	dir = 1;
@@ -7728,13 +7913,25 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "darkyellow"
 	},
 /area/warfare/syndicat/battleship/central_hallway)
 "oM" = (
-/obj/structure/dispenser/oxygen,
+/obj/machinery/porta_turret/station_default{
+	dir = 1;
+	enabled = 0;
+	name = "Synciat Turret"
+	},
+/obj/structure/sign/poster/contraband/random{
+	pixel_y = 32
+	},
 /turf/unsimulated/floor{
 	dir = 1;
 	icon_state = "podhatch"
@@ -7813,17 +8010,20 @@
 	},
 /area/space)
 "oV" = (
-/obj/structure/window/reinforced/tinted{
-	dir = 8
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/obj/structure/window/reinforced/tinted{
-	dir = 1
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
 	},
-/obj/machinery/washing_machine,
 /turf/simulated/floor{
-	icon_state = "freezerfloor2"
+	icon_state = "darkbrown"
 	},
-/area/space)
+/area/warfare/syndicat/battleship/central_hallway)
 "oW" = (
 /obj/structure/window/reinforced/tinted{
 	dir = 1
@@ -7855,7 +8055,7 @@
 /obj/machinery/porta_turret/station_default{
 	dir = 1;
 	enabled = 0;
-	name = "Synciat Bridge corridor Turret"
+	name = "Synciat Bridge Corridor Turret"
 	},
 /obj/machinery/turretid/stun/AI_special{
 	control_area = "Bridge corridor Syndicat Battle Ship";
@@ -7877,14 +8077,25 @@
 /turf/simulated/floor/wood,
 /area/warfare/syndicat/battleship/east_hallway)
 "pa" = (
-/obj/structure/window/reinforced/tinted{
-	dir = 8
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
-/obj/machinery/washing_machine,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
 /turf/simulated/floor{
-	icon_state = "freezerfloor2"
+	icon_state = "darkgreen"
 	},
-/area/space)
+/area/warfare/syndicat/battleship/central_hallway)
 "pb" = (
 /obj/effect/landmark{
 	name = "JoinLate"
@@ -7895,18 +8106,21 @@
 	},
 /area/warfare/syndicat/battleship/central_hallway)
 "pc" = (
-/obj/structure/curtain/open/shower/security,
-/obj/machinery/shower{
-	dir = 1
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/obj/structure/drain,
-/obj/structure/window/reinforced/tinted{
-	dir = 1
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
 	},
 /turf/simulated/floor{
-	icon_state = "freezerfloor2"
+	dir = 1;
+	icon_state = "darkredcorners"
 	},
-/area/space)
+/area/warfare/syndicat/battleship/central_hallway)
 "pd" = (
 /turf/unsimulated/floor{
 	dir = 6;
@@ -7999,8 +8213,8 @@
 	opacity = 0
 	},
 /turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkred"
+	dir = 5;
+	icon_state = "darkredfull"
 	},
 /area/warfare/syndicat/battleship/east_hallway)
 "pp" = (
@@ -8082,8 +8296,14 @@
 	name = "Syndicat Cockpit Blast Door";
 	opacity = 0
 	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/simulated/floor{
-	icon_state = "darkred"
+	dir = 5;
+	icon_state = "darkredfull"
 	},
 /area/warfare/syndicat/battleship/east_hallway)
 "pw" = (
@@ -8103,16 +8323,23 @@
 	},
 /area/space)
 "py" = (
-/obj/structure/sign/poster/contraband/random{
-	pixel_y = -32
-	},
 /obj/machinery/light,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/simulated/floor{
 	icon_state = "darkbrown"
 	},
 /area/warfare/syndicat/battleship/central_hallway)
 "pz" = (
 /obj/machinery/light,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/simulated/floor{
 	icon_state = "darkblue"
 	},
@@ -8125,35 +8352,62 @@
 	},
 /area/space)
 "pB" = (
-/obj/machinery/light,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
 /turf/simulated/floor{
-	icon_state = "darkgreen"
+	dir = 4;
+	icon_state = "darkredcorners"
 	},
 /area/warfare/syndicat/battleship/central_hallway)
 "pC" = (
-/obj/machinery/light,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/simulated/floor{
-	icon_state = "darkyellow"
+	icon_state = "darkred"
 	},
 /area/warfare/syndicat/battleship/central_hallway)
 "pD" = (
-/turf/simulated/floor{
-	dir = 6;
-	icon_state = "darkred"
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/area/warfare/syndicat/battleship/east_hallway)
-"pE" = (
-/obj/machinery/porta_turret/station_default{
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor{
 	dir = 1;
-	enabled = 0;
-	name = "Synciat Bridge corridor Turret"
+	icon_state = "darkredcorners"
 	},
-/obj/machinery/light,
+/area/warfare/syndicat/battleship/central_hallway)
+"pE" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
 /turf/simulated/floor{
-	dir = 5;
-	icon_state = "darkredfull"
+	icon_state = "darkblue"
 	},
-/area/warfare/syndicat/battleship/east_hallway)
+/area/warfare/syndicat/battleship/central_hallway)
 "pF" = (
 /obj/machinery/turretid/stun/AI_special{
 	control_area = "Syndicat Bridge Battle Ship";
@@ -8278,10 +8532,16 @@
 /turf/simulated/floor/wood,
 /area/space)
 "pQ" = (
-/obj/structure/closet/secure_closet/personal,
-/obj/item/clothing/shoes/boots/German,
-/turf/simulated/floor/wood,
-/area/space)
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkredcorners"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
 "pR" = (
 /obj/structure/stool,
 /obj/structure/sign/poster/contraband/random{
@@ -8296,21 +8556,16 @@
 	},
 /area/warfare/syndicat/battleship/east_hallway)
 "pS" = (
-/obj/item/weapon/twohanded/flora/pottedplant{
-	icon_state = "plant-6"
-	},
-/obj/machinery/recharger/wallcharger{
-	pixel_x = 5;
-	pixel_y = 30
-	},
-/obj/machinery/light{
-	dir = 1
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/simulated/floor{
-	dir = 4;
+	dir = 1;
 	icon_state = "darkredcorners"
 	},
-/area/space)
+/area/warfare/syndicat/battleship/central_hallway)
 "pT" = (
 /obj/structure/stool/bed/chair/office/dark{
 	dir = 4
@@ -8358,8 +8613,9 @@
 	dir = 1;
 	id = "op2"
 	},
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "vault"
 	},
 /area/space)
 "pV" = (
@@ -8447,36 +8703,33 @@
 	},
 /area/space)
 "qd" = (
-/obj/machinery/door/window/eastright{
-	icon_state = "left";
-	layer = 3;
-	name = "Syndicat Operating Theatre";
-	req_access = list(150)
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
 	},
-/obj/structure/window/reinforced/tinted{
-	dir = 1
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/simulated/floor{
-	dir = 1;
-	icon_state = "arrival"
+	icon_state = "darkyellow"
 	},
-/area/space)
+/area/warfare/syndicat/battleship/central_hallway)
 "qe" = (
-/obj/machinery/door/window/eastright{
-	dir = 8;
-	icon_state = "left";
-	layer = 3;
-	name = "Syndicat Operating Theatre";
-	req_access = list(150)
+/obj/structure/sign/departments/restroom{
+	pixel_x = 32
 	},
-/obj/structure/window/reinforced/tinted{
-	dir = 1
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
 	},
 /turf/simulated/floor{
-	dir = 1;
-	icon_state = "arrival"
+	icon_state = "darkyellow"
 	},
-/area/space)
+/area/warfare/syndicat/battleship/central_hallway)
 "qf" = (
 /obj/structure/stool/bed/chair/office/light{
 	dir = 4
@@ -8550,14 +8803,16 @@
 	},
 /area/space)
 "qk" = (
-/obj/structure/sign/poster/contraband/random{
-	pixel_x = -32
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
-/obj/machinery/light{
-	dir = 8
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "escape"
 	},
-/turf/simulated/floor/carpet,
-/area/space)
+/area/warfare/syndicat/battleship/east_hallway)
 "ql" = (
 /obj/machinery/light{
 	dir = 8
@@ -8568,33 +8823,14 @@
 	},
 /area/space)
 "qm" = (
-/obj/structure/closet/wardrobe,
-/obj/item/clothing/under/fluff/ana_issek_1,
-/obj/item/clothing/under/fluff/ana_issek_1,
-/obj/item/clothing/under/fluff/ana_issek_1,
-/obj/item/clothing/under/fluff/ana_issek_1,
-/obj/item/clothing/under/fluff/ana_issek_1,
-/obj/item/clothing/shoes/syndigaloshes,
-/obj/item/clothing/shoes/syndigaloshes,
-/obj/item/clothing/shoes/syndigaloshes,
-/obj/item/clothing/shoes/syndigaloshes,
-/obj/item/clothing/head/soft/sec/corp{
-	name = "Syndicat Guard's Cap"
-	},
-/obj/item/clothing/head/soft/sec/corp{
-	name = "Syndicat Guard's Cap"
-	},
-/obj/item/clothing/head/soft/sec/corp{
-	name = "Syndicat Guard's Cap"
-	},
-/obj/item/clothing/head/redcoat,
-/obj/item/clothing/head/redcoat,
-/obj/item/clothing/head/redcoat,
 /obj/machinery/light,
-/turf/simulated/floor{
-	icon_state = "darkred"
+/obj/structure/stool/bed/chair/metal/black{
+	dir = 1
 	},
-/area/space)
+/turf/simulated/floor{
+	icon_state = "darkyellow"
+	},
+/area/warfare/syndicat/battleship/east_hallway)
 "qn" = (
 /obj/structure/table/reinforced,
 /obj/item/ashtray/plastic,
@@ -8662,16 +8898,18 @@
 	},
 /area/space)
 "qt" = (
-/obj/machinery/computer/security{
-	dir = 1;
-	name = "Syndicat Camera Monitor";
-	network = list("SyndicatBattleship")
+/obj/structure/stool/bed/chair/metal/black{
+	dir = 1
 	},
-/obj/machinery/light,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor{
-	icon_state = "dark"
+	icon_state = "darkyellow"
 	},
-/area/space)
+/area/warfare/syndicat/battleship/east_hallway)
 "qu" = (
 /obj/item/weapon/storage/firstaid/fire{
 	pixel_x = 4;
@@ -8784,11 +9022,21 @@
 	},
 /area/space)
 "qC" = (
-/obj/machinery/light/small,
-/turf/simulated/floor{
-	icon_state = "freezerfloor2"
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/area/space)
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkredcorners"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
 "qD" = (
 /obj/machinery/light{
 	dir = 1
@@ -8796,11 +9044,15 @@
 /turf/simulated/floor/engine,
 /area/space)
 "qE" = (
-/obj/structure/stool/bed,
-/obj/item/weapon/bedsheet/red,
-/obj/machinery/light,
-/turf/simulated/floor/wood,
-/area/space)
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor{
+	icon_state = "darkyellow"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
 "qF" = (
 /obj/machinery/camera/emp_proof{
 	c_tag = "Syndicat Turret West";
@@ -8989,16 +9241,16 @@
 	},
 /area/warfare/syndicat/battleship/hangar)
 "qY" = (
-/obj/structure/window/reinforced/tinted{
-	dir = 1
-	},
-/obj/structure/toilet{
-	dir = 8
+/obj/machinery/light,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/simulated/floor{
-	icon_state = "freezerfloor"
+	icon_state = "darkyellow"
 	},
-/area/space)
+/area/warfare/syndicat/battleship/central_hallway)
 "qZ" = (
 /obj/structure/closet/secure_closet{
 	name = "Syndicat Guard's Locker"
@@ -9048,9 +9300,22 @@
 	},
 /area/warfare/syndicat/battleship/hangar)
 "re" = (
-/obj/structure/stool/bed/chair/office/dark,
+/obj/structure/table,
+/obj/item/weapon/crowbar,
+/obj/item/device/multitool{
+	pixel_x = 3
+	},
+/obj/item/device/multitool{
+	pixel_x = 3
+	},
+/obj/item/clothing/glasses/welding,
+/obj/item/clothing/glasses/welding,
+/obj/machinery/recharger/wallcharger{
+	pixel_x = 32
+	},
+/obj/item/toy/crayon/spraycan,
 /turf/simulated/floor{
-	icon_state = "darkredcorners"
+	icon_state = "delivery"
 	},
 /area/space)
 "rf" = (
@@ -9091,8 +9356,13 @@
 	},
 /area/space)
 "rl" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 6
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
 /turf/simulated/floor{
 	icon_state = "dark"
@@ -9102,7 +9372,6 @@
 /obj/machinery/atmospherics/components/binary/pump/on{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/red,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
@@ -9140,11 +9409,18 @@
 	},
 /area/warfare/syndicat/battleship/central_hallway)
 "rq" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor{
-	icon_state = "warndark"
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 1
 	},
-/area/warfare/syndicat/battleship/central_hallway)
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/simulated/floor/plating,
+/area/space)
 "rr" = (
 /turf/unsimulated/floor{
 	dir = 9;
@@ -9230,12 +9506,20 @@
 	},
 /area/space)
 "rB" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor{
-	dir = 1;
-	icon_state = "warndark"
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/area/space)
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor{
+	icon_state = "darkyellow"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
 "rC" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 5
@@ -9269,13 +9553,8 @@
 	},
 /area/space)
 "rG" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9
-	},
-/turf/simulated/floor{
-	icon_state = "dark"
-	},
-/area/space)
+/turf/simulated/wall,
+/area/warfare/syndicat/battleship/central_hallway)
 "rH" = (
 /obj/structure/table/reinforced,
 /obj/machinery/recharger{
@@ -9350,14 +9629,13 @@
 /turf/simulated/floor/engine,
 /area/space)
 "rP" = (
-/obj/machinery/atmospherics/pipe/simple/visible{
-	dir = 6
-	},
-/obj/machinery/light/small{
+/obj/structure/stool/bed/chair/metal/black{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
-/area/space)
+/turf/simulated/floor{
+	icon_state = "darkyellow"
+	},
+/area/warfare/syndicat/battleship/east_hallway)
 "rQ" = (
 /obj/machinery/atmospherics/pipe/manifold4w/visible,
 /turf/simulated/floor/plating,
@@ -9369,20 +9647,15 @@
 /turf/simulated/floor/plating,
 /area/space)
 "rS" = (
-/obj/structure/closet/emergency_wall{
-	pixel_y = 32
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/components/unary/vent_pump/high_volume{
-	dir = 8;
-	frequency = 1331;
-	id_tag = "synd_battleship_south_vent";
-	name = "Syndicat Battle Ship South Large Air Vent"
+/turf/simulated/floor{
+	icon_state = "darkred"
 	},
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
-/area/space)
+/area/warfare/syndicat/battleship/east_hallway)
 "rT" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced,
@@ -9425,21 +9698,17 @@
 	},
 /area/space)
 "rV" = (
-/obj/structure/sign/warning/securearea{
-	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
-	icon_state = "space";
-	layer = 4;
-	name = "EXTERNAL AIRLOCK";
-	pixel_x = -32
-	},
-/obj/machinery/atmospherics/components/unary/vent_pump/high_volume{
+/obj/machinery/porta_turret/station_default{
 	dir = 1;
-	frequency = 1331;
-	id_tag = "synd_battleship_south_vent";
-	name = "Syndicat Battle Ship South Large Air Vent"
+	enabled = 0;
+	name = "Synciat Bridge Corridor Turret"
 	},
-/turf/simulated/floor/plating,
-/area/space)
+/obj/machinery/light,
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "darkredfull"
+	},
+/area/warfare/syndicat/battleship/east_hallway)
 "rW" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/high_volume{
 	dir = 1;
@@ -9572,6 +9841,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 10
 	},
+/obj/machinery/portable_atmospherics/powered/scrubber,
 /turf/simulated/floor/plating,
 /area/space)
 "sq" = (
@@ -9711,12 +9981,16 @@
 /turf/simulated/floor/plating,
 /area/space)
 "sG" = (
-/obj/machinery/atmospherics/components/unary/tank/air{
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/structure/sign/warning/fire{
-	pixel_x = 32
-	},
+/obj/structure/sign/departments/medbay,
+/obj/structure/cable,
 /turf/simulated/floor/plating,
 /area/space)
 "sH" = (
@@ -9727,6 +10001,7 @@
 /area/space)
 "sI" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
+/obj/machinery/space_heater,
 /turf/simulated/floor/plating,
 /area/space)
 "sJ" = (
@@ -9824,6 +10099,7 @@
 	filter_type = "oxygen";
 	name = "Gas filter (O2 tank)"
 	},
+/obj/structure/reagent_dispensers/watertank,
 /turf/simulated/floor/plating,
 /area/space)
 "sV" = (
@@ -9832,6 +10108,7 @@
 	filter_type = "nitrogen";
 	name = "Gas filter (N2 tank)"
 	},
+/obj/structure/reagent_dispensers/fueltank,
 /turf/simulated/floor/plating,
 /area/space)
 "sW" = (
@@ -9895,8 +10172,8 @@
 	syndie = 1
 	},
 /obj/item/weapon/surgicaldrill,
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/turf/simulated/floor{
+	icon_state = "white"
 	},
 /area/space)
 "te" = (
@@ -9914,8 +10191,8 @@
 	pixel_x = 10
 	},
 /obj/item/weapon/razor,
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/turf/simulated/floor{
+	icon_state = "white"
 	},
 /area/space)
 "tf" = (
@@ -9929,8 +10206,8 @@
 	dir = 8;
 	id = "op2"
 	},
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/turf/simulated/floor{
+	icon_state = "white"
 	},
 /area/space)
 "tg" = (
@@ -9940,6 +10217,11 @@
 	req_access = list(150)
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "warndark"
@@ -9997,14 +10279,14 @@
 	},
 /area/space)
 "tm" = (
-/obj/machinery/vending/coffee,
+/obj/machinery/pipedispenser/disposal,
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "yellow"
 	},
 /area/space)
 "tn" = (
-/obj/random/vending/snack,
+/obj/machinery/pipedispenser,
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "yellow"
@@ -10070,8 +10352,8 @@
 	pixel_x = -24
 	},
 /obj/machinery/life_assist/artificial_ventilation,
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/turf/simulated/floor{
+	icon_state = "white"
 	},
 /area/space)
 "tt" = (
@@ -10080,8 +10362,8 @@
 	pixel_x = 24
 	},
 /obj/machinery/life_assist/artificial_ventilation,
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/turf/simulated/floor{
+	icon_state = "white"
 	},
 /area/space)
 "tu" = (
@@ -10141,8 +10423,8 @@
 	pixel_x = 10
 	},
 /obj/item/weapon/razor,
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/turf/simulated/floor{
+	icon_state = "white"
 	},
 /area/space)
 "ty" = (
@@ -10181,10 +10463,18 @@
 	},
 /area/space)
 "tB" = (
-/turf/simulated/floor{
-	icon_state = "escape"
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 1
 	},
-/area/warfare/syndicat/battleship/east_hallway)
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/simulated/floor/plating,
+/area/space)
 "tC" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/twohanded/flora,
@@ -10209,6 +10499,11 @@
 /area/space)
 "tF" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor{
 	icon_state = "warndark"
 	},
@@ -10240,6 +10535,8 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4
 	},
+/obj/item/device/gps/engineering,
+/obj/item/device/gps/engineering,
 /obj/item/device/gps/engineering,
 /turf/simulated/floor{
 	dir = 8;
@@ -10286,21 +10583,21 @@
 	},
 /area/warfare/syndicat/battleship/hangar)
 "tN" = (
-/obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
+	},
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
 /turf/simulated/floor,
 /area/space)
@@ -10310,17 +10607,17 @@
 	},
 /area/space)
 "tP" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/simulated/floor{
 	icon_state = "yellow"
@@ -10473,33 +10770,64 @@
 	},
 /area/space)
 "uk" = (
-/obj/structure/closet/secure_closet/personal,
-/obj/item/clothing/suit/hgpirate,
-/obj/item/clothing/suit/plaid,
-/turf/simulated/floor/wood,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/medical{
+	name = "Syndicat Medbay Center";
+	req_access = list(150)
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor{
+	icon_state = "darkbluefull"
+	},
 /area/space)
 "ul" = (
-/obj/structure/closet/secure_closet/personal,
-/obj/item/clothing/head/WAFFEN_SS_Cap,
-/turf/simulated/floor/wood,
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced,
+/obj/structure/cable,
+/turf/simulated/floor/plating,
 /area/space)
 "um" = (
-/obj/structure/closet/secure_closet/personal,
-/obj/item/toy/syndicateballoon,
-/turf/simulated/floor/wood,
-/area/space)
+/obj/machinery/porta_turret/station_default{
+	dir = 1;
+	enabled = 0;
+	name = "Synciat Turret"
+	},
+/turf/simulated/floor{
+	icon_state = "warndark"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
 "un" = (
 /obj/structure/closet/secure_closet/personal,
 /obj/item/toy/eight_ball/conch,
 /turf/simulated/floor/wood,
 /area/space)
 "uo" = (
-/obj/structure/closet/secure_closet/personal,
-/obj/machinery/light{
-	dir = 4
+/obj/structure/grille,
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced/polarized{
+	id = "syndicat_privat_barracks"
 	},
-/obj/item/clothing/suit/plaid,
-/turf/simulated/floor/wood,
+/obj/structure/window/reinforced/polarized{
+	dir = 1;
+	id = "syndicat_privat_barracks"
+	},
+/obj/structure/window/reinforced/polarized{
+	dir = 8;
+	id = "syndicat_privat_barracks"
+	},
+/obj/structure/cable,
+/turf/simulated/floor/plating,
 /area/space)
 "up" = (
 /obj/item/mecha_parts/mecha_equipment/Drop_system,
@@ -10606,18 +10934,17 @@
 	},
 /area/space)
 "uu" = (
-/obj/machinery/door/window/eastright{
-	dir = 1;
-	icon_state = "left";
-	layer = 3;
-	name = "Syndicat Medbay Cooling Room";
-	req_access = list(150)
+/obj/structure/grille,
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced/polarized{
+	id = "syndicat_privat_barracks"
 	},
-/obj/machinery/atmospherics/pipe/manifold/visible,
-/turf/simulated/floor{
+/obj/structure/window/reinforced/polarized{
 	dir = 1;
-	icon_state = "warndark"
+	id = "syndicat_privat_barracks"
 	},
+/obj/structure/cable,
+/turf/simulated/floor/plating,
 /area/space)
 "uv" = (
 /obj/structure/window/reinforced/tinted{
@@ -10677,8 +11004,8 @@
 	desc = "Someone has crossed out the Space from Space Cleaner and written in Surgery. 'Do not remove under punishment of death!!!' is scrawled on the back.";
 	name = "Surgery Cleaner"
 	},
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/turf/simulated/floor{
+	icon_state = "white"
 	},
 /area/space)
 "uB" = (
@@ -10783,12 +11110,17 @@
 /turf/simulated/floor/wood,
 /area/space)
 "uM" = (
-/obj/structure/closet/secure_closet/personal,
-/obj/structure/sign/poster/contraband/random{
-	pixel_y = -32
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 1
 	},
-/obj/item/clothing/accessory/tie/red,
-/turf/simulated/floor/wood,
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced,
+/obj/structure/cable,
+/turf/simulated/floor/plating,
 /area/space)
 "uN" = (
 /obj/structure/closet/secure_closet/personal,
@@ -10898,17 +11230,22 @@
 	},
 /area/warfare/syndicat/battleship/hangar)
 "va" = (
-/obj/machinery/light/small{
-	dir = 1
+/obj/structure/grille,
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced/polarized{
+	id = "syndicat_privat_barracks"
 	},
-/obj/machinery/porta_turret/syndicat{
-	name = "Syndicat turret"
+/obj/structure/window/reinforced/polarized{
+	dir = 1;
+	id = "syndicat_privat_barracks"
 	},
-/turf/simulated/floor{
-	dir = 9;
-	icon_state = "warndark"
+/obj/structure/window/reinforced/polarized{
+	dir = 4;
+	id = "syndicat_privat_barracks"
 	},
-/area/warfare/syndicat/battleship/hangar)
+/obj/structure/cable,
+/turf/simulated/floor/plating,
+/area/space)
 "vb" = (
 /obj/structure/sign/mark{
 	icon_state = "rdn"
@@ -10941,17 +11278,13 @@
 	},
 /area/warfare/syndicat/battleship/hangar)
 "ve" = (
-/obj/machinery/light/small{
-	dir = 1
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
-/obj/machinery/porta_turret/syndicat{
-	name = "Syndicat turret"
-	},
-/turf/simulated/floor{
-	dir = 5;
-	icon_state = "warndark"
-	},
-/area/warfare/syndicat/battleship/hangar)
+/turf/simulated/floor,
+/area/warfare/syndicat/battleship/east_hallway)
 "vf" = (
 /turf/simulated/floor{
 	dir = 10;
@@ -11013,6 +11346,9 @@
 /obj/item/device/multitool,
 /obj/item/device/multitool,
 /obj/item/stack/cable_coil/red,
+/obj/item/stack/cable_coil/red,
+/obj/item/weapon/storage/toolbox/electrical,
+/obj/item/weapon/storage/toolbox/electrical,
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "yellow"
@@ -11020,26 +11356,27 @@
 /area/space)
 "vm" = (
 /obj/machinery/computer/operating,
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/turf/simulated/floor{
+	icon_state = "white"
 	},
 /area/space)
 "vn" = (
 /obj/machinery/door/window/eastright{
 	icon_state = "left";
-	layer = 3;
 	name = "Syndicat Operating Theatre 2";
 	opacity = 1;
 	req_access = list(150)
 	},
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "whitehall"
 	},
 /area/space)
 "vo" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/red,
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "warndark"
@@ -11089,6 +11426,9 @@
 /obj/item/weapon/tank/emergency_oxygen/engi,
 /obj/item/clothing/suit/storage/hazardvest,
 /obj/item/clothing/mask/gas/coloured,
+/obj/structure/sign/poster/contraband/random{
+	pixel_x = -32
+	},
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "yellow"
@@ -11096,6 +11436,7 @@
 /area/space)
 "vt" = (
 /obj/structure/table,
+/obj/item/weapon/storage/box/lights/mixed,
 /obj/item/weapon/storage/box/lights/mixed,
 /obj/item/weapon/storage/box/lights/mixed,
 /obj/item/weapon/airlock_painter,
@@ -11106,10 +11447,31 @@
 	},
 /area/space)
 "vu" = (
+/obj/structure/table,
+/obj/item/weapon/airlock_electronics,
+/obj/item/weapon/airlock_electronics{
+	pixel_x = 4;
+	pixel_y = -3
+	},
+/obj/item/weapon/airlock_electronics{
+	pixel_x = -4;
+	pixel_y = -3
+	},
+/obj/item/weapon/airlock_electronics{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/obj/item/weapon/airlock_electronics{
+	pixel_x = 4;
+	pixel_y = 7
+	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
-/turf/simulated/floor,
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "yellowfull"
+	},
 /area/space)
 "vv" = (
 /obj/structure/cable/yellow{
@@ -11141,6 +11503,10 @@
 	charge = 100000;
 	chargecount = 100000
 	},
+/obj/item/weapon/stock_parts/cell/high{
+	pixel_x = -1;
+	pixel_y = 10
+	},
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "yellow"
@@ -11150,13 +11516,12 @@
 /obj/machinery/door/window/eastright{
 	dir = 2;
 	icon_state = "left";
-	layer = 3;
 	name = "Syndicat Operating Theatre 2";
 	opacity = 1;
 	req_access = list(150)
 	},
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/turf/simulated/floor{
+	icon_state = "white"
 	},
 /area/space)
 "vy" = (
@@ -11164,8 +11529,8 @@
 	id = "op1"
 	},
 /obj/machinery/life_assist/cardiopulmonary_bypass,
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/turf/simulated/floor{
+	icon_state = "white"
 	},
 /area/space)
 "vz" = (
@@ -11178,8 +11543,8 @@
 	},
 /obj/structure/closet/secure_closet/medical2,
 /obj/item/clothing/under/patient_gown,
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/turf/simulated/floor{
+	icon_state = "white"
 	},
 /area/space)
 "vA" = (
@@ -11192,8 +11557,8 @@
 	dir = 8;
 	id = "op2"
 	},
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/turf/simulated/floor{
+	icon_state = "white"
 	},
 /area/space)
 "vB" = (
@@ -11201,21 +11566,20 @@
 	id = "op2"
 	},
 /obj/machinery/life_assist/cardiopulmonary_bypass,
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/turf/simulated/floor{
+	icon_state = "white"
 	},
 /area/space)
 "vC" = (
 /obj/machinery/door/window/eastright{
 	dir = 2;
 	icon_state = "left";
-	layer = 3;
 	name = "Syndicat Operating Theatre";
 	opacity = 1;
 	req_access = list(150)
 	},
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/turf/simulated/floor{
+	icon_state = "white"
 	},
 /area/space)
 "vD" = (
@@ -11234,17 +11598,20 @@
 /turf/simulated/floor/plating,
 /area/space)
 "vF" = (
-/obj/structure/sign/poster/contraband/random{
-	pixel_x = -32
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 8
 	},
 /obj/structure/rack,
-/obj/item/weapon/storage/briefcase/inflatable,
 /obj/item/weapon/storage/briefcase/inflatable{
 	pixel_x = 5;
 	pixel_y = 5
+	},
+/obj/item/weapon/storage/briefcase/inflatable{
+	pixel_x = -2;
+	pixel_y = 3
+	},
+/obj/item/weapon/storage/briefcase/inflatable{
+	pixel_x = 2
 	},
 /turf/simulated/floor{
 	dir = 8;
@@ -11298,6 +11665,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
 	},
+/obj/item/weapon/twohanded/flora,
 /turf/simulated/floor,
 /area/space)
 "vL" = (
@@ -11306,10 +11674,10 @@
 	amount = 50
 	},
 /obj/item/stack/sheet/plasteel{
-	amount = 10
+	amount = 30
 	},
 /obj/item/stack/sheet/plasteel{
-	amount = 10
+	amount = 50
 	},
 /turf/simulated/floor{
 	dir = 8;
@@ -11319,8 +11687,8 @@
 "vM" = (
 /obj/structure/cable/yellow{
 	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
+	d2 = 2;
+	icon_state = "1-2"
 	},
 /turf/simulated/floor{
 	dir = 8;
@@ -11343,27 +11711,16 @@
 	},
 /area/space)
 "vO" = (
-/obj/structure/table,
-/obj/machinery/atmospherics/components/unary/vent_pump/on{
-	dir = 8
-	},
-/obj/item/stack/sheet/plasteel{
-	amount = 50
-	},
-/obj/item/stack/sheet/plasteel{
-	amount = 50
-	},
-/obj/item/stack/sheet/mineral/phoron{
-	amount = 50
-	},
-/obj/item/stack/rods{
-	amount = 50
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
 /turf/simulated/floor{
-	dir = 8;
-	icon_state = "yellowfull"
+	icon_state = "warndark"
 	},
-/area/space)
+/area/warfare/syndicat/battleship/central_hallway)
 "vP" = (
 /obj/machinery/atmospherics/components/unary/portables_connector,
 /obj/machinery/atmospherics/pipe/manifold/hidden/red,
@@ -11390,7 +11747,28 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/simulated/floor,
+/obj/structure/table,
+/obj/item/weapon/module/power_control,
+/obj/item/weapon/module/power_control{
+	pixel_x = -4;
+	pixel_y = 7
+	},
+/obj/item/weapon/module/power_control{
+	pixel_x = -4;
+	pixel_y = -1
+	},
+/obj/item/weapon/module/power_control{
+	pixel_x = 2;
+	pixel_y = 5
+	},
+/obj/item/weapon/module/power_control{
+	pixel_x = 4;
+	pixel_y = -1
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "yellowfull"
+	},
 /area/space)
 "vS" = (
 /obj/structure/table,
@@ -11520,6 +11898,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "yellowcorner"
@@ -11528,6 +11911,11 @@
 "wb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/simulated/floor{
 	dir = 1;
@@ -11543,6 +11931,11 @@
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
 	},
 /turf/simulated/floor{
 	dir = 1;
@@ -11568,6 +11961,16 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "yellowcorner"
@@ -11586,43 +11989,11 @@
 /area/space)
 "wg" = (
 /obj/structure/table,
-/obj/item/stack/sheet/metal{
-	amount = 50;
-	pixel_x = 2;
-	pixel_y = 2
-	},
-/obj/item/stack/sheet/metal{
-	amount = 50;
-	pixel_x = 2;
-	pixel_y = 2
-	},
-/obj/item/stack/sheet/metal{
-	amount = 50;
-	pixel_x = 2;
-	pixel_y = 2
-	},
-/obj/item/stack/sheet/glass{
-	amount = 50
-	},
-/obj/item/stack/sheet/metal{
-	amount = 50;
-	pixel_x = 2;
-	pixel_y = 2
-	},
-/obj/item/stack/sheet/glass{
-	amount = 50
-	},
-/obj/item/stack/sheet/glass{
-	amount = 50
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
+/obj/machinery/chem_dispenser/beer{
+	dir = 8
 	},
 /turf/simulated/floor{
-	dir = 8;
-	icon_state = "yellow"
+	icon_state = "cafeteria"
 	},
 /area/space)
 "wh" = (
@@ -11640,8 +12011,9 @@
 "wj" = (
 /obj/structure/stool/bed/roller,
 /obj/machinery/light,
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "vault"
 	},
 /area/space)
 "wk" = (
@@ -11651,6 +12023,11 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "warndark"
@@ -11735,6 +12112,13 @@
 /obj/item/weapon/tank/emergency_oxygen/engi,
 /obj/item/clothing/mask/gas/syndicate,
 /obj/machinery/light_switch{
+	pixel_x = 8;
+	pixel_y = -27
+	},
+/obj/machinery/door_control{
+	id = "atmos";
+	name = "Atmospherics Lockdown";
+	pixel_x = -6;
 	pixel_y = -27
 	},
 /turf/simulated/floor{
@@ -11757,6 +12141,11 @@
 /area/space)
 "wr" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "warndark"
@@ -11844,13 +12233,11 @@
 	},
 /area/warfare/syndicat/battleship/central_hallway)
 "wB" = (
-/obj/effect/decal/mecha_wreckage/odysseus,
-/obj/structure/sign/mark{
-	icon_state = "x3"
+/obj/machinery/door/airlock{
+	name = "Toilet"
 	},
 /turf/simulated/floor{
-	dir = 8;
-	icon_state = "vault"
+	icon_state = "freezerfloor"
 	},
 /area/space)
 "wC" = (
@@ -11984,11 +12371,13 @@
 	},
 /area/space)
 "wL" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor{
-	dir = 4;
-	icon_state = "warndark"
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 5
 	},
+/obj/structure/sign/departments/security,
+/obj/structure/cable,
+/turf/simulated/floor/plating,
 /area/space)
 "wM" = (
 /obj/item/mecha_parts/part/durand_right_leg,
@@ -12237,16 +12626,13 @@
 	},
 /area/space)
 "xc" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/door/airlock/security/glass{
-	name = "Syndicat Glass Airlock";
-	req_access = list(150)
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 5
 	},
-/obj/machinery/door/firedoor,
-/turf/simulated/floor{
-	dir = 4;
-	icon_state = "warndark"
-	},
+/obj/structure/sign/poster/contraband/random,
+/obj/structure/cable,
+/turf/simulated/floor/plating,
 /area/space)
 "xd" = (
 /obj/machinery/atmospherics/components/unary/portables_connector,
@@ -12362,9 +12748,14 @@
 /turf/simulated/floor/plating,
 /area/space)
 "xm" = (
-/obj/item/weapon/caution/cone,
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/obj/structure/sign/mark{
+	icon_state = "x3"
+	},
+/obj/effect/decal/mecha_wreckage/odysseus,
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "vault"
+	},
 /area/space)
 "xn" = (
 /obj/structure/grille{
@@ -12658,6 +13049,59 @@
 "xY" = (
 /turf/space,
 /area/shuttle/syndicate/south)
+"xZ" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/unsimulated/floor{
+	icon_state = "podhatchfull"
+	},
+/area/space)
+"ya" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
+"yb" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "arrival"
+	},
+/area/space)
+"yc" = (
+/obj/machinery/door/airlock/security/glass{
+	name = "Syndicat Glass Airlock";
+	req_access = list(150)
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/door/firedoor,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "warndark"
+	},
+/area/space)
 "yd" = (
 /obj/structure/stool/bed/chair{
 	dir = 1
@@ -12666,6 +13110,46 @@
 	icon_state = "podhatchfull"
 	},
 /area/space)
+"ye" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/reagent_dispensers/watertank,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"yf" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"yg" = (
+/obj/structure/grille,
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced/polarized{
+	dir = 1;
+	id = "syndicat_privat_barracks"
+	},
+/obj/structure/window/reinforced/polarized{
+	dir = 4;
+	id = "syndicat_privat_barracks"
+	},
+/obj/structure/window/reinforced/polarized{
+	dir = 8;
+	id = "syndicat_privat_barracks"
+	},
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/plating,
+/area/space)
 "yh" = (
 /obj/structure/window/reinforced/tinted{
 	dir = 8
@@ -12673,12 +13157,589 @@
 /obj/machinery/vending/blood,
 /turf/simulated/floor,
 /area/space)
+"yi" = (
+/obj/structure/closet/secure_closet/personal,
+/obj/item/clothing/shoes/boots/German,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/space)
+"yj" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/carpet,
+/area/space)
+"yk" = (
+/obj/structure/toilet{
+	dir = 8;
+	pixel_y = 8
+	},
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/structure/window/reinforced/tinted,
+/turf/simulated/floor{
+	icon_state = "freezerfloor"
+	},
+/area/space)
+"yl" = (
+/obj/machinery/vending/snack{
+	name = "hacked Getmore Chocolate Corp";
+	prices = list()
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkredcorners"
+	},
+/area/space)
+"ym" = (
+/obj/item/weapon/twohanded/flora/pottedplant{
+	icon_state = "plant-6"
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkredcorners"
+	},
+/area/space)
+"yn" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkred"
+	},
+/area/space)
+"yo" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
 "yp" = (
 /obj/machinery/door/airlock/hatch{
 	req_access = list(150)
 	},
 /turf/unsimulated/floor{
 	icon_state = "podhatchfull"
+	},
+/area/space)
+"yq" = (
+/obj/structure/grille,
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"yr" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "warndark"
+	},
+/area/space)
+"ys" = (
+/obj/structure/grille,
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced/polarized{
+	dir = 4;
+	id = "syndicat_privat_barracks"
+	},
+/obj/structure/window/reinforced/polarized{
+	dir = 8;
+	id = "syndicat_privat_barracks"
+	},
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"yt" = (
+/obj/structure/stool/bed,
+/obj/item/weapon/bedsheet/syndie,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/space)
+"yu" = (
+/obj/machinery/door/window/eastleft{
+	dir = 1;
+	name = "toilet door";
+	opacity = 1
+	},
+/turf/simulated/floor{
+	icon_state = "freezerfloor"
+	},
+/area/space)
+"yv" = (
+/obj/structure/window/reinforced/tinted{
+	dir = 1
+	},
+/obj/structure/toilet{
+	dir = 8
+	},
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "freezerfloor"
+	},
+/area/space)
+"yw" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor{
+	icon_state = "escape"
+	},
+/area/warfare/syndicat/battleship/east_hallway)
+"yx" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor{
+	icon_state = "darkred"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
+"yy" = (
+/obj/structure/window/reinforced/tinted,
+/obj/machinery/life_assist/artificial_ventilation,
+/obj/machinery/life_assist/cardiopulmonary_bypass,
+/turf/simulated/floor{
+	icon_state = "warning"
+	},
+/area/space)
+"yz" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor{
+	icon_state = "darkred"
+	},
+/area/warfare/syndicat/battleship/central_hallway)
+"yA" = (
+/obj/structure/grille,
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced/polarized{
+	dir = 4;
+	id = "syndicat_privat_barracks"
+	},
+/obj/structure/window/reinforced/polarized{
+	dir = 8;
+	id = "syndicat_privat_barracks"
+	},
+/obj/structure/window/reinforced/polarized{
+	id = "syndicat_privat_barracks"
+	},
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"yB" = (
+/obj/machinery/door/airlock/hatch{
+	req_access = list(150)
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor{
+	icon_state = "escape"
+	},
+/area/space)
+"yC" = (
+/obj/structure/table,
+/obj/machinery/recharger{
+	pixel_y = 4
+	},
+/obj/item/weapon/reagent_containers/spray/cleaner,
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "darkredfull"
+	},
+/area/space)
+"yD" = (
+/obj/machinery/door/window/eastright{
+	icon_state = "left";
+	name = "Syndicat Operating Theatre";
+	req_access = list(150)
+	},
+/obj/structure/window/reinforced/tinted{
+	dir = 1
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "arrival"
+	},
+/area/space)
+"yE" = (
+/obj/structure/window/reinforced/tinted{
+	dir = 1
+	},
+/obj/machinery/door/window/eastright{
+	dir = 8;
+	icon_state = "left";
+	name = "Syndicat Operating Theatre";
+	req_access = list(150)
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "arrival"
+	},
+/area/space)
+"yF" = (
+/obj/machinery/washing_machine,
+/obj/structure/dryer{
+	pixel_y = 24
+	},
+/turf/simulated/floor{
+	icon_state = "bar"
+	},
+/area/space)
+"yG" = (
+/obj/structure/stool/bed,
+/obj/structure/stool/bed{
+	pixel_y = 12
+	},
+/obj/item/weapon/bedsheet/red,
+/obj/item/weapon/bedsheet/red{
+	pixel_y = 12
+	},
+/obj/structure/sign/poster/contraband/random{
+	pixel_x = -32
+	},
+/turf/simulated/floor/wood,
+/area/space)
+"yH" = (
+/obj/structure/stool/bed,
+/obj/structure/stool/bed{
+	pixel_y = 12
+	},
+/obj/item/weapon/bedsheet/red,
+/obj/item/weapon/bedsheet/red{
+	pixel_y = 12
+	},
+/turf/simulated/floor/wood,
+/area/space)
+"yI" = (
+/obj/structure/stool/bed,
+/obj/structure/stool/bed{
+	pixel_y = 12
+	},
+/obj/item/weapon/bedsheet/red,
+/obj/item/weapon/bedsheet/red{
+	pixel_y = 12
+	},
+/obj/machinery/windowtint{
+	id = "syndicat_privat_dorm_civilian";
+	pixel_y = 24
+	},
+/turf/simulated/floor/wood,
+/area/space)
+"yJ" = (
+/obj/machinery/recharger/wallcharger{
+	pixel_x = 5;
+	pixel_y = 30
+	},
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "darkred"
+	},
+/area/space)
+"yK" = (
+/obj/structure/table,
+/obj/machinery/cell_charger,
+/obj/item/weapon/stock_parts/cell/high{
+	charge = 100;
+	maxcharge = 15000
+	},
+/obj/item/weapon/gun/energy/pyrometer/engineering/robotics,
+/obj/item/weapon/card/emag,
+/obj/item/weapon/card/emag,
+/turf/simulated/floor{
+	icon_state = "delivery"
+	},
+/area/space)
+"yL" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor{
+	icon_state = "darkredcorners"
+	},
+/area/space)
+"yM" = (
+/obj/structure/stool/bed,
+/obj/structure/stool/bed{
+	pixel_y = 12
+	},
+/obj/item/weapon/bedsheet/syndie,
+/obj/item/weapon/bedsheet/syndie{
+	pixel_y = 12
+	},
+/turf/simulated/floor/wood,
+/area/space)
+"yN" = (
+/obj/structure/stool/bed,
+/obj/structure/stool/bed{
+	pixel_y = 12
+	},
+/obj/item/weapon/bedsheet/syndie,
+/obj/item/weapon/bedsheet/syndie{
+	pixel_y = 12
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/space)
+"yO" = (
+/obj/machinery/cryopod/right{
+	density = 0;
+	pixel_x = -20
+	},
+/turf/simulated/floor/carpet,
+/area/space)
+"yP" = (
+/obj/machinery/cryopod{
+	density = 0;
+	pixel_x = 20
+	},
+/turf/simulated/floor/carpet,
+/area/space)
+"yQ" = (
+/obj/structure/stool/bed/chair/office/dark{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "darkredcorners"
+	},
+/area/space)
+"yR" = (
+/obj/structure/sign/poster/contraband/random{
+	pixel_y = -32
+	},
+/obj/machinery/computer/security{
+	dir = 8
+	},
+/obj/machinery/light,
+/turf/simulated/floor{
+	icon_state = "darkred"
+	},
+/area/space)
+"yS" = (
+/obj/structure/closet/wardrobe,
+/obj/item/clothing/under/fluff/ana_issek_1,
+/obj/item/clothing/under/fluff/ana_issek_1,
+/obj/item/clothing/under/fluff/ana_issek_1,
+/obj/item/clothing/under/fluff/ana_issek_1,
+/obj/item/clothing/under/fluff/ana_issek_1,
+/obj/item/clothing/shoes/syndigaloshes,
+/obj/item/clothing/shoes/syndigaloshes,
+/obj/item/clothing/shoes/syndigaloshes,
+/obj/item/clothing/shoes/syndigaloshes,
+/obj/item/clothing/head/soft/sec/corp{
+	name = "Syndicat Guard's Cap"
+	},
+/obj/item/clothing/head/soft/sec/corp{
+	name = "Syndicat Guard's Cap"
+	},
+/obj/item/clothing/head/soft/sec/corp{
+	name = "Syndicat Guard's Cap"
+	},
+/obj/item/clothing/head/redcoat,
+/obj/item/clothing/head/redcoat,
+/obj/item/clothing/head/redcoat,
+/turf/simulated/floor{
+	icon_state = "darkred"
+	},
+/area/space)
+"yT" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/door/airlock/security/glass{
+	name = "Syndicat Glass Airlock";
+	req_access = list(150)
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "warndark"
+	},
+/area/space)
+"yU" = (
+/obj/structure/closet/secure_closet/personal,
+/obj/item/clothing/suit/hgpirate,
+/obj/item/clothing/suit/plaid,
+/obj/structure/window/reinforced,
+/turf/simulated/floor/wood,
+/area/space)
+"yV" = (
+/obj/structure/closet/secure_closet/personal,
+/obj/item/clothing/suit/plaid,
+/obj/structure/window/reinforced,
+/turf/simulated/floor/wood,
+/area/space)
+"yW" = (
+/obj/structure/closet/secure_closet/personal,
+/obj/item/clothing/head/WAFFEN_SS_Cap,
+/obj/structure/window/reinforced,
+/turf/simulated/floor/wood,
+/area/space)
+"yX" = (
+/obj/structure/closet/secure_closet/personal,
+/obj/item/toy/syndicateballoon,
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/space)
+"yY" = (
+/obj/structure/stool/bed,
+/obj/structure/stool/bed{
+	pixel_y = 12
+	},
+/obj/item/weapon/bedsheet/red,
+/obj/item/weapon/bedsheet/red{
+	pixel_y = 12
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
+/area/space)
+"yZ" = (
+/obj/structure/closet/secure_closet/personal,
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/item/clothing/suit/plaid,
+/obj/structure/sign/poster/contraband/random{
+	pixel_x = 32
+	},
+/turf/simulated/floor/wood,
+/area/space)
+"za" = (
+/obj/structure/table,
+/obj/item/weapon/razor,
+/obj/item/weapon/handcuffs,
+/obj/machinery/recharger/wallcharger{
+	pixel_x = 5;
+	pixel_y = -30
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"zb" = (
+/obj/structure/table,
+/obj/machinery/recharger/wallcharger{
+	pixel_x = 5;
+	pixel_y = -30
+	},
+/obj/item/device/megaphone,
+/obj/item/weapon/crowbar,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"zc" = (
+/obj/structure/cable,
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkredcorners"
+	},
+/area/space)
+"zd" = (
+/obj/machinery/door/window/eastright{
+	dir = 1;
+	icon_state = "left";
+	name = "Syndicat Medbay Cooling Room";
+	opacity = 1;
+	req_access = list(150)
+	},
+/obj/machinery/atmospherics/pipe/manifold/visible,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "warndark"
+	},
+/area/space)
+"ze" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "warndark"
+	},
+/area/space)
+"zf" = (
+/obj/structure/window/reinforced/tinted,
+/obj/machinery/cryopod{
+	density = 0;
+	pixel_x = 20
+	},
+/turf/simulated/floor/carpet,
+/area/space)
+"zg" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
 	},
 /area/space)
 "zh" = (
@@ -12705,6 +13766,117 @@
 	},
 /turf/simulated/floor/plating,
 /area/space)
+"zj" = (
+/obj/structure/stool/bed,
+/obj/structure/stool/bed{
+	pixel_y = 12
+	},
+/obj/item/weapon/bedsheet/syndie,
+/obj/item/weapon/bedsheet/syndie{
+	pixel_y = 12
+	},
+/obj/structure/sign/poster/contraband/random{
+	pixel_y = -32
+	},
+/turf/simulated/floor/wood,
+/area/space)
+"zk" = (
+/obj/structure/closet/secure_closet/personal,
+/obj/structure/sign/poster/contraband/random{
+	pixel_y = -32
+	},
+/obj/item/clothing/accessory/tie/red,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/space)
+"zl" = (
+/obj/structure/window/reinforced/tinted{
+	dir = 8
+	},
+/obj/structure/window/reinforced/tinted{
+	dir = 1
+	},
+/obj/machinery/washing_machine,
+/obj/item/weapon/lipstick/random{
+	pixel_x = 4;
+	pixel_y = 9
+	},
+/turf/simulated/floor{
+	icon_state = "freezerfloor2"
+	},
+/area/space)
+"zm" = (
+/obj/effect/decal/cleanable/cobweb,
+/obj/item/tape/police{
+	icon_state = "police_h"
+	},
+/turf/simulated/floor{
+	icon_state = "darkredcorners"
+	},
+/area/space)
+"zn" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/tape/police{
+	icon_state = "police_h"
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkred"
+	},
+/area/space)
+"zo" = (
+/obj/effect/decal/cleanable/blood,
+/obj/item/tape/police{
+	icon_state = "police_h"
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkredcorners"
+	},
+/area/space)
+"zp" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"zq" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"zr" = (
+/obj/structure/window/reinforced/tinted{
+	dir = 8
+	},
+/obj/machinery/washing_machine,
+/obj/item/weapon/reagent_containers/food/drinks/coffee{
+	pixel_x = -4;
+	pixel_y = 11
+	},
+/turf/simulated/floor{
+	icon_state = "freezerfloor2"
+	},
+/area/space)
+"zs" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/machinery/porta_turret/syndicat{
+	lethal = 1;
+	name = "Syndicat turret"
+	},
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "warndark"
+	},
+/area/warfare/syndicat/battleship/hangar)
 "zJ" = (
 /obj/machinery/light{
 	dir = 8
@@ -13200,21 +14372,20 @@
 	},
 /area/space)
 "Uc" = (
-/obj/structure/table,
-/obj/item/weapon/retractor,
-/obj/item/weapon/FixOVein{
-	pixel_x = -5
+/obj/machinery/porta_turret/syndicat{
+	lethal = 1;
+	name = "Syndicat turret"
 	},
-/turf/simulated/shuttle/floor{
-	icon_state = "floor3"
+/turf/unsimulated/floor{
+	icon_state = "podhatchfull"
 	},
 /area/space)
 "Ui" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced{
-	dir = 5
+/obj/machinery/porta_turret/syndicat{
+	lethal = 1;
+	name = "Syndicat turret"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/wall/r_wall,
 /area/space)
 "Uk" = (
 /obj/effect/decal/cleanable/dirt,
@@ -28328,7 +29499,7 @@ yp
 fY
 fY
 fY
-mF
+zs
 US
 US
 US
@@ -32399,9 +33570,9 @@ XW
 XW
 XW
 XW
+Ui
 US
-US
-US
+Ui
 XW
 XW
 XW
@@ -32444,9 +33615,9 @@ XW
 XW
 XW
 XW
+Ui
 US
-US
-US
+Ui
 XW
 XW
 XW
@@ -32916,7 +34087,7 @@ XW
 US
 US
 US
-US
+Ui
 XW
 XW
 US
@@ -32957,7 +34128,7 @@ US
 US
 XW
 XW
-US
+Ui
 US
 US
 US
@@ -33177,17 +34348,17 @@ US
 US
 US
 US
+Ui
 US
 US
-US
-US
+Ui
 CM
 CM
 CM
+Ui
 US
 US
-US
-US
+Ui
 US
 jV
 jV
@@ -33200,18 +34371,18 @@ jV
 jV
 jV
 US
+Ui
 US
 US
-US
-US
+Ui
 CM
 CM
 CM
+Ui
 US
 US
 US
-US
-US
+Ui
 US
 US
 US
@@ -33427,7 +34598,7 @@ XW
 XW
 XW
 XW
-US
+Ui
 US
 US
 US
@@ -33474,7 +34645,7 @@ US
 US
 US
 US
-US
+Ui
 XW
 XW
 XW
@@ -33943,7 +35114,7 @@ XW
 XW
 XW
 XW
-US
+Ui
 US
 PR
 bb
@@ -33956,8 +35127,8 @@ cO
 aA
 aA
 PR
-dd
-dC
+fJ
+fb
 eN
 ex
 qR
@@ -34244,10 +35415,10 @@ uQ
 uT
 PR
 PR
-va
+zs
 vf
 PR
-PR
+aV
 US
 US
 sB
@@ -34761,7 +35932,7 @@ PR
 vc
 vg
 PR
-PR
+aV
 US
 US
 US
@@ -34971,7 +36142,7 @@ US
 US
 XW
 XW
-US
+Ui
 US
 PR
 bb
@@ -35273,7 +36444,7 @@ PR
 US
 US
 US
-US
+Ui
 US
 XW
 XW
@@ -35996,9 +37167,9 @@ fY
 fY
 fY
 Kw
-fY
+Uc
 US
-PR
+aV
 PR
 PR
 PR
@@ -36044,7 +37215,7 @@ PR
 US
 US
 US
-US
+Ui
 US
 XW
 XW
@@ -36560,7 +37731,7 @@ PR
 vd
 vf
 PR
-PR
+aV
 US
 sA
 US
@@ -37024,9 +38195,9 @@ fY
 fY
 fY
 Kw
-fY
+Uc
 US
-PR
+aV
 PR
 PR
 PR
@@ -37071,10 +38242,10 @@ uQ
 PR
 PR
 PR
-ve
+zs
 vg
 PR
-PR
+aV
 US
 US
 US
@@ -37297,7 +38468,7 @@ bb
 bp
 bp
 ua
-dg
+ek
 dj
 ki
 kD
@@ -37586,7 +38757,7 @@ PR
 US
 US
 US
-US
+Ui
 US
 XW
 XW
@@ -38055,7 +39226,7 @@ XW
 XW
 XW
 XW
-US
+Ui
 US
 PR
 bb
@@ -38337,7 +39508,7 @@ bu
 by
 bB
 ai
-wB
+xm
 Cl
 wM
 Cl
@@ -38588,7 +39759,7 @@ km
 kI
 ua
 bd
-fy
+ho
 bs
 bu
 by
@@ -38614,7 +39785,7 @@ PR
 US
 US
 US
-US
+Ui
 US
 XW
 XW
@@ -39083,7 +40254,7 @@ XW
 XW
 XW
 XW
-US
+Ui
 US
 PR
 bb
@@ -39127,10 +40298,10 @@ uQ
 uX
 PR
 PR
-va
+zs
 vf
 PR
-PR
+aV
 US
 sA
 US
@@ -39621,12 +40792,12 @@ bm
 bv
 ua
 bD
-bH
+re
 bM
 bP
 bQ
 bR
-bV
+yK
 cf
 co
 bJ
@@ -39644,7 +40815,7 @@ PR
 vc
 vg
 PR
-PR
+aV
 US
 US
 US
@@ -40111,7 +41282,7 @@ XW
 XW
 XW
 XW
-US
+Ui
 US
 US
 US
@@ -40156,7 +41327,7 @@ US
 US
 US
 US
-US
+Ui
 US
 XW
 XW
@@ -40627,7 +41798,7 @@ XW
 XW
 XW
 XW
-US
+Ui
 US
 US
 US
@@ -40667,7 +41838,7 @@ US
 US
 US
 US
-US
+Ui
 XW
 XW
 XW
@@ -41400,7 +42571,7 @@ XW
 XW
 XW
 XW
-US
+Ui
 US
 US
 US
@@ -41435,7 +42606,7 @@ PR
 US
 US
 US
-US
+Ui
 XW
 XW
 XW
@@ -41930,10 +43101,10 @@ bb
 bb
 bb
 bb
+ir
 bb
 bb
-bb
-bb
+ir
 bb
 bb
 bb
@@ -42172,40 +43343,40 @@ XW
 XW
 XW
 XW
-sP
+bV
 US
 US
+PR
+da
+PR
+PR
+PR
+PR
+PR
+PR
+PR
+PR
+PR
+PR
+jS
+iO
+iO
+oF
+PR
+PR
+PR
+PR
+PR
+PR
+PR
+PR
+PR
 PR
 pn
 PR
-PR
-PR
-PR
-PR
-PR
-PR
-PR
-PR
-PR
-gd
-iO
-iO
-iO
-PR
-PR
-PR
-PR
-PR
-PR
-PR
-PR
-PR
-PR
-pn
-PR
 US
 US
-US
+Ui
 XW
 XW
 XW
@@ -42444,10 +43615,10 @@ US
 US
 US
 PR
+is
 gg
 gg
-gg
-gg
+is
 PR
 US
 US
@@ -42701,10 +43872,10 @@ US
 US
 US
 fW
-gh
-gv
-gv
-gv
+jT
+nD
+nD
+ni
 fW
 US
 US
@@ -42715,13 +43886,13 @@ US
 US
 US
 US
-CM
+kV
 US
 US
 US
 US
 US
-US
+Ui
 XW
 XW
 XW
@@ -42958,10 +44129,10 @@ eF
 eX
 mX
 fW
-hN
+iy
 iP
 iP
-ja
+nj
 fW
 mP
 eY
@@ -42972,10 +44143,10 @@ iS
 fY
 jr
 US
-CM
+zs
 US
 sc
-sc
+dK
 cw
 tp
 cB
@@ -43231,7 +44402,7 @@ js
 US
 CM
 US
-sc
+zs
 sc
 cx
 dr
@@ -43472,10 +44643,10 @@ eG
 eH
 mX
 fW
-hN
+iz
 iP
 iP
-ja
+nr
 fW
 gB
 eH
@@ -43486,7 +44657,7 @@ fY
 fY
 ju
 US
-CM
+zs
 US
 sc
 sc
@@ -43729,10 +44900,10 @@ eH
 eH
 eH
 fW
-hN
-iP
-iP
 ja
+iP
+iP
+nu
 fW
 gC
 eH
@@ -43972,35 +45143,35 @@ XW
 cg
 tp
 mq
-Hj
+cU
 US
 US
-kV
+dc
 US
 SE
 TK
-fY
+em
 fY
 aq
 fY
 fY
-fY
-gA
-hN
+gu
+iT
+jc
 iP
 iP
-ja
-gA
-fY
+oV
+iT
+xZ
 fY
 fY
 aq
 TK
-fY
+em
 fY
 jw
 US
-CM
+kV
 xv
 US
 qD
@@ -44230,9 +45401,9 @@ cb
 dr
 DJ
 sc
-sc
+cY
 US
-qo
+dd
 US
 ca
 TK
@@ -44241,14 +45412,14 @@ fY
 US
 eH
 eH
-eH
+gv
 fW
-hN
-iP
-iP
 ja
+iP
+iP
+nu
 fW
-eH
+gv
 eH
 eH
 US
@@ -44257,7 +45428,7 @@ fY
 fY
 jx
 US
-CM
+kV
 xw
 US
 sc
@@ -44487,9 +45658,9 @@ cg
 tp
 mq
 sc
-sc
-US
-CM
+cZ
+dP
+dg
 US
 XG
 TK
@@ -44500,10 +45671,10 @@ eI
 eI
 eH
 fW
-hN
+iz
 iP
 iP
-ja
+nr
 fW
 eH
 eH
@@ -44514,7 +45685,7 @@ fY
 fY
 jy
 US
-CM
+zs
 xx
 US
 sc
@@ -44743,10 +45914,10 @@ XW
 cb
 dr
 DJ
-sc
-sc
+cV
+dC
 US
-kV
+dc
 US
 wG
 fP
@@ -44771,7 +45942,7 @@ Bu
 Bu
 jz
 US
-CM
+kV
 xy
 US
 sc
@@ -45001,9 +46172,9 @@ cg
 tp
 mq
 sc
-sc
+ci
 US
-kV
+dc
 US
 oq
 ZZ
@@ -45014,10 +46185,10 @@ XS
 XS
 XS
 fW
-hN
+iy
 iP
 iP
-ja
+nj
 fW
 XS
 XS
@@ -45028,7 +46199,7 @@ GI
 fY
 jA
 US
-CM
+kV
 xy
 US
 sc
@@ -45260,7 +46431,7 @@ DJ
 Hj
 US
 US
-qp
+dl
 US
 US
 US
@@ -45271,10 +46442,10 @@ US
 US
 US
 fW
-hO
+ja
 iP
 iP
-jc
+nu
 fW
 US
 US
@@ -45285,10 +46456,10 @@ US
 US
 US
 US
-qp
+zs
 US
 US
-qD
+zs
 cx
 dr
 cC
@@ -45516,34 +46687,34 @@ tp
 mq
 sc
 US
-CM
+dR
 kV
 nF
 US
-cP
-dl
-dF
-aq
-fL
+fB
+fN
+fc
+gV
+hB
 io
-fN
-fN
-hP
-iP
-iP
+gs
+gs
 jd
-fN
-fN
+iP
+iP
+pB
+gs
+gs
 io
-lC
-aq
-cP
-dl
-dF
+yx
+gV
+yL
+fN
+zc
 US
-CM
-CM
-CM
+zm
+zs
+zs
 US
 sc
 cy
@@ -45785,10 +46956,10 @@ fL
 fL
 fL
 fL
-fL
+jt
 iQ
 iQ
-lC
+pC
 lC
 lC
 lC
@@ -45798,10 +46969,10 @@ qg
 dm
 ge
 tV
-CM
-CM
-CM
-FQ
+zn
+zs
+zs
+zs
 sc
 cx
 dr
@@ -46030,7 +47201,7 @@ tp
 mq
 sc
 US
-CM
+dR
 CM
 qo
 US
@@ -46039,25 +47210,25 @@ dn
 dH
 US
 fL
-fN
-fN
-fN
-hQ
-iR
-iR
+gk
+gw
+gs
 lI
-fN
-fN
-fN
+iR
+iR
+pD
+gs
+ya
+yo
 lC
 US
 iE
 qn
 gf
 US
-CM
-CM
-CM
+zo
+ga
+zs
 US
 sc
 cy
@@ -46296,16 +47467,16 @@ US
 US
 US
 ua
-eZ
-fp
-fA
-hR
-iR
-iR
+hN
+gx
+ic
 lJ
-gi
-fp
-ho
+iR
+iR
+pE
+sG
+gx
+yq
 ua
 US
 US
@@ -46313,10 +47484,10 @@ US
 US
 US
 US
-qp
+zs
 US
 US
-qD
+zs
 cx
 dr
 cC
@@ -46549,18 +47720,18 @@ kV
 US
 uA
 ts
-do
-ct
-ek
+eo
+fe
+fv
 ik
-fb
-fb
-fB
-hR
-iR
-iR
+hO
+hO
+jF
 lJ
-gj
+iR
+iR
+pE
+rq
 gD
 hp
 iV
@@ -46805,18 +47976,18 @@ gz
 rX
 US
 td
-cT
-cT
-cT
-eo
+fC
+eq
+fg
+gX
 ji
-fc
-fc
-fB
-hR
-iR
-iR
+hP
+hP
+jF
 lJ
+iR
+iR
+oo
 ua
 ly
 hq
@@ -47062,14 +48233,14 @@ iA
 qx
 US
 te
-cT
-dp
-cT
+fE
+er
+fh
 vx
-cT
-cT
+gd
+hQ
 kb
-gj
+jG
 oG
 iR
 iR
@@ -47077,14 +48248,14 @@ pz
 ua
 pL
 hq
-ic
-qd
+yy
+yD
 qh
 qh
 qh
 xi
 US
-CM
+zs
 xB
 US
 sc
@@ -47318,20 +48489,20 @@ US
 US
 sD
 US
-ci
-cT
+dv
+fE
 vm
-cT
+fh
 vy
 kO
-cT
-cT
+bm
+hd
 ua
-hR
+lK
 iR
 iR
-lJ
-gk
+pE
+tB
 gG
 hr
 hX
@@ -47536,19 +48707,19 @@ XW
 XW
 XW
 XW
-US
-US
-US
-US
-US
-US
-US
-US
-US
-US
-US
-US
-US
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
 XW
 XW
 XW
@@ -47571,24 +48742,24 @@ cg
 tp
 mq
 sc
-sc
+cj
 US
 sF
 US
-cj
-cU
+dw
+ee
 vn
-cU
+fi
 vz
 kP
-cT
-cT
-ua
-hR
+bm
+hd
+hV
+lK
 iR
 iR
-lJ
-fC
+pE
+uM
 gI
 hs
 hY
@@ -47793,19 +48964,19 @@ XW
 XW
 XW
 XW
-US
-aV
-lZ
-ls
-nD
-mk
-ms
-mz
-mH
-jZ
-jZ
-ne
-nq
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
 XW
 XW
 XW
@@ -47828,31 +48999,31 @@ cb
 dr
 DJ
 sc
-sc
+dK
 US
 sK
 US
 tf
-cV
-cT
-cV
-vA
-eM
-cT
-cT
-hV
-hR
-iR
-iR
-lJ
-iK
+fF
+eq
 gJ
+vA
+hF
+bm
+he
+jI
+lJ
+iR
+iR
+pE
+uk
+yb
 hu
 hZ
 hZ
 hZ
 uh
-uu
+zd
 uH
 US
 xk
@@ -48050,19 +49221,19 @@ XW
 XW
 XW
 XW
-US
-hB
-lh
-lm
-ln
-lx
-ei
-bm
-bm
-bm
-bm
-nf
-nr
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
 XW
 XW
 XW
@@ -48087,22 +49258,22 @@ mq
 Hj
 US
 US
-kV
+eM
 US
 td
-cT
+fE
 vm
-cT
+fh
 vB
 jp
-cT
-cT
+bm
+hd
 ua
-hR
+lK
 iR
 iR
-lJ
-fE
+pE
+ul
 gK
 hv
 ia
@@ -48307,19 +49478,19 @@ XW
 XW
 XW
 XW
-US
-lV
-ll
-ls
-lu
-me
-mt
-mA
-mI
-mN
-mY
-ng
-nq
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
 XW
 XW
 XW
@@ -48344,22 +49515,22 @@ DJ
 sc
 US
 iB
-qo
+eO
 US
 tx
-cT
-dp
-cT
+fE
+er
+fh
 vC
-cT
-cT
-cT
-ua
+gd
 hR
+hR
+ua
+lK
 iR
 iR
-lJ
-fC
+pE
+uM
 gL
 hw
 ib
@@ -48564,19 +49735,19 @@ XW
 XW
 XW
 XW
-lR
-kx
-kx
-ls
-mg
-mn
-ei
-mB
-mJ
-mO
-mZ
-ni
-US
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
 XW
 XW
 XW
@@ -48601,17 +49772,17 @@ mq
 sc
 US
 iD
-kV
+eM
 US
-ci
-cT
-cT
-dK
+dv
+fG
+fV
+fk
 iG
 oE
-fc
+hP
 wj
-gk
+ii
 oG
 iR
 iR
@@ -48620,13 +49791,13 @@ ua
 wD
 hq
 wP
-qe
+yE
 qi
 yh
 ux
 qz
 US
-kV
+zs
 US
 US
 sc
@@ -48821,19 +49992,19 @@ XW
 XW
 XW
 XW
-US
-US
-lp
-bm
-mh
-mo
-mu
-mC
-mK
-mQ
-na
-nj
-nu
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
 XW
 XW
 XW
@@ -48858,21 +50029,21 @@ DJ
 sc
 US
 iI
-rk
+do
 US
-Uc
+dx
 tt
-ds
-ee
+ez
+fs
 iJ
 pU
-fb
-fb
-gj
-hR
-iR
-iR
+hO
+hO
+jG
 lJ
+iR
+iR
+oo
 ua
 gO
 hx
@@ -48886,7 +50057,7 @@ US
 qo
 xH
 US
-sc
+dK
 cx
 dr
 rO
@@ -49078,19 +50249,19 @@ XW
 XW
 XW
 XW
-US
-US
-lq
-bm
-mi
-mf
-mw
-jD
-mL
-mR
-nb
-nS
-US
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
 XW
 XW
 XW
@@ -49115,7 +50286,7 @@ fM
 dq
 fU
 US
-qp
+eP
 US
 US
 US
@@ -49125,12 +50296,12 @@ US
 US
 US
 US
-US
-gv
+ij
+lO
 iU
 iU
-gv
-US
+lO
+ij
 US
 US
 wQ
@@ -49335,19 +50506,19 @@ XW
 XW
 XW
 XW
-US
-US
-lr
-bm
-mj
-mr
-my
-mD
-mM
-mS
-nc
-nc
-US
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
 XW
 XW
 XW
@@ -49383,11 +50554,11 @@ lM
 lM
 wk
 wr
-fV
+lR
 iP
 iP
-fN
-ro
+lT
+um
 US
 wI
 US
@@ -49592,19 +50763,19 @@ XW
 XW
 XW
 XW
-US
-US
-US
-US
-US
-US
-US
-US
-US
-US
-US
-US
-US
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
 XW
 XW
 XW
@@ -49623,27 +50794,27 @@ fa
 fa
 ak
 US
-bZ
+bH
 ej
-lo
+cT
 US
-fd
-Cl
-rF
-cc
-th
-aZ
+rA
+jf
+dp
+tG
+eZ
+fH
 vo
-aZ
-aZ
-vo
+fH
+fH
+gh
 aZ
 th
 ws
-fN
+lT
 iP
 iP
-fN
+lT
 ro
 US
 wJ
@@ -49656,10 +50827,10 @@ rC
 jH
 Cl
 cc
-rL
-rP
-rV
-lo
+sa
+zs
+zs
+zs
 US
 sh
 fa
@@ -49884,23 +51055,23 @@ CM
 CM
 CM
 US
-rA
-jf
+ai
+Cl
 rm
-tG
-dq
-dq
-dq
-dq
-dq
-fU
+cc
+US
+US
+US
+US
+US
+sP
 US
 US
 wt
-hP
+lV
 iP
 iP
-jd
+pQ
 ro
 wE
 ai
@@ -50154,10 +51325,10 @@ vP
 vW
 US
 ws
-fL
+jt
 iQ
 iQ
-lC
+pC
 rp
 US
 wK
@@ -50366,16 +51537,16 @@ XW
 XW
 XW
 XW
-US
-US
-US
-US
-US
-US
-US
-US
-US
-US
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
 XW
 XW
 XW
@@ -50411,10 +51582,10 @@ vQ
 vX
 US
 ws
-hQ
+lW
 iR
 iR
-lI
+pS
 wA
 US
 US
@@ -50623,16 +51794,16 @@ XW
 XW
 XW
 XW
-US
-ez
-cX
-dt
-ua
-em
-eO
-ir
-fq
-fE
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
 XW
 XW
 XW
@@ -50668,10 +51839,10 @@ bE
 sU
 US
 ws
-fN
+lT
 iR
 iR
-fN
+lT
 ro
 wF
 jb
@@ -50880,16 +52051,16 @@ XW
 XW
 XW
 XW
-US
-wm
-cY
-wm
-ef
-db
-db
-fe
-db
-fC
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
 XW
 XW
 XW
@@ -50908,44 +52079,44 @@ fa
 fa
 ak
 US
-dR
+bZ
 CM
 lo
 US
-ai
+dN
 sY
 Cl
 tL
 US
 sE
-sG
 sE
-mm
+sE
+fy
 bI
 sV
 US
-ws
-fN
-iR
-iR
-fN
-rq
 jL
-wL
-wL
-wL
-wL
-xc
-rB
-rG
-sY
-Cl
-cc
+lT
+iR
+iR
+os
+vO
+yc
+yr
+yr
+yr
+yr
+yT
+ze
+zg
+zp
+zs
+zs
 US
-rS
+zs
 xU
 lo
-sa
+rL
 sh
 fa
 fa
@@ -51137,16 +52308,16 @@ XW
 XW
 XW
 XW
-US
-WY
-cZ
-du
-ua
-en
-db
-db
-db
-fF
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
 XW
 XW
 XW
@@ -51175,17 +52346,17 @@ qp
 US
 US
 US
-US
+gA
 US
 sM
 bT
 sM
 US
 US
-gv
+lO
 iU
 iU
-gv
+lO
 US
 US
 US
@@ -51196,7 +52367,7 @@ US
 US
 US
 US
-qp
+eP
 US
 US
 US
@@ -51394,16 +52565,16 @@ XW
 XW
 XW
 XW
-US
-ua
-ua
-ua
-ua
-iT
-db
-ff
-db
-fG
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
 XW
 XW
 XW
@@ -51435,14 +52606,14 @@ tw
 tc
 vs
 vF
-tc
+vT
 vY
 wl
 nq
 oH
 iP
 iP
-pB
+ot
 gm
 gP
 hy
@@ -51453,8 +52624,8 @@ id
 hy
 jM
 US
-CM
-CM
+eM
+xp
 US
 US
 US
@@ -51651,16 +52822,16 @@ XW
 XW
 XW
 XW
-US
-HQ
-da
-dv
-dN
-ep
-db
-fg
-db
-fH
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
 XW
 XW
 XW
@@ -51692,14 +52863,14 @@ ty
 bm
 bm
 vG
-bm
+gi
 vZ
 nf
 wu
-gw
+kx
 iP
 iP
-lK
+oy
 gn
 gQ
 hz
@@ -51710,8 +52881,8 @@ ie
 jl
 jN
 US
-CM
-CM
+zs
+US
 US
 sc
 cx
@@ -51908,16 +53079,16 @@ XW
 XW
 XW
 XW
-US
-IF
-db
-db
-db
-db
-db
-fh
-db
-fE
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
 XW
 XW
 XW
@@ -51949,14 +53120,14 @@ bm
 vp
 tb
 vH
-tb
+hJ
 wa
 ng
 nq
-gw
+lY
 iP
 iP
-lK
+oy
 gn
 gR
 hA
@@ -51967,9 +53138,9 @@ bm
 jm
 jO
 US
-CM
-CM
+eO
 US
+dK
 sc
 cw
 tp
@@ -52165,16 +53336,16 @@ XW
 XW
 XW
 XW
-US
-jI
-db
-dw
-dO
-eq
-db
-fi
-db
-fC
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
 XW
 XW
 XW
@@ -52210,10 +53381,10 @@ tH
 wb
 wn
 US
-gw
+kx
 iP
 iP
-lK
+oy
 go
 gS
 hA
@@ -52224,9 +53395,9 @@ if
 jm
 jP
 US
-CM
-CM
+zs
 US
+cj
 sc
 cx
 dr
@@ -52422,16 +53593,16 @@ XW
 XW
 XW
 XW
-US
-jt
-db
-db
-db
-db
-db
-db
-db
-nR
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
 XW
 XW
 XW
@@ -52467,10 +53638,10 @@ vR
 wc
 wo
 US
-gw
+kx
 iP
 iP
-lK
+oy
 gp
 gT
 hA
@@ -52481,7 +53652,7 @@ bm
 jm
 if
 US
-CM
+zs
 US
 US
 qD
@@ -52679,16 +53850,16 @@ XW
 XW
 XW
 XW
-US
-lX
-dc
-dx
-dP
-er
-eP
-is
-fr
-fE
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
 XW
 XW
 XW
@@ -52724,10 +53895,10 @@ vS
 wd
 wp
 US
-gw
+lZ
 iP
 iP
-lK
+oy
 gq
 nQ
 hA
@@ -52738,8 +53909,8 @@ if
 jm
 if
 US
-CM
-CM
+zs
+zs
 US
 sc
 cx
@@ -52936,16 +54107,16 @@ XW
 XW
 XW
 XW
-US
-US
-US
-US
-US
-US
-ua
-fk
-fs
-fJ
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
+XW
 XW
 XW
 XW
@@ -52977,16 +54148,16 @@ bm
 vq
 vv
 vM
-vT
+gj
 we
-tO
+hg
 nq
-gw
+lY
 iP
 iP
-lK
+oy
 go
-gV
+ye
 hA
 bm
 bm
@@ -52995,8 +54166,8 @@ bm
 jm
 jQ
 US
-CM
-CM
+zs
+zs
 US
 sc
 cy
@@ -53233,17 +54404,17 @@ ei
 bm
 jD
 jD
-mL
+bm
 mR
 tN
 tP
 gZ
-gw
-iP
-iP
-lK
-aq
-Cl
+mB
+mg
+mg
+pa
+gV
+yf
 hC
 ig
 ig
@@ -53252,8 +54423,8 @@ ig
 jn
 if
 US
-CM
-CM
+zs
+zs
 US
 sc
 cx
@@ -53495,10 +54666,10 @@ vU
 wf
 wq
 nq
-oH
+mF
 iP
 iP
-pB
+ot
 gq
 gW
 hD
@@ -53509,8 +54680,8 @@ iX
 jo
 jR
 US
-CM
-CM
+kV
+zs
 US
 sc
 cy
@@ -53752,10 +54923,10 @@ US
 US
 US
 US
-gw
+kx
 iP
 iP
-lK
+oy
 gr
 fp
 hE
@@ -53997,34 +55168,34 @@ tp
 bY
 sc
 US
-nF
+dS
 kV
 tS
 US
-cP
-dl
-dF
-aq
-fL
+fB
 fN
-fN
-fN
-hP
+fc
+gV
+hB
+gs
+gs
+gs
+mI
 iP
 pt
-jd
+qC
+gs
+gs
+gs
+yx
+gV
+yL
 fN
-fN
-fN
-lC
-aq
-cP
-dl
-dF
+zc
 US
 CM
-CM
-CM
+kV
+zs
 US
 sc
 cy
@@ -54266,10 +55437,10 @@ jJ
 fL
 fL
 fL
-fL
+jt
 pb
 pu
-lC
+pC
 lC
 lC
 lC
@@ -54278,9 +55449,9 @@ US
 qj
 dm
 ge
-tV
-CM
-CM
+aq
+zq
+zs
 CM
 FQ
 sc
@@ -54511,7 +55682,7 @@ tp
 bY
 sc
 US
-kV
+ct
 CM
 kn
 US
@@ -54520,25 +55691,25 @@ dI
 dH
 US
 fL
-fN
-fN
-fN
-hQ
+gk
+hh
+hh
+mJ
 iR
 iR
-lI
-fN
-fN
-fN
-lC
+pc
+gs
+ya
+ya
+yz
 US
 iE
 qq
 gf
 US
+kV
 CM
-CM
-CM
+ct
 US
 sc
 cy
@@ -54777,24 +55948,24 @@ US
 US
 US
 US
-Ui
-Ui
-Ui
-gx
+gt
+gt
+gt
+mK
 iR
 iR
-lT
+qE
 ua
-gX
-hF
-ii
+yg
+ys
+yA
 US
 US
 US
 US
 US
 US
-qp
+dl
 US
 US
 qD
@@ -55024,34 +56195,34 @@ bO
 tp
 bY
 sc
-sc
+dK
 US
 kV
 US
 Lb
 Fn
 dy
-dS
+ft
 es
 dy
 Fn
-ft
-Ui
+hi
+US
 oL
 iR
 iR
-pC
+qY
 eW
 pO
 hG
 pX
 hc
-hG
-uk
+yM
+yU
 pX
-hG
+yM
 US
-xm
+zs
 xJ
 US
 sc
@@ -55281,7 +56452,7 @@ am
 dr
 ay
 sc
-sc
+dK
 US
 sT
 US
@@ -55293,20 +56464,20 @@ et
 fY
 fY
 dT
-Ui
-gx
+il
+mL
 iR
 iR
-lT
-gs
+rB
+uo
 pP
 hG
 hc
 hc
-hG
-pP
+yM
+yV
 hc
-jS
+zj
 US
 xn
 US
@@ -55538,7 +56709,7 @@ bO
 tp
 bY
 sc
-sc
+dO
 US
 rv
 US
@@ -55550,20 +56721,20 @@ et
 fY
 fY
 dT
-Ui
-gx
+il
+mL
 iR
 iR
-lT
-gt
-pQ
-hG
+rB
+uu
+yi
+yt
 hc
 hc
-hG
-ul
+yM
+yW
 hc
-hG
+yM
 US
 xo
 xK
@@ -55807,18 +56978,18 @@ eu
 fY
 fY
 fu
-Ui
-gx
+il
+mL
 iR
 iR
-lT
-gu
+rB
+va
 pN
 hH
 hc
 hc
-hG
-pP
+yM
+yV
 hc
 uK
 US
@@ -56063,19 +57234,19 @@ fY
 fY
 fY
 fY
-fv
+hj
 US
 np
 iR
 iR
-lT
+qE
 ua
 hb
 hI
 hc
 hc
-hG
-um
+yN
+yX
 hc
 uL
 US
@@ -56320,21 +57491,21 @@ dV
 kq
 fY
 fY
-Kw
-aq
-gx
+iK
+gV
+mM
 iR
 iR
-lT
-aq
+qd
+gV
+yj
 hc
 hc
 hc
 hc
 hc
 hc
-hc
-uM
+zk
 US
 xr
 US
@@ -56579,10 +57750,10 @@ fY
 fY
 Kw
 aq
-gx
+mK
 iR
 iR
-lT
+qE
 aq
 hc
 hc
@@ -56839,10 +58010,10 @@ US
 ns
 iR
 iR
-pC
+qY
 ua
 ua
-hJ
+ua
 ua
 ua
 oA
@@ -57092,14 +58263,14 @@ kt
 dz
 Bu
 la
-Ui
-gx
-iR
-iR
-lT
-ua
-hd
+il
+lm
+mh
+mt
+qe
+wB
 hK
+yu
 ua
 iv
 iL
@@ -57333,7 +58504,7 @@ XW
 XW
 XW
 XW
-US
+Ui
 US
 US
 US
@@ -57351,14 +58522,14 @@ US
 US
 US
 fW
-iU
-iU
-fW
-US
-he
-qY
-US
-iw
+mj
+mj
+rG
+ua
+yk
+yv
+ua
+yF
 iw
 iZ
 jq
@@ -57370,7 +58541,7 @@ US
 US
 US
 US
-US
+Ui
 XW
 XW
 XW
@@ -57608,18 +58779,18 @@ US
 US
 US
 hf
-jF
-jF
-hf
-US
-US
-US
-US
-US
-US
-US
-US
-US
+nN
+nN
+lt
+ua
+ua
+ua
+ua
+ua
+ua
+ua
+ua
+ua
 US
 US
 US
@@ -57849,40 +59020,40 @@ XW
 XW
 XW
 XW
+Ui
 US
 US
 US
-US
-aV
-lZ
-ls
-nD
+ds
+cX
+dt
+ua
 mk
-ms
+ep
 mz
 mH
 jZ
-jZ
+fq
 ne
-hg
-hm
-iy
+ln
+mn
+mr
 nz
 nK
 pR
 rt
 om
-os
-qk
-os
-hc
-os
-qk
-os
+yG
+yO
+yY
+yO
+yY
+yO
+yG
 US
 US
 US
-US
+Ui
 XW
 XW
 XW
@@ -58110,32 +59281,32 @@ XW
 US
 US
 US
-hB
+wm
 lh
-lm
-ln
-lx
-ei
-bm
-bm
-bm
-bm
-nf
-hh
-hm
-iy
+wm
+ef
+db
+mf
+mf
+mf
+mf
+mf
+mf
+mO
+mn
+mr
 nA
 nL
 pW
 rw
 on
-os
+yH
 hc
-os
+yH
 hc
-os
+yH
 hc
-os
+yH
 US
 US
 US
@@ -58357,7 +59528,7 @@ XW
 fa
 fa
 fa
-US
+Ui
 jV
 aB
 XW
@@ -58367,32 +59538,32 @@ gl
 US
 US
 US
-lV
+WY
 ll
-ls
-lu
+du
+ua
 me
-mt
+HQ
 mA
-mI
+mf
 mN
 mY
-ng
-hg
-hm
-iy
+mf
+mQ
+mn
+mr
 nA
 nM
 pW
 rx
 ua
-ot
+yI
 hc
-os
+yH
 hc
-os
+yH
 hc
-qE
+zs
 US
 US
 US
@@ -58402,7 +59573,7 @@ XW
 gl
 aB
 jV
-US
+Ui
 fa
 fa
 fa
@@ -58624,26 +59795,26 @@ XW
 US
 US
 US
-kx
-kx
-ls
-mg
-mn
-ei
-vO
-mJ
-mO
-mZ
-ni
-hf
-iM
-iy
-nB
-nN
-nN
-tB
-oo
-hc
+ua
+ua
+ua
+ua
+en
+mf
+mf
+mf
+mf
+mf
+mf
+lr
+mo
+mw
+qk
+ve
+ve
+yw
+yB
+yj
 hc
 hc
 hc
@@ -58873,7 +60044,7 @@ ha
 kT
 lF
 XW
-US
+Ui
 jV
 jV
 jV
@@ -58883,18 +60054,18 @@ US
 US
 US
 lp
-bm
-mh
-mo
+fA
+ua
+db
 mu
 mC
-mK
-mQ
-na
-nj
-hi
-hm
-iy
+mf
+ff
+fr
+mf
+mS
+nR
+mr
 nA
 nO
 qA
@@ -58904,8 +60075,8 @@ ou
 hc
 pP
 rh
-oV
-pa
+zl
+zr
 US
 US
 US
@@ -58914,7 +60085,7 @@ jV
 jV
 jV
 jV
-US
+Ui
 XW
 pf
 pj
@@ -59140,18 +60311,18 @@ US
 US
 US
 lq
-bm
+wm
 mi
 mf
-mw
-jD
-mL
-mR
-nb
-nS
-hf
-hm
-iy
+mf
+mf
+mf
+mf
+mf
+mf
+ls
+mn
+mr
 nA
 nP
 pW
@@ -59162,8 +60333,8 @@ hc
 un
 hc
 jq
-qC
-US
+zs
+zs
 US
 US
 US
@@ -59396,30 +60567,30 @@ XW
 US
 US
 US
-lr
-bm
-mj
-mr
+lp
+lp
+ua
+lX
 my
 mD
-mM
+IF
 wg
 nc
-nc
-hf
-jG
-iy
+HQ
+lu
+mn
+mr
 nC
 nT
 qr
 sd
 on
 pP
-hc
-uo
-rh
+yP
+yZ
+zf
 oW
-pc
+zs
 US
 US
 US
@@ -59643,7 +60814,7 @@ fa
 iW
 lD
 lL
-US
+Ui
 jV
 jE
 XW
@@ -59664,15 +60835,15 @@ US
 US
 US
 hf
-jF
-jF
+nN
+nN
 lt
 lt
 qv
 lt
 ua
 ua
-eW
+ua
 ua
 ua
 ua
@@ -59686,7 +60857,7 @@ XW
 gl
 aB
 jV
-US
+Ui
 xW
 lD
 xX
@@ -59920,9 +61091,9 @@ kL
 kS
 lb
 nk
-hj
-ij
-ij
+lv
+mr
+mr
 nE
 nU
 qw
@@ -60159,7 +61330,7 @@ fa
 fa
 fa
 XW
-US
+Ui
 jV
 jV
 jV
@@ -60178,8 +61349,8 @@ jg
 lc
 li
 nv
-ij
-ij
+mr
+mr
 wx
 oS
 oS
@@ -60198,7 +61369,7 @@ jV
 jV
 jV
 jV
-US
+Ui
 XW
 fa
 fa
@@ -60435,8 +61606,8 @@ kS
 ld
 lj
 nw
-ij
-ij
+mr
+mr
 nG
 oZ
 rY
@@ -60692,8 +61863,8 @@ kS
 lc
 lk
 nv
-ij
-ij
+mr
+mr
 wy
 od
 oS
@@ -60929,7 +62100,7 @@ XW
 XW
 fa
 fa
-US
+Ui
 jV
 aB
 XW
@@ -60946,17 +62117,17 @@ aW
 kw
 kN
 kS
-lY
+lb
 nk
-hj
-ij
-ij
+lx
+mr
+mr
 nI
 nU
 qy
 se
 ua
-oy
+yJ
 ga
 qs
 oP
@@ -60970,7 +62141,7 @@ XW
 gl
 aB
 jV
-US
+Ui
 fa
 fa
 XW
@@ -61205,9 +62376,9 @@ US
 US
 US
 US
-hf
-jF
-jF
+lt
+nN
+nN
 lt
 US
 US
@@ -61445,7 +62616,7 @@ XW
 XW
 fa
 fa
-US
+Ui
 jV
 jV
 jV
@@ -61462,17 +62633,17 @@ qM
 mT
 le
 US
-iM
-ij
-ij
-lv
+mZ
+mr
+mr
+qm
 US
-nZ
+yl
 oj
 op
 fX
 oC
-lW
+za
 US
 US
 US
@@ -61482,7 +62653,7 @@ jV
 jV
 jV
 jV
-US
+Ui
 fa
 fa
 XW
@@ -61705,7 +62876,7 @@ fa
 fa
 US
 US
-US
+Ui
 US
 US
 US
@@ -61719,24 +62890,24 @@ qN
 kU
 lf
 nl
-hm
-ij
-ij
-mc
+nB
+mr
+mr
+rP
 US
-pS
+ym
 cP
 ga
 dF
-re
-qt
+yQ
+zb
 US
 US
 US
 US
 US
 US
-US
+Ui
 US
 US
 fa
@@ -61964,7 +63135,7 @@ fa
 fa
 fa
 fa
-US
+Ui
 US
 US
 US
@@ -61974,24 +63145,24 @@ kf
 kz
 qO
 Cl
-kV
-aq
-hm
-ij
-ij
+iM
+gV
 mc
-aq
-cQ
+nS
+nZ
+rS
+gV
+yn
 ge
-lO
+yC
 cQ
-oF
+yR
 US
 US
 US
 US
 US
-US
+Ui
 fa
 fa
 fa
@@ -62231,18 +63402,18 @@ kg
 kA
 Cl
 kV
-lo
+hm
 US
 nt
-ij
-ij
-mc
-nl
+ms
+mw
+qt
+wL
 cQ
 ge
 lP
 cQ
-qm
+yS
 US
 US
 US
@@ -62480,7 +63651,7 @@ XW
 XW
 XW
 XW
-US
+Ui
 US
 US
 US
@@ -62491,10 +63662,10 @@ kW
 kQ
 US
 nx
-il
-iz
-pD
-aK
+ms
+mw
+qt
+xc
 gf
 cR
 fX
@@ -62503,7 +63674,7 @@ US
 US
 US
 US
-US
+Ui
 XW
 XW
 XW
@@ -62748,9 +63919,9 @@ mU
 lg
 US
 oY
-jT
-iy
-pE
+ms
+mr
+rV
 US
 oc
 qZ
@@ -62995,7 +64166,7 @@ XW
 XW
 XW
 XW
-US
+Ui
 US
 US
 US
@@ -63016,7 +64187,7 @@ US
 US
 US
 US
-US
+Ui
 XW
 XW
 XW
@@ -63263,7 +64434,7 @@ US
 US
 US
 pp
-pp
+na
 US
 US
 US
@@ -63510,7 +64681,7 @@ XW
 XW
 XW
 XW
-US
+Ui
 US
 US
 US
@@ -63520,7 +64691,7 @@ Cl
 nV
 Cl
 pq
-ga
+nb
 pF
 nV
 Cl
@@ -63529,7 +64700,7 @@ pZ
 US
 US
 US
-US
+Ui
 XW
 XW
 XW
@@ -64025,7 +65196,7 @@ XW
 XW
 XW
 XW
-US
+Ui
 US
 US
 US
@@ -64042,7 +65213,7 @@ mV
 US
 US
 US
-US
+Ui
 XW
 XW
 XW
@@ -64540,7 +65711,7 @@ XW
 XW
 XW
 XW
-US
+Ui
 US
 US
 US
@@ -64555,7 +65726,7 @@ pT
 US
 US
 US
-US
+Ui
 XW
 XW
 XW
@@ -65055,7 +66226,7 @@ XW
 XW
 XW
 XW
-US
+Ui
 US
 US
 US
@@ -65068,7 +66239,7 @@ mV
 US
 US
 US
-US
+Ui
 XW
 XW
 XW
@@ -65570,7 +66741,7 @@ XW
 XW
 XW
 XW
-US
+Ui
 US
 US
 US
@@ -65581,7 +66752,7 @@ oa
 US
 US
 US
-US
+Ui
 XW
 XW
 XW
@@ -65831,10 +67002,10 @@ XW
 US
 US
 US
-aO
-aO
-aO
-aO
+oa
+oa
+oa
+oa
 US
 US
 US
@@ -66086,14 +67257,14 @@ XW
 XW
 XW
 XW
+Ui
 US
+aj
+aj
+aj
+aj
 US
-CM
-CM
-CM
-CM
-US
-US
+Ui
 XW
 XW
 XW
@@ -66344,12 +67515,12 @@ XW
 XW
 XW
 XW
-US
+Ui
 ok
 ok
 ok
 ok
-US
+Ui
 XW
 XW
 XW

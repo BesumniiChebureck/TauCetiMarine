@@ -112,7 +112,7 @@
 /obj/machinery/porta_turret/syndicat/atom_init()
 	. = ..()
 	req_one_access.Cut()
-	req_access = list(access_syndicate_main)
+	req_access = list(access_synd_main)
 
 /obj/machinery/porta_turret/Destroy()
 	qdel(spark_system)

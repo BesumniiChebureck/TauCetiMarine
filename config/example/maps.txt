@@ -20,5 +20,8 @@ endmap
 map gamma
 endmap
 
+map warfare
+endmap
+
 map testmap
 endmap

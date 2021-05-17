@@ -89,19 +89,24 @@
 /var/const/access_syndicate_commander = 151 //Syndicate Commander Access
 
 	//WARFARE Syndicate
-/var/const/access_syndicate_main = 200//Syndicate Main Battle Ship Access
-/var/const/access_syndicate_soldier = 201//Syndicate Soldier Access
-/var/const/access_syndicate_soldier_commander = 202//Syndicate Soldier Commander Access
-/var/const/access_syndicate_soldier_mech_driver = 203//Syndicate Mech Driver Access
-/var/const/access_syndicate_soldier_pilot = 204//Syndicate Pilot Access
-/var/const/access_syndicate_medical = 205//Syndicate Medical Access
-/var/const/access_syndicate_paramedical = 206//Syndicate Military Paramedic Access
-/var/const/access_syndicate_surgeon = 207//Syndicate Surgeon Access
-/var/const/access_syndicat_engineering = 208//Syndicate Engineering Access
+/var/const/access_synd_main = 200//Syndicate Main Battle Ship Access
+//Medical
+/var/const/access_synd_medical = 201//Syndicate Medical Access
+/var/const/access_synd_paramedical = 202//Syndicate Military Paramedic Access
+/var/const/access_synd_surgeon = 203//Syndicate Surgeon Access
+/var/const/access_synd_chemistry = 204//Syndicate Chemistry Access
+//Engineering
+/var/const/access_synd_engineering = 205//Syndicate Engineering Access
+/var/const/access_synd_atmospherics = 205//Syndicate Engineering Access
+//Soldier
+/var/const/access_synd_soldier = 266//Syndicate Soldier Access
+/var/const/access_synd_soldier_commander = 255//Syndicate Soldier Commander Access
+/var/const/access_synd_soldier_mech_driver = 277//Syndicate Mech Driver Access
+/var/const/access_synd_soldier_pilot = 233//Syndicate Pilot Access
 
 	//WARFARE NanoTrasen
-/var/const/access_nanotrasen_main = 500//NanoTrasen Battle Ship Main Access
-/var/const/access_nanotrasen_engineering = 501//NanoTrasen Engineering Access
+/var/const/access_nt_main = 500//NanoTrasen Battle Ship Main Access
+/var/const/access_nt_engineering = 501//NanoTrasen Engineering Access
 
 	//MONEY
 /var/const/access_crate_cash = 666 //yes, 666, questions?
