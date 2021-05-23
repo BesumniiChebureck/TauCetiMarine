@@ -1,0 +1,19979 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ah" = (
+/obj/structure/object_wall/evac{
+	icon_state = "7,24";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"ai" = (
+/obj/machinery/light/spot{
+	dir = 8
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "arrival"
+	},
+/area/space)
+"aq" = (
+/obj/structure/object_wall/evac{
+	icon_state = "8,23";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"av" = (
+/obj/structure/window/reinforced{
+	dir = 5;
+	health = 1e+007
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating/airless/catwalk,
+/area/space)
+"aw" = (
+/obj/structure/object_wall/evac{
+	icon_state = "15,20"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"aA" = (
+/obj/item/stack/medical/bruise_pack{
+	pixel_x = 10;
+	pixel_y = 2
+	},
+/obj/structure/table/reinforced,
+/obj/item/stack/medical/bruise_pack{
+	pixel_x = 10;
+	pixel_y = 2
+	},
+/obj/item/stack/medical/ointment{
+	pixel_y = 4
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"aC" = (
+/obj/machinery/cryopod/right,
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "neutral"
+	},
+/area/space)
+"aD" = (
+/obj/structure/reagent_dispensers/fueltank,
+/turf/simulated/floor/plating,
+/area/space)
+"aH" = (
+/obj/machinery/light/spot,
+/turf/simulated/floor,
+/area/space)
+"aK" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/shuttle/floor/evac/medbay,
+/area/space)
+"aL" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/space)
+"aM" = (
+/obj/machinery/door/window/brigdoor{
+	dir = 1;
+	req_access = list(2)
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "warndark"
+	},
+/area/space)
+"aN" = (
+/obj/structure/object_wall/evac{
+	icon_state = "8,25";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"aQ" = (
+/turf/simulated/floor/plating{
+	icon_state = "platebot";
+	nitrogen = 0.01;
+	oxygen = 0.01
+	},
+/area/space)
+"aR" = (
+/obj/item/stack/medical/bruise_pack,
+/obj/item/stack/medical/ointment{
+	pixel_y = 4
+	},
+/obj/structure/table,
+/obj/machinery/vending/wallmed1{
+	pixel_x = 32;
+	pixel_y = 2
+	},
+/obj/item/weapon/storage/firstaid/o2,
+/obj/item/weapon/storage/firstaid/o2{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/weapon/storage/firstaid/toxin{
+	pixel_x = 2;
+	pixel_y = 2
+	},
+/obj/item/weapon/storage/firstaid/toxin{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/turf/simulated/shuttle/floor/evac/medbay,
+/area/space)
+"aU" = (
+/turf/simulated/floor/beach/sand,
+/area/space)
+"aV" = (
+/obj/structure/object_wall/evac{
+	icon_state = "1,6"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"aZ" = (
+/obj/structure/ladder{
+	id = "hangar_transition_north"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"ba" = (
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/plating,
+/area/space)
+"bl" = (
+/obj/structure/object_wall/evac{
+	icon_state = "6,1";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"by" = (
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/power/solar,
+/turf/simulated/floor/airless{
+	icon_state = "solarpanel"
+	},
+/area/space)
+"bC" = (
+/obj/machinery/conveyor_switch/oneway{
+	id = "baggage_exit"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"bE" = (
+/obj/structure/stool/bed/chair/schair/wagon,
+/turf/simulated/shuttle/floor/evac/eng2,
+/area/space)
+"bX" = (
+/obj/structure/stool/bed/roller,
+/obj/machinery/iv_drip,
+/turf/simulated/shuttle/floor/evac/medbay,
+/area/space)
+"ce" = (
+/obj/machinery/door/airlock/maintenance{
+	req_access = list(12)
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"ch" = (
+/obj/machinery/light/spot,
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "warndark"
+	},
+/area/space)
+"cm" = (
+/obj/structure/grille,
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced{
+	dir = 5;
+	health = 1e+007
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"cr" = (
+/obj/machinery/vending/cigarette,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "warndark"
+	},
+/area/space)
+"ct" = (
+/obj/structure/object_wall/evac{
+	icon_state = "12,4";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"cv" = (
+/obj/random/vending/cola,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"cG" = (
+/obj/structure/table/woodentable,
+/obj/item/weapon/paper_bin,
+/obj/item/weapon/pen,
+/turf/simulated/floor/wood,
+/area/space)
+"cI" = (
+/obj/structure/object_wall/evac{
+	icon_state = "12,6"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"cL" = (
+/obj/structure/stool/bed/chair/schair/wagon{
+	dir = 4
+	},
+/turf/simulated/shuttle/floor/evac/sec2,
+/area/space)
+"cO" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/space)
+"cP" = (
+/obj/structure/object_wall/evac{
+	icon_state = "8,1";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"cX" = (
+/obj/structure/object_wall/evac{
+	icon_state = "6,6"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"cZ" = (
+/obj/structure/ladder{
+	id = "hangar_transition_centr_east"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"da" = (
+/obj/structure/ladder{
+	id = "hangar_transition_south"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"de" = (
+/obj/structure/object_wall/evac{
+	icon_state = "5,10"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"df" = (
+/obj/structure/stool/bed/chair/office/light,
+/turf/simulated/floor{
+	icon_state = "cafeteria"
+	},
+/area/space)
+"dj" = (
+/obj/machinery/media/jukebox/bar,
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "redbluefull"
+	},
+/area/space)
+"dp" = (
+/obj/machinery/conveyor{
+	dir = 9;
+	id = "baggage_exit"
+	},
+/turf/simulated/floor/plating{
+	icon_state = "platebot";
+	nitrogen = 0.01;
+	oxygen = 0.01
+	},
+/area/space)
+"dw" = (
+/turf/unsimulated/wall,
+/area/space)
+"dy" = (
+/obj/structure/table/glass,
+/obj/item/weapon/storage/box/cups{
+	pixel_y = 4
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"dA" = (
+/obj/machinery/status_display{
+	message1 = "Ticket number:";
+	message2 = "647-B";
+	mode = 2;
+	pixel_x = 32
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "arrival"
+	},
+/area/space)
+"dG" = (
+/obj/machinery/door/airlock/erokez{
+	name = "Command Airlock";
+	req_access = list(19)
+	},
+/turf/simulated/shuttle/floor/evac,
+/area/space)
+"dI" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/stool/bed/chair{
+	dir = 8
+	},
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "redbluefull"
+	},
+/area/space)
+"dJ" = (
+/obj/structure/table,
+/obj/item/device/flashlight/lamp/green{
+	on = 0;
+	pixel_x = -3;
+	pixel_y = 8
+	},
+/turf/simulated/floor{
+	icon_state = "darkbluefull"
+	},
+/area/space)
+"dN" = (
+/obj/structure/object_wall/evac{
+	icon_state = "6,24";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"dR" = (
+/obj/structure/window/reinforced,
+/obj/item/weapon/reagent_containers/food/snacks/friedbanana,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/whiskey,
+/obj/structure/table,
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/item/toy/plushie/tabby_cat{
+	name = "Plushie Bucherck"
+	},
+/turf/simulated/shuttle/floor/erokez{
+	icon_state = "sign_2"
+	},
+/area/space)
+"eg" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/handcuffs,
+/obj/item/device/flash,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"ej" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/stool/bed/chair/schair/wagon,
+/turf/simulated/shuttle/floor/evac/place,
+/area/space)
+"eu" = (
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkblue"
+	},
+/area/space)
+"ew" = (
+/turf/simulated/floor/grass,
+/area/space)
+"eH" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "redbluefull"
+	},
+/area/space)
+"eR" = (
+/obj/machinery/door/airlock/glass,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"eY" = (
+/obj/structure/curtain/open,
+/turf/simulated/shuttle/floor/evac,
+/area/space)
+"eZ" = (
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "vault"
+	},
+/area/space)
+"fa" = (
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "Stairs_wide"
+	},
+/area/space)
+"fn" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"fD" = (
+/obj/structure/closet/emergency_wall{
+	pixel_x = 32;
+	pixel_y = 2
+	},
+/turf/simulated/shuttle/floor/evac,
+/area/space)
+"fH" = (
+/obj/structure/chalkboard{
+	pixel_x = 16
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"fI" = (
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "arrival"
+	},
+/area/space)
+"fN" = (
+/obj/structure/object_wall/evac{
+	icon_state = "10,18"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"fP" = (
+/obj/structure/object_wall/evac{
+	density = 0;
+	icon_state = "0,7";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"gf" = (
+/obj/machinery/light/spot{
+	dir = 8
+	},
+/turf/simulated/floor{
+	icon_state = "Stairs_wide"
+	},
+/area/space)
+"gi" = (
+/obj/structure/object_wall/evac{
+	density = 0;
+	icon_state = "8,0";
+	opacity = 0
+	},
+/obj/structure/closet/evacvent{
+	layer = 3.1;
+	pixel_y = 31
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"gm" = (
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "baggage_exit"
+	},
+/obj/item/weapon/storage/briefcase,
+/turf/simulated/floor{
+	icon_state = "darkbrown"
+	},
+/area/space)
+"gr" = (
+/obj/structure/object_wall/evac{
+	icon_state = "4,7"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"gx" = (
+/obj/machinery/vending/cigarette{
+	name = "hacked Cigarette machine";
+	prices = list()
+	},
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "redbluefull"
+	},
+/area/space)
+"gz" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/table/glass,
+/obj/item/weapon/storage/briefcase,
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkblue"
+	},
+/area/space)
+"gF" = (
+/obj/structure/table,
+/obj/machinery/cell_charger,
+/obj/item/weapon/stock_parts/cell/high{
+	charge = 100;
+	maxcharge = 15000
+	},
+/obj/item/device/assembly/signaler{
+	pixel_x = 3;
+	pixel_y = 1
+	},
+/obj/item/device/multitool{
+	pixel_x = -3;
+	pixel_y = -2
+	},
+/turf/simulated/shuttle/floor/evac/eng2,
+/area/space)
+"gI" = (
+/obj/structure/table,
+/turf/simulated/floor{
+	icon_state = "darkbluefull"
+	},
+/area/space)
+"gQ" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/stool/bed/chair/metal/red{
+	dir = 8
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "warndark"
+	},
+/area/space)
+"gX" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/stamp/approve,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"gY" = (
+/obj/structure/sign/mark{
+	icon_state = "rrt"
+	},
+/obj/machinery/door/airlock/security,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"gZ" = (
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "redbluefull"
+	},
+/area/space)
+"hh" = (
+/obj/effect/landmark/blockway,
+/turf/simulated/floor/engine,
+/area/space)
+"hn" = (
+/obj/structure/object_wall/evac{
+	icon_state = "15,12"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"hs" = (
+/obj/structure/object_wall/evac{
+	icon_state = "1,7"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"hA" = (
+/obj/structure/object_wall/evac{
+	icon_state = "11,10"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"hH" = (
+/obj/machinery/door/airlock/erokez/med{
+	name = "Medbay Airlock"
+	},
+/turf/simulated/shuttle/floor/evac/medbay,
+/area/space)
+"ia" = (
+/obj/machinery/status_display{
+	message1 = "Ticket number:";
+	message2 = "399-L";
+	mode = 2;
+	pixel_x = 32
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "arrival"
+	},
+/area/space)
+"if" = (
+/obj/structure/object_wall/evac{
+	icon_state = "11,17"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"ih" = (
+/obj/structure/object_wall/evac{
+	icon_state = "1,19"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"ir" = (
+/obj/item/weapon/storage/firstaid/fire{
+	pixel_x = 2;
+	pixel_y = 2
+	},
+/obj/structure/table,
+/obj/machinery/recharger/wallcharger{
+	pixel_x = 34
+	},
+/obj/item/weapon/storage/firstaid/adv,
+/turf/simulated/shuttle/floor/evac/medbay,
+/area/space)
+"is" = (
+/obj/structure/foamedmetal,
+/turf/simulated/floor/plating,
+/area/space)
+"iu" = (
+/obj/machinery/light/spot{
+	dir = 8
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "Stairs2_wide"
+	},
+/area/space)
+"iN" = (
+/obj/structure/stool/bed/chair/schair/wagon,
+/obj/structure/closet/emergency_wall{
+	pixel_y = 32
+	},
+/turf/simulated/shuttle/floor/evac/place,
+/area/space)
+"iQ" = (
+/turf/simulated/floor{
+	icon_state = "arrival"
+	},
+/area/space)
+"jb" = (
+/obj/structure/window/reinforced/shuttle/evac{
+	icon_state = "3,20"
+	},
+/turf/simulated/shuttle/floor/evac,
+/area/space)
+"je" = (
+/obj/structure/closet/emcloset,
+/turf/simulated/shuttle/floor/evac/place2,
+/area/space)
+"ji" = (
+/obj/structure/stool/bed/chair/schair/wagon{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/shuttle/floor/evac/medbay,
+/area/space)
+"jl" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/stool/bed/chair/metal{
+	dir = 8
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkblue"
+	},
+/area/space)
+"jn" = (
+/obj/machinery/light/spot{
+	dir = 1
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"jp" = (
+/obj/structure/object_wall/evac{
+	icon_state = "11,20"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"js" = (
+/obj/effect/decal/cleanable/blood/oil,
+/obj/structure/grille{
+	destroyed = 1
+	},
+/obj/item/stack/rods,
+/turf/simulated/floor/plating,
+/area/space)
+"jt" = (
+/obj/structure/object_wall/evac{
+	density = 0;
+	icon_state = "6,0";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"jz" = (
+/obj/structure/object_wall/evac{
+	icon_state = "11,6"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"jA" = (
+/obj/machinery/door/airlock/security/glass,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"jE" = (
+/obj/structure/stool/bed/chair/schair/wagon,
+/turf/simulated/shuttle/floor/evac/place,
+/area/space)
+"jK" = (
+/obj/structure/object_wall/evac{
+	icon_state = "1,20"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"jS" = (
+/obj/machinery/conveyor{
+	dir = 5;
+	id = "baggage_exit"
+	},
+/obj/item/weapon/storage/briefcase/centcomm,
+/turf/simulated/floor/plating{
+	icon_state = "platebot";
+	nitrogen = 0.01;
+	oxygen = 0.01
+	},
+/area/space)
+"kk" = (
+/obj/structure/table,
+/obj/item/weapon/storage/secure/briefcase,
+/turf/simulated/floor{
+	icon_state = "darkbluefull"
+	},
+/area/space)
+"ks" = (
+/obj/structure/table,
+/obj/machinery/recharger,
+/turf/simulated/floor{
+	icon_state = "darkbluefull"
+	},
+/area/space)
+"kw" = (
+/obj/structure/closet/toolcloset,
+/obj/structure/extinguisher_cabinet{
+	pixel_y = 32
+	},
+/turf/simulated/shuttle/floor/evac/eng2,
+/area/space)
+"kz" = (
+/obj/structure/stool/bed/chair/schair/wagon,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/shuttle/floor/evac/place,
+/area/space)
+"kE" = (
+/obj/machinery/door/airlock/glass{
+	name = "ROBUST-MAG airlock"
+	},
+/turf/simulated/floor{
+	icon_state = "cafeteria"
+	},
+/area/space)
+"kG" = (
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "Stairs_wide"
+	},
+/area/space)
+"kT" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/grille,
+/turf/simulated/floor/plating,
+/area/space)
+"lb" = (
+/obj/structure/stool/bed/chair/metal{
+	dir = 1
+	},
+/turf/simulated/floor{
+	icon_state = "escape"
+	},
+/area/space)
+"lc" = (
+/obj/machinery/conveyor_switch/oneway{
+	id = "baggage"
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkbrown"
+	},
+/area/space)
+"le" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "redbluefull"
+	},
+/area/space)
+"lh" = (
+/obj/structure/object_wall/evac{
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"li" = (
+/obj/structure/object_wall/evac{
+	icon_state = "3,5"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"ll" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating/airless/catwalk,
+/area/space)
+"lp" = (
+/obj/structure/object_wall/evac{
+	icon_state = "6,23";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"lw" = (
+/obj/structure/stool/bed/chair/schair/wagon{
+	dir = 1
+	},
+/turf/simulated/shuttle/floor/evac/sec2,
+/area/space)
+"lz" = (
+/obj/structure/object_wall/evac{
+	icon_state = "11,23";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"lB" = (
+/obj/structure/object_wall/evac{
+	icon_state = "15,11"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"lD" = (
+/obj/structure/object_wall/evac{
+	icon_state = "11,1";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"lE" = (
+/turf/simulated/shuttle/floor/evac/eng1,
+/area/space)
+"lI" = (
+/obj/structure/cable/yellow{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/structure/table,
+/obj/item/weapon/reagent_containers/food/snacks/turkeyslice,
+/obj/item/clothing/head/festive,
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "redbluefull"
+	},
+/area/space)
+"lS" = (
+/obj/structure/object_wall/evac{
+	icon_state = "11,18"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"lZ" = (
+/obj/machinery/door/airlock/maintenance{
+	req_access = list(12)
+	},
+/obj/machinery/door/poddoor/shutters/syndi,
+/turf/simulated/floor/plating,
+/area/space)
+"mb" = (
+/obj/structure/object_wall/evac{
+	icon_state = "11,2"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"mh" = (
+/obj/structure/object_wall/evac{
+	density = 0;
+	icon_state = "9,0";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"mi" = (
+/obj/structure/stool{
+	layer = 2.8;
+	name = "Side table";
+	pixel_y = 8
+	},
+/obj/random/foods/donuts{
+	pixel_x = -1;
+	pixel_y = 4
+	},
+/turf/simulated/floor/wood,
+/area/space)
+"ml" = (
+/obj/structure/table/glass,
+/obj/item/stack/medical/ointment{
+	pixel_y = 4
+	},
+/obj/item/stack/medical/bruise_pack{
+	pixel_x = 10;
+	pixel_y = 2
+	},
+/obj/item/stack/medical/bruise_pack,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"mt" = (
+/obj/structure/object_wall/evac{
+	icon_state = "12,13"
+	},
+/obj/machinery/status_display{
+	pixel_x = -4;
+	pixel_y = -1
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"my" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/stool/bed/chair/metal{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkblue"
+	},
+/area/space)
+"mz" = (
+/obj/machinery/vending/coffee,
+/turf/simulated/floor{
+	icon_state = "warndark"
+	},
+/area/space)
+"mC" = (
+/obj/structure/object_wall/evac{
+	icon_state = "4,4";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"mE" = (
+/obj/structure/ladder{
+	id = "hangar_transition_east"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"mI" = (
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/table,
+/obj/item/weapon/reagent_containers/food/snacks/tofukabob,
+/obj/item/weapon/twohanded/flora/pottedplant/shoot{
+	pixel_x = -8;
+	pixel_y = 16
+	},
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "redbluefull"
+	},
+/area/space)
+"mL" = (
+/mob/living/simple_animal/crab/Coffee,
+/turf/simulated/floor/beach/sand,
+/area/space)
+"mS" = (
+/obj/structure/object_wall/evac{
+	icon_state = "1,13"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"np" = (
+/obj/structure/inflatable,
+/turf/simulated/floor/engine,
+/area/space)
+"nq" = (
+/obj/structure/stool/bed/chair/office/dark{
+	dir = 8
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkblue"
+	},
+/area/space)
+"ns" = (
+/turf/simulated/floor{
+	dir = 6;
+	icon_state = "darkblue"
+	},
+/area/space)
+"nt" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"nu" = (
+/obj/structure/window/reinforced/shuttle/evac{
+	icon_state = "2,20"
+	},
+/turf/simulated/shuttle/floor/evac,
+/area/space)
+"nA" = (
+/obj/structure/object_wall/evac{
+	icon_state = "13,5"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"nC" = (
+/obj/structure/object_wall/evac{
+	icon_state = "9,25";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"nD" = (
+/obj/structure/object_wall/evac{
+	icon_state = "5,11"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"nJ" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "redbluefull"
+	},
+/area/space)
+"nN" = (
+/obj/machinery/conveyor{
+	id = "baggage"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"nR" = (
+/obj/machinery/door/firedoor,
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 5
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"nX" = (
+/obj/machinery/door/airlock/external{
+	name = "Escape Airlock"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"of" = (
+/obj/structure/object_wall/evac{
+	icon_state = "5,6"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"ol" = (
+/obj/structure/closet/emergency_wall{
+	pixel_x = -32
+	},
+/turf/simulated/shuttle/floor/evac,
+/area/space)
+"on" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/item/weapon/paper_bin,
+/obj/item/weapon/pen,
+/obj/structure/table,
+/turf/simulated/shuttle/floor/evac,
+/area/space)
+"oq" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/stamp/denied,
+/obj/item/weapon/stamp/approve{
+	pixel_x = 8;
+	pixel_y = 4
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"ov" = (
+/obj/structure/object_wall/evac{
+	icon_state = "10,1";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"oC" = (
+/obj/machinery/vending/coffee{
+	name = "hacked Hot Drinks machine";
+	prices = list()
+	},
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "redbluefull"
+	},
+/area/space)
+"oE" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/table/glass,
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkblue"
+	},
+/area/space)
+"oK" = (
+/obj/structure/stool/bed/chair/schair/wagon{
+	dir = 8
+	},
+/turf/simulated/shuttle/floor/evac/sec2,
+/area/space)
+"oN" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "baggage"
+	},
+/obj/item/weapon/storage/briefcase,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"oV" = (
+/turf/simulated/shuttle/floor/evac/sec1,
+/area/space)
+"pb" = (
+/obj/structure/table,
+/obj/machinery/cell_charger,
+/obj/item/weapon/stock_parts/cell/high{
+	charge = 100;
+	maxcharge = 15000
+	},
+/obj/item/weapon/gun/energy/pyrometer/engineering/robotics,
+/obj/structure/window/reinforced,
+/turf/simulated/floor,
+/area/space)
+"pd" = (
+/obj/machinery/computer/security/wooden_tv/miami,
+/obj/structure/table,
+/turf/simulated/shuttle/floor/evac,
+/area/space)
+"pg" = (
+/obj/structure/table,
+/obj/item/weapon/storage/pill_bottle/dice,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"ph" = (
+/obj/mecha/working/ripley,
+/turf/simulated/floor/mech_bay_recharge_floor,
+/area/space)
+"pl" = (
+/obj/machinery/door/airlock/command/glass{
+	name = "Work Offise"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"pm" = (
+/obj/structure/sign/mark{
+	icon_state = "rrt"
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "rampbottom"
+	},
+/area/space)
+"po" = (
+/obj/structure/object_wall/evac{
+	icon_state = "11,8"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"ps" = (
+/obj/structure/rack,
+/obj/item/stack/sheet/cardboard{
+	amount = 2
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"pI" = (
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "baggage"
+	},
+/obj/item/weapon/storage/briefcase/centcomm,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"pN" = (
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkbrown"
+	},
+/area/space)
+"pT" = (
+/turf/simulated/shuttle/floor/evac/ex,
+/area/space)
+"pY" = (
+/obj/structure/object_wall/evac{
+	icon_state = "9,24";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"qf" = (
+/obj/effect/landmark/blockway,
+/obj/machinery/door/airlock/glass,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"qh" = (
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkbrown"
+	},
+/area/space)
+"qr" = (
+/obj/structure/cryofeed/right,
+/turf/simulated/floor/plating,
+/area/space)
+"qw" = (
+/obj/machinery/conveyor{
+	id = "baggage"
+	},
+/obj/item/weapon/storage/briefcase,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"qz" = (
+/obj/structure/object_wall/evac{
+	icon_state = "5,20"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"qH" = (
+/obj/structure/filingcabinet/chestdrawer,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"qI" = (
+/obj/structure/table/reinforced,
+/obj/machinery/flasher_button{
+	id = "shutflash";
+	pixel_y = 2
+	},
+/turf/simulated/shuttle/floor/evac/sec2,
+/area/space)
+"qJ" = (
+/obj/structure/table/reinforced,
+/obj/structure/window/reinforced,
+/obj/machinery/kitchen_machine/microwave{
+	pixel_x = -3;
+	pixel_y = 6
+	},
+/turf/simulated/floor{
+	icon_state = "cafeteria"
+	},
+/area/space)
+"qP" = (
+/obj/machinery/door/airlock/glass,
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "arrival"
+	},
+/area/space)
+"qQ" = (
+/obj/structure/ladder{
+	id = "hangar_transition_south_east"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"qV" = (
+/obj/structure/rack,
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/door/window/brigdoor{
+	dir = 1;
+	name = "Weapons locker"
+	},
+/turf/simulated/floor{
+	icon_state = "delivery"
+	},
+/area/space)
+"rd" = (
+/obj/machinery/door/unpowered/shuttle/pod,
+/turf/simulated/shuttle/floor/evac,
+/area/space)
+"ro" = (
+/obj/structure/object_wall/evac{
+	icon_state = "7,2"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"rp" = (
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "redbluefull"
+	},
+/area/space)
+"rw" = (
+/obj/structure/rack,
+/obj/structure/window/reinforced,
+/obj/machinery/door/window/brigdoor/northright{
+	name = "Weapons locker"
+	},
+/turf/simulated/floor{
+	icon_state = "delivery"
+	},
+/area/space)
+"rz" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/stool/bed/chair/metal/red{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "warndark"
+	},
+/area/space)
+"rD" = (
+/obj/machinery/door/airlock/erokez/sec{
+	name = "Security Airlock";
+	req_access = list(1)
+	},
+/turf/simulated/shuttle/floor/evac/sec2,
+/area/space)
+"rR" = (
+/obj/structure/table,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkbrown"
+	},
+/area/space)
+"rW" = (
+/obj/machinery/sleeper{
+	dir = 8
+	},
+/turf/simulated/shuttle/floor/evac/medbay,
+/area/space)
+"rX" = (
+/obj/machinery/conveyor{
+	dir = 10;
+	id = "baggage_exit"
+	},
+/turf/simulated/floor/plating{
+	icon_state = "platebot";
+	nitrogen = 0.01;
+	oxygen = 0.01
+	},
+/area/space)
+"rY" = (
+/obj/structure/closet/crate/bin,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"sg" = (
+/obj/structure/object_wall/evac{
+	icon_state = "11,22";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"sj" = (
+/obj/machinery/door/window/brigdoor{
+	name = "Security Shuttle Prisoners";
+	req_access = list(2)
+	},
+/turf/simulated/shuttle/floor/evac/sec1,
+/area/space)
+"sm" = (
+/obj/structure/object_wall/evac{
+	icon_state = "5,21"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"sD" = (
+/turf/space,
+/area/space)
+"sW" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/stool/bed/chair{
+	dir = 4
+	},
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "redbluefull"
+	},
+/area/space)
+"tg" = (
+/turf/simulated/floor{
+	dir = 9;
+	icon_state = "warndark"
+	},
+/area/space)
+"tm" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"tq" = (
+/obj/structure/table/woodentable,
+/obj/item/weapon/storage/secure/briefcase,
+/turf/simulated/floor/wood,
+/area/space)
+"tu" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "redbluefull"
+	},
+/area/space)
+"tT" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/plating/airless/catwalk,
+/area/space)
+"tU" = (
+/obj/structure/object_wall/evac{
+	icon_state = "1,16"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"tV" = (
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "Stairs2_wide"
+	},
+/area/space)
+"tW" = (
+/obj/structure/object_wall/evac{
+	icon_state = "6,2"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"tY" = (
+/obj/structure/table,
+/obj/item/weapon/storage/firstaid/regular{
+	pixel_x = 2;
+	pixel_y = 6
+	},
+/obj/item/weapon/defibrillator/loaded,
+/turf/simulated/shuttle/floor/evac/medbay,
+/area/space)
+"tZ" = (
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "arrival"
+	},
+/area/space)
+"ul" = (
+/obj/machinery/door/airlock/multi_tile/glass,
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "arrival"
+	},
+/area/space)
+"um" = (
+/obj/structure/object_wall/evac{
+	icon_state = "1,18"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"us" = (
+/obj/machinery/light/small,
+/turf/simulated/floor/plating,
+/area/space)
+"ux" = (
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "baggage_exit"
+	},
+/turf/simulated/floor{
+	icon_state = "darkbrown"
+	},
+/area/space)
+"uJ" = (
+/obj/structure/stool/bed/chair/metal/red{
+	dir = 8
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"uK" = (
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"uR" = (
+/obj/structure/stool/bed/chair/office/light{
+	dir = 1
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"uU" = (
+/obj/structure/object_wall/evac{
+	icon_state = "11,12"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"vq" = (
+/obj/structure/grille,
+/turf/simulated/floor/plating,
+/area/space)
+"vE" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"vI" = (
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "warnwhite"
+	},
+/area/space)
+"vO" = (
+/obj/machinery/door/airlock/glass,
+/turf/simulated/floor,
+/area/space)
+"vP" = (
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkbrowncorners"
+	},
+/area/space)
+"wc" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "baggage"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"wh" = (
+/turf/simulated/floor{
+	icon_state = "red"
+	},
+/area/space)
+"wn" = (
+/obj/structure/stool/bed/chair/comfy{
+	dir = 1;
+	icon_state = "sofaend_left";
+	name = "comfy sofa"
+	},
+/turf/simulated/floor/wood,
+/area/space)
+"wI" = (
+/turf/simulated/floor{
+	icon_state = "white"
+	},
+/area/space)
+"wJ" = (
+/obj/structure/object_wall/evac{
+	icon_state = "1,9"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"wV" = (
+/obj/structure/object_wall/evac{
+	icon_state = "5,1";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"xl" = (
+/obj/structure/object_wall/evac{
+	icon_state = "4,13"
+	},
+/obj/structure/sign/shuttle_medbay{
+	pixel_x = 4
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"xm" = (
+/obj/structure/object_wall/evac{
+	density = 0;
+	icon_state = "11,0";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"xr" = (
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "arrivalcorner"
+	},
+/area/space)
+"xw" = (
+/obj/structure/object_wall/evac{
+	density = 0;
+	icon_state = "1,5";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"xA" = (
+/obj/machinery/mech_bay_recharge_port,
+/turf/simulated/floor/bluegrid,
+/area/space)
+"xD" = (
+/obj/structure/object_wall/evac{
+	icon_state = "2,6"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"xM" = (
+/obj/structure/object_wall/evac{
+	icon_state = "14,6"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"xN" = (
+/obj/structure/object_wall/evac{
+	icon_state = "15,13"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"xO" = (
+/obj/structure/object_wall/evac{
+	icon_state = "5,8"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"xP" = (
+/obj/structure/table,
+/obj/machinery/recharger{
+	pixel_y = 4
+	},
+/obj/item/weapon/storage/firstaid/regular,
+/obj/machinery/vending/wallmed1{
+	pixel_y = -32
+	},
+/turf/simulated/shuttle/floor/evac,
+/area/space)
+"xU" = (
+/obj/structure/object_wall/evac{
+	icon_state = "9,2"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"xV" = (
+/turf/simulated/floor/engine,
+/area/space)
+"yb" = (
+/obj/structure/inflatable/door,
+/turf/simulated/floor/engine,
+/area/space)
+"yc" = (
+/obj/machinery/photocopier,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"yo" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "redbluefull"
+	},
+/area/space)
+"yp" = (
+/obj/structure/object_wall/evac{
+	icon_state = "11,21"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"yq" = (
+/obj/structure/stool/bed/chair/office/light{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"ys" = (
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "arrival"
+	},
+/area/space)
+"yw" = (
+/obj/structure/object_wall/evac{
+	icon_state = "5,23";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"yC" = (
+/obj/structure/stool/bed/chair/schair/wagon{
+	dir = 1
+	},
+/turf/simulated/shuttle/floor/evac/medbay,
+/area/space)
+"yH" = (
+/obj/structure/object_wall/evac{
+	icon_state = "5,17"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"yP" = (
+/turf/simulated/floor{
+	icon_state = "Stairs2_wide"
+	},
+/area/space)
+"yV" = (
+/obj/structure/object_wall/evac{
+	icon_state = "5,9"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"zg" = (
+/obj/structure/object_wall/evac{
+	icon_state = "12,5"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"zj" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/machinery/light,
+/turf/simulated/shuttle/floor/evac/eng2,
+/area/space)
+"zq" = (
+/obj/structure/object_wall/evac{
+	icon_state = "11,5"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"zv" = (
+/obj/effect/landmark/blockway,
+/turf/unsimulated/wall,
+/area/space)
+"zw" = (
+/obj/structure/stool/bed/chair/metal,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkbrown"
+	},
+/area/space)
+"zA" = (
+/obj/structure/stool/bed/chair/schair/wagon{
+	dir = 1
+	},
+/turf/simulated/shuttle/floor/evac/eng2,
+/area/space)
+"zL" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "redbluefull"
+	},
+/area/space)
+"zP" = (
+/turf/simulated/floor{
+	dir = 10;
+	icon_state = "darkblue"
+	},
+/area/space)
+"zR" = (
+/obj/structure/object_wall/evac{
+	density = 0;
+	icon_state = "16,7";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"zT" = (
+/obj/structure/stool{
+	layer = 2.8;
+	name = "Side table";
+	pixel_y = 8
+	},
+/turf/simulated/floor/wood,
+/area/space)
+"zU" = (
+/obj/machinery/vending/coffee,
+/turf/simulated/floor{
+	icon_state = "cafeteria"
+	},
+/area/space)
+"zV" = (
+/obj/structure/object_wall/evac{
+	icon_state = "4,5"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"zZ" = (
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "warnwhitecorner"
+	},
+/area/space)
+"Ac" = (
+/obj/structure/girder,
+/turf/simulated/floor/plating,
+/area/space)
+"Aq" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"Ar" = (
+/obj/structure/object_wall/evac{
+	density = 0;
+	icon_state = "14,3";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Au" = (
+/obj/structure/table/reinforced,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/door/window/southright,
+/obj/item/weapon/storage/box/donkpockets{
+	pixel_y = 3
+	},
+/turf/simulated/floor{
+	icon_state = "cafeteria"
+	},
+/area/space)
+"Av" = (
+/obj/machinery/door/airlock/security/glass,
+/obj/structure/sign/mark{
+	icon_state = "rrt"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"Ax" = (
+/obj/machinery/conveyor_switch/oneway{
+	id = "baggage"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"Ay" = (
+/obj/structure/object_wall/evac{
+	density = 0;
+	icon_state = "16,8";
+	opacity = 0
+	},
+/turf/simulated/floor{
+	dir = 10;
+	icon_state = "warndark"
+	},
+/area/space)
+"AE" = (
+/obj/structure/rack,
+/obj/item/device/t_scanner,
+/turf/simulated/floor/plating,
+/area/space)
+"AF" = (
+/obj/effect/landmark/blockway,
+/turf/space,
+/area/space)
+"AI" = (
+/obj/structure/object_wall/evac{
+	icon_state = "10,2"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"AL" = (
+/obj/structure/stool/bed/chair/metal,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "escape"
+	},
+/area/space)
+"Bk" = (
+/obj/structure/stool/bed/chair/metal,
+/turf/simulated/floor{
+	dir = 9;
+	icon_state = "darkbrown"
+	},
+/area/space)
+"Bl" = (
+/obj/structure/object_wall/evac{
+	icon_state = "15,16"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Br" = (
+/obj/random/vending/snack,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"Bw" = (
+/obj/machinery/power/tracker,
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/plating/airless/catwalk,
+/area/space)
+"BF" = (
+/obj/structure/reagent_dispensers/aqueous_foam_tank,
+/turf/simulated/shuttle/floor/evac/eng2,
+/area/space)
+"BK" = (
+/obj/structure/stool/bed/chair/schair/wagon,
+/obj/structure/extinguisher_cabinet{
+	pixel_x = 31;
+	pixel_y = 4
+	},
+/turf/simulated/shuttle/floor/evac/place,
+/area/space)
+"BM" = (
+/obj/machinery/vending/cigarette,
+/turf/simulated/floor{
+	icon_state = "cafeteria"
+	},
+/area/space)
+"BQ" = (
+/obj/structure/stool/bed/chair/metal{
+	dir = 8
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"BU" = (
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "escape"
+	},
+/area/space)
+"BY" = (
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/stool/bed/chair{
+	dir = 8
+	},
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "redbluefull"
+	},
+/area/space)
+"Ce" = (
+/obj/item/weapon/twohanded/flora/pottedplant/orientaltree,
+/turf/simulated/shuttle/floor/evac,
+/area/space)
+"Cg" = (
+/obj/structure/object_wall/evac{
+	density = 0;
+	icon_state = "12,3";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Ct" = (
+/obj/structure/table/woodentable,
+/obj/item/device/flashlight/lamp,
+/turf/simulated/floor/wood,
+/area/space)
+"Cy" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/computer/mech_bay_power_console{
+	dir = 8
+	},
+/turf/simulated/floor/bluegrid,
+/area/space)
+"CH" = (
+/obj/structure/window/reinforced,
+/obj/item/weapon/reagent_containers/food/snacks/applepie,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/beer,
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/table,
+/obj/item/toy/plushie/orange_fox{
+	name = "Plushie Wendy"
+	},
+/turf/simulated/shuttle/floor/erokez{
+	icon_state = "sign_2"
+	},
+/area/space)
+"CL" = (
+/obj/machinery/conveyor{
+	dir = 6;
+	id = "baggage_exit"
+	},
+/turf/simulated/floor/plating{
+	icon_state = "platebot";
+	nitrogen = 0.01;
+	oxygen = 0.01
+	},
+/area/space)
+"CS" = (
+/obj/structure/object_wall/evac{
+	icon_state = "3,4";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Da" = (
+/obj/structure/object_wall/evac{
+	icon_state = "10,6"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Dj" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced,
+/turf/simulated/floor/plating,
+/area/space)
+"Dn" = (
+/obj/effect/overlay/palmtree_r,
+/turf/simulated/floor/beach/sand,
+/area/space)
+"Dp" = (
+/obj/structure/table,
+/obj/item/weapon/book/manual/wiki/security_space_law,
+/turf/simulated/floor{
+	icon_state = "darkbluefull"
+	},
+/area/space)
+"Ds" = (
+/obj/structure/object_wall/evac{
+	icon_state = "11,16"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Dv" = (
+/obj/machinery/disposal,
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"Dw" = (
+/obj/structure/stool/bed/chair/metal{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "arrival"
+	},
+/area/space)
+"Dy" = (
+/obj/item/weapon/paper_bin,
+/obj/item/weapon/pen,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/table,
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "redbluefull"
+	},
+/area/space)
+"DA" = (
+/obj/structure/object_wall/evac{
+	icon_state = "9,23";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"DM" = (
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "warnwhitecorner"
+	},
+/area/space)
+"DT" = (
+/obj/structure/object_wall/evac{
+	icon_state = "2,4";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"DZ" = (
+/obj/machinery/conveyor{
+	dir = 1;
+	id = "baggage"
+	},
+/obj/item/weapon/storage/box,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"Ef" = (
+/obj/structure/object_wall/evac{
+	icon_state = "15,6"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Ej" = (
+/obj/structure/window/reinforced,
+/obj/item/weapon/reagent_containers/food/snacks/carrotfries,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/wine,
+/obj/structure/table,
+/obj/item/toy/plushie/white_cat{
+	name = "Plushie Scinia"
+	},
+/turf/simulated/shuttle/floor/erokez{
+	icon_state = "sign_2"
+	},
+/area/space)
+"El" = (
+/turf/simulated/shuttle/floor/evac/eva,
+/area/space)
+"En" = (
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "stairs_middle"
+	},
+/area/space)
+"Er" = (
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "baggage_exit"
+	},
+/turf/simulated/floor{
+	dir = 10;
+	icon_state = "darkbrown"
+	},
+/area/space)
+"Es" = (
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "baggage_exit"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"Et" = (
+/obj/structure/object_wall/evac{
+	icon_state = "11,3"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Ey" = (
+/obj/structure/object_wall/evac{
+	icon_state = "11,13"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"EB" = (
+/obj/machinery/door/airlock/glass,
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "arrival"
+	},
+/area/space)
+"EE" = (
+/obj/structure/object_wall/evac{
+	icon_state = "5,12"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"EG" = (
+/obj/structure/table/reinforced,
+/obj/item/device/eftpos{
+	eftpos_name = "ROBUST-MAGAZIN EFTPOS scanner";
+	pixel_y = 8
+	},
+/turf/simulated/floor{
+	icon_state = "cafeteria"
+	},
+/area/space)
+"EK" = (
+/obj/machinery/computer/crew/erokez,
+/turf/simulated/shuttle/floor/evac,
+/area/space)
+"EL" = (
+/obj/machinery/vending/boozeomat{
+	req_access = list()
+	},
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "redbluefull"
+	},
+/area/space)
+"EM" = (
+/obj/structure/object_wall/evac{
+	icon_state = "5,2"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"EN" = (
+/obj/structure/closet/emcloset,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "warnwhitecorner"
+	},
+/area/space)
+"EU" = (
+/obj/structure/stool/bed/chair/comfy{
+	dir = 1;
+	icon_state = "sofaend_right";
+	name = "comfy sofa"
+	},
+/turf/simulated/floor/wood,
+/area/space)
+"EV" = (
+/obj/structure/stool/bed/chair/metal/red{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"Fg" = (
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkbrowncorners"
+	},
+/area/space)
+"Fh" = (
+/obj/structure/window/reinforced,
+/turf/simulated/floor,
+/area/space)
+"Fp" = (
+/obj/structure/object_wall/evac{
+	icon_state = "5,18"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Fq" = (
+/obj/structure/table,
+/obj/item/weapon/storage/toolbox/emergency,
+/obj/item/weapon/crowbar,
+/turf/simulated/shuttle/floor/evac/place2,
+/area/space)
+"Fw" = (
+/obj/structure/table/woodentable,
+/obj/item/ashtray/glass,
+/obj/item/device/megaphone,
+/turf/simulated/floor/wood,
+/area/space)
+"Fx" = (
+/obj/structure/stool/bed/chair/schair/wagon{
+	dir = 1
+	},
+/turf/simulated/shuttle/floor/evac,
+/area/space)
+"FD" = (
+/obj/machinery/conveyor{
+	dir = 10;
+	id = "baggage"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"FG" = (
+/obj/structure/object_wall/evac{
+	icon_state = "7,1";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"FH" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "baggage"
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkbrown"
+	},
+/area/space)
+"FM" = (
+/obj/structure/table/woodentable,
+/obj/item/weapon/folder/red,
+/turf/simulated/floor/wood,
+/area/space)
+"FS" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/plating/airless/catwalk,
+/area/space)
+"Gc" = (
+/obj/structure/stool/bed/chair/office/light{
+	dir = 8
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"Ge" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/unsimulated/wall,
+/area/space)
+"Gf" = (
+/obj/structure/table/reinforced,
+/obj/machinery/computer{
+	icon_state = "laptop_employment";
+	name = "Employment Records"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"Gj" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/phone,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"GI" = (
+/obj/structure/stool/bed/chair/schair/wagon{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/shuttle/floor/evac/sec2,
+/area/space)
+"GK" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"GL" = (
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "redbluefull"
+	},
+/area/space)
+"GO" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"GR" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar,
+/turf/simulated/floor/airless{
+	icon_state = "solarpanel"
+	},
+/area/space)
+"Hh" = (
+/obj/random/vending/snack,
+/turf/simulated/floor{
+	icon_state = "cafeteria"
+	},
+/area/space)
+"Hl" = (
+/obj/structure/stool/bed/chair/office/dark{
+	dir = 1
+	},
+/turf/simulated/floor/wood,
+/area/space)
+"Hn" = (
+/turf/simulated/floor{
+	icon_state = "darkbrown"
+	},
+/area/space)
+"Hp" = (
+/obj/structure/window/reinforced,
+/obj/structure/table/reinforced,
+/obj/machinery/recharger{
+	pixel_y = 4
+	},
+/turf/simulated/shuttle/floor/evac/sec2,
+/area/space)
+"Hs" = (
+/obj/structure/closet{
+	icon_closed = "cabinet_closed";
+	icon_opened = "cabinet_open";
+	icon_state = "cabinet_closed";
+	name = "Clothing Storage"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"Hu" = (
+/obj/structure/table/glass,
+/obj/item/weapon/paper_bin,
+/obj/item/weapon/pen{
+	layer = 3.1
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"Hx" = (
+/obj/machinery/door/airlock/command/glass,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"Hy" = (
+/obj/structure/table,
+/obj/item/weapon/folder/blue{
+	pixel_x = 5
+	},
+/turf/simulated/floor{
+	icon_state = "darkbluefull"
+	},
+/area/space)
+"HD" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "baggage"
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkbrown"
+	},
+/area/space)
+"HM" = (
+/obj/structure/table,
+/obj/item/weapon/folder/blue,
+/turf/simulated/floor{
+	icon_state = "darkbluefull"
+	},
+/area/space)
+"HS" = (
+/obj/machinery/conveyor_switch/oneway{
+	id = "baggage_exit"
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkbrown"
+	},
+/area/space)
+"HV" = (
+/turf/simulated/floor/wood,
+/area/space)
+"HZ" = (
+/obj/structure/table,
+/obj/item/weapon/storage/box/ians_box,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkbrown"
+	},
+/area/space)
+"Ib" = (
+/obj/structure/object_wall/evac{
+	icon_state = "9,6"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"In" = (
+/obj/machinery/computer/communications/evac,
+/turf/simulated/shuttle/floor/evac,
+/area/space)
+"Ir" = (
+/obj/machinery/light/spot{
+	dir = 1
+	},
+/turf/simulated/floor,
+/area/space)
+"It" = (
+/turf/simulated/shuttle/floor/evac,
+/area/space)
+"Iu" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "baggage"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"Ix" = (
+/obj/structure/object_wall/evac{
+	icon_state = "11,19"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"IW" = (
+/obj/machinery/computer/shuttle,
+/turf/simulated/shuttle/floor/evac,
+/area/space)
+"Jb" = (
+/turf/simulated/floor{
+	icon_state = "warndark"
+	},
+/area/space)
+"Je" = (
+/obj/structure/plasticflaps/mining{
+	opacity = 1
+	},
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "baggage_exit"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"Ji" = (
+/obj/structure/closet/crate,
+/obj/item/weapon/storage/belt/utility,
+/obj/item/device/flashlight,
+/obj/item/device/flashlight,
+/obj/item/device/gps/engineering,
+/obj/item/clothing/suit/storage/hazardvest,
+/turf/simulated/floor/plating,
+/area/space)
+"Jk" = (
+/obj/structure/object_wall/evac{
+	density = 0;
+	icon_state = "5,0";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Js" = (
+/obj/machinery/door/airlock/command/glass{
+	name = "Break Room"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"Jv" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/paper_bin,
+/obj/item/weapon/pen,
+/obj/item/weapon/folder/blue{
+	pixel_x = -3;
+	pixel_y = 3
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"Jw" = (
+/obj/structure/window/reinforced{
+	dir = 5
+	},
+/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/ausbushes/brflowers,
+/turf/simulated/floor/grass,
+/area/space)
+"JB" = (
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"JN" = (
+/obj/structure/stool/bed/chair/comfy{
+	dir = 1;
+	icon_state = "sofamiddle";
+	name = "comfy sofa"
+	},
+/turf/simulated/floor/wood,
+/area/space)
+"JT" = (
+/obj/structure/stool/bed/chair/schair/wagon{
+	dir = 8
+	},
+/turf/simulated/shuttle/floor/evac,
+/area/space)
+"Kb" = (
+/obj/structure/stool/bed/chair/office/dark{
+	dir = 1
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/space)
+"Kq" = (
+/obj/structure/sign/warning/securearea{
+	desc = "A warning sign which reads 'KEEP CLEAR OF DOCKING AREA'.";
+	name = "KEEP CLEAR: DOCKING AREA"
+	},
+/turf/simulated/wall,
+/area/space)
+"Kw" = (
+/obj/structure/object_wall/evac{
+	density = 0;
+	icon_state = "10,0";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Kz" = (
+/obj/structure/stool/bed/chair/schair/wagon{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/shuttle/floor/evac/sec2,
+/area/space)
+"KP" = (
+/obj/structure/object_wall/evac{
+	density = 0;
+	icon_state = "7,0";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"KT" = (
+/obj/machinery/shieldwall,
+/obj/machinery/door/poddoor/cargo,
+/turf/simulated/floor/engine,
+/area/space)
+"KW" = (
+/obj/machinery/computer{
+	icon_state = "security_det_miami";
+	name = "Miami TV"
+	},
+/obj/structure/table/woodentable,
+/turf/simulated/floor/wood,
+/area/space)
+"KX" = (
+/obj/structure/stool{
+	layer = 2.8;
+	name = "Side table";
+	pixel_y = 8
+	},
+/obj/item/weapon/storage/fancy/donut_box{
+	pixel_y = 2
+	},
+/turf/simulated/floor/wood,
+/area/space)
+"Lc" = (
+/obj/random/vending/cola,
+/turf/simulated/floor{
+	icon_state = "cafeteria"
+	},
+/area/space)
+"Li" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "baggage"
+	},
+/obj/structure/plasticflaps/mining{
+	opacity = 1
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"Lp" = (
+/obj/item/weapon/twohanded/flora/random,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"Lu" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/folder/blue,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"LN" = (
+/obj/machinery/conveyor{
+	dir = 6;
+	id = "baggage"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"LR" = (
+/obj/structure/stool/bed/chair/metal{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 6;
+	icon_state = "arrival"
+	},
+/area/space)
+"LZ" = (
+/obj/machinery/status_display{
+	message1 = "Ticket number:";
+	message2 = "121-G";
+	mode = 2;
+	pixel_x = 32
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "arrival"
+	},
+/area/space)
+"Mc" = (
+/obj/structure/object_wall/evac{
+	icon_state = "5,19"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Mf" = (
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/stool/bed/chair{
+	dir = 4
+	},
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "redbluefull"
+	},
+/area/space)
+"Mn" = (
+/obj/structure/object_wall/evac{
+	icon_state = "7,6"
+	},
+/obj/machinery/status_display{
+	pixel_x = -4;
+	pixel_y = -1
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Mv" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/table/glass,
+/obj/item/weapon/paper_bin,
+/obj/item/weapon/pen{
+	layer = 3.1
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkblue"
+	},
+/area/space)
+"Mz" = (
+/obj/machinery/computer/arcade,
+/turf/simulated/floor/plating,
+/area/space)
+"MD" = (
+/obj/machinery/door/airlock/erokez/eng{
+	name = "Engineering Airlock"
+	},
+/turf/simulated/shuttle/floor/evac,
+/area/space)
+"MF" = (
+/obj/machinery/light/spot{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"ML" = (
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/table,
+/obj/item/weapon/reagent_containers/food/snacks/soylenviridians,
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "redbluefull"
+	},
+/area/space)
+"MN" = (
+/obj/structure/closet/emcloset,
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "warnwhitecorner"
+	},
+/area/space)
+"MP" = (
+/obj/structure/object_wall/evac{
+	icon_state = "15,9"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"MW" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/stool/bed/chair{
+	dir = 8
+	},
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "redbluefull"
+	},
+/area/space)
+"MZ" = (
+/obj/effect/overlay/coconut,
+/turf/simulated/floor/beach/sand,
+/area/space)
+"Nb" = (
+/obj/structure/reagent_dispensers/watertank,
+/turf/simulated/floor/plating,
+/area/space)
+"Ne" = (
+/obj/structure/object_wall/evac{
+	icon_state = "12,7"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Nt" = (
+/obj/structure/object_wall/evac{
+	icon_state = "5,16"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Nv" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/stool/bed/chair/schair/wagon,
+/turf/simulated/shuttle/floor/evac/place,
+/area/space)
+"NA" = (
+/obj/structure/table/woodentable,
+/obj/item/weapon/folder/red,
+/obj/item/weapon/handcuffs,
+/turf/simulated/floor/wood,
+/area/space)
+"NC" = (
+/obj/structure/object_wall/evac{
+	density = 0;
+	icon_state = "15,5";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"NE" = (
+/obj/structure/rack,
+/obj/item/device/camera,
+/obj/item/stack/cable_coil/random,
+/turf/simulated/floor/plating,
+/area/space)
+"NF" = (
+/turf/simulated/shuttle/floor/evac/medbay,
+/area/space)
+"NG" = (
+/obj/structure/stool/bed/roller,
+/obj/machinery/life_assist/artificial_ventilation,
+/turf/simulated/shuttle/floor/evac/medbay,
+/area/space)
+"NH" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating/airless/catwalk,
+/area/space)
+"NJ" = (
+/turf/simulated/floor{
+	icon_state = "darkblue"
+	},
+/area/space)
+"NK" = (
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkbrown"
+	},
+/area/space)
+"NO" = (
+/obj/structure/object_wall/evac{
+	icon_state = "14,5"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"NW" = (
+/obj/structure/table,
+/obj/item/device/taperecorder,
+/turf/simulated/floor{
+	icon_state = "darkbluefull"
+	},
+/area/space)
+"NZ" = (
+/obj/structure/object_wall/evac{
+	icon_state = "11,7"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Og" = (
+/obj/structure/object_wall/evac{
+	icon_state = "11,11"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Oh" = (
+/obj/structure/object_wall/evac{
+	icon_state = "14,13"
+	},
+/obj/structure/sign/shuttle_brig{
+	pixel_x = 1
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Oi" = (
+/turf/simulated/floor{
+	dir = 10;
+	icon_state = "arrival"
+	},
+/area/space)
+"Ol" = (
+/obj/structure/closet/emcloset,
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "warnwhitecorner"
+	},
+/area/space)
+"Ov" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/shuttle/floor/evac,
+/area/space)
+"Ow" = (
+/obj/machinery/flasher{
+	id = "shutflash";
+	pixel_y = 16
+	},
+/turf/simulated/shuttle/floor/evac/sec1,
+/area/space)
+"OA" = (
+/obj/machinery/computer/aifixer,
+/turf/simulated/shuttle/floor/evac,
+/area/space)
+"OK" = (
+/obj/structure/window/reinforced/shuttle/evac{
+	icon_state = "14,20"
+	},
+/turf/simulated/shuttle/floor/evac,
+/area/space)
+"OM" = (
+/obj/machinery/sleeper{
+	dir = 4
+	},
+/turf/simulated/shuttle/floor/evac/medbay,
+/area/space)
+"OT" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/item/trash/candy,
+/turf/simulated/floor/plating,
+/area/space)
+"Pf" = (
+/obj/structure/window/reinforced,
+/obj/item/weapon/reagent_containers/food/snacks/cakeslice,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka,
+/obj/structure/table,
+/obj/item/toy/plushie/space_whale{
+	name = "Plushie Oculus"
+	},
+/turf/simulated/shuttle/floor/erokez{
+	icon_state = "sign_2"
+	},
+/area/space)
+"Pr" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/southleft,
+/obj/item/weapon/storage/fancy/donut_box{
+	pixel_y = 2
+	},
+/turf/simulated/floor{
+	icon_state = "cafeteria"
+	},
+/area/space)
+"Pu" = (
+/obj/structure/object_wall/evac{
+	icon_state = "4,6"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"PB" = (
+/obj/structure/table/woodentable,
+/obj/item/weapon/book/manual/wiki/security_space_law,
+/obj/item/device/taperecorder{
+	pixel_x = -2;
+	pixel_y = -2
+	},
+/turf/simulated/floor/wood,
+/area/space)
+"PL" = (
+/obj/structure/object_wall/evac{
+	icon_state = "10,22";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"PW" = (
+/obj/structure/table,
+/obj/item/weapon/storage/toolbox/electrical{
+	pixel_y = 6
+	},
+/obj/item/weapon/storage/toolbox/mechanical,
+/obj/item/clothing/head/welding,
+/obj/machinery/recharger/wallcharger{
+	pixel_x = 4;
+	pixel_y = 26
+	},
+/turf/simulated/shuttle/floor/evac/eng2,
+/area/space)
+"PZ" = (
+/obj/structure/window/reinforced/shuttle/evac{
+	icon_state = "13,20"
+	},
+/turf/simulated/shuttle/floor/evac,
+/area/space)
+"Qb" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/paper_bin,
+/obj/item/weapon/pen,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"Qc" = (
+/turf/simulated/floor{
+	dir = 9;
+	icon_state = "arrival"
+	},
+/area/space)
+"Qe" = (
+/obj/structure/object_wall/evac{
+	icon_state = "9,6"
+	},
+/obj/machinery/status_display{
+	pixel_x = 4;
+	pixel_y = -1
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Qf" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating/airless/catwalk,
+/area/space)
+"Ql" = (
+/obj/structure/disposaloutlet,
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"Qn" = (
+/obj/structure/object_wall/evac{
+	icon_state = "5,5"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Qr" = (
+/obj/effect/decal/cleanable/blood/gibs,
+/turf/simulated/floor/plating,
+/area/space)
+"QJ" = (
+/obj/structure/ladder{
+	id = "hangar_transition_west"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"QT" = (
+/obj/structure/object_wall/evac{
+	icon_state = "13,4";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Ra" = (
+/obj/structure/object_wall/evac{
+	icon_state = "15,8"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Rc" = (
+/obj/structure/object_wall/evac{
+	icon_state = "5,22";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Rd" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"Rf" = (
+/obj/structure/object_wall/evac{
+	icon_state = "11,4"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Rm" = (
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "baggage"
+	},
+/obj/item/weapon/storage/fancy/crayons,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"Rn" = (
+/obj/structure/object_wall/evac{
+	icon_state = "7,6"
+	},
+/obj/structure/sign/shuttle_eng{
+	pixel_x = -4
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Rr" = (
+/obj/machinery/power/tracker,
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/plating/airless/catwalk,
+/area/space)
+"Rw" = (
+/obj/machinery/power/apc{
+	cell_type = 999999;
+	dir = 1;
+	name = "Space Counter APC";
+	pixel_y = 24
+	},
+/obj/structure/cable/yellow{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "redbluefull"
+	},
+/area/space)
+"RG" = (
+/obj/machinery/conveyor{
+	dir = 9;
+	id = "baggage"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"RO" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/table,
+/obj/item/weapon/storage/belt/utility,
+/obj/item/clothing/head/welding,
+/turf/simulated/floor/plating,
+/area/space)
+"RU" = (
+/obj/structure/object_wall/evac{
+	icon_state = "2,13"
+	},
+/obj/machinery/status_display{
+	layer = 4;
+	pixel_x = -4;
+	pixel_y = -1
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"RV" = (
+/obj/machinery/cryopod,
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "neutral"
+	},
+/area/space)
+"RY" = (
+/obj/structure/object_wall/evac{
+	icon_state = "1,11"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Se" = (
+/obj/structure/table,
+/obj/item/weapon/paper,
+/obj/item/weapon/pen{
+	layer = 3.1;
+	pixel_x = 3;
+	pixel_y = 5
+	},
+/turf/simulated/floor{
+	icon_state = "darkbluefull"
+	},
+/area/space)
+"Si" = (
+/obj/structure/rack,
+/obj/structure/window/reinforced,
+/obj/machinery/door/window/brigdoor{
+	dir = 1;
+	name = "Weapons locker"
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/simulated/floor{
+	icon_state = "delivery"
+	},
+/area/space)
+"Sl" = (
+/obj/structure/stool/bed/chair/schair/wagon,
+/turf/simulated/shuttle/floor{
+	icon = 'icons/turf/carpets.dmi';
+	icon_state = "carpetsymbol"
+	},
+/area/space)
+"Sm" = (
+/obj/structure/object_wall/evac{
+	icon_state = "5,7"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Sn" = (
+/obj/structure/object_wall/evac{
+	icon_state = "2,5"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Sy" = (
+/obj/structure/object_wall/evac{
+	icon_state = "8,2"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"SB" = (
+/obj/structure/closet/emcloset,
+/turf/simulated/floor{
+	icon_state = "warnwhitecorner"
+	},
+/area/space)
+"SC" = (
+/obj/machinery/door/window/brigdoor/northright,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "warndark"
+	},
+/area/space)
+"SH" = (
+/obj/structure/window/reinforced{
+	dir = 5
+	},
+/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/ausbushes/ppflowers,
+/turf/simulated/floor/grass,
+/area/space)
+"SM" = (
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "warndark"
+	},
+/area/space)
+"SO" = (
+/obj/machinery/conveyor{
+	dir = 5;
+	id = "baggage"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"SV" = (
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/stool/bed/chair{
+	dir = 4
+	},
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "redbluefull"
+	},
+/area/space)
+"Ta" = (
+/obj/structure/table/reinforced,
+/obj/item/device/flashlight/lamp{
+	pixel_x = -4;
+	pixel_y = 6
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"Td" = (
+/obj/structure/lattice,
+/turf/space,
+/area/space)
+"Tf" = (
+/obj/structure/sign/warning/securearea{
+	desc = "A warning sign which reads 'KEEP CLEAR OF DOCKING AREA'.";
+	name = "KEEP CLEAR: DOCKING AREA"
+	},
+/turf/unsimulated/wall,
+/area/space)
+"Tl" = (
+/obj/structure/bookcase/manuals,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"Tr" = (
+/obj/structure/object_wall/evac{
+	density = 0;
+	icon_state = "3,3";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"TA" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/plating/airless/catwalk,
+/area/space)
+"TE" = (
+/obj/structure/object_wall/evac{
+	icon_state = "1,12"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"TG" = (
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkbrowncorners"
+	},
+/area/space)
+"TH" = (
+/turf/simulated/floor{
+	icon_state = "cafeteria"
+	},
+/area/space)
+"TJ" = (
+/obj/structure/window/reinforced,
+/obj/structure/stool/bed/chair/schair/wagon{
+	dir = 8
+	},
+/turf/simulated/shuttle/floor/evac/sec2,
+/area/space)
+"TQ" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"TZ" = (
+/obj/item/weapon/reagent_containers/blood/AMinus{
+	pixel_x = -7;
+	pixel_y = -3
+	},
+/obj/item/weapon/reagent_containers/blood/APlus{
+	pixel_x = -5;
+	pixel_y = 4
+	},
+/obj/item/weapon/reagent_containers/blood/BMinus{
+	pixel_y = 4
+	},
+/obj/item/weapon/reagent_containers/blood/BPlus{
+	pixel_x = 5;
+	pixel_y = 3
+	},
+/obj/item/weapon/reagent_containers/blood/OMinus{
+	pixel_x = -5;
+	pixel_y = -1
+	},
+/obj/item/weapon/reagent_containers/blood/OPlus{
+	pixel_x = 4;
+	pixel_y = 2
+	},
+/obj/item/stack/medical/ointment,
+/obj/item/stack/medical/bruise_pack,
+/obj/item/weapon/reagent_containers/pill/dexalin,
+/obj/item/weapon/reagent_containers/pill/dexalin,
+/obj/item/weapon/reagent_containers/pill/dexalin,
+/obj/item/weapon/reagent_containers/pill/bicaridine,
+/obj/item/weapon/reagent_containers/pill/bicaridine,
+/obj/item/weapon/reagent_containers/pill/bicaridine,
+/obj/item/weapon/reagent_containers/pill/tramadol,
+/obj/item/weapon/reagent_containers/pill/tramadol,
+/obj/item/weapon/reagent_containers/pill/tramadol,
+/obj/item/weapon/reagent_containers/syringe/inaprovaline,
+/obj/item/weapon/reagent_containers/syringe/inaprovaline,
+/obj/item/weapon/reagent_containers/syringe/inaprovaline,
+/obj/structure/table,
+/obj/structure/closet/medical_wall{
+	pixel_x = 2;
+	pixel_y = -30
+	},
+/turf/simulated/shuttle/floor/evac/medbay,
+/area/space)
+"Ub" = (
+/obj/machinery/computer/cryopod{
+	density = 0;
+	pixel_y = -32
+	},
+/turf/simulated/floor{
+	icon_state = "white"
+	},
+/area/space)
+"Uc" = (
+/obj/structure/object_wall/evac{
+	density = 0;
+	icon_state = "13,3";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Ud" = (
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "warnwhitecorner"
+	},
+/area/space)
+"Ue" = (
+/obj/structure/stool/bed/chair/comfy/black,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"Uk" = (
+/obj/structure/closet/crate,
+/obj/item/device/flashlight,
+/obj/item/clothing/gloves/black,
+/obj/item/clothing/suit/storage/hazardvest,
+/obj/item/weapon/storage/box/lights/mixed,
+/turf/simulated/floor/plating,
+/area/space)
+"Ul" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/closet/crate/bin,
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "redbluefull"
+	},
+/area/space)
+"Um" = (
+/obj/structure/object_wall/evac{
+	icon_state = "1,8"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"UA" = (
+/obj/structure/table/woodentable,
+/obj/machinery/recharger{
+	pixel_x = 6;
+	pixel_y = 2
+	},
+/obj/item/weapon/twohanded/flora/pottedplant{
+	icon_state = "plant-6";
+	pixel_x = -5;
+	pixel_y = 11
+	},
+/turf/simulated/floor/wood,
+/area/space)
+"UB" = (
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkblue"
+	},
+/area/space)
+"UF" = (
+/obj/machinery/door/airlock/security,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"UH" = (
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "warndark"
+	},
+/area/space)
+"UQ" = (
+/obj/structure/sign/mark{
+	icon_state = "rrt"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"UT" = (
+/obj/structure/object_wall/evac{
+	icon_state = "7,25";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"UV" = (
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "arrivalcorner"
+	},
+/area/space)
+"Va" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"Vg" = (
+/obj/structure/stool/bed/chair/office/dark{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkblue"
+	},
+/area/space)
+"Vh" = (
+/obj/structure/dispenser/oxygen,
+/turf/simulated/shuttle/floor/evac/eng2,
+/area/space)
+"Vp" = (
+/obj/structure/object_wall/evac{
+	icon_state = "11,9"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Vv" = (
+/obj/structure/object_wall/evac{
+	density = 0;
+	icon_state = "2,3";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Vw" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "Secure Armoury Section";
+	req_access = list(3)
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"VD" = (
+/obj/machinery/conveyor{
+	dir = 1;
+	id = "baggage"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"VH" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/twohanded/flora/pottedplant{
+	icon_state = "plant-22";
+	pixel_y = 12
+	},
+/turf/simulated/floor{
+	icon_state = "cafeteria"
+	},
+/area/space)
+"VQ" = (
+/obj/random/scrap/moderate_weighted,
+/turf/simulated/floor/plating,
+/area/space)
+"VY" = (
+/obj/structure/object_wall/evac{
+	icon_state = "15,7"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Wj" = (
+/turf/simulated/floor{
+	icon_state = "warnwhitecorner"
+	},
+/area/space)
+"Wq" = (
+/obj/structure/object_wall/evac{
+	icon_state = "10,23";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Wt" = (
+/obj/machinery/computer/cryopod{
+	density = 0;
+	pixel_y = 32
+	},
+/turf/simulated/floor{
+	icon_state = "white"
+	},
+/area/space)
+"Wv" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/item/weapon/phone,
+/obj/structure/table,
+/turf/simulated/shuttle/floor/evac,
+/area/space)
+"Wz" = (
+/obj/structure/object_wall/evac{
+	icon_state = "8,24";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"WA" = (
+/obj/structure/object_wall/evac{
+	icon_state = "7,23";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"WJ" = (
+/turf/simulated/floor/plating,
+/area/space)
+"WT" = (
+/obj/machinery/door/airlock/multi_tile/glass,
+/turf/simulated/floor,
+/area/space)
+"WU" = (
+/obj/structure/closet/secure_closet/security,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"WX" = (
+/obj/structure/object_wall/evac{
+	icon_state = "5,13"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Xf" = (
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "escape"
+	},
+/area/space)
+"Xx" = (
+/obj/structure/stool/bed/chair/schair/wagon,
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -31;
+	pixel_y = 4
+	},
+/turf/simulated/shuttle/floor/evac/place,
+/area/space)
+"Xz" = (
+/obj/structure/window/reinforced{
+	dir = 5
+	},
+/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/ausbushes/ywflowers,
+/turf/simulated/floor/grass,
+/area/space)
+"XE" = (
+/obj/structure/object_wall/evac{
+	density = 0;
+	icon_state = "0,8";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"XM" = (
+/obj/effect/decal/cleanable/blood/oil,
+/turf/simulated/floor/plating,
+/area/space)
+"XP" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/closet/hydrant{
+	pixel_x = 32
+	},
+/turf/simulated/shuttle/floor/evac,
+/area/space)
+"XW" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/stamp/denied,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"Yc" = (
+/mob/living/simple_animal/mouse,
+/turf/simulated/floor/plating,
+/area/space)
+"Yh" = (
+/obj/structure/cryofeed,
+/turf/simulated/floor/plating,
+/area/space)
+"Yi" = (
+/obj/structure/object_wall/evac{
+	icon_state = "5,3"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Yj" = (
+/obj/structure/grille,
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced{
+	dir = 5
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"Yo" = (
+/obj/structure/object_wall/evac{
+	icon_state = "1,17"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Yq" = (
+/turf/simulated/floor{
+	icon_state = "darkbrowncorners"
+	},
+/area/space)
+"Yx" = (
+/obj/structure/object_wall/evac{
+	icon_state = "10,24";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"YA" = (
+/obj/structure/object_wall/evac{
+	density = 0;
+	icon_state = "4,3";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"YK" = (
+/obj/machinery/door/airlock/glass,
+/turf/simulated/floor{
+	icon_state = "white"
+	},
+/area/space)
+"YP" = (
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "brown"
+	},
+/area/space)
+"YT" = (
+/obj/structure/table,
+/obj/item/weapon/paper_bin,
+/obj/item/weapon/pen,
+/turf/simulated/floor{
+	icon_state = "darkbluefull"
+	},
+/area/space)
+"YY" = (
+/obj/structure/object_wall/evac{
+	icon_state = "14,4";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"Zd" = (
+/turf/simulated/floor,
+/area/space)
+"Zf" = (
+/turf/simulated/floor{
+	icon_state = "warnwhite"
+	},
+/area/space)
+"Zk" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/space)
+"Zn" = (
+/obj/structure/stool/bed/chair/schair/wagon,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/shuttle/floor/evac/place,
+/area/space)
+"Zo" = (
+/obj/structure/rack,
+/obj/item/stack/rods{
+	amount = 4
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"Zs" = (
+/obj/structure/stool/bed/chair/comfy/black{
+	dir = 1
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/space)
+"ZC" = (
+/obj/structure/object_wall/evac{
+	icon_state = "6,22";
+	opacity = 0
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"ZE" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/table/glass,
+/obj/item/weapon/reagent_containers/food/snacks/csandwich{
+	pixel_y = 12
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkblue"
+	},
+/area/space)
+"ZG" = (
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "redbluefull"
+	},
+/area/space)
+"ZU" = (
+/obj/structure/object_wall/evac{
+	icon_state = "15,19"
+	},
+/turf/simulated/floor/engine,
+/area/space)
+"ZV" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "Cosmic_mech_launch";
+	name = "Mech Bay"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+
+(1,1,1) = {"
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+zv
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+zv
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+"}
+(2,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+Bw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(3,1,1) = {"
+AF
+sD
+GR
+GR
+GR
+GR
+GR
+ll
+GR
+GR
+GR
+GR
+GR
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(4,1,1) = {"
+AF
+sD
+TA
+NH
+NH
+NH
+NH
+ll
+Qf
+Qf
+Qf
+Qf
+tT
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(5,1,1) = {"
+AF
+sD
+by
+by
+by
+by
+by
+ll
+by
+by
+by
+by
+by
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(6,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+ll
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(7,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+dw
+av
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(8,1,1) = {"
+AF
+sD
+sD
+sD
+dw
+dw
+dw
+Ul
+dw
+dw
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(9,1,1) = {"
+AF
+sD
+sD
+sD
+dw
+EL
+EL
+yo
+gx
+oC
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+dw
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+dw
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(10,1,1) = {"
+AF
+sD
+sD
+sD
+dw
+GL
+gZ
+nJ
+eH
+le
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+QJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+QJ
+dw
+dw
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(11,1,1) = {"
+AF
+sD
+sD
+sD
+dw
+GL
+SV
+Mf
+sW
+rp
+dw
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+dw
+dw
+dw
+WJ
+Tf
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+Tf
+WJ
+VQ
+VQ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(12,1,1) = {"
+AF
+sD
+sD
+sD
+dw
+Rw
+mI
+lI
+ML
+rp
+dj
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+WJ
+WJ
+WJ
+WJ
+ce
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+ce
+WJ
+cO
+VQ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(13,1,1) = {"
+AF
+sD
+sD
+sD
+dw
+rp
+BY
+dI
+MW
+rp
+dw
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+dw
+dw
+Tf
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+Tf
+WJ
+cO
+VQ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(14,1,1) = {"
+AF
+sD
+sD
+sD
+dw
+ZG
+eH
+tu
+eH
+zL
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+is
+is
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+TQ
+aL
+VQ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(15,1,1) = {"
+AF
+sD
+sD
+sD
+dw
+oC
+gx
+yo
+EL
+EL
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+is
+is
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+XM
+dw
+dw
+dw
+sD
+sD
+dw
+dw
+dw
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(16,1,1) = {"
+AF
+sD
+sD
+sD
+dw
+dw
+dw
+Dy
+dw
+dw
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+is
+is
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+WJ
+dw
+dw
+dw
+dw
+dw
+dw
+Ql
+OT
+dw
+dw
+dw
+dw
+sD
+sD
+sD
+sD
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(17,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+dw
+av
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+is
+is
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+WJ
+Ac
+dw
+vq
+aD
+Nb
+NE
+kT
+js
+vq
+vq
+vq
+dw
+dw
+dw
+dw
+dw
+dw
+Uk
+Ji
+ps
+vq
+vq
+dw
+dw
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(18,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+ll
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+is
+is
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+WJ
+WJ
+WJ
+XM
+WJ
+Rd
+WJ
+Va
+WJ
+Rd
+WJ
+WJ
+ce
+WJ
+WJ
+Rd
+WJ
+WJ
+WJ
+WJ
+Rd
+WJ
+WJ
+WJ
+WJ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(19,1,1) = {"
+AF
+sD
+GR
+GR
+GR
+GR
+GR
+ll
+GR
+GR
+GR
+GR
+GR
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+is
+is
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+Ac
+WJ
+dw
+dw
+dw
+dw
+dw
+Ge
+dw
+dw
+dw
+dw
+dw
+cm
+cm
+dw
+cm
+cm
+dw
+lZ
+dw
+cm
+cm
+dw
+WJ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(20,1,1) = {"
+AF
+sD
+TA
+NH
+NH
+NH
+NH
+FS
+Qf
+Qf
+Qf
+Qf
+tT
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+Yc
+dw
+is
+is
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+Ac
+us
+dw
+xA
+Zd
+WJ
+pb
+Dv
+RO
+Zd
+XM
+xA
+dw
+Td
+Td
+WJ
+Td
+Td
+Td
+WJ
+Td
+Td
+Td
+dw
+WJ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(21,1,1) = {"
+AF
+sD
+by
+by
+by
+by
+by
+ll
+by
+by
+by
+by
+by
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+is
+is
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+Zo
+WJ
+dw
+ph
+XM
+Zd
+Fh
+uK
+tm
+WJ
+Zd
+ph
+dw
+Td
+Td
+WJ
+Td
+Td
+Td
+WJ
+Td
+Td
+Td
+dw
+us
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(22,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+Rr
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+is
+is
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+dw
+ce
+dw
+Cy
+tV
+En
+kG
+WJ
+tV
+En
+kG
+Cy
+dw
+dw
+dw
+dw
+WJ
+Qr
+ba
+WJ
+WJ
+WJ
+WJ
+dw
+WJ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(23,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+is
+is
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+WJ
+WJ
+WJ
+WJ
+uK
+uK
+uK
+WJ
+XM
+uK
+uK
+WJ
+WJ
+WJ
+WJ
+dw
+Td
+Td
+Td
+WJ
+Td
+Td
+Td
+dw
+WJ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(24,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+is
+is
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+WJ
+XM
+uK
+uK
+uK
+uK
+WJ
+WJ
+WJ
+WJ
+uK
+uK
+uK
+WJ
+WJ
+dw
+Td
+Td
+Td
+WJ
+Td
+Td
+Td
+dw
+WJ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(25,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+is
+is
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+WJ
+WJ
+uK
+uK
+uK
+WJ
+XM
+WJ
+WJ
+WJ
+WJ
+uK
+WJ
+XM
+WJ
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+ce
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(26,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+is
+is
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+WJ
+uK
+uK
+WJ
+WJ
+WJ
+WJ
+WJ
+WJ
+uK
+WJ
+WJ
+WJ
+uK
+WJ
+ce
+WJ
+WJ
+WJ
+WJ
+WJ
+Aq
+WJ
+WJ
+WJ
+WJ
+WJ
+Aq
+WJ
+WJ
+WJ
+WJ
+WJ
+Aq
+WJ
+WJ
+WJ
+WJ
+WJ
+Aq
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(27,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+dw
+WJ
+dw
+dw
+dw
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+uK
+uK
+WJ
+uK
+XM
+WJ
+uK
+WJ
+WJ
+WJ
+WJ
+WJ
+uK
+uK
+WJ
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+WJ
+dw
+dw
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(28,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+AE
+WJ
+WJ
+aZ
+VQ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+uK
+WJ
+WJ
+uK
+uK
+WJ
+WJ
+WJ
+WJ
+XM
+WJ
+uK
+XM
+WJ
+WJ
+dw
+is
+is
+is
+is
+is
+is
+is
+is
+is
+is
+is
+is
+is
+is
+is
+is
+is
+is
+is
+is
+is
+is
+dw
+WJ
+Rd
+da
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(29,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+dw
+dw
+dw
+Tf
+ce
+Tf
+dw
+dw
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+dw
+ce
+ce
+dw
+ZV
+ZV
+ZV
+dw
+ZV
+ZV
+ZV
+dw
+ce
+ce
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+Tf
+ce
+Tf
+dw
+dw
+dw
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(30,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+KT
+KT
+KT
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+KT
+KT
+KT
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(31,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+KT
+KT
+KT
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+KT
+KT
+KT
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(32,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+KT
+KT
+KT
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+KT
+KT
+KT
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(33,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+KT
+KT
+KT
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+XE
+fP
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+KT
+KT
+KT
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(34,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+KT
+KT
+KT
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+jK
+ih
+um
+Yo
+tU
+tU
+tU
+mS
+TE
+TE
+RY
+wJ
+Um
+hs
+aV
+xw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+KT
+KT
+KT
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(35,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+KT
+KT
+KT
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+jb
+Sl
+Pf
+Sl
+CH
+Ce
+It
+RU
+NF
+aK
+NG
+bX
+OM
+TZ
+xD
+Sn
+DT
+Vv
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+KT
+KT
+KT
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(36,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+KT
+KT
+KT
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+PZ
+It
+It
+It
+It
+It
+It
+hH
+NF
+NF
+NF
+NF
+NF
+NF
+yC
+li
+CS
+Tr
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+KT
+KT
+KT
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(37,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+KT
+KT
+KT
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+OK
+Sl
+dR
+Sl
+Ej
+It
+It
+xl
+ir
+aR
+tY
+ji
+rW
+gr
+Pu
+zV
+mC
+YA
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+KT
+KT
+KT
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(38,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+KT
+KT
+KT
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+yw
+Rc
+sm
+qz
+Mc
+Fp
+yH
+Nt
+eY
+eY
+WX
+EE
+nD
+de
+yV
+xO
+Sm
+of
+Qn
+Yi
+Yi
+EM
+wV
+Jk
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+KT
+KT
+KT
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(39,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+KT
+KT
+KT
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dN
+lp
+ZC
+pd
+Fx
+on
+cX
+iN
+Zn
+It
+It
+jE
+Nv
+Xx
+ol
+jE
+Nv
+jE
+cX
+PW
+lE
+Vh
+tW
+bl
+jt
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+KT
+KT
+KT
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(40,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+KT
+KT
+KT
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+UT
+ah
+WA
+In
+Fx
+It
+JT
+Mn
+jE
+jE
+It
+It
+jE
+jE
+jE
+It
+jE
+jE
+jE
+Rn
+bE
+lE
+BF
+ro
+FG
+KP
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+KT
+KT
+KT
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(41,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+KT
+KT
+KT
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+aN
+Wz
+aq
+IW
+Fx
+It
+It
+dG
+It
+It
+It
+It
+It
+It
+It
+It
+It
+It
+It
+MD
+El
+lE
+zj
+Sy
+cP
+gi
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+KT
+KT
+KT
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(42,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+KT
+KT
+KT
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+nC
+pY
+DA
+EK
+Fx
+It
+xP
+Ib
+jE
+jE
+It
+It
+jE
+jE
+jE
+It
+jE
+jE
+jE
+Qe
+gF
+lE
+zA
+xU
+lh
+mh
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+KT
+KT
+KT
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(43,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+KT
+KT
+KT
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+Yx
+Wq
+PL
+OA
+Fx
+Wv
+fN
+jE
+kz
+It
+It
+jE
+ej
+BK
+fD
+jE
+ej
+jE
+Da
+kw
+lE
+zA
+AI
+ov
+Kw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+KT
+KT
+KT
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(44,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+KT
+KT
+KT
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+lz
+sg
+yp
+jp
+Ix
+lS
+if
+Ds
+eY
+eY
+Ey
+uU
+Og
+hA
+Vp
+po
+NZ
+jz
+zq
+Rf
+Et
+mb
+lD
+xm
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+KT
+KT
+KT
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(45,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+KT
+KT
+KT
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+np
+np
+np
+np
+nu
+je
+Ov
+It
+It
+It
+It
+mt
+cL
+GI
+qI
+Hp
+cL
+Ne
+cI
+zg
+ct
+Cg
+np
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+KT
+KT
+KT
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(46,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+KT
+KT
+KT
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+np
+xV
+xV
+xV
+jb
+Fq
+It
+It
+It
+It
+It
+rD
+oV
+oV
+oV
+sj
+oV
+Ow
+lw
+nA
+QT
+Uc
+np
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+KT
+KT
+KT
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(47,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+KT
+KT
+KT
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+np
+np
+xV
+xV
+xV
+PZ
+je
+pT
+pT
+XP
+pT
+pT
+Oh
+oK
+oK
+oV
+TJ
+Kz
+oK
+xM
+NO
+YY
+Ar
+np
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+KT
+KT
+KT
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(48,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+KT
+KT
+KT
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+np
+xV
+xV
+xV
+xV
+aw
+ZU
+rd
+rd
+Bl
+rd
+rd
+xN
+hn
+lB
+rD
+MP
+Ra
+VY
+Ef
+NC
+xV
+np
+np
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+KT
+KT
+KT
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(49,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+KT
+KT
+KT
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+np
+xV
+xV
+xV
+tg
+ch
+Kq
+Ir
+Zd
+Zd
+Zd
+aH
+Kq
+jn
+uK
+pm
+UH
+Ay
+zR
+xV
+xV
+np
+np
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+KT
+KT
+KT
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(50,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+KT
+KT
+KT
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+yb
+xV
+xV
+xV
+SM
+uK
+iu
+Zd
+Zd
+Zd
+Zd
+Zd
+gf
+uK
+uK
+UQ
+uK
+Jb
+xV
+xV
+xV
+np
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+KT
+KT
+KT
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(51,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+KT
+KT
+KT
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+yb
+xV
+xV
+xV
+SM
+uK
+fa
+Zd
+Zd
+Zd
+Zd
+Zd
+yP
+uK
+uK
+UQ
+uK
+Jb
+xV
+xV
+xV
+np
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+KT
+KT
+KT
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(52,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+KT
+KT
+KT
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+np
+xV
+xV
+xV
+SM
+uK
+uK
+tV
+En
+En
+En
+kG
+uK
+uK
+uK
+UQ
+uK
+Jb
+xV
+xV
+xV
+yb
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+KT
+KT
+KT
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(53,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+KT
+KT
+KT
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+np
+xV
+xV
+xV
+SM
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+UQ
+uK
+Jb
+xV
+xV
+xV
+yb
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+KT
+KT
+KT
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(54,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+KT
+KT
+KT
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+np
+xV
+xV
+xV
+SM
+uK
+uK
+uK
+uK
+MF
+uK
+uK
+uK
+uK
+uK
+UQ
+uK
+Jb
+xV
+xV
+xV
+np
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+KT
+KT
+KT
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(55,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+dw
+dw
+dw
+Tf
+ce
+Tf
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+eR
+eR
+dw
+eR
+eR
+dw
+dw
+dw
+Av
+dw
+dw
+dw
+dw
+dw
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+dw
+dw
+Tf
+ce
+Tf
+dw
+dw
+dw
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(56,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+Mz
+XM
+WJ
+aZ
+dw
+is
+is
+is
+dw
+qr
+qr
+qr
+cr
+cv
+Br
+mz
+qr
+qr
+qr
+dw
+my
+my
+Mv
+my
+my
+Qc
+tZ
+tZ
+tZ
+ai
+tZ
+tZ
+Oi
+Lp
+Yj
+UQ
+Yj
+aU
+Dn
+dw
+cZ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+cZ
+Ac
+vq
+WJ
+Rd
+da
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(57,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+dw
+dw
+ce
+dw
+dw
+dw
+dw
+dw
+dw
+aC
+aC
+aC
+DM
+wI
+wI
+zZ
+aC
+aC
+aC
+dw
+uK
+uK
+uK
+uK
+uK
+fI
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+iQ
+dy
+Yj
+UQ
+Yj
+MZ
+aU
+ce
+WJ
+Tf
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+Tf
+WJ
+vq
+Ac
+WJ
+dw
+dw
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(58,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+WJ
+WJ
+WJ
+WJ
+WJ
+WJ
+WJ
+WJ
+ce
+wI
+wI
+wI
+wI
+wI
+wI
+wI
+wI
+wI
+wI
+dw
+uK
+uK
+uK
+uK
+uK
+fI
+Zd
+Zd
+Zd
+BU
+Zd
+Zd
+iQ
+JB
+Yj
+UQ
+Yj
+aU
+mL
+dw
+TQ
+ce
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+ce
+WJ
+Rd
+WJ
+WJ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(59,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+dw
+dw
+dw
+dw
+dw
+ce
+dw
+dw
+dw
+Wt
+wI
+wI
+wI
+wI
+wI
+wI
+wI
+wI
+Ub
+dw
+jl
+jl
+oE
+jl
+jl
+fI
+Zd
+Zd
+lb
+dw
+AL
+Zd
+iQ
+Hu
+Yj
+UQ
+Yj
+Dn
+MZ
+dw
+XM
+Tf
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+Tf
+dw
+dw
+dw
+WJ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(60,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+WJ
+Ax
+WJ
+WJ
+WJ
+WJ
+jS
+dp
+dw
+wI
+wI
+wI
+wI
+wI
+wI
+wI
+wI
+wI
+wI
+dw
+my
+my
+gz
+my
+my
+fI
+Zd
+Zd
+lb
+SH
+AL
+Zd
+iQ
+rY
+Yj
+UQ
+Yj
+aU
+aU
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+is
+is
+dw
+WJ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(61,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+WJ
+Iu
+aQ
+aQ
+aQ
+WJ
+CL
+rX
+dw
+RV
+RV
+RV
+Ud
+wI
+wI
+Wj
+RV
+RV
+RV
+dw
+uK
+uK
+uK
+uK
+uK
+fI
+Zd
+Zd
+lb
+dw
+AL
+Zd
+iQ
+dw
+dw
+gY
+dw
+Yj
+Yj
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+is
+is
+dw
+us
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(62,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+WJ
+Iu
+aQ
+aQ
+aQ
+WJ
+WJ
+Es
+dw
+Yh
+Yh
+Yh
+vI
+wI
+wI
+Zf
+Yh
+Yh
+Yh
+dw
+uK
+uK
+uK
+uK
+uK
+fI
+Zd
+Zd
+lb
+Xz
+AL
+Zd
+iQ
+Yj
+eZ
+uK
+Ct
+tq
+FM
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+is
+is
+dw
+WJ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(63,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+WJ
+Iu
+aQ
+aQ
+aQ
+WJ
+bC
+Es
+dw
+dw
+dw
+dw
+EN
+wI
+wI
+MN
+dw
+dw
+dw
+dw
+jl
+jl
+oE
+jl
+jl
+fI
+Zd
+Zd
+lb
+dw
+AL
+Zd
+iQ
+Yj
+eZ
+uK
+Fw
+Hl
+HV
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+is
+is
+dw
+WJ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(64,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+Li
+dw
+dw
+dw
+dw
+dw
+Je
+dw
+dw
+dw
+dw
+Ol
+wI
+wI
+SB
+dw
+dw
+dw
+dw
+zU
+TH
+VH
+EG
+qJ
+YP
+Zd
+Zd
+Zd
+Xf
+Zd
+Zd
+wh
+Yj
+eZ
+uK
+PB
+cG
+HV
+dw
+us
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+is
+is
+dw
+WJ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(65,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+Bk
+qh
+lc
+HD
+qh
+qh
+qh
+qh
+HS
+Er
+dw
+qr
+qr
+qr
+vI
+wI
+wI
+Zf
+qr
+qr
+qr
+dw
+Hh
+TH
+TH
+df
+Pr
+YP
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+wh
+UF
+uK
+uK
+uK
+HV
+HV
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+is
+is
+dw
+WJ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(66,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+nR
+nR
+nR
+nR
+uK
+uK
+uK
+dw
+zw
+uK
+Yq
+FH
+NK
+NK
+NK
+Fg
+uK
+gm
+dw
+aC
+aC
+aC
+DM
+wI
+wI
+zZ
+aC
+aC
+aC
+dw
+Lc
+TH
+TH
+df
+Au
+YP
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+wh
+dw
+UA
+HV
+uK
+mi
+EU
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+is
+is
+dw
+WJ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(67,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+nX
+WJ
+WJ
+nX
+uK
+uK
+uK
+dw
+rR
+uK
+Hn
+SO
+DZ
+VD
+RG
+pN
+uK
+ux
+dw
+wI
+wI
+wI
+wI
+wI
+wI
+wI
+wI
+wI
+wI
+dw
+BM
+TH
+TH
+TH
+kE
+YP
+Zd
+Zd
+Zd
+BU
+Zd
+Zd
+iQ
+dw
+KW
+HV
+uK
+KX
+JN
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+is
+is
+dw
+us
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(68,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+nX
+WJ
+WJ
+nX
+uK
+uK
+uK
+dw
+HZ
+uK
+Hn
+oN
+uK
+uK
+pI
+pN
+uK
+Hn
+dw
+Wt
+wI
+wI
+wI
+wI
+wI
+wI
+wI
+wI
+Ub
+dw
+my
+my
+ZE
+my
+my
+fI
+Zd
+Zd
+lb
+dw
+AL
+Zd
+iQ
+dw
+NA
+HV
+uK
+zT
+wn
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+is
+is
+dw
+WJ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(69,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+nR
+nR
+nR
+nR
+uK
+uK
+uK
+dw
+rR
+uK
+Hn
+wc
+uK
+uK
+Rm
+pN
+uK
+Hn
+dw
+wI
+wI
+wI
+wI
+wI
+wI
+wI
+wI
+wI
+wI
+dw
+uK
+uK
+uK
+uK
+uK
+fI
+Zd
+Zd
+lb
+Jw
+AL
+Zd
+iQ
+dw
+dw
+dw
+jA
+dw
+dw
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+is
+is
+dw
+WJ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(70,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+rR
+uK
+Hn
+LN
+qw
+nN
+FD
+pN
+uK
+Hn
+dw
+RV
+RV
+RV
+Ud
+wI
+wI
+Wj
+RV
+RV
+RV
+dw
+uK
+uK
+uK
+uK
+uK
+fI
+Zd
+Zd
+lb
+dw
+AL
+Zd
+iQ
+dy
+dw
+eg
+uK
+rz
+EV
+dw
+us
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+is
+is
+dw
+WJ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(71,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+zw
+uK
+vP
+qh
+qh
+qh
+qh
+TG
+uK
+Hn
+dw
+Yh
+Yh
+Yh
+vI
+wI
+wI
+Zf
+Yh
+Yh
+Yh
+dw
+jl
+jl
+oE
+jl
+jl
+fI
+Zd
+Zd
+lb
+Xz
+AL
+Zd
+iQ
+JB
+dw
+Ue
+uK
+aM
+uK
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+is
+is
+dw
+WJ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(72,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+zw
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+Hn
+dw
+dw
+dw
+dw
+YK
+YK
+YK
+YK
+dw
+dw
+dw
+dw
+my
+my
+my
+my
+my
+fI
+Zd
+Zd
+lb
+dw
+AL
+Zd
+iQ
+Hu
+dw
+Ue
+uK
+SC
+uK
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+is
+is
+dw
+WJ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(73,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+qP
+UV
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+xr
+ul
+tZ
+tZ
+tZ
+tZ
+tZ
+tZ
+tZ
+tZ
+tZ
+tZ
+ul
+tZ
+tZ
+tZ
+tZ
+tZ
+UV
+Zd
+Zd
+Zd
+Xf
+Zd
+Zd
+iQ
+Lp
+dw
+aA
+uK
+gQ
+uJ
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+is
+is
+dw
+us
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(74,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+nR
+nR
+nR
+nR
+uK
+uK
+uK
+vO
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+iQ
+rY
+dw
+dw
+Vw
+dw
+dw
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+is
+is
+dw
+WJ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(75,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+nX
+WJ
+WJ
+nX
+uK
+uK
+uK
+vO
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+WT
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+WT
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+iQ
+uK
+dw
+WU
+uK
+uK
+qV
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+is
+is
+dw
+WJ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(76,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+nX
+WJ
+WJ
+nX
+uK
+uK
+uK
+EB
+ys
+ys
+ys
+ys
+ys
+ys
+ys
+ys
+ys
+ys
+ys
+ys
+ys
+ys
+ys
+ys
+ys
+ys
+ys
+ys
+ys
+dA
+ys
+Dw
+Dw
+ys
+LZ
+ys
+Dw
+Dw
+ys
+ia
+ys
+Dw
+LR
+uK
+dw
+WU
+uK
+uK
+rw
+dw
+us
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+is
+is
+dw
+WJ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(77,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+nR
+nR
+nR
+nR
+uK
+uK
+uK
+dw
+fn
+GO
+GO
+GO
+GO
+GO
+GO
+GO
+GO
+vE
+dw
+fn
+GO
+GO
+GO
+GO
+GO
+GO
+GO
+GO
+vE
+dw
+Gj
+Ta
+Qb
+Lu
+dw
+Gj
+Ta
+Qb
+Lu
+dw
+Gj
+Ta
+Qb
+Lu
+dw
+WU
+uK
+uK
+Si
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+is
+is
+dw
+WJ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(78,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+ew
+ew
+ew
+ew
+ew
+ew
+ew
+ew
+ew
+ew
+dw
+ew
+ew
+ew
+ew
+ew
+ew
+ew
+ew
+ew
+ew
+dw
+Gf
+uR
+Gc
+gX
+dw
+Gf
+uR
+Gc
+gX
+dw
+Gf
+uR
+Gc
+gX
+dw
+dw
+dw
+dw
+dw
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+is
+is
+dw
+us
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(79,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+ew
+ew
+ew
+ew
+ew
+ew
+ew
+ew
+ew
+ew
+dw
+ew
+ew
+ew
+ew
+ew
+ew
+ew
+ew
+ew
+ew
+dw
+Jv
+uK
+uK
+XW
+dw
+Jv
+uK
+uK
+XW
+dw
+Jv
+uK
+uK
+XW
+dw
+uK
+uK
+uK
+uK
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+is
+is
+dw
+WJ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(80,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+fn
+GO
+GO
+GO
+GO
+GO
+GO
+GO
+GO
+vE
+dw
+fn
+GO
+GO
+GO
+GO
+GO
+GO
+GO
+GO
+vE
+dw
+dw
+dw
+Hx
+dw
+dw
+dw
+dw
+Hx
+dw
+dw
+dw
+dw
+Hx
+dw
+dw
+uK
+uK
+uK
+uK
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+is
+is
+dw
+WJ
+dw
+dw
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(81,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+eR
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+eR
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+eR
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+Zk
+uK
+uK
+uK
+uK
+ce
+us
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+is
+is
+dw
+WJ
+Aq
+qQ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(82,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+eR
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+eR
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+eR
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+Js
+uK
+uK
+uK
+uK
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+dw
+dw
+Tf
+ce
+Tf
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+zv
+"}
+(83,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+eR
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+eR
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+eR
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+Zk
+uK
+uK
+uK
+uK
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+hh
+"}
+(84,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+dw
+GK
+Dj
+pl
+nt
+dw
+GK
+Dj
+pl
+nt
+dw
+GK
+Dj
+pl
+nt
+dw
+GK
+Dj
+pl
+nt
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+uK
+uK
+uK
+uK
+dw
+dw
+dw
+dw
+dw
+dw
+uK
+uK
+uK
+uK
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+hh
+"}
+(85,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+dw
+qH
+uK
+uK
+yc
+dw
+qH
+uK
+uK
+yc
+dw
+qH
+uK
+uK
+yc
+dw
+qH
+uK
+uK
+yc
+dw
+Tl
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+Tl
+dw
+uK
+uK
+uK
+uK
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+hh
+"}
+(86,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+dw
+Hs
+uK
+Gf
+Lu
+dw
+Hs
+uK
+Gf
+Lu
+dw
+Hs
+uK
+Gf
+Lu
+dw
+Hs
+uK
+Gf
+Lu
+dw
+Tl
+uK
+uK
+uK
+uK
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+uK
+uK
+uK
+Tl
+dw
+uK
+uK
+uK
+uK
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+hh
+"}
+(87,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+eR
+eR
+eR
+dw
+dw
+Gj
+uK
+Gc
+Qb
+dw
+Gj
+uK
+Gc
+Qb
+dw
+Gj
+uK
+Gc
+Qb
+dw
+Gj
+uK
+Gc
+Qb
+dw
+Tl
+uK
+dw
+uK
+uK
+kk
+gI
+ks
+HM
+Dp
+NW
+Kb
+uK
+uK
+qH
+dw
+dw
+dw
+dw
+dw
+dw
+us
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+hh
+"}
+(88,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+dw
+Jv
+uK
+uK
+oq
+dw
+Jv
+uK
+uK
+oq
+dw
+Jv
+uK
+uK
+oq
+dw
+Jv
+uK
+uK
+oq
+dw
+ml
+uK
+dw
+fH
+uK
+eu
+eu
+eu
+eu
+zP
+gI
+Kb
+uK
+uK
+Lp
+dw
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+hh
+"}
+(89,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+JB
+uK
+dw
+uK
+uK
+uK
+uK
+uK
+uK
+NJ
+Se
+Zs
+uK
+uK
+pg
+dw
+sD
+sD
+sD
+sD
+dw
+WJ
+Tf
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+hh
+"}
+(90,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+dw
+Jv
+uK
+yq
+XW
+dw
+Jv
+uK
+yq
+XW
+dw
+Jv
+uK
+yq
+XW
+dw
+Jv
+uK
+yq
+XW
+dw
+dy
+uK
+dw
+uK
+uK
+UB
+UB
+UB
+UB
+ns
+gI
+Kb
+uK
+uK
+Lp
+dw
+sD
+sD
+sD
+sD
+dw
+WJ
+ce
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+hh
+"}
+(91,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+dw
+Gf
+uK
+Qb
+gX
+dw
+Gf
+uK
+Qb
+gX
+dw
+Gf
+uK
+Qb
+gX
+dw
+Gf
+uK
+Qb
+gX
+dw
+yc
+uK
+dw
+uK
+uK
+gI
+YT
+Hy
+dJ
+gI
+ks
+Kb
+uK
+uK
+qH
+dw
+sD
+sD
+sD
+sD
+dw
+WJ
+Tf
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+hh
+"}
+(92,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+dw
+Gj
+uK
+BQ
+Lu
+dw
+Gj
+uK
+BQ
+Lu
+dw
+Gj
+uK
+BQ
+Lu
+dw
+Gj
+uK
+BQ
+Lu
+dw
+Tl
+uK
+uK
+uK
+uK
+nq
+nq
+nq
+nq
+nq
+nq
+uK
+uK
+uK
+Tl
+dw
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+hh
+"}
+(93,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+dw
+qH
+uK
+uK
+yc
+dw
+qH
+uK
+uK
+yc
+dw
+qH
+uK
+uK
+yc
+dw
+qH
+uK
+uK
+yc
+dw
+Tl
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+uK
+Tl
+dw
+sD
+sD
+sD
+sD
+dw
+us
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+hh
+"}
+(94,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+dw
+GK
+Dj
+pl
+nt
+dw
+GK
+Dj
+pl
+nt
+dw
+GK
+Dj
+pl
+nt
+dw
+GK
+Dj
+pl
+nt
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+uK
+uK
+uK
+uK
+dw
+dw
+dw
+dw
+dw
+dw
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+hh
+"}
+(95,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+dw
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+hh
+"}
+(96,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+uK
+uK
+uK
+uK
+uK
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+dw
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+hh
+"}
+(97,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+uK
+Zd
+Zd
+Zd
+uK
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+dw
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+hh
+"}
+(98,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+uK
+uK
+uK
+uK
+uK
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+dw
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+hh
+"}
+(99,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+dw
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+hh
+"}
+(100,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+eR
+eR
+eR
+dw
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+uK
+uK
+uK
+uK
+uK
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+dw
+sD
+sD
+sD
+sD
+dw
+us
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+hh
+"}
+(101,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+uK
+Zd
+uK
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+dw
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+hh
+"}
+(102,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+uK
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+dw
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+hh
+"}
+(103,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+eR
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+dw
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+hh
+"}
+(104,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+eR
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+uK
+Zd
+uK
+uK
+uK
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+dw
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+hh
+"}
+(105,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+eR
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+dw
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+hh
+"}
+(106,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+uK
+uK
+uK
+uK
+uK
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+dw
+sD
+sD
+sD
+sD
+dw
+us
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+hh
+"}
+(107,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+uK
+Zd
+Zd
+Zd
+uK
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+dw
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+hh
+"}
+(108,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+dw
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+hh
+"}
+(109,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+uK
+uK
+uK
+uK
+uK
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+dw
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+dw
+dw
+Tf
+ce
+Tf
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+zv
+"}
+(110,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+uK
+Zd
+Zd
+Zd
+uK
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+VQ
+Ac
+vq
+WJ
+Rd
+qQ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(111,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+sD
+sD
+sD
+sD
+sD
+dw
+Zd
+Zd
+Zd
+Zd
+Zd
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+WJ
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+VQ
+dw
+Ac
+WJ
+dw
+dw
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(112,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+uK
+uK
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+us
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+vq
+vq
+vq
+us
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(113,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+eR
+eR
+eR
+dw
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+Zd
+uK
+Zd
+uK
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+WJ
+Tf
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+Tf
+WJ
+vq
+WJ
+WJ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(114,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+sD
+sD
+sD
+sD
+sD
+dw
+Zd
+Zd
+Zd
+Zd
+Zd
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+WJ
+ce
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+ce
+WJ
+Rd
+WJ
+WJ
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(115,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+sD
+sD
+sD
+sD
+sD
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+WJ
+Tf
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+Tf
+WJ
+dw
+dw
+dw
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(116,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+mE
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+mE
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(117,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+dw
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+dw
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(118,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(119,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(120,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(121,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(122,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(123,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(124,1,1) = {"
+AF
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+uK
+uK
+uK
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+dw
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+dw
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+AF
+"}
+(125,1,1) = {"
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+zv
+qf
+qf
+qf
+zv
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+zv
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+zv
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+"}
