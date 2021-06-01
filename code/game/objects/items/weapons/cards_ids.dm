@@ -375,7 +375,12 @@
 	else
 		..()
 
+/obj/item/weapon/card/id/syndicate/all_access
+		icon_state = "syndicate"
 
+/obj/item/weapon/card/id/syndicate/all_access/atom_init()
+	. = ..()
+	access = get_all_accesses() + get_all_syndicate_access()
 
 /obj/item/weapon/card/id/syndicate_command
 	name = "syndicate ID card"

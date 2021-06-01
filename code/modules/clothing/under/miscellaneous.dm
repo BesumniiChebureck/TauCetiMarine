@@ -121,6 +121,16 @@
 	min_cold_protection_temperature = SPACE_SUIT_MIN_COLD_PROTECTION_TEMPERATURE
 	siemens_coefficient = 0
 
+/obj/item/clothing/under/acj/special
+	name = "cybernetic jumpsuit"
+	desc = "it's a cybernetically enhanced jumpsuit used for warfare."
+	armor = list(melee = 50, bullet = 50, laser = 50,energy = 50, bomb = 25, bio = 100, rad = 100)
+
+/obj/item/clothing/under/acj/special_fem
+	name = "cybernetic jumpsuit"
+	desc = "it's a cybernetically enhanced jumpsuit used for warfare. Worse than the male variation."
+	armor = list(melee = 49, bullet = 49, laser = 49,energy = 49, bomb = 24, bio = 99, rad = 99) //Trap Live Not Matters
+
 /obj/item/clothing/under/owl
 	name = "owl uniform"
 	desc = "A jumpsuit with owl wings. Photorealistic owl feathers! Twooooo!"

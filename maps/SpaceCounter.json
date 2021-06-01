@@ -1,0 +1,9 @@
+{
+	"map_name": "CosmoPort",
+	"map_path": "SpaceCounter/CosmoPort",
+	"map_file": "cosmoport.dmm",
+	"space_ruin_levels": 0,
+	"space_empty_levels": 0,
+	"load_junkyard": 0,
+	"minetype": null
+}

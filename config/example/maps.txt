@@ -20,5 +20,9 @@ endmap
 map gamma
 endmap
 
+map cosmoport
+	minplayers 12
+endmap
+
 map testmap
 endmap
