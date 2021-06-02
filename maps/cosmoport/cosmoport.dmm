@@ -56,14 +56,15 @@
 /turf/simulated/floor/engine,
 /area/spacecounter/cosmoport/main)
 "av" = (
-/obj/structure/window/reinforced{
-	dir = 5;
-	health = 1e+007
-	},
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/structure/window/reinforced{
+	dir = 5;
+	health = 99999;
+	maxhealth = 99999
 	},
 /turf/simulated/floor/plating/airless/catwalk,
 /area/spacecounter/cosmoport/main)
@@ -184,9 +185,7 @@
 /area/spacecounter/cosmoport/main)
 "aQ" = (
 /turf/simulated/floor/plating{
-	icon_state = "platebot";
-	nitrogen = 0.01;
-	oxygen = 0.01
+	icon_state = "platebot"
 	},
 /area/spacecounter/cosmoport/main)
 "aR" = (
@@ -404,15 +403,21 @@
 /turf/simulated/floor/engine,
 /area/spacecounter/cosmoport/main)
 "cQ" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced{
-	dir = 8
+/obj/item/clothing/under/rank/security,
+/obj/item/weapon/storage/belt/security,
+/obj/structure/closet/secure_closet{
+	icon_broken = "secbroken";
+	icon_closed = "sec";
+	icon_locked = "sec1";
+	icon_off = "secoff";
+	icon_opened = "secopen";
+	icon_state = "sec1";
+	name = "Security Officer's Locker";
+	req_access = list(2)
 	},
-/obj/structure/window/reinforced{
-	dir = 1
+/turf/simulated/floor{
+	icon_state = "dark"
 	},
-/obj/structure/window/reinforced,
-/turf/simulated/floor/plating,
 /area/spacecounter/cosmoport/main)
 "cX" = (
 /obj/structure/object_wall/evac{
@@ -772,10 +777,10 @@
 	},
 /area/spacecounter/cosmoport/main)
 "fw" = (
-/obj/structure/window/reinforced{
+/obj/item/weapon/twohanded/flora/random,
+/obj/structure/window/basic{
 	dir = 4
 	},
-/obj/item/weapon/twohanded/flora/random,
 /turf/simulated/floor{
 	icon_state = "purplechecker"
 	},
@@ -1249,7 +1254,6 @@
 /area/spacecounter/cosmoport/plant_a)
 "iD" = (
 /obj/structure/inflatable,
-/obj/effect/landmark/blockway,
 /turf/simulated/floor/plating,
 /area/space)
 "iF" = (
@@ -1284,7 +1288,7 @@
 	icon_state = "3,20"
 	},
 /turf/simulated/shuttle/floor/evac,
-/area/spacecounter/cosmoport/main)
+/area)
 "je" = (
 /obj/structure/closet/emcloset,
 /turf/simulated/shuttle/floor/evac/place2,
@@ -1398,8 +1402,8 @@
 /area/spacecounter/cosmoport/main)
 "jR" = (
 /obj/structure/grille,
-/obj/structure/window/reinforced,
 /obj/structure/barricade/wooden,
+/obj/structure/window/basic,
 /turf/simulated/floor/plating,
 /area/spacecounter/cosmoport/main)
 "jS" = (
@@ -1416,7 +1420,6 @@
 /area/spacecounter/cosmoport/main)
 "jV" = (
 /obj/structure/inflatable/door,
-/obj/effect/landmark/blockway,
 /turf/simulated/floor/plating,
 /area/space)
 "jX" = (
@@ -1430,10 +1433,10 @@
 /turf/simulated/floor/engine,
 /area/spacecounter/cosmoport/main)
 "kd" = (
-/obj/structure/window/reinforced{
+/obj/structure/closet/wardrobe,
+/obj/structure/window/basic{
 	dir = 1
 	},
-/obj/structure/closet/wardrobe,
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "vault"
@@ -1680,10 +1683,10 @@
 /turf/simulated/floor/engine,
 /area/spacecounter/cosmoport/main)
 "lC" = (
-/obj/structure/window/reinforced{
+/obj/structure/closet/secure_closet/personal,
+/obj/structure/window/basic{
 	dir = 8
 	},
-/obj/structure/closet/secure_closet/personal,
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "vault"
@@ -2024,25 +2027,18 @@
 	},
 /area/spacecounter/cosmoport/main)
 "nt" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/structure/window/reinforced,
-/obj/structure/window/reinforced{
-	dir = 1
+/obj/machinery/door/airlock/maintenance{
+	locked = 1;
+	req_access = list(12)
 	},
 /turf/simulated/floor/plating,
-/area/spacecounter/cosmoport/main)
+/area)
 "nu" = (
 /obj/structure/window/reinforced/shuttle/evac{
 	icon_state = "2,20"
 	},
 /turf/simulated/shuttle/floor/evac,
-/area/spacecounter/cosmoport/main)
+/area)
 "nA" = (
 /obj/structure/object_wall/evac{
 	icon_state = "13,5"
@@ -2111,7 +2107,8 @@
 /obj/structure/grille,
 /obj/structure/window/reinforced{
 	dir = 5;
-	health = 1e+007
+	health = 99999;
+	maxhealth = 99999
 	},
 /turf/simulated/floor/plating,
 /area/spacecounter/cosmoport/main)
@@ -2124,10 +2121,10 @@
 	},
 /area/spacecounter/cosmoport/plant_a)
 "nV" = (
-/obj/structure/window/reinforced{
+/obj/machinery/washing_machine,
+/obj/structure/window/basic{
 	dir = 4
 	},
-/obj/machinery/washing_machine,
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "barber"
@@ -2252,20 +2249,12 @@
 /turf/simulated/floor/plating,
 /area/spacecounter/cosmoport/main)
 "oM" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced{
-	dir = 4
+/obj/structure/table,
+/obj/machinery/computer/security/wooden_tv/miami{
+	name = "Miami TV";
+	network = list("SPEC_SVAST")
 	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/structure/window/reinforced,
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/turf/unsimulated/floor{
-	icon_state = "floor"
-	},
+/turf/simulated/floor/wood,
 /area/spacecounter/cosmoport/main)
 "oN" = (
 /obj/machinery/conveyor{
@@ -2326,7 +2315,7 @@
 /obj/structure/table,
 /obj/machinery/computer/security/wooden_tv{
 	name = "computer";
-	network = list()
+	network = list("SPEC_SVAST")
 	},
 /turf/simulated/shuttle/floor/evac,
 /area/spacecounter/cosmoport/main)
@@ -2549,19 +2538,11 @@
 /turf/simulated/floor/engine,
 /area/spacecounter/cosmoport/main)
 "qB" = (
-/obj/structure/window/reinforced,
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
 /obj/structure/grille,
+/obj/structure/window/basic{
+	dir = 5
+	},
 /obj/structure/barricade/wooden,
-/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/spacecounter/cosmoport/main)
 "qH" = (
@@ -3062,14 +3043,14 @@
 	},
 /area/spacecounter/cosmoport/plant_a)
 "uD" = (
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/window/reinforced{
-	dir = 1
-	},
 /obj/structure/dresser{
 	pixel_x = -1
+	},
+/obj/structure/window/basic{
+	dir = 1
+	},
+/obj/structure/window/basic{
+	dir = 4
 	},
 /turf/simulated/floor{
 	dir = 8;
@@ -3077,10 +3058,10 @@
 	},
 /area/spacecounter/cosmoport/main)
 "uF" = (
-/obj/structure/window/reinforced{
+/obj/structure/closet/wardrobe/white,
+/obj/structure/window/basic{
 	dir = 8
 	},
-/obj/structure/closet/wardrobe/white,
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "vault"
@@ -3537,9 +3518,7 @@
 "xX" = (
 /obj/structure/closet/crate,
 /turf/simulated/floor/plating{
-	icon_state = "platebot";
-	nitrogen = 0.01;
-	oxygen = 0.01
+	icon_state = "platebot"
 	},
 /area/spacecounter/cosmoport/main)
 "yb" = (
@@ -3643,13 +3622,18 @@
 /turf/simulated/floor/engine,
 /area/spacecounter/cosmoport/main)
 "yX" = (
+/obj/item/weapon/kitchenknife/combat,
+/obj/item/clothing/gloves/security,
 /obj/structure/closet/secure_closet{
+	icon_broken = "secbroken";
+	icon_closed = "sec";
+	icon_locked = "sec1";
+	icon_off = "secoff";
+	icon_opened = "secopen";
 	icon_state = "sec1";
 	name = "Security Officer's Locker";
 	req_access = list(2)
 	},
-/obj/item/weapon/kitchenknife/combat,
-/obj/item/clothing/gloves/security,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
@@ -3755,7 +3739,7 @@
 /area/spacecounter/cosmoport/main)
 "zN" = (
 /obj/effect/landmark/start{
-	name = "Syndicat Space Operative"
+	name = "Syndicat Space Op"
 	},
 /turf/simulated/floor/engine,
 /area/spacecounter/cosmoport/main)
@@ -3806,9 +3790,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating{
-	icon_state = "platebot";
-	nitrogen = 0.01;
-	oxygen = 0.01
+	icon_state = "platebot"
 	},
 /area/spacecounter/cosmoport/main)
 "zZ" = (
@@ -4080,11 +4062,10 @@
 	},
 /area/spacecounter/cosmoport/main)
 "BN" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced{
-	dir = 1
+/obj/structure/inflatable{
+	opacity = 1
 	},
-/obj/structure/window/reinforced,
+/obj/effect/landmark/blockway,
 /turf/simulated/floor/plating,
 /area/spacecounter/cosmoport/main)
 "BQ" = (
@@ -4229,16 +4210,11 @@
 	},
 /area/spacecounter/cosmoport/main)
 "CI" = (
-/obj/structure/closet/secure_closet{
-	icon_state = "sec1";
-	name = "Security Officer's Locker";
-	req_access = list(2)
+/obj/structure/inflatable/door{
+	opacity = 1
 	},
-/obj/item/clothing/under/rank/security,
-/obj/item/weapon/storage/belt/security,
-/turf/simulated/floor{
-	icon_state = "dark"
-	},
+/obj/effect/landmark/blockway,
+/turf/simulated/floor/plating,
 /area/spacecounter/cosmoport/main)
 "CK" = (
 /obj/structure/table/reinforced,
@@ -4330,12 +4306,13 @@
 	},
 /area/spacecounter/cosmoport/main)
 "Dq" = (
-/obj/structure/table,
-/obj/machinery/computer/security/wooden_tv/miami{
-	name = "Miami TV";
-	network = list()
+/obj/structure/sign/poster/official/no_erp,
+/obj/machinery/camera/emp_proof{
+	invisibility = 101;
+	name = "SVAST CAM";
+	network = list("SPEC_SVAST")
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor,
 /area/spacecounter/cosmoport/main)
 "Dr" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4613,11 +4590,11 @@
 /turf/simulated/floor,
 /area/spacecounter/cosmoport/main)
 "Fn" = (
-/obj/structure/window/reinforced{
-	dir = 1
-	},
 /obj/structure/closet,
 /obj/item/clothing/under/tourist,
+/obj/structure/window/basic{
+	dir = 1
+	},
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "barber"
@@ -4682,14 +4659,14 @@
 /area/spacecounter/cosmoport/main)
 "FC" = (
 /obj/structure/grille,
-/obj/structure/window/reinforced,
-/obj/structure/window/reinforced{
-	dir = 4
+/obj/structure/barricade/wooden,
+/obj/structure/window/basic,
+/obj/structure/window/basic{
+	dir = 8
 	},
-/obj/structure/window/reinforced{
+/obj/structure/window/basic{
 	dir = 1
 	},
-/obj/structure/barricade/wooden,
 /turf/simulated/floor/plating,
 /area/spacecounter/cosmoport/main)
 "FD" = (
@@ -4765,11 +4742,11 @@
 /turf/simulated/floor/wood,
 /area/spacecounter/cosmoport/main)
 "FU" = (
-/obj/structure/window/reinforced{
-	dir = 1
-	},
 /obj/structure/table,
 /obj/structure/bedsheetbin,
+/obj/structure/window/basic{
+	dir = 1
+	},
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "barber"
@@ -4897,10 +4874,10 @@
 /turf/simulated/floor/grass,
 /area/spacecounter/cosmoport/main)
 "GP" = (
-/obj/structure/window/reinforced{
+/obj/machinery/vending/clothing,
+/obj/structure/window/basic{
 	dir = 4
 	},
-/obj/machinery/vending/clothing,
 /turf/simulated/floor{
 	icon_state = "purplechecker"
 	},
@@ -5228,15 +5205,11 @@
 	},
 /area/spacecounter/cosmoport/main)
 "Ju" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced{
-	dir = 4
+/obj/machinery/light/spot{
+	invisibility = 101;
+	name = "invisible spotlight"
 	},
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/structure/window/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor,
 /area/spacecounter/cosmoport/main)
 "Jv" = (
 /obj/structure/table/reinforced,
@@ -5294,10 +5267,10 @@
 	},
 /area/spacecounter/cosmoport/main)
 "Ka" = (
-/obj/structure/window/reinforced{
+/obj/structure/closet/wardrobe/xenos,
+/obj/structure/window/basic{
 	dir = 1
 	},
-/obj/structure/closet/wardrobe/xenos,
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "vault"
@@ -5319,9 +5292,7 @@
 "Kg" = (
 /obj/effect/decal/cleanable/blood/oil,
 /turf/simulated/floor/plating{
-	icon_state = "platebot";
-	nitrogen = 0.01;
-	oxygen = 0.01
+	icon_state = "platebot"
 	},
 /area/spacecounter/cosmoport/main)
 "Kj" = (
@@ -5342,7 +5313,7 @@
 	},
 /obj/structure/barricade/wooden,
 /turf/simulated/floor/plating,
-/area/spacecounter/cosmoport/main)
+/area)
 "Kq" = (
 /obj/structure/sign/warning/securearea{
 	desc = "A warning sign which reads 'KEEP CLEAR OF DOCKING AREA'.";
@@ -5421,13 +5392,12 @@
 /turf/simulated/floor/engine,
 /area/spacecounter/cosmoport/main)
 "KW" = (
-/obj/structure/table/woodentable,
-/obj/machinery/computer/security/wooden_tv/miami{
-	name = "Miami TV";
-	network = list()
+/obj/machinery/light/spot{
+	invisibility = 101;
+	name = "invisible spotlight"
 	},
-/turf/simulated/floor/wood,
-/area/spacecounter/cosmoport/main)
+/turf/simulated/floor,
+/area/spacecounter/cosmoport/plant_b)
 "KX" = (
 /obj/structure/stool{
 	layer = 2.8;
@@ -5902,7 +5872,8 @@
 	pixel_y = 4
 	},
 /obj/machinery/light/spot{
-	dir = 4
+	invisibility = 101;
+	name = "invisible spotlight"
 	},
 /turf/simulated/floor,
 /area/spacecounter/cosmoport/main)
@@ -5957,9 +5928,7 @@
 "Om" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating{
-	icon_state = "platebot";
-	nitrogen = 0.01;
-	oxygen = 0.01
+	icon_state = "platebot"
 	},
 /area/spacecounter/cosmoport/main)
 "Op" = (
@@ -6004,14 +5973,11 @@
 /area/spacecounter/cosmoport/main)
 "OB" = (
 /obj/structure/grille,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/structure/window/reinforced{
+/obj/structure/barricade/wooden,
+/obj/structure/window/basic{
 	dir = 1
 	},
-/obj/structure/window/reinforced,
-/obj/structure/barricade/wooden,
+/obj/structure/window/basic,
 /turf/simulated/floor/plating,
 /area/spacecounter/cosmoport/main)
 "OD" = (
@@ -6051,7 +6017,7 @@
 	icon_state = "14,20"
 	},
 /turf/simulated/shuttle/floor/evac,
-/area/spacecounter/cosmoport/main)
+/area)
 "OM" = (
 /obj/structure/stool/bed/roller,
 /turf/simulated/shuttle/floor/evac/medbay,
@@ -6086,10 +6052,11 @@
 /area/spacecounter/cosmoport/main)
 "Pg" = (
 /obj/structure/closet/crate/bin,
-/obj/machinery/light/spot{
-	dir = 4
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/spot{
+	invisibility = 101;
+	name = "invisible spotlight"
+	},
 /turf/simulated/floor,
 /area/spacecounter/cosmoport/main)
 "Pp" = (
@@ -6206,7 +6173,7 @@
 	icon_state = "13,20"
 	},
 /turf/simulated/shuttle/floor/evac,
-/area/spacecounter/cosmoport/main)
+/area)
 "Qa" = (
 /obj/effect/plant_a/plant_b{
 	icon_state = "plantB_3";
@@ -6669,11 +6636,11 @@
 /area/spacecounter/cosmoport/main)
 "SK" = (
 /obj/structure/grille,
-/obj/structure/window/reinforced{
+/obj/structure/barricade/wooden,
+/obj/structure/window/basic,
+/obj/structure/window/basic{
 	dir = 4
 	},
-/obj/structure/window/reinforced,
-/obj/structure/barricade/wooden,
 /turf/simulated/floor/plating,
 /area/spacecounter/cosmoport/main)
 "SM" = (
@@ -6738,7 +6705,7 @@
 /area/space)
 "Tf" = (
 /obj/effect/landmark/start{
-	name = "NanoTrasen Space Operative"
+	name = "NanoTrasen Space Op"
 	},
 /turf/simulated/floor/engine,
 /area/spacecounter/cosmoport/main)
@@ -6941,10 +6908,11 @@
 "Ur" = (
 /obj/structure/closet/crate/bin,
 /obj/item/trash/syndi_cakes,
-/obj/machinery/light/spot{
-	dir = 4
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/spot{
+	invisibility = 101;
+	name = "invisible spotlight"
+	},
 /turf/simulated/floor,
 /area/spacecounter/cosmoport/plant_b)
 "Ut" = (
@@ -7288,15 +7256,12 @@
 /turf/simulated/floor,
 /area/spacecounter/cosmoport/main)
 "WU" = (
-/obj/structure/closet/secure_closet{
-	icon_state = "sec1";
-	name = "Security Officer's Locker";
-	req_access = list(2)
+/obj/structure/table/woodentable,
+/obj/machinery/computer/security/wooden_tv/miami{
+	name = "Miami TV";
+	network = list("SPEC_SVAST")
 	},
-/obj/item/clothing/under/rank/security,
-/turf/simulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/wood,
 /area/spacecounter/cosmoport/main)
 "WV" = (
 /obj/structure/table,
@@ -7401,13 +7366,13 @@
 	},
 /area/spacecounter/cosmoport/main)
 "XB" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/structure/window/reinforced{
+/obj/structure/closet/wardrobe/mixed,
+/obj/structure/window/basic{
 	dir = 1
 	},
-/obj/structure/closet/wardrobe/mixed,
+/obj/structure/window/basic{
+	dir = 8
+	},
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "vault"
@@ -7598,11 +7563,20 @@
 	},
 /area/spacecounter/cosmoport/main)
 "Zh" = (
-/obj/machinery/door/airlock/maintenance{
-	locked = 1;
-	req_access = list(12)
+/obj/structure/closet/secure_closet{
+	icon_broken = "secbroken";
+	icon_closed = "sec";
+	icon_locked = "sec1";
+	icon_off = "secoff";
+	icon_opened = "secopen";
+	icon_state = "sec1";
+	name = "Security Officer's Locker";
+	req_access = list(2)
 	},
-/turf/simulated/floor/plating,
+/obj/item/clothing/under/rank/security,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
 /area/spacecounter/cosmoport/main)
 "Zk" = (
 /obj/structure/grille,
@@ -7705,7 +7679,7 @@
 /turf/simulated/floor/plating,
 /area/spacecounter/cosmoport/main)
 "ZQ" = (
-/obj/structure/window/reinforced,
+/obj/structure/window/basic,
 /turf/unsimulated/floor{
 	icon_state = "dark"
 	},
@@ -14789,9 +14763,9 @@ tZ
 tZ
 Oi
 Lp
-Yj
+GK
 UQ
-Yj
+GK
 aU
 Dn
 zv
@@ -14916,9 +14890,9 @@ Zd
 rm
 iQ
 dy
-Yj
+GK
 UQ
-Yj
+GK
 MZ
 aU
 ce
@@ -15043,9 +15017,9 @@ Zd
 Zd
 iQ
 JB
-Yj
+GK
 UQ
-Yj
+GK
 aU
 mL
 zv
@@ -15170,9 +15144,9 @@ AL
 Zd
 iQ
 Hu
-Yj
+GK
 UQ
-Yj
+GK
 Dn
 MZ
 zv
@@ -15297,9 +15271,9 @@ AL
 Zd
 iQ
 tl
-Yj
+GK
 UQ
-Yj
+GK
 aU
 aU
 zv
@@ -15765,9 +15739,9 @@ sD
 sD
 dw
 dw
-nt
+GK
 vO
-oM
+GK
 zv
 zv
 zv
@@ -16149,7 +16123,7 @@ nX
 fI
 Zd
 iQ
-cQ
+GK
 nU
 rc
 mQ
@@ -16186,7 +16160,7 @@ Zd
 rm
 iQ
 VT
-KW
+WU
 HV
 uK
 KX
@@ -16276,7 +16250,7 @@ nX
 fI
 Zd
 iQ
-BN
+GK
 HZ
 rc
 Hn
@@ -16403,7 +16377,7 @@ nR
 WH
 Zd
 iQ
-BN
+GK
 hM
 rc
 Hn
@@ -16530,7 +16504,7 @@ dw
 WH
 Zd
 iQ
-Ju
+GK
 rR
 rc
 Hn
@@ -17203,7 +17177,7 @@ Zd
 iQ
 uK
 VT
-WU
+Zh
 uK
 zc
 qV
@@ -17457,7 +17431,7 @@ Ta
 CK
 bJ
 VT
-CI
+cQ
 OD
 uK
 Si
@@ -19108,7 +19082,7 @@ uK
 uK
 Lt
 zv
-Dq
+oM
 aP
 Em
 JN
@@ -19574,7 +19548,7 @@ YX
 YX
 YX
 YX
-OB
+FC
 fI
 Zd
 iQ
@@ -20598,31 +20572,31 @@ GK
 Zd
 Zd
 Zd
-aX
+Ju
 Zd
 Zd
-aX
+Ju
 gV
 gV
-PC
+KW
 gV
 gV
 gV
-PC
+KW
 UI
 QE
 Ur
 gV
 gV
-PC
+KW
 gV
 gV
 gV
 Zd
-aX
+Ju
 Zd
 Zd
-aX
+Ju
 Zd
 Zd
 Zd
@@ -20971,7 +20945,7 @@ YX
 YX
 YX
 YX
-OB
+qB
 fI
 Zd
 iQ
@@ -21098,7 +21072,7 @@ YX
 YX
 YX
 YX
-FC
+qB
 fI
 Zd
 VB
@@ -21218,7 +21192,7 @@ Td
 WJ
 Td
 iD
-wx
+BN
 wx
 YX
 bC
@@ -21233,23 +21207,23 @@ cK
 Sj
 Zd
 Zd
-aX
+Ju
 BH
 uN
 Pg
 gV
 gV
-PC
+KW
 gV
 gV
 gV
-PC
-gV
-gV
-PC
+KW
 gV
 gV
 PC
+gV
+gV
+KW
 gV
 gV
 gV
@@ -21257,11 +21231,11 @@ Zd
 NP
 uN
 Np
-aX
+Ju
 Zd
 Zd
 Zd
-aX
+Ju
 Zd
 Zd
 Zd
@@ -21345,7 +21319,7 @@ Td
 WJ
 Td
 iD
-wx
+BN
 wx
 YX
 xh
@@ -21472,14 +21446,14 @@ Td
 WJ
 WJ
 jV
-cn
+CI
 cn
 YX
 mF
 dH
 YX
 al
-OB
+qB
 fI
 Zd
 iQ
@@ -21606,7 +21580,7 @@ mF
 Qp
 YX
 Mo
-FC
+qB
 fI
 Zd
 uh
@@ -22162,7 +22136,7 @@ YX
 Rd
 Cf
 Cf
-Zh
+nt
 xV
 oZ
 xV
@@ -22288,7 +22262,7 @@ dw
 dw
 dw
 dw
-YX
+aZ
 Kq
 xV
 xV
@@ -22311,7 +22285,7 @@ xV
 xV
 xV
 Kq
-YX
+aZ
 dw
 dw
 dw
@@ -22872,7 +22846,7 @@ sD
 dw
 RH
 Xn
-Xn
+Dq
 Xn
 Xn
 uL
