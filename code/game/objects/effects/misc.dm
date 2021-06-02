@@ -33,3 +33,16 @@
 	. = ..()
 	if(!ismob(loc))
 		return INITIALIZE_HINT_QDEL
+
+/obj/effect/plant_a
+	name = "Plant A"
+	desc = "Graffiti with an A in the center."
+	icon = 'icons/obj/rune.dmi'
+	icon_state = "plantA"
+	layer = 2.1
+	anchored = 1
+
+/obj/effect/plant_a/plant_b
+	name = "Plant B"
+	desc = "Graffiti with an B in the center."
+	icon_state = "plantB"

@@ -6,31 +6,33 @@
 	pixel_y = 2
 	},
 /turf/simulated/shuttle/floor/evac/medbay,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ab" = (
 /obj/machinery/portable_atmospherics/canister/empty,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ac" = (
-/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/mark{
+	icon_state = "rrt"
+	},
 /turf/simulated/floor{
 	icon_state = "white"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ag" = (
 /obj/structure/mopbucket,
 /obj/item/weapon/mop,
 /turf/simulated/floor{
 	icon_state = "floorgrime"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ah" = (
 /obj/structure/object_wall/evac{
 	icon_state = "7,24";
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ai" = (
 /obj/machinery/light/spot{
 	dir = 8
@@ -39,19 +41,20 @@
 	dir = 8;
 	icon_state = "arrival"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "al" = (
 /obj/structure/table,
-/obj/item/weapon/storage/belt/utility,
+/obj/item/clothing/suit/storage/hazardvest,
+/obj/item/clothing/mask/gas/coloured,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "aq" = (
 /obj/structure/object_wall/evac{
 	icon_state = "8,23";
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "av" = (
 /obj/structure/window/reinforced{
 	dir = 5;
@@ -63,13 +66,13 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/plating/airless/catwalk,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "aw" = (
 /obj/structure/object_wall/evac{
 	icon_state = "15,20"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ay" = (
 /obj/structure/table,
 /obj/item/clothing/glasses/welding,
@@ -78,7 +81,7 @@
 	pixel_y = 8
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "aA" = (
 /obj/item/stack/medical/bruise_pack{
 	pixel_x = 10;
@@ -98,18 +101,18 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "aC" = (
 /obj/machinery/cryopod/right,
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "neutral"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "aD" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "aE" = (
 /obj/structure/table/glass,
 /obj/item/weapon/lipstick/random{
@@ -119,10 +122,13 @@
 	pixel_x = -6;
 	pixel_y = 4
 	},
+/obj/machinery/light/spot{
+	dir = 1
+	},
 /turf/simulated/floor{
 	icon_state = "purplechecker"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "aF" = (
 /obj/machinery/door/poddoor/shutters/syndi{
 	icon = 'code/modules/locations/shuttles/cargo.dmi';
@@ -130,18 +136,24 @@
 	name = "Podlock"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"aG" = (
+/obj/machinery/light_construct{
+	dir = 4
+	},
+/turf/simulated/floor/engine,
+/area/spacecounter/cosmoport/main)
 "aH" = (
 /obj/machinery/light/spot,
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "aK" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /obj/structure/table,
 /turf/simulated/shuttle/floor/evac/medbay,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "aL" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced,
@@ -149,7 +161,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "aM" = (
 /obj/machinery/door/window/brigdoor{
 	dir = 1;
@@ -159,24 +171,24 @@
 	dir = 1;
 	icon_state = "warndark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "aN" = (
-/obj/structure/object_wall/evac{
-	icon_state = "8,25";
-	opacity = 0
+/obj/machinery/constructable_frame/machine_frame,
+/obj/machinery/light_construct{
+	dir = 1
 	},
-/turf/simulated/floor/engine,
-/area/space)
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "aP" = (
 /turf/simulated/floor/carpet/black,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "aQ" = (
 /turf/simulated/floor/plating{
 	icon_state = "platebot";
 	nitrogen = 0.01;
 	oxygen = 0.01
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "aR" = (
 /obj/structure/table,
 /obj/machinery/vending/wallmed1{
@@ -184,49 +196,63 @@
 	pixel_y = 2
 	},
 /turf/simulated/shuttle/floor/evac/medbay,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "aU" = (
 /turf/simulated/floor/beach/sand,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "aV" = (
 /obj/structure/object_wall/evac{
 	icon_state = "1,6"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "aX" = (
 /obj/machinery/light/spot{
 	dir = 4
 	},
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "aZ" = (
-/obj/structure/ladder{
-	id = "hangar_transition_north"
+/obj/random/scrap/moderate_weighted,
+/obj/structure/barricade/wooden{
+	health = 9999;
+	maxhealth = 9999
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ba" = (
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "bi" = (
 /obj/effect/decal/mecha_wreckage/gygax/dark,
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "bl" = (
 /obj/structure/object_wall/evac{
 	icon_state = "6,1";
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "bo" = (
 /obj/machinery/light/spot{
 	dir = 8
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"bv" = (
+/obj/machinery/washing_machine,
+/obj/machinery/light/spot,
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "barber"
+	},
+/area/spacecounter/cosmoport/main)
+"bx" = (
+/obj/structure/closet/crate,
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "by" = (
 /obj/structure/cable{
 	d2 = 8;
@@ -236,15 +262,15 @@
 /turf/simulated/floor/airless{
 	icon_state = "solarpanel"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "bC" = (
 /obj/effect/decal/cleanable/generic,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "bE" = (
 /obj/structure/stool/bed/chair/schair/wagon,
 /turf/simulated/shuttle/floor/evac/eng2,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "bI" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/paper_bin,
@@ -259,7 +285,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "bJ" = (
 /obj/machinery/door/window/westright{
 	name = "Quick Exit"
@@ -268,22 +294,22 @@
 	dir = 8;
 	icon_state = "vault"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "bX" = (
 /obj/structure/stool/bed/roller,
 /obj/machinery/iv_drip,
 /turf/simulated/shuttle/floor/evac/medbay,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "bY" = (
 /obj/machinery/light/spot,
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ce" = (
 /obj/machinery/door/airlock/maintenance{
 	req_access = list(12)
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "cf" = (
 /obj/structure/table,
 /obj/machinery/kitchen_machine/microwave{
@@ -294,45 +320,45 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ch" = (
 /obj/machinery/light/spot,
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "warndark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ck" = (
 /obj/structure/stool/bed/chair/office/light{
 	dir = 8
 	},
-/obj/structure/window/reinforced,
+/obj/structure/window/basic,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "cn" = (
 /obj/structure/inflatable/door,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "cr" = (
 /obj/random/vending/cola,
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "warndark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ct" = (
 /obj/structure/object_wall/evac{
 	icon_state = "12,4";
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "cu" = (
 /obj/structure/closet/crate/bin,
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "cv" = (
 /obj/structure/girder/displaced,
 /turf/simulated/floor/plating,
@@ -346,37 +372,37 @@
 	pixel_y = 1
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "cI" = (
 /obj/structure/object_wall/evac{
 	icon_state = "12,6"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "cK" = (
 /obj/machinery/door/airlock/command{
 	name = "Offices"
 	},
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "cL" = (
 /obj/structure/stool/bed/chair/schair/wagon{
 	dir = 4
 	},
 /turf/simulated/shuttle/floor/evac/sec2,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "cO" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "cP" = (
 /obj/structure/object_wall/evac{
 	icon_state = "8,1";
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "cQ" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced{
@@ -387,58 +413,63 @@
 	},
 /obj/structure/window/reinforced,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "cX" = (
 /obj/structure/object_wall/evac{
 	icon_state = "6,6"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"cY" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor,
+/area/spacecounter/cosmoport/plant_a)
 "cZ" = (
 /obj/structure/ladder{
 	id = "hangar_transition_centr_east"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "da" = (
 /obj/structure/ladder{
 	id = "hangar_transition_south"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "de" = (
 /obj/structure/object_wall/evac{
 	icon_state = "5,10"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "df" = (
 /obj/structure/stool/bed/chair/office/light,
 /turf/simulated/floor{
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "dj" = (
 /obj/machinery/media/jukebox/bar,
 /turf/unsimulated/floor{
 	dir = 8;
 	icon_state = "redbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "dp" = (
 /obj/machinery/conveyor{
 	dir = 9;
 	id = "baggage_exit"
 	},
+/obj/machinery/light/small,
 /turf/simulated/floor/plating{
 	icon_state = "platebot";
 	nitrogen = 0.01;
 	oxygen = 0.01
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "dw" = (
 /turf/unsimulated/wall,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "dy" = (
 /obj/structure/table/glass,
 /obj/item/weapon/storage/box/cups{
@@ -447,10 +478,10 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "dA" = (
 /obj/machinery/status_display{
-	message1 = "Ticket number:";
+	message1 = "Ticket:";
 	message2 = "647-B";
 	mode = 2;
 	pixel_x = 32
@@ -459,14 +490,25 @@
 	dir = 4;
 	icon_state = "arrival"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"dD" = (
+/obj/structure/table,
+/obj/item/weapon/phone,
+/obj/structure/window/basic{
+	dir = 8
+	},
+/obj/structure/window/basic{
+	dir = 1
+	},
+/turf/simulated/floor,
+/area/spacecounter/cosmoport/plant_b)
 "dG" = (
 /obj/machinery/door/airlock/erokez{
 	name = "Command Airlock";
 	req_access = list(19)
 	},
 /turf/simulated/shuttle/floor/evac,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "dH" = (
 /obj/structure/table,
 /obj/item/stack/cable_coil/random{
@@ -480,7 +522,7 @@
 	pixel_y = 6
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "dI" = (
 /obj/structure/cable/yellow{
 	d1 = 1;
@@ -494,7 +536,7 @@
 	dir = 8;
 	icon_state = "redbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "dJ" = (
 /obj/structure/table,
 /obj/item/device/flashlight/lamp/green{
@@ -505,7 +547,21 @@
 /turf/simulated/floor{
 	icon_state = "darkbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"dK" = (
+/obj/effect/plant_a/plant_b{
+	icon_state = "plantB_3";
+	pixel_x = 5
+	},
+/obj/structure/sign/mark{
+	icon_state = "rup";
+	pixel_x = -10
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "neutralcorner"
+	},
+/area/spacecounter/cosmoport/main)
 "dM" = (
 /obj/structure/mirror{
 	pixel_x = 28
@@ -513,18 +569,18 @@
 /turf/unsimulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "dN" = (
 /obj/structure/object_wall/evac{
 	icon_state = "6,24";
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "dP" = (
 /obj/random/vending/snack,
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "dR" = (
 /obj/structure/window/reinforced,
 /obj/item/weapon/reagent_containers/food/snacks/friedbanana,
@@ -539,21 +595,33 @@
 /turf/simulated/shuttle/floor/erokez{
 	icon_state = "sign_2"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "dT" = (
 /obj/structure/window/reinforced/tinted{
 	dir = 4
 	},
 /obj/structure/flora/ausbushes/grassybush,
 /turf/simulated/floor/grass,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "dV" = (
 /obj/structure/sign/velocity_overlay/car_carmageddon{
 	dir = 4;
 	pixel_x = 16
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"dW" = (
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "arrival"
+	},
+/area/spacecounter/cosmoport/plant_a)
+"dZ" = (
+/obj/structure/sign/mark{
+	icon_state = "rrt"
+	},
+/turf/simulated/floor,
+/area/spacecounter/cosmoport/main)
 "eg" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/handcuffs,
@@ -564,22 +632,21 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ej" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /obj/structure/stool/bed/chair/schair/wagon,
 /turf/simulated/shuttle/floor/evac/place,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "eq" = (
-/obj/machinery/deployable/barrier{
-	icon_state = "barrier1"
+/obj/machinery/light/spot{
+	dir = 1
 	},
-/turf/simulated/floor{
-	icon_state = "arrival"
-	},
-/area/space)
+/obj/effect/landmark/blockway,
+/turf/simulated/floor/engine,
+/area/spacecounter/cosmoport/main)
 "er" = (
 /obj/structure/table,
 /obj/item/weapon/paper_bin,
@@ -587,19 +654,19 @@
 /turf/simulated/floor{
 	icon_state = "white"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "eu" = (
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "darkblue"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ew" = (
 /obj/structure/window/reinforced/tinted{
 	dir = 4
 	},
 /turf/simulated/floor/grass,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "eH" = (
 /obj/structure/cable/yellow{
 	d1 = 1;
@@ -610,37 +677,37 @@
 	dir = 8;
 	icon_state = "redbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "eI" = (
 /obj/structure/stool,
 /turf/simulated/floor{
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "eO" = (
 /obj/machinery/light/spot,
 /turf/simulated/floor{
 	icon_state = "red"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "eP" = (
 /obj/structure/table,
-/obj/structure/window/reinforced/tinted{
+/obj/item/weapon/phone,
+/obj/structure/window/basic{
 	dir = 8
 	},
-/obj/item/weapon/phone,
-/obj/structure/window/reinforced/tinted{
+/obj/structure/window/basic{
 	dir = 1
 	},
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "eR" = (
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "eU" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/eastright{
@@ -649,23 +716,29 @@
 	req_access = list(28)
 	},
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"eW" = (
+/obj/machinery/light/spot{
+	dir = 1
+	},
+/turf/simulated/floor/engine,
+/area/spacecounter/cosmoport/main)
 "eY" = (
 /obj/structure/curtain/open,
 /turf/simulated/shuttle/floor/evac,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "eZ" = (
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "vault"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "fa" = (
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "Stairs_wide"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "fe" = (
 /obj/structure/sink{
 	dir = 8;
@@ -675,7 +748,7 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "fg" = (
 /obj/machinery/light/spot{
 	dir = 4
@@ -684,21 +757,20 @@
 	dir = 8;
 	icon_state = "neutralcorner"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "fk" = (
-/obj/structure/window/reinforced/tinted,
-/obj/machinery/photocopier,
+/obj/structure/window/basic,
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "neutral"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "fq" = (
 /obj/structure/closet/secure_closet,
 /turf/simulated/floor{
 	icon_state = "white"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "fw" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -707,14 +779,23 @@
 /turf/simulated/floor{
 	icon_state = "purplechecker"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "fD" = (
 /obj/structure/closet/emergency_wall{
 	pixel_x = 32;
 	pixel_y = 2
 	},
 /turf/simulated/shuttle/floor/evac,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"fF" = (
+/obj/structure/stool/bed/chair/metal{
+	dir = 1
+	},
+/obj/machinery/light/spot,
+/turf/simulated/floor{
+	icon_state = "darkbrown"
+	},
+/area/spacecounter/cosmoport/plant_a)
 "fH" = (
 /obj/structure/chalkboard{
 	pixel_x = 16
@@ -722,24 +803,24 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "fI" = (
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "arrival"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "fK" = (
 /turf/simulated/floor{
 	icon_state = "freezerfloor"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "fN" = (
 /obj/structure/object_wall/evac{
 	icon_state = "10,18"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "fP" = (
 /obj/structure/object_wall/evac{
 	density = 0;
@@ -747,13 +828,13 @@
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "fT" = (
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "neutralcorner"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_b)
 "fV" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced{
@@ -767,7 +848,13 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"gb" = (
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "arrival"
+	},
+/area/spacecounter/cosmoport/main)
 "gf" = (
 /obj/machinery/light/spot{
 	dir = 8
@@ -775,7 +862,7 @@
 /turf/simulated/floor{
 	icon_state = "Stairs_wide"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "gi" = (
 /obj/structure/object_wall/evac{
 	density = 0;
@@ -787,29 +874,30 @@
 	pixel_y = 31
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "gm" = (
 /obj/machinery/conveyor{
 	dir = 8;
 	id = "baggage_exit"
 	},
 /obj/item/weapon/storage/briefcase,
+/obj/machinery/light/spot,
 /turf/simulated/floor{
 	icon_state = "darkbrown"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "gr" = (
 /obj/structure/object_wall/evac{
 	icon_state = "4,7"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "gw" = (
 /obj/effect/decal/cleanable/generic,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "gx" = (
 /obj/machinery/vending/cigarette{
 	name = "hacked Cigarette machine";
@@ -819,30 +907,30 @@
 	dir = 8;
 	icon_state = "redbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "gy" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "darkblue"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "gz" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
 /obj/structure/table/glass,
 /obj/item/weapon/storage/briefcase,
+/obj/structure/window/basic{
+	dir = 8
+	},
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "darkblue"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "gB" = (
 /obj/structure/rack,
 /obj/item/weapon/storage/toolbox/electrical,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "gF" = (
 /obj/structure/table,
 /obj/machinery/cell_charger,
@@ -859,37 +947,37 @@
 	pixel_y = -2
 	},
 /turf/simulated/shuttle/floor/evac/eng2,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "gI" = (
 /obj/structure/table,
 /turf/simulated/floor{
 	icon_state = "darkbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "gJ" = (
 /obj/structure/sign/warning/smoking{
 	pixel_y = 32
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "gL" = (
 /obj/structure/computerframe,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "gN" = (
 /obj/structure/closet/crate,
 /obj/item/stack/sheet/wood{
 	amount = 10
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "gP" = (
 /obj/structure/closet/crate/bin,
 /turf/simulated/floor{
 	dir = 10;
 	icon_state = "arrival"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "gQ" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -901,19 +989,22 @@
 	dir = 1;
 	icon_state = "warndark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"gV" = (
+/turf/simulated/floor,
+/area/spacecounter/cosmoport/plant_b)
 "gW" = (
 /obj/machinery/light/small,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "gX" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/stamp/approve,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "gY" = (
 /obj/structure/sign/mark{
 	icon_state = "rrt"
@@ -922,7 +1013,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "gZ" = (
 /obj/structure/cable/yellow{
 	d1 = 2;
@@ -933,11 +1024,11 @@
 	dir = 8;
 	icon_state = "redbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "hb" = (
 /obj/machinery/photocopier,
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "hd" = (
 /obj/machinery/door/window/westleft,
 /obj/machinery/door/window/eastleft,
@@ -951,45 +1042,51 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "hh" = (
 /obj/effect/landmark/blockway,
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "hk" = (
 /obj/structure/filingcabinet/chestdrawer,
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "hn" = (
 /obj/structure/object_wall/evac{
 	icon_state = "15,12"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "hs" = (
 /obj/structure/object_wall/evac{
 	icon_state = "1,7"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "hA" = (
 /obj/structure/object_wall/evac{
 	icon_state = "11,10"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"hG" = (
+/obj/structure/sign/mark{
+	icon_state = "rrt"
+	},
+/turf/simulated/floor/engine,
+/area/spacecounter/cosmoport/main)
 "hH" = (
 /obj/machinery/door/airlock/erokez/med{
 	name = "Medbay Airlock"
 	},
 /turf/simulated/shuttle/floor/evac/medbay,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "hL" = (
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "neutralcorner"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "hM" = (
 /obj/structure/table,
 /obj/item/weapon/paper_bin,
@@ -998,11 +1095,11 @@
 	dir = 1;
 	icon_state = "darkbrown"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "hN" = (
 /obj/machinery/vending/cigarette,
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "hO" = (
 /obj/machinery/light/spot{
 	dir = 1
@@ -1010,7 +1107,7 @@
 /turf/simulated/floor{
 	icon_state = "darkbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "hQ" = (
 /obj/item/weapon/reagent_containers/food/condiment/enzyme{
 	pixel_x = 10
@@ -1032,10 +1129,16 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"hV" = (
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "neutralcorner"
+	},
+/area/spacecounter/cosmoport/plant_b)
 "ia" = (
 /obj/machinery/status_display{
-	message1 = "Ticket number:";
+	message1 = "Ticket:";
 	message2 = "399-L";
 	mode = 2;
 	pixel_x = 32
@@ -1047,7 +1150,7 @@
 	dir = 4;
 	icon_state = "arrival"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "id" = (
 /obj/machinery/light/spot,
 /obj/structure/table,
@@ -1091,37 +1194,43 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "if" = (
 /obj/structure/object_wall/evac{
 	icon_state = "11,17"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ih" = (
 /obj/structure/object_wall/evac{
 	icon_state = "1,19"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"ii" = (
+/obj/structure/sign/mark{
+	icon_state = "rlf"
+	},
+/turf/simulated/floor/engine,
+/area/spacecounter/cosmoport/main)
 "il" = (
 /obj/structure/sign/velocity_overlay/car_impala{
 	dir = 4;
 	pixel_x = 16
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ir" = (
 /obj/structure/table,
 /obj/machinery/recharger/wallcharger{
 	pixel_x = 34
 	},
 /turf/simulated/shuttle/floor/evac/medbay,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "is" = (
 /obj/structure/foamedmetal,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "iu" = (
 /obj/machinery/light/spot{
 	dir = 8
@@ -1130,31 +1239,37 @@
 	dir = 1;
 	icon_state = "Stairs2_wide"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "iv" = (
 /obj/structure/stool/bed/chair/metal,
 /turf/simulated/floor{
 	dir = 5;
 	icon_state = "darkbrown"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "iD" = (
 /obj/structure/inflatable,
 /obj/effect/landmark/blockway,
 /turf/simulated/floor/plating,
 /area/space)
+"iF" = (
+/obj/machinery/light/spot,
+/turf/simulated/floor{
+	icon_state = "arrival"
+	},
+/area/spacecounter/cosmoport/main)
 "iN" = (
 /obj/structure/stool/bed/chair/schair/wagon,
 /obj/structure/closet/emergency_wall{
 	pixel_y = 32
 	},
 /turf/simulated/shuttle/floor/evac/place,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "iQ" = (
 /turf/simulated/floor{
 	icon_state = "arrival"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "iU" = (
 /obj/machinery/light/spot{
 	dir = 4
@@ -1163,17 +1278,28 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "jb" = (
 /obj/structure/window/reinforced/shuttle/evac{
 	icon_state = "3,20"
 	},
 /turf/simulated/shuttle/floor/evac,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "je" = (
 /obj/structure/closet/emcloset,
 /turf/simulated/shuttle/floor/evac/place2,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"jh" = (
+/obj/effect/plant_a/plant_b{
+	icon_state = "plantB_3";
+	pixel_x = -5
+	},
+/obj/structure/sign/mark{
+	icon_state = "rup";
+	pixel_x = 8
+	},
+/turf/simulated/wall,
+/area/spacecounter/cosmoport/main)
 "ji" = (
 /obj/structure/stool/bed/chair/schair/wagon{
 	dir = 8
@@ -1182,19 +1308,29 @@
 	dir = 4
 	},
 /turf/simulated/shuttle/floor/evac/medbay,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "jl" = (
-/obj/structure/window/reinforced{
-	dir = 4
-	},
 /obj/structure/stool/bed/chair/metal{
 	dir = 8
+	},
+/obj/structure/window/basic{
+	dir = 4
 	},
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "darkblue"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"jm" = (
+/obj/effect/plant_a/plant_b{
+	icon_state = "plantB_3";
+	pixel_x = -5
+	},
+/obj/structure/sign/mark{
+	icon_state = "rrt"
+	},
+/turf/simulated/floor/engine,
+/area/spacecounter/cosmoport/main)
 "jn" = (
 /obj/machinery/light/spot{
 	dir = 1
@@ -1202,13 +1338,13 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "jp" = (
 /obj/structure/object_wall/evac{
 	icon_state = "11,20"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "js" = (
 /obj/effect/decal/cleanable/blood/oil,
 /obj/structure/grille{
@@ -1216,7 +1352,7 @@
 	},
 /obj/item/stack/rods,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "jt" = (
 /obj/structure/object_wall/evac{
 	density = 0;
@@ -1224,42 +1360,48 @@
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "jz" = (
 /obj/structure/object_wall/evac{
 	icon_state = "11,6"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "jA" = (
 /obj/machinery/door/airlock/security/glass,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "jE" = (
 /obj/structure/stool/bed/chair/schair/wagon,
 /turf/simulated/shuttle/floor/evac/place,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "jG" = (
 /obj/structure/table,
 /obj/item/weapon/book/manual/wiki/security_space_law,
 /turf/simulated/floor{
 	icon_state = "white"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "jK" = (
 /obj/structure/object_wall/evac{
 	icon_state = "1,20"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "jN" = (
 /obj/structure/window/reinforced/tinted{
 	dir = 8
 	},
 /turf/simulated/floor/grass,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"jR" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced,
+/obj/structure/barricade/wooden,
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "jS" = (
 /obj/machinery/conveyor{
 	dir = 5;
@@ -1271,7 +1413,7 @@
 	nitrogen = 0.01;
 	oxygen = 0.01
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "jV" = (
 /obj/structure/inflatable/door,
 /obj/effect/landmark/blockway,
@@ -1282,11 +1424,11 @@
 	dir = 5
 	},
 /turf/simulated/floor/grass,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "jZ" = (
 /obj/structure/sign/velocity_overlay/car_impala,
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "kd" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -1296,14 +1438,14 @@
 	dir = 8;
 	icon_state = "vault"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "kk" = (
 /obj/structure/table,
 /obj/item/weapon/storage/secure/briefcase,
 /turf/simulated/floor{
 	icon_state = "darkbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "km" = (
 /obj/structure/table,
 /obj/item/weapon/paper_bin,
@@ -1318,7 +1460,7 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "kp" = (
 /obj/structure/bookcase/manuals,
 /obj/machinery/light/spot{
@@ -1327,47 +1469,71 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"kq" = (
+/obj/effect/plant_a{
+	icon_state = "plantA_3";
+	pixel_x = -5
+	},
+/obj/structure/sign/mark{
+	icon_state = "rup";
+	pixel_x = 10
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/spacecounter/cosmoport/main)
 "ks" = (
 /obj/structure/table,
 /obj/machinery/recharger,
 /turf/simulated/floor{
 	icon_state = "darkbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "kt" = (
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "darkblue"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "kv" = (
 /obj/structure/stool/bed/chair/comfy/brown{
 	dir = 4
 	},
 /turf/simulated/floor/carpet/black,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "kw" = (
 /obj/structure/closet/toolcloset,
 /obj/structure/extinguisher_cabinet{
 	pixel_y = 32
 	},
 /turf/simulated/shuttle/floor/evac/eng2,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "kz" = (
 /obj/structure/stool/bed/chair/schair/wagon,
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/simulated/shuttle/floor/evac/place,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"kB" = (
+/obj/effect/plant_a{
+	icon_state = "plantA_3";
+	pixel_x = -5
+	},
+/obj/structure/sign/mark{
+	icon_state = "rup";
+	pixel_x = 10
+	},
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "kD" = (
 /obj/structure/closet/crate,
 /obj/item/weapon/screwdriver,
 /obj/item/weapon/crowbar,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "kE" = (
 /obj/machinery/door/airlock/glass{
 	name = "ROBUST-MAG airlock"
@@ -1375,13 +1541,13 @@
 /turf/simulated/floor{
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "kG" = (
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "Stairs_wide"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "kN" = (
 /obj/structure/toilet{
 	pixel_y = 8
@@ -1399,14 +1565,14 @@
 /turf/simulated/floor{
 	icon_state = "freezerfloor"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "kT" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /obj/structure/grille,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "kZ" = (
 /obj/item/weapon/paper_bin,
 /obj/item/weapon/pen,
@@ -1415,11 +1581,11 @@
 	pixel_y = 3
 	},
 /obj/structure/table,
-/obj/structure/window/reinforced/tinted{
+/obj/structure/window/basic{
 	dir = 1
 	},
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "lb" = (
 /obj/structure/stool/bed/chair/metal{
 	dir = 1
@@ -1427,22 +1593,13 @@
 /turf/simulated/floor{
 	icon_state = "escape"
 	},
-/area/space)
-"lc" = (
-/obj/machinery/conveyor_switch/oneway{
-	id = "baggage"
-	},
-/turf/simulated/floor{
-	dir = 8;
-	icon_state = "darkbrown"
-	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ld" = (
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "neutral"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "le" = (
 /obj/structure/cable/yellow{
 	d1 = 1;
@@ -1453,19 +1610,32 @@
 	dir = 8;
 	icon_state = "redbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"lf" = (
+/obj/effect/decal/cleanable/blood/oil,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "lh" = (
 /obj/structure/object_wall/evac{
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "li" = (
 /obj/structure/object_wall/evac{
 	icon_state = "3,5"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"lk" = (
+/obj/effect/plant_a{
+	icon_state = "plantA_3"
+	},
+/turf/simulated/wall,
+/area/spacecounter/cosmoport/main)
 "ll" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -1473,7 +1643,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/plating/airless/catwalk,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ln" = (
 /obj/machinery/status_display{
 	pixel_x = 32
@@ -1482,33 +1652,33 @@
 	dir = 1;
 	icon_state = "neutralcorner"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "lp" = (
 /obj/structure/object_wall/evac{
 	icon_state = "6,23";
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "lw" = (
 /obj/structure/stool/bed/chair/schair/wagon{
 	dir = 1
 	},
 /turf/simulated/shuttle/floor/evac/sec2,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "lz" = (
 /obj/structure/object_wall/evac{
 	icon_state = "11,23";
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "lB" = (
 /obj/structure/object_wall/evac{
 	icon_state = "15,11"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "lC" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -1518,17 +1688,17 @@
 	dir = 8;
 	icon_state = "vault"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "lD" = (
 /obj/structure/object_wall/evac{
 	icon_state = "11,1";
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "lE" = (
 /turf/simulated/shuttle/floor/evac/eng1,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "lG" = (
 /obj/structure/table,
 /obj/item/trash/plate,
@@ -1536,7 +1706,7 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "lI" = (
 /obj/structure/cable/yellow{
 	d2 = 8;
@@ -1549,25 +1719,25 @@
 	dir = 8;
 	icon_state = "redbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "lQ" = (
 /obj/machinery/light/spot{
 	dir = 8
 	},
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "lR" = (
 /obj/machinery/light/spot,
 /turf/simulated/floor{
 	icon_state = "freezerfloor"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "lS" = (
 /obj/structure/object_wall/evac{
 	icon_state = "11,18"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "lY" = (
 /obj/machinery/door/airlock/command{
 	locked = 1;
@@ -1577,24 +1747,24 @@
 	icon_state = "engineering_door"
 	},
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "lZ" = (
 /obj/machinery/door/airlock/maintenance{
 	req_access = list(12)
 	},
 /obj/machinery/door/poddoor/shutters/syndi,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "mb" = (
 /obj/structure/object_wall/evac{
 	icon_state = "11,2"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "md" = (
 /obj/item/weapon/twohanded/flora/pottedplant/minitree,
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "mh" = (
 /obj/structure/object_wall/evac{
 	density = 0;
@@ -1602,7 +1772,7 @@
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "mi" = (
 /obj/structure/stool{
 	layer = 2.8;
@@ -1614,7 +1784,7 @@
 	pixel_y = 4
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ml" = (
 /obj/structure/table/glass,
 /obj/item/stack/medical/ointment{
@@ -1628,13 +1798,22 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"mm" = (
+/obj/structure/filingcabinet/filingcabinet{
+	density = 0
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "neutral"
+	},
+/area/spacecounter/cosmoport/plant_b)
 "mo" = (
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor{
 	icon_state = "darkbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "mt" = (
 /obj/structure/object_wall/evac{
 	icon_state = "12,13"
@@ -1644,51 +1823,66 @@
 	pixel_y = -1
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "my" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
 /obj/structure/stool/bed/chair/metal{
 	dir = 4
+	},
+/obj/structure/window/basic{
+	dir = 8
 	},
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "darkblue"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "mz" = (
 /obj/structure/closet/crate/bin,
 /obj/item/trash/candy,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"mA" = (
+/obj/effect/plant_a{
+	icon_state = "plantA_3";
+	pixel_x = -5
+	},
+/obj/structure/sign/mark{
+	icon_state = "rdn";
+	pixel_x = 10
+	},
+/turf/simulated/floor/engine,
+/area/spacecounter/cosmoport/main)
 "mC" = (
 /obj/structure/object_wall/evac{
 	icon_state = "4,4";
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"mD" = (
+/obj/machinery/status_display,
+/turf/simulated/wall,
+/area/spacecounter/cosmoport/plant_a)
 "mE" = (
 /obj/structure/ladder{
 	id = "hangar_transition_east"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "mF" = (
 /obj/structure/table,
 /obj/item/apc_frame,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "mH" = (
 /obj/structure/closet/crate/bin,
 /obj/machinery/light/spot,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "mI" = (
 /obj/structure/cable/yellow{
 	d1 = 4;
@@ -1705,52 +1899,82 @@
 	dir = 8;
 	icon_state = "redbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "mJ" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "arrival"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "mL" = (
 /mob/living/simple_animal/crab/Coffee,
+/obj/machinery/light/spot,
 /turf/simulated/floor/beach/sand,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"mM" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/spacecounter/cosmoport/main)
 "mN" = (
 /obj/structure/stool,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"mP" = (
+/obj/item/weapon/paper_bin,
+/obj/item/weapon/pen,
+/obj/item/weapon/folder/blue{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/structure/table,
+/turf/simulated/floor,
+/area/spacecounter/cosmoport/plant_b)
 "mQ" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor{
 	icon_state = "darkbrown"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
+"mR" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/spacecounter/cosmoport/main)
 "mS" = (
 /obj/structure/object_wall/evac{
 	icon_state = "1,13"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "mT" = (
 /obj/structure/table,
 /turf/simulated/floor{
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "mX" = (
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor{
 	icon_state = "arrival"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"mZ" = (
+/obj/structure/girder/displaced,
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "na" = (
 /obj/structure/table,
 /obj/item/weapon/storage/box/mousetraps,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "nb" = (
 /obj/machinery/light/spot{
 	dir = 8
@@ -1759,27 +1983,31 @@
 	dir = 8;
 	icon_state = "bluecorner"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "nd" = (
 /obj/structure/rack,
+/obj/machinery/light/spot{
+	dir = 4
+	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "nh" = (
 /obj/structure/rack,
 /obj/item/weapon/reagent_containers/spray/extinguisher,
+/obj/machinery/light/spot,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "nj" = (
 /obj/structure/window/reinforced/tinted{
 	dir = 4
 	},
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/simulated/floor/grass,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "np" = (
 /obj/structure/inflatable,
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "nq" = (
 /obj/structure/stool/bed/chair/office/dark{
 	dir = 8
@@ -1788,13 +2016,13 @@
 	dir = 8;
 	icon_state = "darkblue"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ns" = (
 /turf/simulated/floor{
 	dir = 6;
 	icon_state = "darkblue"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "nt" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced{
@@ -1808,32 +2036,39 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "nu" = (
 /obj/structure/window/reinforced/shuttle/evac{
 	icon_state = "2,20"
 	},
 /turf/simulated/shuttle/floor/evac,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "nA" = (
 /obj/structure/object_wall/evac{
 	icon_state = "13,5"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "nC" = (
-/obj/structure/object_wall/evac{
-	icon_state = "9,25";
-	opacity = 0
+/obj/structure/closet/crate,
+/obj/machinery/light/spot{
+	dir = 1
 	},
-/turf/simulated/floor/engine,
-/area/space)
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "nD" = (
 /obj/structure/object_wall/evac{
 	icon_state = "5,11"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"nF" = (
+/obj/structure/window/basic,
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "neutral"
+	},
+/area/spacecounter/cosmoport/plant_b)
 "nJ" = (
 /obj/structure/cable/yellow{
 	d1 = 1;
@@ -1854,16 +2089,16 @@
 	dir = 8;
 	icon_state = "redbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "nM" = (
 /obj/structure/table,
-/obj/structure/window/reinforced/tinted,
-/obj/structure/window/reinforced/tinted{
+/obj/item/weapon/stamp/denied,
+/obj/structure/window/basic{
 	dir = 8
 	},
-/obj/item/weapon/stamp/denied,
+/obj/structure/window/basic,
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "nN" = (
 /obj/machinery/conveyor{
 	id = "baggage"
@@ -1871,7 +2106,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "nR" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced{
@@ -1879,7 +2114,7 @@
 	health = 1e+007
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "nU" = (
 /obj/structure/table,
 /obj/item/weapon/phone,
@@ -1887,7 +2122,7 @@
 	dir = 1;
 	icon_state = "darkbrown"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "nV" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -1897,32 +2132,45 @@
 	dir = 8;
 	icon_state = "barber"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "nX" = (
 /obj/machinery/door/airlock/external{
 	name = "Escape Airlock"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"oa" = (
+/obj/structure/sign/departments/cargo,
+/turf/simulated/wall,
+/area/spacecounter/cosmoport/plant_a)
+"ob" = (
+/obj/machinery/light/spot{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkbrown"
+	},
+/area/spacecounter/cosmoport/plant_a)
 "oc" = (
 /obj/machinery/light/spot,
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "vault"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "of" = (
 /obj/structure/object_wall/evac{
 	icon_state = "5,6"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ol" = (
 /obj/structure/closet/emergency_wall{
 	pixel_x = -32
 	},
 /turf/simulated/shuttle/floor/evac,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "on" = (
 /obj/machinery/light{
 	dir = 8
@@ -1931,7 +2179,7 @@
 /obj/item/weapon/pen,
 /obj/structure/table,
 /turf/simulated/shuttle/floor/evac,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "oq" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/stamp/denied,
@@ -1942,26 +2190,29 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"ou" = (
+/turf/simulated/floor,
+/area/spacecounter/cosmoport/plant_a)
 "ov" = (
 /obj/structure/object_wall/evac{
 	icon_state = "10,1";
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ow" = (
 /obj/structure/window/reinforced/tinted{
 	dir = 8
 	},
 /obj/structure/flora/ausbushes/leafybush,
 /turf/simulated/floor/grass,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "oz" = (
 /turf/simulated/floor{
 	icon_state = "purplechecker"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "oC" = (
 /obj/machinery/vending/coffee{
 	name = "hacked Hot Drinks machine";
@@ -1971,23 +2222,23 @@
 	dir = 8;
 	icon_state = "redbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "oE" = (
-/obj/structure/window/reinforced{
+/obj/structure/table/glass,
+/obj/structure/window/basic{
 	dir = 4
 	},
-/obj/structure/table/glass,
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "darkblue"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "oK" = (
 /obj/structure/stool/bed/chair/schair/wagon{
 	dir = 8
 	},
 /turf/simulated/shuttle/floor/evac/sec2,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "oL" = (
 /obj/machinery/door/airlock/external{
 	locked = 1;
@@ -1999,7 +2250,7 @@
 	name = "Podlock"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "oM" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced{
@@ -2015,7 +2266,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "oN" = (
 /obj/machinery/conveyor{
 	dir = 4;
@@ -2025,25 +2276,41 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
+"oO" = (
+/obj/effect/landmark/blockway,
+/obj/machinery/light/spot,
+/turf/simulated/floor,
+/area/spacecounter/cosmoport/main)
 "oQ" = (
 /obj/structure/closet/jcloset,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "oT" = (
 /obj/structure/rack,
 /obj/item/stack/sheet/cardboard,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "oV" = (
 /turf/simulated/shuttle/floor/evac/sec1,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "oX" = (
 /obj/structure/stool/bed/chair/metal,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"oZ" = (
+/obj/effect/plant_a/plant_b{
+	icon_state = "plantB_3";
+	pixel_x = -5
+	},
+/obj/structure/sign/mark{
+	icon_state = "rup";
+	pixel_x = 10
+	},
+/turf/simulated/floor/engine,
+/area/spacecounter/cosmoport/main)
 "pb" = (
 /obj/structure/table,
 /obj/machinery/cell_charger,
@@ -2054,33 +2321,34 @@
 /obj/item/weapon/gun/energy/pyrometer/engineering/robotics,
 /obj/structure/window/reinforced,
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "pd" = (
 /obj/structure/table,
-/obj/machinery/computer{
-	icon_state = "security_det"
+/obj/machinery/computer/security/wooden_tv{
+	name = "computer";
+	network = list()
 	},
 /turf/simulated/shuttle/floor/evac,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "pg" = (
 /obj/structure/table,
 /obj/item/weapon/storage/pill_bottle/dice,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ph" = (
 /obj/mecha/working/ripley,
 /turf/simulated/floor/mech_bay_recharge_floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "pi" = (
 /obj/structure/table,
-/obj/structure/window/reinforced/tinted{
+/obj/item/weapon/phone,
+/obj/structure/window/basic{
 	dir = 8
 	},
-/obj/item/weapon/phone,
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "pl" = (
 /obj/machinery/door/airlock/command/glass{
 	name = "Work Office"
@@ -2088,7 +2356,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "pm" = (
 /obj/structure/sign/mark{
 	icon_state = "rrt"
@@ -2097,13 +2365,13 @@
 	dir = 4;
 	icon_state = "rampbottom"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "po" = (
 /obj/structure/object_wall/evac{
 	icon_state = "11,8"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ps" = (
 /obj/structure/rack,
 /obj/item/stack/sheet/cardboard{
@@ -2111,12 +2379,18 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"pu" = (
+/obj/effect/plant_a{
+	icon_state = "plantA_3"
+	},
+/turf/unsimulated/wall,
+/area/spacecounter/cosmoport/main)
 "px" = (
 /obj/structure/reagent_dispensers/watertank,
 /obj/item/weapon/reagent_containers/glass/bucket,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "pI" = (
 /obj/machinery/conveyor{
 	dir = 8;
@@ -2126,13 +2400,20 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
+"pM" = (
+/obj/structure/window/reinforced/tinted{
+	dir = 4
+	},
+/obj/machinery/light/spot,
+/turf/simulated/floor/grass,
+/area/spacecounter/cosmoport/main)
 "pN" = (
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "darkbrown"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "pO" = (
 /obj/structure/window/reinforced/tinted{
 	dir = 4
@@ -2142,23 +2423,31 @@
 	},
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/simulated/floor/grass,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "pP" = (
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "arrivalcorner"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "pT" = (
 /turf/simulated/shuttle/floor/evac/ex,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "pY" = (
 /obj/structure/object_wall/evac{
 	icon_state = "9,24";
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"qd" = (
+/obj/structure/table/reinforced,
+/obj/structure/barricade/wooden,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor{
+	icon_state = "floorgrime"
+	},
+/area/spacecounter/cosmoport/main)
 "qf" = (
 /obj/effect/landmark/blockway,
 /obj/machinery/door/airlock/glass{
@@ -2168,19 +2457,19 @@
 	dir = 1;
 	icon_state = "arrival"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "qh" = (
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "darkbrown"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "ql" = (
 /obj/random/vending/cola,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "qn" = (
 /obj/structure/table,
 /obj/item/trash/candy,
@@ -2188,11 +2477,11 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "qr" = (
 /obj/structure/cryofeed/right,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "qs" = (
 /obj/structure/sink{
 	dir = 4;
@@ -2204,16 +2493,29 @@
 /turf/simulated/floor{
 	icon_state = "freezerfloor"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "qt" = (
-/obj/machinery/deployable/barrier{
-	icon_state = "barrier1"
+/obj/structure/stool/bed/chair/metal{
+	dir = 4
+	},
+/obj/structure/window/basic{
+	dir = 8
+	},
+/obj/structure/window/basic{
+	dir = 8
 	},
 /turf/simulated/floor{
-	dir = 1;
-	icon_state = "arrival"
+	dir = 8;
+	icon_state = "darkblue"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"qu" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/spot{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "qw" = (
 /obj/machinery/conveyor{
 	id = "baggage"
@@ -2222,7 +2524,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "qx" = (
 /obj/machinery/door_control{
 	id = "Cosmic_mech_launch";
@@ -2232,19 +2534,42 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"qy" = (
+/obj/structure/reagent_dispensers/aqueous_foam_tank,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "qz" = (
 /obj/structure/object_wall/evac{
 	icon_state = "5,20"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"qB" = (
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/grille,
+/obj/structure/barricade/wooden,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "qH" = (
 /obj/structure/filingcabinet/chestdrawer,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "qI" = (
 /obj/structure/table/reinforced,
 /obj/machinery/flasher_button{
@@ -2252,31 +2577,45 @@
 	pixel_y = 2
 	},
 /turf/simulated/shuttle/floor/evac/sec2,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "qJ" = (
 /obj/structure/table/reinforced,
-/obj/structure/window/reinforced,
 /obj/machinery/kitchen_machine/microwave{
 	pixel_x = -3;
 	pixel_y = 6
 	},
+/obj/structure/window/basic,
 /turf/simulated/floor{
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "qP" = (
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "arrival"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "qQ" = (
 /obj/structure/ladder{
 	id = "hangar_transition_south_east"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"qR" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor{
+	icon_state = "floorgrime"
+	},
+/area/spacecounter/cosmoport/main)
+"qS" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor{
+	icon_state = "white"
+	},
+/area/spacecounter/cosmoport/main)
 "qV" = (
 /obj/structure/rack,
 /obj/structure/window/reinforced,
@@ -2290,7 +2629,17 @@
 /turf/simulated/floor{
 	icon_state = "delivery"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"qW" = (
+/obj/structure/window/reinforced/tinted{
+	dir = 8
+	},
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/machinery/light/spot{
+	dir = 1
+	},
+/turf/simulated/floor/grass,
+/area/spacecounter/cosmoport/main)
 "rb" = (
 /obj/structure/stool/bed/chair/metal{
 	dir = 4
@@ -2299,32 +2648,36 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"rc" = (
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/spacecounter/cosmoport/plant_a)
 "rd" = (
 /obj/machinery/door/unpowered/shuttle/pod,
 /turf/simulated/shuttle/floor/evac,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"re" = (
+/obj/structure/window/reinforced/tinted{
+	dir = 8
+	},
+/obj/structure/flora/ausbushes/leafybush,
+/obj/machinery/light/spot{
+	dir = 1
+	},
+/turf/simulated/floor/grass,
+/area/spacecounter/cosmoport/main)
 "rm" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ro" = (
 /obj/structure/object_wall/evac{
 	icon_state = "7,2"
 	},
 /turf/simulated/floor/engine,
-/area/space)
-"rp" = (
-/obj/structure/cable/yellow{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/unsimulated/floor{
-	dir = 8;
-	icon_state = "redbluefull"
-	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ru" = (
 /obj/structure/stool/bed/chair/comfy/black{
 	dir = 1
@@ -2332,7 +2685,7 @@
 /turf/simulated/floor{
 	icon_state = "white"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "rw" = (
 /obj/structure/rack,
 /obj/structure/window/reinforced,
@@ -2342,7 +2695,7 @@
 /turf/simulated/floor{
 	icon_state = "delivery"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "rz" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -2354,30 +2707,30 @@
 	dir = 1;
 	icon_state = "warndark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "rB" = (
 /obj/structure/table/woodentable/poker,
 /turf/simulated/floor/carpet/black,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "rD" = (
 /obj/machinery/door/airlock/erokez/sec{
 	name = "Security Airlock";
 	req_access = list(1)
 	},
 /turf/simulated/shuttle/floor/evac/sec2,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "rF" = (
 /obj/machinery/door/airlock/command/glass{
 	name = "Break Room"
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "rH" = (
 /obj/machinery/light/spot{
 	dir = 1
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "rJ" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/window/reinforced/tinted{
@@ -2387,26 +2740,26 @@
 	dir = 5
 	},
 /turf/simulated/floor/grass,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "rN" = (
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "bluecorner"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "rR" = (
 /obj/structure/table,
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "darkbrown"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "rW" = (
 /obj/structure/stool/bed/chair/schair/wagon{
 	dir = 8
 	},
 /turf/simulated/shuttle/floor/evac/medbay,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "rX" = (
 /obj/machinery/conveyor{
 	dir = 10;
@@ -2417,13 +2770,20 @@
 	nitrogen = 0.01;
 	oxygen = 0.01
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "rY" = (
 /obj/random/vending/snack,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"rZ" = (
+/obj/structure/cryofeed/right,
+/obj/machinery/light/spot{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "sc" = (
 /obj/machinery/light/spot{
 	dir = 8
@@ -2431,14 +2791,14 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "sg" = (
 /obj/structure/object_wall/evac{
 	icon_state = "11,22";
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "si" = (
 /obj/machinery/light/spot,
 /obj/structure/table,
@@ -2459,24 +2819,31 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "sj" = (
 /obj/machinery/door/window/brigdoor{
 	name = "Security Shuttle Prisoners";
 	req_access = list(2)
 	},
 /turf/simulated/shuttle/floor/evac/sec1,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "sm" = (
 /obj/structure/object_wall/evac{
 	icon_state = "5,21"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "sp" = (
 /obj/structure/closet/crate,
 /turf/simulated/floor/plating,
 /area/space)
+"su" = (
+/obj/machinery/light/spot,
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "neutral"
+	},
+/area/spacecounter/cosmoport/main)
 "sD" = (
 /turf/space,
 /area/space)
@@ -2488,7 +2855,7 @@
 	dir = 1;
 	icon_state = "neutralcorner"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "sT" = (
 /obj/machinery/door/airlock/glass{
 	name = "Diner"
@@ -2497,7 +2864,7 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "sW" = (
 /obj/structure/cable/yellow{
 	d1 = 1;
@@ -2511,7 +2878,7 @@
 	dir = 8;
 	icon_state = "redbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ta" = (
 /obj/structure/stool/bed/chair/metal{
 	dir = 1
@@ -2520,31 +2887,43 @@
 /turf/simulated/floor{
 	icon_state = "escape"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"tb" = (
+/obj/structure/window/basic{
+	dir = 1
+	},
+/obj/structure/filingcabinet/filingcabinet{
+	density = 0
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "neutral"
+	},
+/area/spacecounter/cosmoport/plant_b)
 "tg" = (
 /turf/simulated/floor{
 	dir = 9;
 	icon_state = "warndark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "tl" = (
 /obj/structure/closet/crate/bin,
 /obj/item/trash/chips,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "tm" = (
 /obj/structure/window/reinforced{
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "tq" = (
 /obj/structure/table/woodentable,
 /obj/item/weapon/storage/secure/briefcase,
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "tu" = (
 /obj/structure/cable/yellow{
 	d1 = 1;
@@ -2565,21 +2944,39 @@
 	dir = 8;
 	icon_state = "redbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ty" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor{
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"tK" = (
+/obj/random/vending/snack,
+/obj/machinery/light/spot,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/spacecounter/cosmoport/main)
 "tM" = (
 /obj/structure/closet/firecloset,
 /turf/simulated/floor{
 	dir = 9;
 	icon_state = "arrival"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"tN" = (
+/obj/effect/plant_a{
+	icon_state = "plantA_3";
+	pixel_x = -5
+	},
+/obj/structure/sign/mark{
+	icon_state = "rup";
+	pixel_x = 10
+	},
+/turf/simulated/floor/engine,
+/area/spacecounter/cosmoport/main)
 "tT" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -2592,25 +2989,25 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/plating/airless/catwalk,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "tU" = (
 /obj/structure/object_wall/evac{
 	icon_state = "1,16"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "tV" = (
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "Stairs2_wide"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "tW" = (
 /obj/structure/object_wall/evac{
 	icon_state = "6,2"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "tY" = (
 /obj/structure/table,
 /obj/item/weapon/storage/firstaid/regular{
@@ -2618,43 +3015,43 @@
 	pixel_y = 6
 	},
 /turf/simulated/shuttle/floor/evac/medbay,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "tZ" = (
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "arrival"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "uh" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor{
 	icon_state = "arrival"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "uk" = (
 /obj/machinery/door/airlock{
 	name = "Janitor Room";
 	req_access = list(26)
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ul" = (
 /obj/machinery/door/airlock/multi_tile/glass,
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "arrival"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "um" = (
 /obj/structure/object_wall/evac{
 	icon_state = "1,18"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "us" = (
 /obj/machinery/light/small,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ux" = (
 /obj/machinery/conveyor{
 	dir = 8;
@@ -2663,7 +3060,7 @@
 /turf/simulated/floor{
 	icon_state = "darkbrown"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "uD" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -2678,7 +3075,7 @@
 	dir = 8;
 	icon_state = "barber"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "uF" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -2688,13 +3085,13 @@
 	dir = 8;
 	icon_state = "vault"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "uH" = (
 /turf/simulated/floor{
 	dir = 0;
 	icon_state = "blue"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "uJ" = (
 /obj/structure/stool/bed/chair/metal/red{
 	dir = 8
@@ -2702,20 +3099,34 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "uK" = (
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "uL" = (
 /obj/effect/landmark/blockway,
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "uN" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"uP" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/plant_a{
+	icon_state = "plantA_3";
+	pixel_x = -37
+	},
+/obj/structure/sign/mark{
+	icon_state = "rup";
+	pixel_x = -22
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/spacecounter/cosmoport/main)
 "uR" = (
 /obj/structure/stool/bed/chair/office/light{
 	dir = 1
@@ -2723,7 +3134,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "uT" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/northleft{
@@ -2734,39 +3145,88 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "uU" = (
 /obj/structure/object_wall/evac{
 	icon_state = "11,12"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"uV" = (
+/obj/effect/plant_a/plant_b{
+	icon_state = "plantB_3";
+	pixel_x = -5
+	},
+/obj/structure/sign/mark{
+	icon_state = "rrt";
+	pixel_x = 6
+	},
+/obj/structure/sign/mark{
+	icon_state = "rup";
+	pixel_x = 8
+	},
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
+"vi" = (
+/obj/machinery/light_construct{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "vq" = (
 /obj/structure/grille,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "vt" = (
 /obj/machinery/washing_machine,
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "barber"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"vv" = (
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "neutralcorner"
+	},
+/area/spacecounter/cosmoport/plant_b)
 "vC" = (
 /obj/structure/bookcase/manuals,
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "vD" = (
 /obj/structure/table/woodentable/poker,
 /obj/item/toy/cards,
 /turf/simulated/floor/carpet/black,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "vI" = (
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "warnwhite"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"vK" = (
+/obj/structure/sign/mark{
+	icon_state = "rup"
+	},
+/obj/structure/sign/mark{
+	icon_state = "rrt"
+	},
+/turf/simulated/floor/engine,
+/area/spacecounter/cosmoport/main)
+"vL" = (
+/obj/effect/plant_a{
+	icon_state = "plantA_3";
+	pixel_x = -5
+	},
+/obj/structure/sign/mark{
+	icon_state = "rup";
+	pixel_x = 10
+	},
+/turf/simulated/floor{
+	icon_state = "white"
+	},
+/area/spacecounter/cosmoport/main)
 "vM" = (
 /obj/machinery/light/spot{
 	dir = 8
@@ -2775,17 +3235,17 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "vO" = (
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "vP" = (
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "darkbrowncorners"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "wc" = (
 /obj/machinery/conveyor{
 	dir = 4;
@@ -2794,12 +3254,12 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "wh" = (
 /turf/simulated/floor{
 	icon_state = "red"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "wl" = (
 /obj/structure/table,
 /obj/item/device/taperecorder{
@@ -2809,7 +3269,7 @@
 /turf/simulated/floor{
 	icon_state = "white"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "wn" = (
 /obj/structure/stool/bed/chair/comfy{
 	dir = 1;
@@ -2817,36 +3277,36 @@
 	name = "comfy sofa"
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "wo" = (
 /obj/structure/window/reinforced/tinted{
 	dir = 4
 	},
 /obj/structure/flora/ausbushes/leafybush,
 /turf/simulated/floor/grass,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "wv" = (
 /obj/structure/stool/bed/chair/metal,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "wx" = (
 /obj/structure/inflatable,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "wA" = (
 /obj/structure/closet/secure_closet/personal,
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "vault"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "wC" = (
 /turf/simulated/floor{
 	icon_state = "neutralcorner"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "wD" = (
 /obj/structure/table,
 /obj/machinery/kitchen_machine/microwave{
@@ -2860,25 +3320,31 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "wI" = (
 /turf/simulated/floor{
 	icon_state = "white"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "wJ" = (
 /obj/structure/object_wall/evac{
 	icon_state = "1,9"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "wV" = (
 /obj/structure/object_wall/evac{
 	icon_state = "5,1";
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"xa" = (
+/obj/structure/sign/mark{
+	icon_state = "rup"
+	},
+/turf/simulated/floor/engine,
+/area/spacecounter/cosmoport/main)
 "xb" = (
 /obj/machinery/light/spot{
 	dir = 8
@@ -2887,7 +3353,7 @@
 	dir = 1;
 	icon_state = "bluecorner"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "xh" = (
 /obj/structure/table,
 /obj/item/weapon/crowbar{
@@ -2900,19 +3366,18 @@
 	},
 /obj/item/device/analyzer,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "xi" = (
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "xk" = (
 /obj/machinery/deployable/barrier{
-	icon_state = "barrier1"
+	locked = 1
 	},
-/obj/effect/landmark/blockway,
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "xl" = (
 /obj/structure/object_wall/evac{
 	icon_state = "4,13"
@@ -2921,7 +3386,7 @@
 	pixel_x = 4
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "xm" = (
 /obj/structure/object_wall/evac{
 	density = 0;
@@ -2929,7 +3394,7 @@
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "xp" = (
 /obj/structure/inflatable/door{
 	density = 0;
@@ -2937,7 +3402,7 @@
 	opacity = 1
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "xq" = (
 /obj/structure/table,
 /obj/item/weapon/kitchen/utensil/pspoon{
@@ -2947,12 +3412,12 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "xr" = (
 /turf/unsimulated/wall{
 	density = 0
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "xw" = (
 /obj/structure/object_wall/evac{
 	density = 0;
@@ -2960,31 +3425,41 @@
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "xx" = (
 /obj/structure/window/reinforced/tinted{
 	dir = 8
 	},
 /obj/structure/flora/ausbushes/grassybush,
 /turf/simulated/floor/grass,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "xy" = (
 /obj/structure/filingcabinet/chestdrawer,
 /obj/machinery/light/spot,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "xA" = (
 /obj/machinery/mech_bay_recharge_port,
 /turf/simulated/floor/bluegrid,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "xD" = (
 /obj/structure/object_wall/evac{
 	icon_state = "2,6"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"xG" = (
+/obj/effect/plant_a{
+	icon_state = "plantA_3";
+	pixel_x = 5
+	},
+/obj/structure/sign/mark{
+	icon_state = "rlf"
+	},
+/turf/simulated/floor/engine,
+/area/spacecounter/cosmoport/main)
 "xJ" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced{
@@ -2998,25 +3473,25 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "xM" = (
 /obj/structure/object_wall/evac{
 	icon_state = "14,6"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "xN" = (
 /obj/structure/object_wall/evac{
 	icon_state = "15,13"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "xO" = (
 /obj/structure/object_wall/evac{
 	icon_state = "5,8"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "xP" = (
 /obj/structure/table,
 /obj/machinery/recharger{
@@ -3027,11 +3502,11 @@
 	pixel_y = -32
 	},
 /turf/simulated/shuttle/floor/evac,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "xR" = (
 /obj/machinery/constructable_frame/machine_frame,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "xS" = (
 /obj/structure/stool/bed/chair/metal{
 	dir = 1
@@ -3040,16 +3515,25 @@
 	dir = 6;
 	icon_state = "darkbrown"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
+"xT" = (
+/obj/machinery/light/spot{
+	dir = 1
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "arrival"
+	},
+/area/spacecounter/cosmoport/main)
 "xU" = (
 /obj/structure/object_wall/evac{
 	icon_state = "9,2"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "xV" = (
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "xX" = (
 /obj/structure/closet/crate,
 /turf/simulated/floor/plating{
@@ -3057,24 +3541,24 @@
 	nitrogen = 0.01;
 	oxygen = 0.01
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "yb" = (
 /obj/structure/inflatable/door,
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "yc" = (
 /obj/machinery/photocopier,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "yn" = (
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor{
 	dir = 1;
-	icon_state = "warnwhite"
+	icon_state = "warnwhitecorner"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "yo" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -3085,13 +3569,13 @@
 	dir = 8;
 	icon_state = "redbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "yp" = (
 /obj/structure/object_wall/evac{
 	icon_state = "11,21"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "yq" = (
 /obj/structure/stool/bed/chair/office/light{
 	dir = 4
@@ -3099,20 +3583,20 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ys" = (
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "arrival"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "yw" = (
 /obj/structure/object_wall/evac{
 	icon_state = "5,23";
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "yx" = (
 /obj/structure/mirror{
 	pixel_x = -28
@@ -3123,41 +3607,41 @@
 /turf/simulated/floor{
 	icon_state = "purplechecker"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "yC" = (
 /obj/structure/stool/bed/chair/schair/wagon{
 	dir = 1
 	},
 /turf/simulated/shuttle/floor/evac/medbay,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "yD" = (
-/obj/structure/window/reinforced,
+/obj/structure/window/basic,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "yH" = (
 /obj/structure/object_wall/evac{
 	icon_state = "5,17"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "yL" = (
 /obj/structure/table/woodentable/poker,
 /obj/item/weapon/storage/fancy/crayons,
 /turf/simulated/floor/carpet/black,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "yP" = (
 /turf/simulated/floor{
 	icon_state = "Stairs2_wide"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "yV" = (
 /obj/structure/object_wall/evac{
 	icon_state = "5,9"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "yX" = (
 /obj/structure/closet/secure_closet{
 	icon_state = "sec1";
@@ -3169,7 +3653,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "zc" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -3177,68 +3661,87 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "zd" = (
-/obj/structure/filingcabinet/chestdrawer,
-/obj/structure/window/reinforced/tinted{
+/obj/structure/window/basic{
 	dir = 1
+	},
+/obj/structure/filingcabinet/filingcabinet{
+	density = 0
 	},
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "neutral"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "zg" = (
 /obj/structure/object_wall/evac{
 	icon_state = "12,5"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "zj" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/machinery/light,
 /turf/simulated/shuttle/floor/evac/eng2,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"zm" = (
+/turf/simulated/floor{
+	icon_state = "neutralcorner"
+	},
+/area/spacecounter/cosmoport/plant_b)
 "zq" = (
 /obj/structure/object_wall/evac{
 	icon_state = "11,5"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "zr" = (
 /obj/structure/closet/crate,
 /obj/item/stack/rods{
 	amount = 10
 	},
+/obj/machinery/light/spot{
+	dir = 1
+	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"zt" = (
+/obj/machinery/light/spot{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "zv" = (
 /turf/simulated/wall,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "zw" = (
 /obj/structure/stool/bed/chair/metal,
+/obj/machinery/light/spot{
+	dir = 1
+	},
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "darkbrown"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "zz" = (
 /obj/effect/decal/mecha_wreckage/mauler,
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "zA" = (
 /obj/structure/stool/bed/chair/schair/wagon{
 	dir = 1
 	},
 /turf/simulated/shuttle/floor/evac/eng2,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "zJ" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "neutralcorner"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "zL" = (
 /obj/structure/cable/yellow{
 	d1 = 1;
@@ -3249,19 +3752,19 @@
 	dir = 8;
 	icon_state = "redbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "zN" = (
 /obj/effect/landmark/start{
 	name = "Syndicat Space Operative"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "zP" = (
 /turf/simulated/floor{
 	dir = 10;
 	icon_state = "darkblue"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "zR" = (
 /obj/structure/object_wall/evac{
 	density = 0;
@@ -3269,7 +3772,7 @@
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "zT" = (
 /obj/structure/stool{
 	layer = 2.8;
@@ -3277,40 +3780,49 @@
 	pixel_y = 8
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "zU" = (
 /obj/machinery/vending/coffee,
 /turf/simulated/floor{
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "zV" = (
 /obj/structure/object_wall/evac{
 	icon_state = "4,5"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "zW" = (
 /obj/structure/window/basic{
 	dir = 5
 	},
 /obj/structure/flora/ausbushes/leafybush,
 /turf/simulated/floor/grass,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"zY" = (
+/obj/structure/closet/crate,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/plating{
+	icon_state = "platebot";
+	nitrogen = 0.01;
+	oxygen = 0.01
+	},
+/area/spacecounter/cosmoport/main)
 "zZ" = (
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "warnwhitecorner"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Ab" = (
-/obj/machinery/light/spot{
-	dir = 8
+/obj/machinery/light_construct{
+	dir = 1
 	},
-/turf/simulated/floor{
-	icon_state = "floorgrime"
-	},
-/area/space)
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "Ac" = (
 /obj/structure/girder,
 /turf/simulated/floor/plating,
@@ -3321,13 +3833,13 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Aq" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Ar" = (
 /obj/structure/object_wall/evac{
 	density = 0;
@@ -3335,20 +3847,20 @@
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Au" = (
 /obj/structure/table/reinforced,
-/obj/structure/window/reinforced{
-	dir = 4
-	},
 /obj/machinery/door/window/southright,
 /obj/item/weapon/storage/box/donkpockets{
 	pixel_y = 3
 	},
+/obj/structure/window/basic{
+	dir = 4
+	},
 /turf/simulated/floor{
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Av" = (
 /obj/machinery/door/airlock/security/glass,
 /obj/structure/sign/mark{
@@ -3357,15 +3869,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
-"Ax" = (
-/obj/machinery/conveyor_switch/oneway{
-	id = "baggage"
-	},
-/turf/simulated/floor{
-	icon_state = "floorgrime"
-	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Ay" = (
 /obj/structure/object_wall/evac{
 	density = 0;
@@ -3376,13 +3880,13 @@
 	dir = 10;
 	icon_state = "warndark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "AE" = (
 /obj/structure/rack,
 /obj/item/device/t_scanner,
 /obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "AF" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced{
@@ -3394,13 +3898,13 @@
 /obj/structure/window/reinforced,
 /obj/machinery/door/poddoor/shutters/syndi,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "AI" = (
 /obj/structure/object_wall/evac{
 	icon_state = "10,2"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "AK" = (
 /obj/machinery/door/airlock{
 	name = "Unisex Restrooms"
@@ -3408,14 +3912,14 @@
 /turf/simulated/floor{
 	icon_state = "freezerfloor"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "AL" = (
 /obj/structure/stool/bed/chair/metal,
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "escape"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "AM" = (
 /obj/structure/window/reinforced/tinted{
 	dir = 4
@@ -3425,12 +3929,22 @@
 	},
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/simulated/floor/grass,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "AO" = (
 /obj/structure/bookcase/manuals,
 /obj/item/weapon/book/manual/nuclear,
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"AU" = (
+/obj/effect/plant_a/plant_b{
+	icon_state = "plantB_3";
+	pixel_x = -5
+	},
+/obj/structure/sign/mark{
+	icon_state = "rrt"
+	},
+/turf/simulated/wall,
+/area/spacecounter/cosmoport/main)
 "AV" = (
 /obj/structure/table/glass,
 /obj/item/weapon/storage/box/lipstick{
@@ -3440,7 +3954,11 @@
 /turf/simulated/floor{
 	icon_state = "purplechecker"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"AX" = (
+/obj/machinery/light_construct,
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "Ba" = (
 /obj/machinery/door/window/eastright{
 	name = "Quick Exit"
@@ -3449,7 +3967,7 @@
 	dir = 8;
 	icon_state = "vault"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Bf" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/folder/blue,
@@ -3457,27 +3975,40 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"Bi" = (
+/obj/item/weapon/paper_bin,
+/obj/item/weapon/pen,
+/obj/item/weapon/folder/blue{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/structure/table,
+/obj/structure/window/basic{
+	dir = 1
+	},
+/turf/simulated/floor,
+/area/spacecounter/cosmoport/plant_b)
 "Bj" = (
 /obj/structure/table,
 /obj/item/clothing/mask/cigarette/cigar,
 /turf/simulated/floor{
 	icon_state = "white"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Bk" = (
 /obj/structure/stool/bed/chair/metal,
 /turf/simulated/floor{
 	dir = 9;
 	icon_state = "darkbrown"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "Bl" = (
 /obj/structure/object_wall/evac{
 	icon_state = "15,16"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Bo" = (
 /obj/machinery/door/airlock/glass{
 	name = "Kitchen";
@@ -3487,17 +4018,23 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Bq" = (
 /obj/machinery/vending/coffee,
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Br" = (
 /obj/machinery/vending/coffee,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"Bu" = (
+/obj/machinery/light/spot{
+	dir = 4
+	},
+/turf/simulated/floor/engine,
+/area/spacecounter/cosmoport/main)
 "Bw" = (
 /obj/machinery/power/tracker,
 /obj/structure/cable{
@@ -3505,18 +4042,29 @@
 	icon_state = "0-4"
 	},
 /turf/simulated/floor/plating/airless/catwalk,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"BC" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/plant_a/plant_b{
+	icon_state = "plantB_3";
+	pixel_x = 5
+	},
+/obj/structure/sign/mark{
+	icon_state = "rlf"
+	},
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "BF" = (
 /obj/structure/reagent_dispensers/aqueous_foam_tank,
 /turf/simulated/shuttle/floor/evac/eng2,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "BH" = (
 /obj/structure/table/glass,
 /obj/item/weapon/storage/box/cups{
 	pixel_y = 4
 	},
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "BK" = (
 /obj/structure/stool/bed/chair/schair/wagon,
 /obj/structure/extinguisher_cabinet{
@@ -3524,13 +4072,13 @@
 	pixel_y = 4
 	},
 /turf/simulated/shuttle/floor/evac/place,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "BM" = (
 /obj/machinery/vending/cigarette,
 /turf/simulated/floor{
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "BN" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced{
@@ -3538,7 +4086,7 @@
 	},
 /obj/structure/window/reinforced,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "BQ" = (
 /obj/structure/stool/bed/chair/metal{
 	dir = 8
@@ -3546,13 +4094,13 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "BU" = (
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "escape"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "BY" = (
 /obj/structure/cable/yellow{
 	d1 = 2;
@@ -3566,7 +4114,7 @@
 	dir = 8;
 	icon_state = "redbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Cc" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced{
@@ -3575,15 +4123,15 @@
 /obj/structure/window/reinforced,
 /obj/machinery/door/poddoor/shutters/syndi,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Ce" = (
 /obj/item/weapon/twohanded/flora/pottedplant/orientaltree,
 /turf/simulated/shuttle/floor/evac,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Cf" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Cg" = (
 /obj/structure/object_wall/evac{
 	density = 0;
@@ -3591,12 +4139,41 @@
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"Ch" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small,
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
+"Ci" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/spot{
+	dir = 1
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "arrival"
+	},
+/area/spacecounter/cosmoport/main)
 "Cm" = (
 /obj/structure/rack,
 /obj/item/clothing/suit/storage/hazardvest,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"Cn" = (
+/obj/structure/window/reinforced/tinted{
+	dir = 8
+	},
+/obj/structure/flora/ausbushes/grassybush,
+/obj/machinery/light/spot,
+/turf/simulated/floor/grass,
+/area/spacecounter/cosmoport/main)
+"Co" = (
+/obj/structure/table,
+/obj/item/weapon/stamp/approve,
+/obj/structure/window/basic,
+/turf/simulated/floor,
+/area/spacecounter/cosmoport/plant_b)
 "Ct" = (
 /obj/structure/table/woodentable,
 /obj/item/device/flashlight/lamp,
@@ -3604,7 +4181,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Cv" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced{
@@ -3619,7 +4196,7 @@
 	pixel_y = 4
 	},
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Cy" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -3628,15 +4205,16 @@
 	dir = 8
 	},
 /turf/simulated/floor/bluegrid,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "CG" = (
 /obj/structure/table,
 /obj/item/weapon/storage/box/lights/mixed,
 /obj/item/weapon/reagent_containers/spray/cleaner,
+/obj/machinery/light/small,
 /turf/simulated/floor{
 	icon_state = "floorgrime"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "CH" = (
 /obj/structure/window/reinforced,
 /obj/machinery/light{
@@ -3649,7 +4227,7 @@
 /turf/simulated/shuttle/floor/erokez{
 	icon_state = "sign_2"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "CI" = (
 /obj/structure/closet/secure_closet{
 	icon_state = "sec1";
@@ -3661,7 +4239,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "CK" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/paper_bin{
@@ -3671,7 +4249,6 @@
 	pixel_x = -2;
 	pixel_y = 2
 	},
-/obj/structure/window/reinforced,
 /obj/item/weapon/stamp/denied{
 	pixel_x = 8;
 	pixel_y = 6
@@ -3680,10 +4257,11 @@
 	pixel_x = 8;
 	pixel_y = -4
 	},
+/obj/structure/window/basic,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "CL" = (
 /obj/machinery/conveyor{
 	dir = 6;
@@ -3694,91 +4272,93 @@
 	nitrogen = 0.01;
 	oxygen = 0.01
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"CM" = (
+/obj/structure/closet/secure_closet/personal,
+/obj/machinery/light/spot{
+	dir = 1
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "vault"
+	},
+/area/spacecounter/cosmoport/main)
 "CS" = (
 /obj/structure/object_wall/evac{
 	icon_state = "3,4";
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "CW" = (
 /obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor{
 	icon_state = "floorgrime"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "CY" = (
 /obj/structure/stool/bed/chair/comfy/brown{
 	dir = 8
 	},
 /turf/simulated/floor/carpet/black,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Da" = (
 /obj/structure/object_wall/evac{
 	icon_state = "10,6"
 	},
 /turf/simulated/floor/engine,
-/area/space)
-"Dj" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/structure/window/reinforced,
-/turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Dm" = (
 /obj/structure/reagent_dispensers/aqueous_foam_tank,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Dn" = (
 /obj/effect/overlay/palmtree_r,
 /turf/simulated/floor/beach/sand,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Do" = (
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "barber"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Dp" = (
 /obj/structure/table,
 /obj/item/weapon/book/manual/wiki/security_space_law,
 /turf/simulated/floor{
 	icon_state = "darkbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Dq" = (
-/obj/machinery/computer{
-	icon_state = "security_det_miami";
-	name = "Miami TV"
-	},
 /obj/structure/table,
+/obj/machinery/computer/security/wooden_tv/miami{
+	name = "Miami TV";
+	network = list()
+	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Dr" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Ds" = (
 /obj/structure/object_wall/evac{
 	icon_state = "11,16"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Dv" = (
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk{
 	dir = 8
 	},
+/obj/machinery/light/small{
+	dir = 8
+	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Dw" = (
 /obj/structure/stool/bed/chair/metal{
 	dir = 4
@@ -3787,7 +4367,7 @@
 	dir = 4;
 	icon_state = "arrival"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Dy" = (
 /obj/item/weapon/paper_bin,
 /obj/item/weapon/pen,
@@ -3801,27 +4381,41 @@
 	dir = 8;
 	icon_state = "redbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "DA" = (
 /obj/structure/object_wall/evac{
 	icon_state = "9,23";
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "DM" = (
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "warnwhitecorner"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"DO" = (
+/obj/machinery/light/spot{
+	invisibility = 101;
+	name = "invisible spotlight"
+	},
+/obj/machinery/deployable/barrier{
+	locked = 1
+	},
+/turf/simulated/floor/engine,
+/area/spacecounter/cosmoport/main)
 "DT" = (
 /obj/structure/object_wall/evac{
 	icon_state = "2,4";
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"DY" = (
+/obj/effect/plant_a/plant_b,
+/turf/simulated/floor,
+/area/spacecounter/cosmoport/plant_b)
 "DZ" = (
 /obj/machinery/conveyor{
 	dir = 1;
@@ -3831,13 +4425,19 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
+"Ed" = (
+/obj/effect/plant_a/plant_b{
+	icon_state = "plantB_3"
+	},
+/turf/simulated/wall,
+/area/spacecounter/cosmoport/main)
 "Ef" = (
 /obj/structure/object_wall/evac{
 	icon_state = "15,6"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Ej" = (
 /obj/structure/window/reinforced,
 /obj/item/weapon/reagent_containers/food/drinks/bottle/wine,
@@ -3848,10 +4448,10 @@
 /turf/simulated/shuttle/floor/erokez{
 	icon_state = "sign_2"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "El" = (
 /turf/simulated/shuttle/floor/evac/eva,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Em" = (
 /obj/structure/stool{
 	layer = 2.8;
@@ -3859,13 +4459,13 @@
 	pixel_y = 8
 	},
 /turf/simulated/floor/carpet/black,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "En" = (
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "stairs_middle"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Er" = (
 /obj/machinery/conveyor{
 	dir = 8;
@@ -3875,39 +4475,50 @@
 	dir = 10;
 	icon_state = "darkbrown"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "Es" = (
 /obj/machinery/conveyor{
 	dir = 8;
 	id = "baggage_exit"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Et" = (
 /obj/structure/object_wall/evac{
 	icon_state = "11,3"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Ey" = (
 /obj/structure/object_wall/evac{
 	icon_state = "11,13"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"Ez" = (
+/obj/structure/sign/mark{
+	icon_state = "rup";
+	pixel_x = 10
+	},
+/obj/effect/plant_a{
+	icon_state = "plantA_3";
+	pixel_x = -5
+	},
+/turf/simulated/floor/engine,
+/area/spacecounter/cosmoport/main)
 "EB" = (
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "arrival"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "EE" = (
 /obj/structure/object_wall/evac{
 	icon_state = "5,12"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "EG" = (
 /obj/structure/table/reinforced,
 /obj/item/device/eftpos{
@@ -3917,20 +4528,23 @@
 /turf/simulated/floor{
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "EI" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "bluecorner"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "EK" = (
-/obj/machinery/computer{
-	icon_state = "erokezz"
+/obj/structure/computerframe{
+	anchored = 1;
+	icon = 'icons/obj/computer.dmi';
+	icon_state = "erokezz";
+	name = "computer"
 	},
 /turf/simulated/shuttle/floor/evac,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "EL" = (
 /obj/machinery/vending/boozeomat{
 	req_access = list()
@@ -3939,20 +4553,32 @@
 	dir = 8;
 	icon_state = "redbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "EM" = (
 /obj/structure/object_wall/evac{
 	icon_state = "5,2"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "EN" = (
 /obj/structure/closet/emcloset,
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "warnwhitecorner"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"ET" = (
+/obj/effect/plant_a/plant_b{
+	icon_state = "plantB_3";
+	pixel_x = -5
+	},
+/obj/structure/sign/mark{
+	icon_state = "rrt"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/spacecounter/cosmoport/main)
 "EU" = (
 /obj/structure/stool/bed/chair/comfy{
 	dir = 1;
@@ -3960,7 +4586,7 @@
 	name = "comfy sofa"
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "EV" = (
 /obj/structure/stool/bed/chair/metal/red{
 	dir = 4
@@ -3968,24 +4594,24 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "EW" = (
 /obj/structure/window/reinforced/tinted{
 	dir = 8
 	},
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/simulated/floor/grass,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Fg" = (
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "darkbrowncorners"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "Fh" = (
 /obj/structure/window/reinforced,
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Fn" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -3996,38 +4622,50 @@
 	dir = 8;
 	icon_state = "barber"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"Fo" = (
+/obj/effect/plant_a{
+	icon_state = "plantA_3";
+	pixel_x = 5
+	},
+/obj/structure/sign/mark{
+	icon_state = "rlf"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/spacecounter/cosmoport/main)
 "Fp" = (
 /obj/structure/object_wall/evac{
 	icon_state = "5,18"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Fq" = (
 /obj/structure/table,
 /obj/item/weapon/storage/toolbox/emergency,
 /obj/item/weapon/crowbar,
 /turf/simulated/shuttle/floor/evac/place2,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Fu" = (
 /obj/machinery/vending/dinnerware,
 /turf/simulated/floor{
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Fw" = (
 /obj/structure/table/woodentable,
 /obj/item/ashtray/glass,
 /obj/item/device/megaphone,
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Fx" = (
 /obj/structure/stool/bed/chair/schair/wagon{
 	dir = 1
 	},
 /turf/simulated/shuttle/floor/evac,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Fy" = (
 /obj/structure/table/glass,
 /obj/item/weapon/storage/box/cups{
@@ -4041,7 +4679,19 @@
 	dir = 1;
 	icon_state = "arrival"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"FC" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/barricade/wooden,
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "FD" = (
 /obj/machinery/conveyor{
 	dir = 10;
@@ -4050,14 +4700,14 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "FG" = (
 /obj/structure/object_wall/evac{
 	icon_state = "7,1";
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "FH" = (
 /obj/machinery/conveyor{
 	dir = 4;
@@ -4067,15 +4717,15 @@
 	dir = 4;
 	icon_state = "darkbrown"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "FM" = (
 /obj/structure/table/woodentable,
-/obj/machinery/computer{
-	icon_state = "laptop_employment";
+/obj/machinery/computer/skills{
+	density = 0;
 	name = "Work Laptop"
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "FO" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/window/reinforced/tinted{
@@ -4085,7 +4735,13 @@
 	dir = 5
 	},
 /turf/simulated/floor/grass,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"FP" = (
+/obj/machinery/light/spot{
+	dir = 8
+	},
+/turf/simulated/floor/engine,
+/area/spacecounter/cosmoport/main)
 "FS" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -4103,11 +4759,11 @@
 	icon_state = "2-8"
 	},
 /turf/simulated/floor/plating/airless/catwalk,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "FT" = (
 /obj/item/weapon/twohanded/flora/random,
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "FU" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -4118,7 +4774,7 @@
 	dir = 8;
 	icon_state = "barber"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "FY" = (
 /obj/structure/table,
 /obj/machinery/chem_dispenser/soda{
@@ -4131,7 +4787,7 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Gc" = (
 /obj/structure/stool/bed/chair/office/light{
 	dir = 8
@@ -4139,38 +4795,65 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Ge" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/simulated/wall,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Gf" = (
 /obj/structure/table/reinforced,
-/obj/machinery/computer{
-	icon_state = "laptop_employment";
+/obj/machinery/computer/skills{
+	density = 0;
 	name = "Work Laptop"
 	},
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"Gg" = (
+/obj/structure/table,
+/obj/structure/window/basic{
+	dir = 8
+	},
+/obj/machinery/computer/skills{
+	density = 0;
+	name = "Work Laptop"
+	},
+/turf/simulated/floor,
+/area/spacecounter/cosmoport/plant_b)
 "Gj" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/phone,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"Gl" = (
+/obj/structure/window/reinforced/tinted{
+	dir = 4
+	},
+/obj/structure/flora/ausbushes/grassybush,
+/obj/machinery/light/spot{
+	dir = 1
+	},
+/turf/simulated/floor/grass,
+/area/spacecounter/cosmoport/main)
 "Gs" = (
 /obj/structure/girder/reinforced,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Gt" = (
 /obj/structure/mineral_door/wood,
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"Gx" = (
+/obj/structure/stool/bed/chair/office/dark{
+	dir = 8
+	},
+/turf/simulated/floor,
+/area/spacecounter/cosmoport/plant_b)
 "GI" = (
 /obj/structure/stool/bed/chair/schair/wagon{
 	dir = 4
@@ -4179,7 +4862,7 @@
 	dir = 8
 	},
 /turf/simulated/shuttle/floor/evac/sec2,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "GJ" = (
 /obj/structure/table,
 /obj/item/trash/chinese4,
@@ -4188,33 +4871,31 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "GK" = (
 /obj/structure/grille,
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/structure/window/reinforced{
-	dir = 1
+/obj/structure/window/basic{
+	dir = 5
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "GL" = (
+/obj/structure/cable/yellow{
+	d2 = 4;
+	icon_state = "0-4"
+	},
 /turf/unsimulated/floor{
 	dir = 8;
 	icon_state = "redbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "GO" = (
 /obj/structure/window/basic{
 	dir = 5
 	},
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/simulated/floor/grass,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "GP" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -4223,7 +4904,7 @@
 /turf/simulated/floor{
 	icon_state = "purplechecker"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "GR" = (
 /obj/structure/cable{
 	d2 = 4;
@@ -4233,7 +4914,7 @@
 /turf/simulated/floor/airless{
 	icon_state = "solarpanel"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "GY" = (
 /obj/structure/table,
 /obj/item/trash/plate,
@@ -4242,7 +4923,7 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Hh" = (
 /obj/random/vending/snack,
 /obj/machinery/light/spot{
@@ -4251,18 +4932,18 @@
 /turf/simulated/floor{
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Hl" = (
 /obj/structure/stool/bed/chair/office/dark{
 	dir = 1
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Hn" = (
 /turf/simulated/floor{
 	icon_state = "darkbrown"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "Hp" = (
 /obj/structure/window/reinforced,
 /obj/structure/table/reinforced,
@@ -4270,7 +4951,7 @@
 	pixel_y = 4
 	},
 /turf/simulated/shuttle/floor/evac/sec2,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Hs" = (
 /obj/structure/closet{
 	icon_closed = "cabinet_closed";
@@ -4281,7 +4962,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Ht" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/window/reinforced/tinted{
@@ -4291,7 +4972,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/grass,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Hu" = (
 /obj/structure/table/glass,
 /obj/item/weapon/paper_bin,
@@ -4301,13 +4982,13 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Hx" = (
 /obj/machinery/door/airlock/command/glass,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Hy" = (
 /obj/structure/table,
 /obj/item/weapon/folder/blue{
@@ -4316,7 +4997,7 @@
 /turf/simulated/floor{
 	icon_state = "darkbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "HD" = (
 /obj/machinery/conveyor{
 	dir = 4;
@@ -4326,7 +5007,7 @@
 	dir = 8;
 	icon_state = "darkbrown"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "HE" = (
 /obj/structure/sink{
 	dir = 4;
@@ -4341,24 +5022,24 @@
 /turf/simulated/floor{
 	icon_state = "freezerfloor"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "HF" = (
 /obj/structure/stool/bed/chair/comfy/brown,
 /turf/simulated/floor/carpet/black,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "HL" = (
 /obj/structure/closet/crate/bin,
 /turf/simulated/floor{
 	icon_state = "white"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "HM" = (
 /obj/structure/table,
 /obj/item/weapon/folder/blue,
 /turf/simulated/floor{
 	icon_state = "darkbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "HO" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced{
@@ -4370,26 +5051,30 @@
 /obj/structure/window/reinforced,
 /obj/machinery/door/poddoor/shutters/syndi,
 /turf/simulated/floor/plating,
-/area/space)
-"HS" = (
-/obj/machinery/conveyor_switch/oneway{
-	id = "baggage_exit"
+/area/spacecounter/cosmoport/main)
+"HQ" = (
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "neutral"
 	},
+/area/spacecounter/cosmoport/plant_b)
+"HS" = (
+/obj/machinery/conveyor_switch/oneway,
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "darkbrown"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "HV" = (
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "HW" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "HZ" = (
 /obj/structure/table,
 /obj/item/weapon/storage/box/ians_box,
@@ -4397,84 +5082,112 @@
 	dir = 1;
 	icon_state = "darkbrown"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "Ib" = (
 /obj/structure/object_wall/evac{
 	icon_state = "9,6"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "In" = (
-/obj/machinery/computer{
-	icon_state = "erokez"
+/obj/structure/computerframe{
+	anchored = 1;
+	icon = 'icons/obj/computer.dmi';
+	icon_state = "erokez";
+	name = "computer"
 	},
 /turf/simulated/shuttle/floor/evac,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"Ip" = (
+/obj/effect/plant_a/plant_b{
+	icon_state = "plantB_3";
+	pixel_x = -5
+	},
+/obj/structure/sign/mark{
+	icon_state = "rdn";
+	pixel_x = 10
+	},
+/turf/simulated/floor/engine,
+/area/spacecounter/cosmoport/main)
 "Ir" = (
 /obj/machinery/light/spot{
 	dir = 1
 	},
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "It" = (
 /turf/simulated/shuttle/floor/evac,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Iu" = (
 /obj/machinery/conveyor{
 	dir = 4;
 	id = "baggage"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Ix" = (
 /obj/structure/object_wall/evac{
 	icon_state = "11,19"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ID" = (
 /obj/effect/decal/cleanable/generic,
 /turf/simulated/floor{
 	icon_state = "floorgrime"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "IH" = (
-/obj/machinery/deployable/barrier{
-	icon_state = "barrier1"
+/obj/structure/table/reinforced,
+/obj/item/weapon/stamp/denied,
+/obj/machinery/light/spot{
+	dir = 4
 	},
-/turf/simulated/floor,
-/area/space)
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/spacecounter/cosmoport/main)
 "IR" = (
 /obj/structure/table,
-/obj/machinery/computer{
-	icon_state = "laptop_employment";
+/obj/machinery/computer/skills{
+	density = 0;
 	name = "Work Laptop"
 	},
 /turf/simulated/floor{
 	icon_state = "darkbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "IW" = (
-/obj/machinery/computer{
-	icon_state = "erokEz"
+/obj/structure/computerframe{
+	anchored = 1;
+	icon = 'icons/obj/computer.dmi';
+	icon_state = "erokEz";
+	name = "computer"
 	},
 /turf/simulated/shuttle/floor/evac,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"Ja" = (
+/obj/machinery/light/spot{
+	dir = 8
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "arrival"
+	},
+/area/spacecounter/cosmoport/main)
 "Jb" = (
 /turf/simulated/floor{
 	icon_state = "warndark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Je" = (
-/obj/structure/plasticflaps/mining{
-	opacity = 1
-	},
 /obj/machinery/conveyor{
 	dir = 8;
 	id = "baggage_exit"
 	},
+/obj/structure/plasticflaps/mining,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Ji" = (
 /obj/structure/closet/crate,
 /obj/item/weapon/storage/belt/utility,
@@ -4483,7 +5196,7 @@
 /obj/item/device/gps/engineering,
 /obj/item/clothing/suit/storage/hazardvest,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Jk" = (
 /obj/structure/object_wall/evac{
 	density = 0;
@@ -4491,7 +5204,7 @@
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Jn" = (
 /obj/structure/stool/bed/chair/metal,
 /obj/machinery/light/spot{
@@ -4501,11 +5214,11 @@
 	dir = 1;
 	icon_state = "escape"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Jr" = (
 /obj/effect/decal/droppod_wreckage,
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Js" = (
 /obj/machinery/door/airlock/command/glass{
 	name = "BoSS Room"
@@ -4513,7 +5226,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Ju" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced{
@@ -4524,7 +5237,7 @@
 	},
 /obj/structure/window/reinforced,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Jv" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/paper_bin,
@@ -4536,7 +5249,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Jw" = (
 /obj/structure/window/reinforced{
 	dir = 5
@@ -4544,13 +5257,13 @@
 /obj/structure/flora/ausbushes/grassybush,
 /obj/structure/flora/ausbushes/brflowers,
 /turf/simulated/floor/grass,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "JB" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "JN" = (
 /obj/structure/stool/bed/chair/comfy{
 	dir = 1;
@@ -4558,19 +5271,19 @@
 	name = "comfy sofa"
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "JQ" = (
 /obj/structure/stool/bed/chair/office/dark{
 	dir = 8
 	},
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "JT" = (
 /obj/structure/stool/bed/chair/schair/wagon{
 	dir = 8
 	},
 /turf/simulated/shuttle/floor/evac,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "JX" = (
 /obj/machinery/light/spot{
 	dir = 4
@@ -4579,7 +5292,7 @@
 	dir = 4;
 	icon_state = "darkblue"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Ka" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -4589,7 +5302,7 @@
 	dir = 8;
 	icon_state = "vault"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Kb" = (
 /obj/structure/stool/bed/chair/office/dark{
 	dir = 1
@@ -4598,7 +5311,11 @@
 	dir = 1;
 	icon_state = "darkblue"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"Kc" = (
+/obj/effect/plant_a,
+/turf/simulated/floor,
+/area/spacecounter/cosmoport/plant_a)
 "Kg" = (
 /obj/effect/decal/cleanable/blood/oil,
 /turf/simulated/floor/plating{
@@ -4606,7 +5323,7 @@
 	nitrogen = 0.01;
 	oxygen = 0.01
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Kj" = (
 /obj/structure/closet{
 	icon_closed = "cabinet_closed";
@@ -4617,14 +5334,22 @@
 /turf/simulated/floor{
 	icon_state = "purplechecker"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"Kk" = (
+/obj/machinery/door/airlock/maintenance{
+	locked = 1;
+	req_access = list(12)
+	},
+/obj/structure/barricade/wooden,
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "Kq" = (
 /obj/structure/sign/warning/securearea{
 	desc = "A warning sign which reads 'KEEP CLEAR OF DOCKING AREA'.";
 	name = "KEEP CLEAR: DOCKING AREA"
 	},
 /turf/simulated/wall,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Kr" = (
 /obj/structure/stool/bed/chair/metal{
 	dir = 8
@@ -4633,7 +5358,7 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Kw" = (
 /obj/structure/object_wall/evac{
 	density = 0;
@@ -4641,7 +5366,7 @@
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Kz" = (
 /obj/structure/stool/bed/chair/schair/wagon{
 	dir = 8
@@ -4650,20 +5375,20 @@
 	dir = 4
 	},
 /turf/simulated/shuttle/floor/evac/sec2,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "KC" = (
 /obj/machinery/light/spot,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "KD" = (
 /obj/structure/table/glass,
 /obj/item/weapon/storage/box/cups{
 	pixel_y = 4
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "KE" = (
 /obj/structure/table,
 /obj/item/trash/snack_bowl,
@@ -4671,13 +5396,13 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "KM" = (
 /obj/structure/table,
-/obj/structure/window/reinforced/tinted,
 /obj/item/weapon/stamp/approve,
+/obj/structure/window/basic,
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "KP" = (
 /obj/structure/object_wall/evac{
 	density = 0;
@@ -4685,7 +5410,7 @@
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "KT" = (
 /obj/machinery/door/poddoor/shutters/syndi{
 	icon = 'code/modules/locations/shuttles/cargo.dmi';
@@ -4694,15 +5419,15 @@
 	},
 /obj/machinery/shieldwall,
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "KW" = (
-/obj/machinery/computer{
-	icon_state = "security_det_miami";
-	name = "Miami TV"
-	},
 /obj/structure/table/woodentable,
+/obj/machinery/computer/security/wooden_tv/miami{
+	name = "Miami TV";
+	network = list()
+	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "KX" = (
 /obj/structure/stool{
 	layer = 2.8;
@@ -4713,23 +5438,21 @@
 	pixel_y = 2
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Lc" = (
 /obj/random/vending/cola,
 /turf/simulated/floor{
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Li" = (
 /obj/machinery/conveyor{
 	dir = 4;
 	id = "baggage"
 	},
-/obj/structure/plasticflaps/mining{
-	opacity = 1
-	},
+/obj/structure/plasticflaps/mining,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Lk" = (
 /obj/machinery/door_control{
 	id = "Cosmic_mech_launch";
@@ -4737,32 +5460,32 @@
 	pixel_x = 24
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Lp" = (
 /obj/item/weapon/twohanded/flora/random,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Lt" = (
 /obj/item/weapon/twohanded/flora,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Lu" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/folder/blue,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "LA" = (
 /obj/machinery/light/spot{
 	dir = 4
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "LB" = (
 /obj/structure/table,
 /obj/item/trash/tray,
@@ -4771,7 +5494,13 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"LM" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor,
+/area/spacecounter/cosmoport/main)
 "LN" = (
 /obj/machinery/conveyor{
 	dir = 6;
@@ -4780,11 +5509,11 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "LP" = (
 /obj/structure/closet/l3closet/janitor,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "LR" = (
 /obj/structure/stool/bed/chair/metal{
 	dir = 4
@@ -4793,14 +5522,21 @@
 	dir = 6;
 	icon_state = "arrival"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"LS" = (
+/obj/effect/decal/cleanable/generic,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "LT" = (
 /obj/structure/closet/emcloset,
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "arrival"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "LW" = (
 /obj/structure/table,
 /obj/item/weapon/storage/secure/briefcase,
@@ -4810,14 +5546,14 @@
 /turf/simulated/floor{
 	icon_state = "white"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "LY" = (
 /obj/machinery/status_display,
 /turf/simulated/wall,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "LZ" = (
 /obj/machinery/status_display{
-	message1 = "Ticket number:";
+	message1 = "Ticket:";
 	message2 = "121-G";
 	mode = 2;
 	pixel_x = 32
@@ -4829,20 +5565,20 @@
 	dir = 4;
 	icon_state = "arrival"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Ma" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "arrival"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Mc" = (
 /obj/structure/object_wall/evac{
 	icon_state = "5,19"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Mf" = (
 /obj/structure/cable/yellow{
 	d1 = 2;
@@ -4856,18 +5592,18 @@
 	dir = 8;
 	icon_state = "redbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Mm" = (
 /obj/structure/table,
-/obj/structure/window/reinforced/tinted{
+/obj/structure/window/basic{
 	dir = 8
 	},
-/obj/machinery/computer{
-	icon_state = "laptop_employment";
+/obj/machinery/computer/skills{
+	density = 0;
 	name = "Work Laptop"
 	},
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Mn" = (
 /obj/structure/object_wall/evac{
 	icon_state = "7,6"
@@ -4877,16 +5613,14 @@
 	pixel_y = -1
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Mo" = (
 /obj/structure/table,
-/obj/machinery/cell_charger,
+/obj/item/weapon/storage/belt/utility,
+/obj/item/device/flashlight,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Mv" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
 /obj/structure/table/glass,
 /obj/item/weapon/paper_bin,
 /obj/item/weapon/pen{
@@ -4895,11 +5629,14 @@
 /obj/machinery/light/spot{
 	dir = 8
 	},
+/obj/structure/window/basic{
+	dir = 8
+	},
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "darkblue"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "My" = (
 /obj/structure/table,
 /obj/item/trash/plate,
@@ -4908,24 +5645,30 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Mz" = (
 /obj/machinery/computer/arcade,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"MB" = (
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "neutralcorner"
+	},
+/area/spacecounter/cosmoport/main)
 "MD" = (
 /obj/machinery/door/airlock/erokez/eng{
 	name = "Engineering Airlock"
 	},
 /turf/simulated/shuttle/floor/evac,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ME" = (
 /obj/structure/closet/crate/bin,
 /turf/simulated/floor{
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "MF" = (
 /obj/machinery/light/spot{
 	dir = 4
@@ -4933,25 +5676,30 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"MG" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "MH" = (
 /obj/structure/table,
-/obj/machinery/computer{
-	icon_state = "laptop_employment";
+/obj/machinery/computer/skills{
+	density = 0;
 	name = "Work Laptop"
 	},
 /turf/simulated/floor{
 	icon_state = "white"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "MJ" = (
-/obj/structure/stool/bed/chair/metal{
-	dir = 1
-	},
+/obj/item/weapon/twohanded/flora/random,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ML" = (
 /obj/structure/cable/yellow{
 	d1 = 4;
@@ -4964,25 +5712,26 @@
 	dir = 8;
 	icon_state = "redbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "MM" = (
 /obj/structure/rack,
 /obj/item/weapon/storage/belt/utility,
 /obj/item/clothing/mask/gas/coloured,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "MN" = (
 /obj/structure/closet/firecloset,
+/obj/machinery/light/spot,
 /turf/simulated/floor{
 	icon_state = "white"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "MP" = (
 /obj/structure/object_wall/evac{
 	icon_state = "15,9"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "MU" = (
 /obj/structure/window/reinforced/tinted{
 	dir = 4
@@ -4992,7 +5741,7 @@
 	},
 /obj/structure/flora/ausbushes/brflowers,
 /turf/simulated/floor/grass,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "MW" = (
 /obj/structure/cable/yellow{
 	d1 = 1;
@@ -5006,35 +5755,42 @@
 	dir = 8;
 	icon_state = "redbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "MZ" = (
 /obj/effect/overlay/coconut,
 /turf/simulated/floor/beach/sand,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Na" = (
-/obj/structure/table,
-/obj/item/clothing/suit/storage/hazardvest,
-/obj/item/clothing/mask/gas/coloured,
-/turf/simulated/floor/plating,
-/area/space)
+/obj/machinery/light/spot{
+	dir = 8
+	},
+/obj/machinery/light/spot{
+	dir = 1
+	},
+/turf/simulated/floor,
+/area/spacecounter/cosmoport/main)
 "Nb" = (
 /obj/structure/reagent_dispensers/watertank,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"Nd" = (
+/obj/effect/plant_a/plant_b{
+	icon_state = "plantB_3"
+	},
+/turf/unsimulated/wall,
+/area/spacecounter/cosmoport/main)
 "Ne" = (
 /obj/structure/object_wall/evac{
 	icon_state = "12,7"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Nj" = (
-/obj/machinery/conveyor_switch/oneway{
-	id = "baggage_exit"
-	},
+/obj/machinery/conveyor_switch/oneway,
 /turf/simulated/floor{
 	icon_state = "floorgrime"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "No" = (
 /obj/structure/table/glass,
 /obj/item/weapon/twohanded/flora/deskleaf{
@@ -5043,11 +5799,11 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Np" = (
 /obj/structure/closet/crate/bin,
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Nq" = (
 /obj/structure/table,
 /obj/item/device/flashlight/lamp/green{
@@ -5059,31 +5815,31 @@
 /turf/simulated/floor{
 	icon_state = "white"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Nr" = (
 /obj/structure/table/woodentable/poker,
 /obj/item/weapon/storage/pill_bottle/dice,
 /turf/simulated/floor/carpet/black,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Nt" = (
 /obj/structure/object_wall/evac{
 	icon_state = "5,16"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Nv" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /obj/structure/stool/bed/chair/schair/wagon,
 /turf/simulated/shuttle/floor/evac/place,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "NA" = (
 /obj/structure/table/woodentable,
 /obj/item/weapon/folder/red,
 /obj/item/weapon/handcuffs,
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "NC" = (
 /obj/structure/object_wall/evac{
 	density = 0;
@@ -5091,16 +5847,16 @@
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "NE" = (
 /obj/structure/rack,
 /obj/item/device/camera,
 /obj/item/stack/cable_coil/random,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "NF" = (
 /turf/simulated/shuttle/floor/evac/medbay,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "NH" = (
 /obj/structure/cable{
 	d1 = 2;
@@ -5118,24 +5874,28 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating/airless/catwalk,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "NJ" = (
 /turf/simulated/floor{
 	icon_state = "darkblue"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "NK" = (
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "darkbrown"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
+"NL" = (
+/obj/machinery/light/spot,
+/turf/simulated/floor/engine,
+/area/spacecounter/cosmoport/main)
 "NO" = (
 /obj/structure/object_wall/evac{
 	icon_state = "14,5"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "NP" = (
 /obj/structure/table/glass,
 /obj/item/weapon/storage/box/cups{
@@ -5145,26 +5905,26 @@
 	dir = 4
 	},
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "NW" = (
 /obj/structure/table,
 /obj/item/device/taperecorder,
 /turf/simulated/floor{
 	icon_state = "darkbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "NZ" = (
 /obj/structure/object_wall/evac{
 	icon_state = "11,7"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Og" = (
 /obj/structure/object_wall/evac{
 	icon_state = "11,11"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Oh" = (
 /obj/structure/object_wall/evac{
 	icon_state = "14,13"
@@ -5173,27 +5933,27 @@
 	pixel_x = 1
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Oi" = (
 /turf/simulated/floor{
 	dir = 10;
 	icon_state = "arrival"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Oj" = (
 /obj/structure/window/basic{
 	dir = 5
 	},
 /obj/structure/flora/ausbushes/lavendergrass,
 /turf/simulated/floor/grass,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Ol" = (
 /obj/structure/closet/firecloset,
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "warnwhitecorner"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Om" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating{
@@ -5201,33 +5961,59 @@
 	nitrogen = 0.01;
 	oxygen = 0.01
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"Op" = (
+/obj/effect/plant_a{
+	icon_state = "plantA_3";
+	pixel_x = -5
+	},
+/obj/structure/sign/mark{
+	icon_state = "rup";
+	pixel_x = 10
+	},
+/turf/simulated/floor,
+/area/spacecounter/cosmoport/main)
 "Or" = (
 /obj/structure/window/basic{
 	dir = 5
 	},
 /obj/structure/flora/ausbushes/grassybush,
 /turf/simulated/floor/grass,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Ov" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/simulated/shuttle/floor/evac,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Ow" = (
 /obj/machinery/flasher{
 	id = "shutflash";
 	pixel_y = 16
 	},
 /turf/simulated/shuttle/floor/evac/sec1,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "OA" = (
-/obj/machinery/computer{
-	icon_state = "ai-fixer"
+/obj/structure/computerframe{
+	anchored = 1;
+	icon = 'icons/obj/computer.dmi';
+	icon_state = "ai-fixer";
+	name = "computer"
 	},
 /turf/simulated/shuttle/floor/evac,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"OB" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/window/reinforced,
+/obj/structure/barricade/wooden,
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "OD" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -5235,24 +6021,41 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"OG" = (
+/obj/structure/sign/mark{
+	icon_state = "rup"
+	},
+/obj/structure/sign/mark{
+	icon_state = "rlf"
+	},
+/turf/simulated/floor/engine,
+/area/spacecounter/cosmoport/main)
+"OH" = (
+/obj/structure/table,
+/obj/item/weapon/phone,
+/obj/structure/window/basic{
+	dir = 8
+	},
+/turf/simulated/floor,
+/area/spacecounter/cosmoport/plant_b)
 "OI" = (
 /obj/effect/landmark/blockway,
 /obj/machinery/door/airlock/glass{
 	locked = 1
 	},
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "OK" = (
 /obj/structure/window/reinforced/shuttle/evac{
 	icon_state = "14,20"
 	},
 /turf/simulated/shuttle/floor/evac,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "OM" = (
 /obj/structure/stool/bed/roller,
 /turf/simulated/shuttle/floor/evac/medbay,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "OT" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -5260,7 +6063,16 @@
 /obj/item/trash/candy,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"Pc" = (
+/obj/structure/table,
+/obj/item/weapon/stamp/denied,
+/obj/structure/window/basic{
+	dir = 8
+	},
+/obj/structure/window/basic,
+/turf/simulated/floor,
+/area/spacecounter/cosmoport/plant_b)
 "Pf" = (
 /obj/structure/window/reinforced,
 /obj/item/weapon/reagent_containers/food/snacks/cakeslice,
@@ -5271,7 +6083,7 @@
 /turf/simulated/shuttle/floor/erokez{
 	icon_state = "sign_2"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Pg" = (
 /obj/structure/closet/crate/bin,
 /obj/machinery/light/spot{
@@ -5279,7 +6091,15 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"Pp" = (
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "baggage_exit"
+	},
+/obj/machinery/light/small,
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "Pr" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/southleft,
@@ -5289,18 +6109,32 @@
 /turf/simulated/floor{
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Pu" = (
 /obj/structure/object_wall/evac{
 	icon_state = "4,6"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Py" = (
 /turf/simulated/floor{
 	icon_state = "floorgrime"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"Pz" = (
+/obj/structure/sign/mark{
+	icon_state = "rlf";
+	pixel_x = -6
+	},
+/obj/effect/plant_a{
+	icon_state = "plantA_3"
+	},
+/obj/structure/sign/mark{
+	icon_state = "rrt";
+	pixel_x = 6
+	},
+/turf/simulated/wall,
+/area/spacecounter/cosmoport/main)
 "PB" = (
 /obj/structure/table/woodentable,
 /obj/item/weapon/book/manual/wiki/security_space_law,
@@ -5309,33 +6143,39 @@
 	pixel_y = -2
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"PC" = (
+/obj/machinery/light/spot{
+	dir = 4
+	},
+/turf/simulated/floor,
+/area/spacecounter/cosmoport/plant_b)
 "PE" = (
 /turf/simulated/floor{
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "PL" = (
 /obj/structure/object_wall/evac{
 	icon_state = "10,22";
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "PM" = (
 /obj/machinery/light/spot,
 /turf/simulated/floor{
 	icon_state = "darkbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "PR" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /obj/machinery/light/spot{
 	dir = 1
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "PS" = (
 /obj/machinery/status_display{
 	pixel_x = 32
@@ -5347,7 +6187,7 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "PW" = (
 /obj/structure/table,
 /obj/item/weapon/storage/toolbox/electrical{
@@ -5360,13 +6200,23 @@
 	pixel_y = 26
 	},
 /turf/simulated/shuttle/floor/evac/eng2,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "PZ" = (
 /obj/structure/window/reinforced/shuttle/evac{
 	icon_state = "13,20"
 	},
 /turf/simulated/shuttle/floor/evac,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"Qa" = (
+/obj/effect/plant_a/plant_b{
+	icon_state = "plantB_3";
+	pixel_x = -5
+	},
+/obj/structure/sign/mark{
+	icon_state = "rrt"
+	},
+/turf/simulated/floor,
+/area/spacecounter/cosmoport/main)
 "Qb" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/paper_bin,
@@ -5374,13 +6224,13 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Qc" = (
 /turf/simulated/floor{
 	dir = 9;
 	icon_state = "arrival"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Qe" = (
 /obj/structure/object_wall/evac{
 	icon_state = "9,6"
@@ -5390,7 +6240,7 @@
 	pixel_y = -1
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Qf" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -5408,20 +6258,20 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating/airless/catwalk,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Qg" = (
 /obj/structure/table/reinforced,
-/obj/machinery/computer{
-	icon_state = "laptop_employment";
-	name = "Work Laptop"
-	},
 /obj/machinery/light/spot{
 	dir = 1
+	},
+/obj/machinery/computer/skills{
+	density = 0;
+	name = "Work Laptop"
 	},
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Ql" = (
 /obj/structure/disposaloutlet,
 /obj/structure/disposalpipe/trunk{
@@ -5435,22 +6285,22 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Qn" = (
 /obj/structure/object_wall/evac{
 	icon_state = "5,5"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Qp" = (
 /obj/structure/table,
 /obj/item/weapon/paper,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Qr" = (
 /obj/effect/decal/cleanable/blood/gibs,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Qv" = (
 /obj/structure/table/glass,
 /obj/item/weapon/kitchenknife/plastic,
@@ -5459,52 +6309,72 @@
 	},
 /obj/machinery/light/spot,
 /turf/simulated/floor/carpet/black,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"QE" = (
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/simulated/floor,
+/area/spacecounter/cosmoport/plant_b)
+"QG" = (
+/obj/effect/plant_a{
+	icon_state = "plantA_3";
+	pixel_x = -5
+	},
+/obj/structure/sign/mark{
+	icon_state = "rrt"
+	},
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "QH" = (
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "darkblue"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "QJ" = (
 /obj/structure/ladder{
 	id = "hangar_transition_west"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "QO" = (
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "bluecorner"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "QS" = (
 /obj/structure/table,
 /turf/simulated/floor{
 	icon_state = "darkbrown"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "QT" = (
 /obj/structure/object_wall/evac{
 	icon_state = "13,4";
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"QU" = (
+/obj/effect/plant_a,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/spacecounter/cosmoport/plant_a)
 "QX" = (
 /obj/structure/closet/crate/bin,
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "bluecorner"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Ra" = (
 /obj/structure/object_wall/evac{
 	icon_state = "15,8"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Rb" = (
 /obj/structure/table,
 /obj/item/weapon/storage/box/donkpockets{
@@ -5516,26 +6386,26 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Rc" = (
 /obj/structure/object_wall/evac{
 	icon_state = "5,22";
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Rd" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Rf" = (
 /obj/structure/object_wall/evac{
 	icon_state = "11,4"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Rm" = (
 /obj/machinery/conveyor{
 	dir = 8;
@@ -5545,7 +6415,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "Rn" = (
 /obj/structure/object_wall/evac{
 	icon_state = "7,6"
@@ -5554,7 +6424,7 @@
 	pixel_x = -4
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Ro" = (
 /obj/structure/table,
 /obj/item/trash/cheesie,
@@ -5562,13 +6432,13 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Rq" = (
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "neutralcorner"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Rr" = (
 /obj/machinery/power/tracker,
 /obj/structure/cable{
@@ -5576,23 +6446,18 @@
 	icon_state = "0-8"
 	},
 /turf/simulated/floor/plating/airless/catwalk,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Rw" = (
-/obj/machinery/power/apc{
-	cell_type = 999999;
-	dir = 1;
-	name = "Space Counter APC";
-	pixel_y = 24
-	},
 /obj/structure/cable/yellow{
-	d2 = 4;
-	icon_state = "0-4"
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/unsimulated/floor{
 	dir = 8;
 	icon_state = "redbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "RG" = (
 /obj/machinery/conveyor{
 	dir = 9;
@@ -5601,21 +6466,21 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "RH" = (
-/obj/structure/stool,
+/obj/structure/sign/poster/official/no_erp,
 /obj/machinery/light/spot{
-	dir = 4
+	dir = 1
 	},
-/turf/simulated/floor/plating,
-/area/space)
+/turf/simulated/floor,
+/area/spacecounter/cosmoport/main)
 "RM" = (
 /obj/structure/table,
 /obj/item/weapon/book/manual/wiki/security_space_law,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "RN" = (
 /obj/structure/rack,
 /obj/item/weapon/storage/briefcase{
@@ -5629,7 +6494,7 @@
 	dir = 8;
 	icon_state = "vault"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "RO" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -5638,7 +6503,7 @@
 /obj/item/weapon/storage/belt/utility,
 /obj/item/clothing/head/welding,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "RU" = (
 /obj/structure/object_wall/evac{
 	icon_state = "2,13"
@@ -5649,20 +6514,20 @@
 	pixel_y = -1
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "RV" = (
 /obj/machinery/cryopod,
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "neutral"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "RY" = (
 /obj/structure/object_wall/evac{
 	icon_state = "1,11"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Sb" = (
 /obj/structure/table,
 /obj/item/trash/pistachios,
@@ -5670,7 +6535,7 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Se" = (
 /obj/structure/table,
 /obj/item/weapon/paper,
@@ -5682,7 +6547,7 @@
 /turf/simulated/floor{
 	icon_state = "darkbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Si" = (
 /obj/structure/rack,
 /obj/structure/window/reinforced,
@@ -5700,32 +6565,43 @@
 /turf/simulated/floor{
 	icon_state = "delivery"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Sj" = (
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "blue"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Sl" = (
 /obj/structure/stool/bed/chair/schair/wagon,
 /turf/simulated/shuttle/floor{
 	icon = 'icons/turf/carpets.dmi';
 	icon_state = "carpetsymbol"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Sm" = (
 /obj/structure/object_wall/evac{
 	icon_state = "5,7"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Sn" = (
 /obj/structure/object_wall/evac{
 	icon_state = "2,5"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"Sp" = (
+/obj/structure/sign/mark{
+	icon_state = "rup";
+	pixel_x = 10
+	},
+/obj/effect/plant_a/plant_b{
+	icon_state = "plantB_3";
+	pixel_x = -5
+	},
+/turf/simulated/floor/engine,
+/area/spacecounter/cosmoport/main)
 "Sq" = (
 /obj/machinery/door/airlock/command/glass{
 	name = "Break Room"
@@ -5733,33 +6609,49 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"Ss" = (
+/obj/machinery/light/spot{
+	invisibility = 101;
+	name = "invisible spotlight"
+	},
+/turf/simulated/floor/engine,
+/area/spacecounter/cosmoport/main)
+"Su" = (
+/obj/machinery/light/spot{
+	dir = 8
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkbrown"
+	},
+/area/spacecounter/cosmoport/plant_a)
 "Sy" = (
 /obj/structure/object_wall/evac{
 	icon_state = "8,2"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "SB" = (
 /obj/structure/closet/emcloset,
 /turf/simulated/floor{
 	icon_state = "warnwhitecorner"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "SC" = (
 /obj/machinery/door/window/brigdoor/northright,
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "warndark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "SE" = (
 /obj/structure/table/glass,
 /obj/item/weapon/reagent_containers/food/snacks/sliceable/pizza/margherita{
 	pixel_y = 4
 	},
 /turf/simulated/floor/carpet/black,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "SH" = (
 /obj/structure/window/reinforced{
 	dir = 5
@@ -5767,13 +6659,29 @@
 /obj/structure/flora/ausbushes/grassybush,
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/simulated/floor/grass,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"SJ" = (
+/obj/effect/decal/cleanable/blood/oil,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
+"SK" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced,
+/obj/structure/barricade/wooden,
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "SM" = (
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "warndark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "SO" = (
 /obj/machinery/conveyor{
 	dir = 5;
@@ -5782,7 +6690,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "SV" = (
 /obj/structure/cable/yellow{
 	d1 = 4;
@@ -5796,7 +6704,7 @@
 	dir = 8;
 	icon_state = "redbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Ta" = (
 /obj/structure/table/reinforced,
 /obj/item/device/flashlight/lamp{
@@ -5806,7 +6714,24 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"Tb" = (
+/obj/machinery/light/spot{
+	dir = 8
+	},
+/obj/machinery/light/spot,
+/turf/simulated/floor,
+/area/spacecounter/cosmoport/main)
+"Tc" = (
+/obj/structure/sign/mark{
+	icon_state = "rup"
+	},
+/obj/structure/sign/mark{
+	icon_state = "rrt";
+	pixel_x = -16
+	},
+/turf/simulated/floor/engine,
+/area/spacecounter/cosmoport/main)
 "Td" = (
 /obj/structure/lattice,
 /turf/space,
@@ -5816,26 +6741,26 @@
 	name = "NanoTrasen Space Operative"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Tg" = (
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "blue"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Th" = (
 /obj/item/weapon/twohanded/flora/random,
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "bluecorner"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Tl" = (
 /obj/structure/bookcase/manuals,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Tr" = (
 /obj/structure/object_wall/evac{
 	density = 0;
@@ -5843,7 +6768,7 @@
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "TA" = (
 /obj/structure/cable{
 	d1 = 2;
@@ -5856,24 +6781,33 @@
 	icon_state = "2-4"
 	},
 /turf/simulated/floor/plating/airless/catwalk,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"TC" = (
+/obj/machinery/light_construct{
+	dir = 4
+	},
+/obj/item/weapon/shard{
+	icon_state = "medium"
+	},
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "TE" = (
 /obj/structure/object_wall/evac{
 	icon_state = "1,12"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "TG" = (
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "darkbrowncorners"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "TH" = (
 /turf/simulated/floor{
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "TI" = (
 /obj/item/tape/engineering{
 	icon_state = "engineering_door"
@@ -5883,26 +6817,33 @@
 	name = "Construction Room"
 	},
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "TJ" = (
 /obj/structure/window/reinforced,
 /obj/structure/stool/bed/chair/schair/wagon{
 	dir = 8
 	},
 /turf/simulated/shuttle/floor/evac/sec2,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"TP" = (
+/obj/structure/sign/mark{
+	icon_state = "rrt"
+	},
+/turf/simulated/wall,
+/area/spacecounter/cosmoport/main)
 "TQ" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "TR" = (
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor{
-	icon_state = "warnwhite"
+	dir = 8;
+	icon_state = "warnwhitecorner"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "TZ" = (
 /obj/structure/table,
 /obj/item/weapon/reagent_containers/blood/empty{
@@ -5920,7 +6861,7 @@
 	pixel_y = -30
 	},
 /turf/simulated/shuttle/floor/evac/medbay,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Ub" = (
 /obj/machinery/computer/cryopod{
 	density = 0;
@@ -5929,7 +6870,7 @@
 /turf/simulated/floor{
 	icon_state = "white"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Uc" = (
 /obj/structure/object_wall/evac{
 	density = 0;
@@ -5937,23 +6878,23 @@
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Ud" = (
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "warnwhitecorner"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Ue" = (
 /obj/structure/stool/bed/chair/comfy/black,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Uh" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Uk" = (
 /obj/structure/closet/crate,
 /obj/item/device/flashlight,
@@ -5962,7 +6903,7 @@
 /obj/item/weapon/storage/box/lights/mixed,
 /obj/effect/decal/cleanable/cobweb,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Ul" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -5974,13 +6915,13 @@
 	dir = 8;
 	icon_state = "redbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Um" = (
 /obj/structure/object_wall/evac{
 	icon_state = "1,8"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Up" = (
 /obj/structure/table,
 /obj/machinery/reagentgrinder,
@@ -5988,7 +6929,7 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Uq" = (
 /obj/structure/table,
 /obj/item/weapon/kitchen/utensil/spoon,
@@ -5996,7 +6937,7 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Ur" = (
 /obj/structure/closet/crate/bin,
 /obj/item/trash/syndi_cakes,
@@ -6005,14 +6946,22 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/plant_b)
+"Ut" = (
+/obj/effect/plant_a{
+	icon_state = "plantA_3";
+	pixel_x = -5
+	},
+/turf/simulated/floor/engine,
+/area/spacecounter/cosmoport/main)
 "Ux" = (
 /obj/structure/closet/wardrobe/black,
+/obj/machinery/light/spot,
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "vault"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "UA" = (
 /obj/structure/table/woodentable,
 /obj/machinery/recharger{
@@ -6025,36 +6974,43 @@
 	pixel_y = 11
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "UB" = (
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "darkblue"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "UF" = (
 /obj/machinery/door/airlock/security,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "UH" = (
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "warndark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"UI" = (
+/obj/structure/table/glass,
+/obj/item/weapon/storage/box/cups{
+	pixel_y = 4
+	},
+/turf/simulated/floor,
+/area/spacecounter/cosmoport/plant_b)
 "UL" = (
 /turf/unsimulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "UN" = (
 /obj/machinery/light/small,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "UO" = (
 /obj/item/weapon/paper_bin,
 /obj/item/weapon/pen,
@@ -6064,7 +7020,7 @@
 	},
 /obj/structure/table,
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "UQ" = (
 /obj/structure/sign/mark{
 	icon_state = "rrt"
@@ -6072,32 +7028,32 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "UT" = (
-/obj/structure/object_wall/evac{
-	icon_state = "7,25";
-	opacity = 0
+/obj/effect/landmark/blockway,
+/obj/machinery/light/spot{
+	dir = 1
 	},
-/turf/simulated/floor/engine,
-/area/space)
+/turf/simulated/floor,
+/area/spacecounter/cosmoport/main)
 "UV" = (
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "arrivalcorner"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Va" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Vf" = (
 /obj/structure/table/woodentable,
 /obj/item/device/paicard,
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Vg" = (
 /obj/structure/stool/bed/chair/office/dark{
 	dir = 4
@@ -6106,11 +7062,11 @@
 	dir = 4;
 	icon_state = "darkblue"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Vh" = (
 /obj/structure/dispenser/oxygen,
 /turf/simulated/shuttle/floor/evac/eng2,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Vl" = (
 /obj/structure/table,
 /obj/item/trash/waffles,
@@ -6118,13 +7074,13 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Vp" = (
 /obj/structure/object_wall/evac{
 	icon_state = "11,9"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Vu" = (
 /obj/structure/window/reinforced/tinted{
 	dir = 8
@@ -6132,7 +7088,7 @@
 /turf/simulated/floor{
 	icon_state = "freezerfloor"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Vv" = (
 /obj/structure/object_wall/evac{
 	density = 0;
@@ -6140,7 +7096,7 @@
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Vw" = (
 /obj/machinery/door/airlock/highsecurity{
 	name = "Secure Armoury Section";
@@ -6149,12 +7105,12 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "VB" = (
 /turf/simulated/floor{
 	icon_state = "blue"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "VD" = (
 /obj/machinery/conveyor{
 	dir = 1;
@@ -6163,13 +7119,13 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "VE" = (
 /obj/structure/closet/crate/bin,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "VG" = (
 /obj/structure/stool/bed/chair/metal{
 	dir = 1
@@ -6177,7 +7133,7 @@
 /turf/simulated/floor{
 	icon_state = "darkbrown"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "VH" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/twohanded/flora/pottedplant{
@@ -6187,27 +7143,37 @@
 /turf/simulated/floor{
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"VI" = (
+/obj/effect/plant_a{
+	icon_state = "plantA_3";
+	pixel_x = -5
+	},
+/obj/structure/sign/mark{
+	icon_state = "rrt"
+	},
+/turf/simulated/floor,
+/area/spacecounter/cosmoport/main)
 "VQ" = (
 /obj/random/scrap/moderate_weighted,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "VT" = (
 /turf/simulated/wall/r_wall,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "VY" = (
 /obj/structure/object_wall/evac{
 	icon_state = "15,7"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Wf" = (
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "arrival"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Wi" = (
 /obj/structure/table,
 /obj/item/weapon/melee/chainofcommand,
@@ -6221,16 +7187,16 @@
 /turf/simulated/floor{
 	icon_state = "white"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Wj" = (
 /turf/simulated/floor{
 	icon_state = "warnwhitecorner"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Wl" = (
 /obj/structure/droppod,
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Wm" = (
 /obj/machinery/light/spot{
 	dir = 8
@@ -6238,14 +7204,14 @@
 /turf/simulated/floor{
 	icon_state = "white"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Wq" = (
 /obj/structure/object_wall/evac{
 	icon_state = "10,23";
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Wt" = (
 /obj/machinery/computer/cryopod{
 	density = 0;
@@ -6254,7 +7220,7 @@
 /turf/simulated/floor{
 	icon_state = "white"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Wv" = (
 /obj/machinery/light{
 	dir = 4
@@ -6262,41 +7228,43 @@
 /obj/item/weapon/phone,
 /obj/structure/table,
 /turf/simulated/shuttle/floor/evac,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Wz" = (
 /obj/structure/object_wall/evac{
 	icon_state = "8,24";
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "WA" = (
 /obj/structure/object_wall/evac{
 	icon_state = "7,23";
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "WC" = (
-/obj/machinery/recharge_station,
-/turf/simulated/floor/plating{
-	icon_state = "platebot"
+/obj/structure/stool/bed/chair/metal{
+	flipped = 1
 	},
-/area/space)
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "WH" = (
 /obj/structure/stool/bed/chair/metal,
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "arrival"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "WI" = (
-/obj/structure/filingcabinet/chestdrawer,
+/obj/structure/filingcabinet/filingcabinet{
+	density = 0
+	},
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "neutral"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "WJ" = (
 /turf/simulated/floor/plating,
 /area/space)
@@ -6305,7 +7273,7 @@
 /turf/simulated/floor{
 	icon_state = "floorgrime"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "WQ" = (
 /obj/effect/landmark/blockway,
 /obj/machinery/door/airlock/glass{
@@ -6314,11 +7282,11 @@
 /turf/simulated/floor{
 	icon_state = "arrival"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "WT" = (
 /obj/machinery/door/airlock/multi_tile/glass,
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "WU" = (
 /obj/structure/closet/secure_closet{
 	icon_state = "sec1";
@@ -6329,7 +7297,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "WV" = (
 /obj/structure/table,
 /obj/item/weapon/kitchen/utensil/fork,
@@ -6337,65 +7305,72 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "WX" = (
 /obj/structure/object_wall/evac{
 	icon_state = "5,13"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Xb" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "Xc" = (
 /obj/random/vending/cola,
 /turf/simulated/floor/wood,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Xf" = (
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "escape"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"Xh" = (
+/obj/effect/plant_a/plant_b,
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "neutralcorner"
+	},
+/area/spacecounter/cosmoport/plant_b)
 "Xm" = (
 /obj/machinery/door/airlock{
 	locked = 1
 	},
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Xn" = (
 /obj/structure/sign/poster/official/no_erp,
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Xo" = (
 /obj/structure/table,
 /obj/item/weapon/hand_labeler,
 /turf/simulated/floor{
 	icon_state = "darkbrown"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
 "Xp" = (
 /obj/item/weapon/twohanded/flora/random,
 /obj/machinery/light/spot{
 	dir = 8
 	},
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Xr" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/generic,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Xs" = (
 /turf/simulated/floor{
 	icon_state = "arrivalcorner"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Xx" = (
 /obj/structure/stool/bed/chair/schair/wagon,
 /obj/structure/extinguisher_cabinet{
@@ -6403,7 +7378,7 @@
 	pixel_y = 4
 	},
 /turf/simulated/shuttle/floor/evac/place,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Xz" = (
 /obj/structure/window/reinforced{
 	dir = 5
@@ -6411,20 +7386,20 @@
 /obj/structure/flora/ausbushes/grassybush,
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/simulated/floor/grass,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "XA" = (
-/obj/structure/window/reinforced{
-	dir = 4
-	},
 /obj/structure/table/glass,
 /obj/item/weapon/reagent_containers/food/snacks/csandwich{
 	pixel_y = 12
+	},
+/obj/structure/window/basic{
+	dir = 4
 	},
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "darkblue"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "XB" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -6437,7 +7412,7 @@
 	dir = 8;
 	icon_state = "vault"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "XE" = (
 /obj/structure/object_wall/evac{
 	density = 0;
@@ -6445,7 +7420,7 @@
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "XF" = (
 /obj/structure/closet/crate/bin,
 /obj/item/trash/pistachios,
@@ -6453,16 +7428,26 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"XL" = (
+/obj/effect/plant_a{
+	icon_state = "plantA_3";
+	pixel_x = -5
+	},
+/obj/structure/sign/mark{
+	icon_state = "rrt"
+	},
+/turf/simulated/floor/engine,
+/area/spacecounter/cosmoport/main)
 "XM" = (
 /obj/effect/decal/cleanable/blood/oil,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "XN" = (
 /obj/structure/closet/crate,
 /obj/item/device/multitool,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "XP" = (
 /obj/machinery/light{
 	dir = 4
@@ -6471,73 +7456,91 @@
 	pixel_x = 32
 	},
 /turf/simulated/shuttle/floor/evac,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"XU" = (
+/obj/structure/cryofeed,
+/obj/machinery/light/spot{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "XW" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/stamp/denied,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"Yb" = (
+/obj/structure/girder,
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "Yc" = (
 /mob/living/simple_animal/mouse,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Yh" = (
 /obj/structure/cryofeed,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Yi" = (
 /obj/structure/object_wall/evac{
 	icon_state = "5,3"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Yj" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced{
 	dir = 5
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Yl" = (
 /obj/structure/table,
+/obj/machinery/cell_charger,
+/obj/machinery/light/spot,
 /obj/item/stack/cable_coil/red{
 	amount = 5
 	},
-/obj/item/device/flashlight,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Yn" = (
 /turf/simulated/floor{
 	icon_state = "darkbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Yo" = (
 /obj/structure/object_wall/evac{
 	icon_state = "1,17"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Yq" = (
 /turf/simulated/floor{
 	icon_state = "darkbrowncorners"
 	},
-/area/space)
+/area/spacecounter/cosmoport/plant_a)
+"Yu" = (
+/obj/machinery/light/spot,
+/turf/simulated/floor{
+	icon_state = "white"
+	},
+/area/spacecounter/cosmoport/main)
 "Yv" = (
 /obj/item/weapon/twohanded/flora/random,
 /turf/simulated/floor{
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Yx" = (
 /obj/structure/object_wall/evac{
 	icon_state = "10,24";
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "YA" = (
 /obj/structure/object_wall/evac{
 	density = 0;
@@ -6545,23 +7548,23 @@
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "YD" = (
 /obj/effect/decal/cleanable/cobweb,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "YK" = (
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor{
 	icon_state = "white"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "YP" = (
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "brown"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "YT" = (
 /obj/structure/table,
 /obj/item/weapon/paper_bin,
@@ -6569,29 +7572,38 @@
 /turf/simulated/floor{
 	icon_state = "darkbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"YX" = (
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "YY" = (
 /obj/structure/object_wall/evac{
 	icon_state = "14,4";
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"Zc" = (
+/obj/structure/ladder{
+	id = "hangar_transition_north"
+	},
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "Zd" = (
 /turf/simulated/floor,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Zf" = (
 /turf/simulated/floor{
 	icon_state = "warnwhite"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Zh" = (
 /obj/machinery/door/airlock/maintenance{
 	locked = 1;
 	req_access = list(12)
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Zk" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced{
@@ -6605,14 +7617,14 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Zn" = (
 /obj/structure/stool/bed/chair/schair/wagon,
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/simulated/shuttle/floor/evac/place,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "Zo" = (
 /obj/structure/rack,
 /obj/item/stack/rods{
@@ -6620,7 +7632,12 @@
 	},
 /obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
+"Zp" = (
+/obj/effect/decal/cleanable/blood/oil,
+/obj/machinery/light/spot,
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "Zs" = (
 /obj/structure/stool/bed/chair/comfy/black{
 	dir = 1
@@ -6629,31 +7646,46 @@
 	dir = 1;
 	icon_state = "darkblue"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"ZB" = (
+/obj/structure/sign/mark{
+	icon_state = "rup";
+	pixel_x = 8
+	},
+/obj/effect/plant_a/plant_b{
+	icon_state = "plantB_3";
+	pixel_x = -5
+	},
+/obj/structure/sign/mark{
+	icon_state = "rrt";
+	pixel_x = 6
+	},
+/turf/simulated/wall,
+/area/spacecounter/cosmoport/main)
 "ZC" = (
 /obj/structure/object_wall/evac{
 	icon_state = "6,22";
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ZE" = (
-/obj/structure/window/reinforced{
+/obj/structure/table/glass,
+/obj/structure/window/basic{
 	dir = 8
 	},
-/obj/structure/table/glass,
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "darkblue"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ZF" = (
 /obj/structure/table/glass,
 /obj/item/weapon/storage/box/donkpockets{
 	pixel_y = 3
 	},
 /turf/simulated/floor/carpet/black,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ZG" = (
 /obj/structure/cable/yellow{
 	d1 = 2;
@@ -6664,26 +7696,33 @@
 	dir = 8;
 	icon_state = "redbluefull"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
+"ZP" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "ZQ" = (
 /obj/structure/window/reinforced,
 /turf/unsimulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ZU" = (
 /obj/structure/object_wall/evac{
 	icon_state = "15,19"
 	},
 /turf/simulated/floor/engine,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ZV" = (
 /obj/machinery/door/poddoor/shutters{
 	id = "Cosmic_mech_launch";
 	name = "Mech Bay"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ZX" = (
 /obj/structure/table,
 /obj/item/trash/sosjerky,
@@ -6691,7 +7730,7 @@
 	dir = 5;
 	icon_state = "cafeteria"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 "ZY" = (
 /obj/structure/table/glass,
 /obj/item/weapon/haircomb,
@@ -6701,7 +7740,7 @@
 /turf/simulated/floor{
 	icon_state = "purplechecker"
 	},
-/area/space)
+/area/spacecounter/cosmoport/main)
 
 (1,1,1) = {"
 sD
@@ -6744,14 +7783,14 @@ xV
 xV
 xV
 xV
-xV
+Ss
 dV
 xV
 xV
 xV
 xV
 xV
-xV
+Ss
 xV
 xV
 xV
@@ -6991,7 +8030,7 @@ sD
 sD
 sD
 dw
-xV
+eW
 xV
 xV
 xV
@@ -7137,7 +8176,7 @@ xV
 xV
 il
 xV
-xV
+NL
 dw
 sD
 sD
@@ -7251,9 +8290,9 @@ xV
 xV
 xV
 xV
-xk
-xk
-xk
+xV
+xV
+xV
 xV
 xV
 xV
@@ -7378,18 +8417,18 @@ xV
 xV
 xV
 xV
+xV
+Ss
+xV
+xV
+xV
+xV
+xV
+xV
+Ss
+xk
 xk
 xV
-xk
-xk
-xV
-xV
-xV
-xV
-xV
-xk
-xk
-hh
 xk
 xk
 dw
@@ -7506,19 +8545,19 @@ xV
 xV
 xV
 xk
-xV
-xV
 xk
 xk
 xk
-xV
-xV
 xk
 xk
 xV
 xV
-xV
-xV
+xk
+xk
+hh
+hh
+hh
+hh
 dw
 sD
 sD
@@ -7633,15 +8672,15 @@ xk
 xk
 xk
 xk
-xV
-xV
-xV
-xV
+hh
+hh
+hh
+hh
 xk
 xk
 xk
 xk
-xV
+hh
 xV
 xV
 xV
@@ -7753,26 +8792,26 @@ sD
 dw
 dw
 dw
+eq
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+xV
+xV
+hh
+hh
+hh
+hh
+hh
+hh
 xV
 xV
 xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
+NL
 dw
 dw
 dw
@@ -7979,11 +9018,11 @@ sD
 sD
 sD
 dw
-GL
+Rw
 SV
 Mf
 sW
-rp
+Rw
 dw
 dw
 sD
@@ -8005,7 +9044,7 @@ dw
 dw
 dw
 dw
-WJ
+YX
 Kq
 xV
 xV
@@ -8110,7 +9149,7 @@ Rw
 mI
 lI
 ML
-rp
+Rw
 dj
 xr
 sD
@@ -8132,7 +9171,7 @@ dw
 YD
 Cf
 Cf
-WJ
+YX
 ce
 xV
 xV
@@ -8233,11 +9272,11 @@ sD
 sD
 sD
 dw
-rp
+Rw
 BY
 dI
 MW
-rp
+Rw
 dw
 dw
 sD
@@ -8268,14 +9307,14 @@ xV
 xV
 xV
 xV
+Ss
 xV
 xV
 xV
 xV
 xV
 xV
-xV
-xV
+Ss
 xV
 xV
 xV
@@ -8383,7 +9422,7 @@ sD
 sD
 sD
 dw
-WJ
+YX
 zv
 is
 is
@@ -8510,11 +9549,12 @@ sD
 sD
 sD
 dw
-WJ
+YX
 zv
 is
 is
 zv
+eW
 xV
 xV
 xV
@@ -8533,8 +9573,7 @@ xV
 xV
 xV
 xV
-xV
-xV
+NL
 zv
 XM
 zv
@@ -8790,8 +9829,8 @@ xV
 xV
 xV
 zv
-WJ
-Ac
+YX
+Yb
 zv
 vq
 aD
@@ -8917,31 +9956,31 @@ xV
 xV
 xV
 zv
-WJ
+YX
 Cf
-WJ
+YX
 XM
-WJ
+YX
 HW
 Cf
 Va
-WJ
+YX
 Xr
 Cf
-WJ
+YX
 ce
-WJ
-WJ
+YX
+YX
 HW
 Cf
 Cf
-WJ
-WJ
+YX
+YX
 Rd
 Cf
 Cf
-WJ
-WJ
+YX
+YX
 dw
 sD
 sD
@@ -9044,7 +10083,7 @@ xV
 xV
 xV
 zv
-Ac
+Yb
 Cf
 zv
 zv
@@ -9068,7 +10107,7 @@ dw
 nR
 nR
 dw
-WJ
+YX
 dw
 sD
 sD
@@ -9171,31 +10210,31 @@ xV
 xV
 xV
 zv
-Ac
+Yb
 gW
 zv
 xA
-Zd
-WJ
+LM
+YX
 pb
 Dv
 RO
 rm
-XM
+SJ
 xA
 dw
 Td
 Td
-WJ
+YX
 Td
 Td
 Td
-WJ
+YX
 Td
 Td
 Td
 dw
-WJ
+YX
 dw
 sD
 sD
@@ -9272,34 +10311,34 @@ sD
 sD
 sD
 dw
-WJ
+YX
 zv
 is
 is
 zv
-xV
+eW
 xV
 xV
 xV
 xV
 xV
 Tf
+Ss
 xV
 xV
 xV
 xV
 xV
 xV
+Ss
 xV
 xV
 xV
 xV
-xV
-xV
-xV
+NL
 zv
 Zo
-WJ
+YX
 zv
 ph
 XM
@@ -9307,17 +10346,17 @@ rm
 Fh
 uK
 tm
-WJ
+YX
 rm
 ph
 dw
 Td
 Td
-WJ
+YX
 Td
 Td
 Td
-WJ
+YX
 Td
 Td
 Td
@@ -9399,7 +10438,7 @@ sD
 sD
 sD
 dw
-WJ
+YX
 zv
 is
 is
@@ -9432,7 +10471,7 @@ Cy
 tV
 En
 kG
-WJ
+YX
 tV
 En
 kG
@@ -9441,13 +10480,13 @@ dw
 dw
 dw
 dw
-WJ
+YX
 Qr
 ba
-WJ
-WJ
-WJ
-WJ
+YX
+YX
+YX
+YX
 dw
 Cf
 dw
@@ -9553,30 +10592,30 @@ xV
 xV
 zv
 Cf
-WJ
-WJ
-WJ
+YX
+YX
+YX
 uK
-Xb
-Xb
-WJ
+mM
+mM
+YX
 XM
 uK
 uK
-WJ
-WJ
-WJ
+YX
+YX
+YX
 Cf
 dw
 Td
 Td
 Td
-WJ
+YX
 Td
 Td
 Td
 dw
-WJ
+YX
 dw
 sD
 sD
@@ -9679,31 +10718,31 @@ xV
 xV
 xV
 zv
-Cf
+MG
 XM
 uK
 uK
 gw
 uK
-WJ
-WJ
-WJ
-WJ
-Xb
+YX
+TC
+YX
+YX
+mM
 gw
 uK
-WJ
-Cf
+YX
+Ch
 dw
 Td
 Td
 Td
-WJ
+YX
 Td
 Td
 Td
 dw
-WJ
+YX
 dw
 sD
 sD
@@ -9780,7 +10819,7 @@ sD
 sD
 sD
 dw
-WJ
+YX
 zv
 is
 is
@@ -9806,21 +10845,21 @@ xV
 xV
 xV
 zv
-WJ
-WJ
-Xb
+YX
+YX
+mM
 uK
 uK
-WJ
-XM
-WJ
+YX
+Zp
+zv
+qu
 Cf
-Cf
-WJ
+YX
 uK
-WJ
+YX
 XM
-WJ
+YX
 dw
 dw
 dw
@@ -9907,7 +10946,7 @@ sD
 sD
 sD
 dw
-WJ
+YX
 zv
 is
 is
@@ -9919,9 +10958,9 @@ xV
 xV
 xV
 xV
+XL
 xV
-xV
-xV
+jm
 xV
 xV
 xV
@@ -9934,44 +10973,44 @@ xV
 xV
 zv
 Cf
-Xb
-Xb
-WJ
-WJ
-WJ
-WJ
-WJ
+mM
+mM
+YX
+YX
+YX
+YX
+zt
 Cf
 uK
-WJ
-WJ
-WJ
-Xb
-WJ
+YX
+YX
+YX
+mM
+YX
 ce
-WJ
-WJ
+YX
+YX
 Cf
 Cf
 Cf
 Aq
-WJ
-WJ
-WJ
-WJ
-WJ
+YX
+YX
+YX
+YX
+YX
 Aq
 bC
-WJ
-WJ
+YX
+YX
 Cf
 Cf
 Aq
-WJ
-WJ
-WJ
-WJ
-WJ
+YX
+YX
+YX
+YX
+YX
 Ad
 dw
 sD
@@ -10034,11 +11073,21 @@ sD
 sD
 dw
 dw
-WJ
+YX
 zv
 zv
 zv
 zv
+eW
+xV
+xV
+xV
+xV
+xV
+xV
+hG
+xV
+hG
 xV
 xV
 xV
@@ -10048,33 +11097,23 @@ xV
 xV
 xV
 xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
+NL
 zv
-Xb
+mR
 uK
-WJ
+YX
 uK
 XM
-WJ
+YX
 uK
-WJ
-WJ
-WJ
-WJ
-WJ
-Xb
+YX
+YX
+YX
+YX
+YX
+mM
 uK
-WJ
+us
 zv
 zv
 zv
@@ -10099,7 +11138,7 @@ zv
 zv
 zv
 zv
-WJ
+YX
 dw
 dw
 dw
@@ -10161,10 +11200,10 @@ sD
 sD
 dw
 AE
-WJ
+YX
 bC
 aZ
-VQ
+Zc
 zv
 xV
 xV
@@ -10187,21 +11226,21 @@ xV
 xV
 xV
 zv
-Xb
-WJ
-WJ
+mM
+YX
+YX
 qx
 uK
-WJ
-WJ
+YX
+YX
 Lk
-WJ
+YX
 XM
-WJ
+YX
 qx
 XM
-WJ
-WJ
+YX
+YX
 zv
 is
 is
@@ -10300,14 +11339,14 @@ xV
 xV
 xV
 xV
+Ss
 xV
 xV
 xV
 xV
 xV
 xV
-xV
-xV
+Ss
 xV
 xV
 xV
@@ -10413,11 +11452,13 @@ sD
 KT
 KT
 KT
+FP
 xV
 xV
 xV
 xV
 xV
+FP
 xV
 xV
 xV
@@ -10441,48 +11482,46 @@ xV
 xV
 xV
 xV
+FP
 xV
 xV
 xV
 xV
+FP
 xV
 xV
 xV
 xV
+FP
 xV
 xV
 xV
 xV
 xV
 xV
+FP
 xV
 xV
 xV
 xV
 xV
+FP
 xV
 xV
 xV
 xV
 xV
+FP
 xV
 xV
 xV
 xV
 xV
+FP
 xV
 xV
 xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
+FP
 KT
 KT
 KT
@@ -11302,28 +12341,28 @@ sD
 KT
 KT
 KT
+Ss
 xV
 xV
 xV
 xV
 xV
 xV
+Ss
 xV
 xV
 xV
 xV
 xV
 xV
+Ss
 xV
 xV
 xV
 xV
 xV
 xV
-xV
-xV
-xV
-xV
+Ss
 xV
 xV
 xV
@@ -11346,28 +12385,28 @@ Pu
 zV
 mC
 YA
+Ss
 xV
 xV
 xV
 xV
 xV
 xV
+Ss
 xV
 xV
 xV
 xV
 xV
 xV
+Ss
 xV
 xV
 xV
 xV
 xV
 xV
-xV
-xV
-xV
-xV
+Ss
 xV
 xV
 xV
@@ -11704,7 +12743,7 @@ xV
 xV
 xV
 xV
-UT
+xV
 ah
 WA
 In
@@ -11831,7 +12870,7 @@ xV
 xV
 xV
 xV
-aN
+xV
 Wz
 aq
 IW
@@ -11958,7 +12997,7 @@ xV
 xV
 xV
 xV
-nC
+xV
 pY
 DA
 EK
@@ -12318,28 +13357,28 @@ sD
 KT
 KT
 KT
+Ss
 xV
 xV
 xV
 xV
 xV
 xV
+Ss
 xV
 xV
 xV
 xV
 xV
 xV
+Ss
 xV
 xV
 xV
 xV
 xV
 xV
-xV
-xV
-xV
-xV
+Ss
 np
 np
 np
@@ -12363,27 +13402,27 @@ zg
 ct
 Cg
 np
+Ss
+xV
+xV
+xV
+xV
+xV
+Ss
 xV
 xV
 xV
 xV
 xV
 xV
+Ss
 xV
 xV
 xV
 xV
 xV
 xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
+Ss
 xV
 xV
 xV
@@ -12840,8 +13879,8 @@ xV
 xV
 xV
 xV
-xV
-xV
+mA
+Ip
 xV
 xV
 xV
@@ -12982,9 +14021,9 @@ SM
 uK
 iu
 Zd
+VI
 Zd
-Zd
-Zd
+Qa
 Zd
 gf
 uK
@@ -13109,9 +14148,9 @@ SM
 uK
 fa
 Zd
+dZ
 Zd
-Zd
-Zd
+dZ
 Zd
 yP
 uK
@@ -13124,6 +14163,11 @@ xV
 xV
 np
 xV
+tN
+xV
+xV
+xV
+Ss
 xV
 xV
 xV
@@ -13131,17 +14175,12 @@ xV
 xV
 xV
 xV
+Ss
 xV
 xV
 xV
 xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
+Ss
 xV
 xV
 xV
@@ -13461,31 +14500,31 @@ sD
 KT
 KT
 KT
+Bu
 xV
 xV
 xV
 xV
 xV
+Bu
 xV
 xV
 xV
 xV
 xV
+Bu
 xV
 xV
 xV
 xV
 xV
-xV
-xV
-xV
-xV
+Bu
 xV
 xV
 np
 xV
 xV
-xV
+Bu
 SM
 uK
 uK
@@ -13496,12 +14535,12 @@ uK
 uK
 uK
 uK
-uK
+MF
 UQ
 uK
 Jb
 xV
-xV
+Bu
 xV
 np
 xV
@@ -13526,11 +14565,11 @@ xV
 xV
 xV
 xV
+Bu
 xV
 xV
 xV
-xV
-xV
+Bu
 KT
 KT
 KT
@@ -13590,7 +14629,7 @@ dw
 dw
 zv
 Kq
-ce
+Kk
 Kq
 zv
 zv
@@ -13717,16 +14756,16 @@ Do
 vt
 zv
 Mz
-XM
-WJ
+lf
+YX
 aZ
+Zc
 zv
-is
 is
 is
 zv
 qr
-qr
+rZ
 qr
 cr
 rY
@@ -13745,7 +14784,7 @@ Qc
 tZ
 tZ
 tZ
-ai
+Ja
 tZ
 tZ
 Oi
@@ -13758,6 +14797,7 @@ Dn
 zv
 cZ
 zv
+eW
 xV
 xV
 xV
@@ -13776,13 +14816,12 @@ xV
 xV
 xV
 xV
-xV
-xV
+NL
 zv
 cZ
-Ac
+Yb
 vq
-WJ
+YX
 Rd
 da
 dw
@@ -13841,7 +14880,7 @@ oz
 Kj
 Fn
 Do
-vt
+bv
 zv
 zv
 zv
@@ -13883,7 +14922,7 @@ Yj
 MZ
 aU
 ce
-WJ
+YX
 Kq
 xV
 xV
@@ -13906,10 +14945,10 @@ xV
 xV
 xV
 Kq
-WJ
+YX
 vq
-Ac
-WJ
+Yb
+YX
 dw
 dw
 dw
@@ -13972,12 +15011,12 @@ nV
 zv
 VQ
 VQ
-WJ
-bC
-WJ
+YX
+LS
+QG
 Cf
-Cf
-WJ
+ZP
+YX
 ce
 wI
 wI
@@ -14033,10 +15072,10 @@ xV
 xV
 xV
 ce
-WJ
+YX
 Rd
-WJ
-WJ
+YX
+YX
 dw
 sD
 sD
@@ -14110,9 +15149,9 @@ Wt
 wI
 wI
 wI
+vL
 wI
-wI
-wI
+Yu
 zv
 kN
 fK
@@ -14144,6 +15183,7 @@ xV
 xV
 xV
 xV
+Ss
 xV
 xV
 xV
@@ -14151,8 +15191,7 @@ xV
 xV
 xV
 xV
-xV
-xV
+Ss
 xV
 xV
 xV
@@ -14163,7 +15202,7 @@ Kq
 zv
 zv
 zv
-WJ
+YX
 dw
 sD
 sD
@@ -14222,13 +15261,13 @@ xi
 Dr
 xi
 xi
-MJ
-zv
-YD
-Ax
-WJ
+xi
+ce
 Cf
-WJ
+Nj
+YX
+ZP
+YX
 Py
 jS
 dp
@@ -14240,7 +15279,7 @@ wI
 ac
 wI
 wI
-zv
+LY
 Vu
 lR
 zv
@@ -14264,8 +15303,9 @@ Yj
 aU
 aU
 zv
-WJ
+YX
 zv
+eW
 xV
 xV
 xV
@@ -14284,13 +15324,12 @@ xV
 xV
 xV
 xV
-xV
-xV
+NL
 zv
 is
 is
 zv
-WJ
+YX
 dw
 sD
 sD
@@ -14351,7 +15390,7 @@ XB
 UL
 uF
 zv
-Py
+qR
 Iu
 Om
 Om
@@ -14374,7 +15413,7 @@ AK
 uK
 uK
 uK
-uK
+kq
 uK
 fI
 Zd
@@ -14471,7 +15510,7 @@ sD
 sD
 sD
 dw
-wA
+CM
 ZQ
 xi
 Ka
@@ -14488,11 +15527,11 @@ Nj
 Es
 zv
 Yh
-Yh
+XU
 Yh
 vI
 wI
-wI
+qS
 wI
 zv
 HE
@@ -14501,7 +15540,7 @@ zv
 uK
 uK
 uK
-uK
+UQ
 uK
 fI
 Zd
@@ -14518,7 +15557,7 @@ Ct
 tq
 FM
 VT
-WJ
+YX
 zv
 xV
 xV
@@ -14544,7 +15583,7 @@ zv
 is
 is
 zv
-WJ
+YX
 dw
 sD
 sD
@@ -14608,11 +15647,11 @@ zv
 CW
 Iu
 xX
-xX
+zY
 aQ
-WJ
-WJ
-Es
+YX
+YX
+Pp
 zv
 zv
 zv
@@ -14671,7 +15710,7 @@ zv
 is
 is
 zv
-WJ
+YX
 dw
 sD
 sD
@@ -14798,7 +15837,7 @@ zv
 is
 is
 zv
-WJ
+YX
 dw
 sD
 sD
@@ -14859,24 +15898,24 @@ gP
 zv
 Bk
 qh
-lc
+HS
 HD
 qh
-qh
+Su
 qh
 qh
 HS
 Er
 zv
 qr
-qr
+rZ
 qr
 vI
 wI
 wI
 Zf
 qr
-qr
+rZ
 qr
 zv
 Hh
@@ -14925,7 +15964,7 @@ zv
 is
 is
 zv
-WJ
+YX
 dw
 sD
 sD
@@ -14982,17 +16021,17 @@ nR
 nR
 LT
 Zd
-iQ
+iF
 zv
 zw
-uK
+rc
 Yq
 FH
 NK
 NK
 NK
 Fg
-uK
+rc
 gm
 zv
 aC
@@ -15026,8 +16065,9 @@ uK
 mi
 EU
 VT
-WJ
-zv
+YX
+Pz
+eW
 xV
 xV
 xV
@@ -15046,13 +16086,12 @@ xV
 xV
 xV
 xV
-xV
-xV
+NL
 zv
 is
 is
 zv
-WJ
+YX
 dw
 sD
 sD
@@ -15104,15 +16143,15 @@ sD
 sD
 sD
 oL
-WJ
-WJ
+YX
+YX
 nX
 fI
 Zd
 iQ
-zv
+cQ
 nU
-uK
+rc
 mQ
 SO
 DZ
@@ -15153,13 +16192,14 @@ uK
 KX
 JN
 VT
-WJ
+YX
 zv
 xV
 xV
 xV
 xV
 xV
+Ss
 xV
 xV
 xV
@@ -15167,8 +16207,7 @@ xV
 xV
 xV
 xV
-xV
-xV
+Ss
 xV
 xV
 xV
@@ -15231,29 +16270,29 @@ sD
 sD
 sD
 oL
-WJ
-WJ
+YX
+YX
 nX
 fI
 Zd
 iQ
-zv
+BN
 HZ
-uK
+rc
 Hn
 oN
-uK
-uK
+rc
+QU
 pI
 pN
-uK
+rc
 QS
 zv
 Wt
 wI
 wI
 wI
-wI
+qS
 wI
 wI
 wI
@@ -15306,7 +16345,7 @@ zv
 is
 is
 zv
-WJ
+YX
 dw
 sD
 sD
@@ -15364,16 +16403,16 @@ nR
 WH
 Zd
 iQ
-zv
+BN
 hM
-uK
+rc
 Hn
 wc
-uK
-uK
+rc
+rc
 Rm
 pN
-uK
+rc
 Xo
 zv
 wI
@@ -15407,8 +16446,8 @@ jA
 VT
 VT
 VT
-WJ
-zv
+YX
+AU
 xV
 xV
 xV
@@ -15433,7 +16472,7 @@ zv
 is
 is
 zv
-WJ
+YX
 dw
 sD
 sD
@@ -15491,16 +16530,16 @@ dw
 WH
 Zd
 iQ
-zv
+Ju
 rR
-uK
+rc
 Hn
 LN
 qw
 nN
 FD
 pN
-uK
+rc
 VG
 zv
 RV
@@ -15535,7 +16574,7 @@ rz
 EV
 VT
 us
-zv
+TP
 xV
 xV
 xV
@@ -15560,7 +16599,7 @@ zv
 is
 is
 zv
-WJ
+YX
 dw
 sD
 sD
@@ -15617,28 +16656,28 @@ sD
 dw
 Ma
 Zd
-iQ
+iF
 zv
 zw
 Xb
 vP
 qh
-qh
+ob
 qh
 qh
 TG
-uK
-VG
+rc
+fF
 zv
 Yh
-Yh
+XU
 Yh
 vI
 wI
 wI
 Zf
 Yh
-Yh
+XU
 Yh
 zv
 jl
@@ -15661,7 +16700,7 @@ uK
 aM
 UN
 VT
-WJ
+YX
 zv
 xV
 xV
@@ -15687,7 +16726,7 @@ zv
 is
 is
 zv
-WJ
+YX
 dw
 sD
 sD
@@ -15750,8 +16789,8 @@ iv
 NK
 NK
 NK
-NK
-NK
+oa
+mD
 NK
 NK
 NK
@@ -15759,25 +16798,25 @@ xS
 zv
 zv
 zv
-zv
+LY
 yn
 YK
 YK
 TR
+LY
 zv
 zv
 zv
-zv
 my
 my
 my
-my
-my
+qt
+qt
 fI
 Zd
 Zd
 lb
-zv
+AU
 AL
 Zd
 iQ
@@ -15788,8 +16827,9 @@ uK
 SC
 UN
 VT
-WJ
+YX
 zv
+eW
 xV
 xV
 xV
@@ -15808,13 +16848,12 @@ xV
 xV
 xV
 xV
-xV
-xV
+NL
 zv
 is
 is
 zv
-WJ
+YX
 dw
 sD
 sD
@@ -15873,26 +16912,26 @@ WH
 Zd
 pP
 qP
-tZ
-tZ
-tZ
-tZ
-tZ
-tZ
-tZ
-tZ
-tZ
-tZ
+dW
+dW
+dW
+dW
+dW
+ai
+dW
+dW
+dW
+dW
 ul
 tZ
+Ja
 tZ
 tZ
 tZ
 tZ
 tZ
 tZ
-tZ
-tZ
+Ja
 tZ
 ul
 tZ
@@ -15901,7 +16940,7 @@ tZ
 tZ
 tZ
 UV
-Zd
+Op
 Zd
 Zd
 Xf
@@ -15915,7 +16954,7 @@ uK
 gQ
 uJ
 VT
-WJ
+YX
 zv
 xV
 xV
@@ -16000,22 +17039,22 @@ WH
 Zd
 Zd
 vO
+ou
+ou
+ou
+ou
+Kc
+ou
+ou
+cY
+ou
+ou
 Zd
 Zd
 Zd
 Zd
 Zd
-Zd
-Zd
-rm
-Zd
-Zd
-Zd
-Zd
-Zd
-Zd
-Zd
-Zd
+Op
 Zd
 Zd
 Zd
@@ -16068,7 +17107,7 @@ zv
 is
 is
 zv
-WJ
+YX
 dw
 sD
 sD
@@ -16120,23 +17159,23 @@ sD
 sD
 sD
 oL
-WJ
-WJ
+YX
+YX
 nX
 fI
 Zd
 Zd
 vO
-Zd
-Zd
-Zd
-Zd
-Zd
-rm
-Zd
-Zd
-Zd
-Zd
+ou
+ou
+ou
+ou
+ou
+cY
+ou
+ou
+ou
+ou
 WT
 Zd
 Zd
@@ -16176,6 +17215,7 @@ xV
 xV
 xV
 xV
+Ss
 xV
 xV
 xV
@@ -16183,8 +17223,7 @@ xV
 xV
 xV
 xV
-xV
-xV
+Ss
 xV
 xV
 xV
@@ -16195,7 +17234,7 @@ zv
 is
 is
 zv
-WJ
+YX
 dw
 sD
 sD
@@ -16247,8 +17286,8 @@ sD
 sD
 sD
 oL
-WJ
-WJ
+YX
+YX
 nX
 fI
 rm
@@ -16264,29 +17303,29 @@ ys
 ys
 ys
 ys
-ys
-ys
-ys
-ys
-ys
-ys
-ys
-ys
-ys
-ys
-ys
+gb
+gb
+gb
+gb
+gb
+gb
+gb
+gb
+gb
+gb
+gb
 dA
-ys
+gb
 Dw
 Dw
-ys
+gb
 LZ
-ys
+gb
 Dw
 Dw
-ys
+gb
 ia
-ys
+gb
 Dw
 LR
 uK
@@ -16322,7 +17361,7 @@ zv
 is
 is
 zv
-WJ
+YX
 dw
 sD
 sD
@@ -16449,7 +17488,7 @@ zv
 is
 is
 zv
-WJ
+YX
 dw
 sD
 sD
@@ -16506,9 +17545,9 @@ sD
 dw
 fI
 Zd
-iQ
+iF
 zv
-dT
+Gl
 nj
 ew
 wo
@@ -16517,9 +17556,9 @@ nj
 dT
 nj
 dT
-ew
+pM
 zv
-dT
+Gl
 nj
 ew
 nj
@@ -16528,7 +17567,7 @@ ew
 wo
 dT
 nj
-ew
+pM
 zv
 Qg
 uR
@@ -16550,8 +17589,9 @@ VT
 VT
 VT
 VT
-WJ
+YX
 zv
+eW
 xV
 xV
 xV
@@ -16570,8 +17610,7 @@ xV
 xV
 xV
 xV
-xV
-xV
+NL
 zv
 is
 is
@@ -16635,7 +17674,7 @@ mJ
 Zd
 iQ
 zv
-ow
+re
 jN
 xx
 jN
@@ -16644,9 +17683,9 @@ xx
 ow
 jN
 EW
-xx
+Cn
 zv
-EW
+qW
 xx
 jN
 xx
@@ -16655,7 +17694,7 @@ xx
 EW
 jN
 ow
-xx
+Cn
 zv
 Jv
 uK
@@ -16663,9 +17702,9 @@ uK
 XW
 zv
 Jv
-MF
 uK
-XW
+uK
+IH
 zv
 Jv
 uK
@@ -16677,7 +17716,7 @@ Wm
 RM
 qH
 VT
-WJ
+YX
 zv
 xV
 xV
@@ -16703,7 +17742,7 @@ zv
 is
 is
 zv
-WJ
+YX
 dw
 sD
 sD
@@ -16785,18 +17824,18 @@ GO
 Oj
 zv
 zv
-zv
+GK
 Hx
 zv
 zv
 zv
-zv
+GK
 Hx
 zv
 zv
 zv
 Hx
-zv
+GK
 Ba
 VT
 wl
@@ -16804,7 +17843,7 @@ wI
 uK
 uK
 VT
-WJ
+kB
 zv
 xV
 xV
@@ -16830,7 +17869,7 @@ zv
 is
 is
 zv
-WJ
+YX
 dw
 dw
 dw
@@ -16916,7 +17955,7 @@ uK
 eu
 uK
 sc
-Xb
+uP
 uK
 eu
 uK
@@ -16930,14 +17969,14 @@ HL
 wI
 uK
 uK
-Zh
+ce
 us
 zv
 xV
 xV
 xV
 xV
-xV
+ii
 xV
 xV
 xV
@@ -16957,7 +17996,7 @@ zv
 is
 is
 zv
-WJ
+YX
 Aq
 qQ
 dw
@@ -17012,7 +18051,7 @@ sD
 sD
 sD
 dw
-fI
+xT
 Zd
 VB
 mo
@@ -17020,7 +18059,7 @@ uK
 uK
 uK
 uK
-uK
+Fo
 Yn
 uK
 uK
@@ -17030,9 +18069,9 @@ eR
 uK
 uK
 uK
-uK
+kq
 Yn
-uK
+ET
 uK
 uK
 uK
@@ -17058,12 +18097,13 @@ uK
 uK
 KC
 VT
-WJ
+uV
 zv
 xV
 xV
 xV
 xV
+Ut
 xV
 xV
 xV
@@ -17078,10 +18118,9 @@ xV
 xV
 xV
 xV
-xV
-xV
-zv
-zv
+NL
+lk
+Ed
 zv
 Kq
 ce
@@ -17094,8 +18133,8 @@ dw
 dw
 dw
 dw
-dw
-dw
+pu
+Nd
 dw
 dw
 dw
@@ -17185,8 +18224,14 @@ uK
 uK
 uK
 VT
-WJ
+YX
 zv
+eW
+xV
+xV
+xV
+Tc
+Ss
 xV
 xV
 xV
@@ -17194,50 +18239,44 @@ xV
 xV
 xV
 xV
+Ss
 xV
 xV
 xV
 xV
 xV
 xV
+xa
+vK
+FP
+xV
+xV
+xV
+FP
 xV
 xV
 xV
 xV
 xV
+FP
+xV
+xa
+xa
+xV
+xV
+FP
 xV
 xV
 xV
 xV
 xV
+FP
 xV
 xV
 xV
 xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
+hh
+FP
 xk
 xV
 xV
@@ -17272,24 +18311,24 @@ iQ
 zv
 zv
 GK
-Dj
+GK
 pl
-nt
+GK
 zv
 GK
-Dj
+GK
 pl
-nt
+GK
 zv
 GK
-Dj
+GK
 pl
-nt
+GK
 zv
 GK
-Dj
+GK
 pl
-nt
+GK
 zv
 zv
 zv
@@ -17301,7 +18340,7 @@ Yn
 Yn
 Yn
 Yn
-zv
+ZB
 zv
 zv
 zv
@@ -17312,7 +18351,7 @@ er
 wI
 MH
 VT
-WJ
+YX
 zv
 xV
 xV
@@ -17320,6 +18359,7 @@ xV
 xV
 xV
 xV
+jm
 xV
 xV
 xV
@@ -17362,9 +18402,8 @@ xV
 xV
 xV
 xV
-xV
-xV
-xV
+hh
+xk
 xk
 xV
 xV
@@ -17395,7 +18434,7 @@ sD
 dw
 fI
 Zd
-iQ
+iF
 zv
 zv
 qH
@@ -17439,7 +18478,7 @@ Nq
 ru
 jG
 VT
-WJ
+YX
 zv
 xV
 xV
@@ -17447,6 +18486,7 @@ xV
 xV
 xV
 xV
+hG
 xV
 xV
 xV
@@ -17489,14 +18529,13 @@ xV
 xV
 xV
 xV
-xV
-xV
+hh
 xk
 zz
 xV
 xV
 xV
-xV
+Ss
 "}
 (86,1,1) = {"
 sD
@@ -17566,7 +18605,7 @@ LW
 Bj
 Wi
 VT
-WJ
+YX
 zv
 xV
 xV
@@ -17617,7 +18656,7 @@ xV
 xV
 xV
 xV
-xV
+hh
 xk
 xV
 xV
@@ -17642,9 +18681,9 @@ sD
 dw
 aD
 aD
-WJ
-WJ
-WJ
+vi
+YX
+YX
 oT
 zv
 Wf
@@ -17743,8 +18782,8 @@ xV
 xV
 xV
 xV
-xV
-xV
+hh
+hh
 xk
 xV
 xV
@@ -17769,9 +18808,9 @@ sD
 dw
 Nb
 Nb
-WJ
-WJ
-WJ
+YX
+YX
+YX
 nh
 zv
 fI
@@ -17822,6 +18861,7 @@ AO
 zv
 Cf
 zv
+eW
 xV
 xV
 xV
@@ -17869,10 +18909,9 @@ xV
 xV
 xV
 xV
-xV
-xV
+hh
 xk
-xV
+xk
 xV
 xV
 xV
@@ -17896,12 +18935,12 @@ sD
 dw
 Dm
 Dm
-WJ
-WJ
-WJ
+YX
+YX
+YX
 MM
 zv
-fI
+xT
 Zd
 iQ
 VE
@@ -17997,7 +19036,7 @@ xV
 xV
 xV
 xV
-xV
+hh
 xk
 xV
 Wl
@@ -18024,10 +19063,10 @@ dw
 xR
 xR
 gL
-WJ
-WJ
-WJ
-zv
+YX
+YX
+YX
+OB
 fI
 Zd
 iQ
@@ -18124,7 +19163,7 @@ xV
 xV
 xV
 xV
-xV
+hh
 xk
 xV
 xV
@@ -18148,17 +19187,17 @@ sD
 sD
 sD
 dw
-xR
+aN
 xR
 gL
-WJ
+YX
 bC
-WJ
-zv
+YX
+SK
 fI
 Zd
 iQ
-rY
+tK
 zv
 Gf
 uK
@@ -18208,6 +19247,15 @@ xV
 xV
 xV
 xV
+Ss
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+Ss
 xV
 xV
 xV
@@ -18216,6 +19264,7 @@ xV
 xV
 xV
 xV
+Ss
 xV
 xV
 xV
@@ -18224,6 +19273,7 @@ xV
 xV
 xV
 xV
+Ss
 xV
 xV
 xV
@@ -18232,6 +19282,7 @@ xV
 xV
 xV
 xV
+Ss
 xV
 xV
 xV
@@ -18239,26 +19290,14 @@ xV
 xV
 xV
 xV
+hh
+DO
 xV
 xV
 xV
 xV
 xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xk
-xV
-xV
-xV
-xV
-xV
-xV
+Ss
 "}
 (92,1,1) = {"
 sD
@@ -18278,9 +19317,9 @@ dw
 xR
 xR
 gL
-WJ
-WJ
-WJ
+YX
+YX
+YX
 TI
 fI
 Zd
@@ -18328,7 +19367,7 @@ HV
 HV
 HV
 zv
-WJ
+YX
 zv
 xV
 xV
@@ -18378,7 +19417,7 @@ xV
 xV
 xV
 xV
-xV
+hh
 xk
 xV
 xV
@@ -18404,10 +19443,10 @@ sD
 dw
 ab
 ab
-WJ
-WJ
-WJ
-WJ
+YX
+YX
+YX
+YX
 lY
 fI
 Zd
@@ -18505,7 +19544,7 @@ xV
 zN
 xV
 xV
-xV
+hh
 xk
 xV
 xV
@@ -18530,43 +19569,43 @@ sD
 sD
 dw
 ab
-WJ
-WJ
-WJ
-WJ
-WJ
-zv
+YX
+YX
+YX
+YX
+YX
+OB
 fI
 Zd
 iQ
 zv
 zv
 GK
-Dj
+GK
 pl
-nt
+GK
 zv
 GK
-Dj
+GK
 pl
-nt
+GK
 zv
 GK
-Dj
+GK
 pl
-nt
+GK
 zv
 GK
-Dj
+GK
 pl
-nt
+GK
+AU
 zv
 zv
 zv
 zv
 zv
-zv
-zv
+jh
 hO
 Yn
 Yn
@@ -18582,8 +19621,9 @@ HV
 HF
 ZF
 zv
-WJ
+YX
 zv
+eW
 xV
 xV
 xV
@@ -18630,9 +19670,8 @@ xV
 xV
 xV
 xV
-xV
-xV
-xV
+hh
+hh
 xk
 xV
 xV
@@ -18656,13 +19695,13 @@ sD
 sD
 sD
 dw
-sp
+bx
 gN
-sp
-WJ
-WJ
-WJ
-zv
+bx
+YX
+YX
+YX
+jR
 fI
 Zd
 iQ
@@ -18703,13 +19742,13 @@ rN
 nb
 QX
 Th
-zv
+GK
 FT
 HV
 HF
 SE
 zv
-WJ
+YX
 zv
 xV
 xV
@@ -18748,8 +19787,8 @@ xV
 xV
 xV
 xV
-xV
-xV
+Ez
+Sp
 xV
 xV
 xV
@@ -18758,8 +19797,8 @@ zN
 xV
 xV
 zN
-xV
-xV
+hh
+xk
 xk
 xV
 xV
@@ -18783,17 +19822,17 @@ sD
 sD
 sD
 dw
-sp
-sp
+nC
+bx
 kD
-WJ
-WJ
-WJ
+YX
+YX
+AX
 zv
-fI
+xT
 Zd
 iQ
-cQ
+GK
 Zd
 Zd
 Zd
@@ -18836,7 +19875,7 @@ HV
 HF
 Qv
 zv
-WJ
+YX
 zv
 xV
 xV
@@ -18885,7 +19924,7 @@ xV
 xV
 xV
 xV
-xV
+hh
 xk
 xV
 xV
@@ -18910,17 +19949,17 @@ sD
 sD
 sD
 dw
-sp
-sp
-sp
-WJ
-WJ
-WJ
-zv
+bx
+bx
+bx
+YX
+YX
+YX
+qB
 fI
 Zd
 iQ
-BN
+GK
 Zd
 wC
 wC
@@ -18928,42 +19967,42 @@ wC
 wC
 wC
 wC
+zm
+zm
+zm
+gV
+fT
+fT
+fT
+fT
+gV
+zm
+zm
+zm
+zm
+gV
+gV
+fT
+MB
+MB
 wC
 wC
 wC
 Zd
-fT
-fT
-fT
-fT
-Zd
-wC
-wC
-wC
-wC
-Zd
-Zd
-fT
-fT
-fT
+MB
+MB
+MB
 wC
 wC
 wC
 Zd
-fT
-fT
-fT
-wC
-wC
-wC
-aH
-zv
+GK
 FT
 HV
 HV
 dP
 zv
-WJ
+YX
 zv
 xV
 xV
@@ -19012,7 +20051,7 @@ xV
 xV
 zN
 xV
-xV
+hh
 xk
 xV
 Jr
@@ -19037,17 +20076,17 @@ sD
 sD
 sD
 dw
-cv
-cv
-cv
-WJ
-WJ
-WJ
-zv
+mZ
+mZ
+mZ
+YX
+YX
+WC
+qd
 mJ
 Zd
 iQ
-Ju
+GK
 Zd
 eP
 Mm
@@ -19055,6 +20094,24 @@ nM
 pi
 Mm
 nM
+OH
+Gg
+Pc
+gV
+dD
+Gg
+Pc
+OH
+Gg
+Pc
+OH
+Gg
+Pc
+gV
+gV
+dD
+Mm
+nM
 pi
 Mm
 nM
@@ -19065,32 +20122,14 @@ nM
 pi
 Mm
 nM
-pi
-Mm
-nM
 Zd
-Zd
-eP
-Mm
-nM
-pi
-Mm
-nM
-Zd
-eP
-Mm
-nM
-pi
-Mm
-nM
-Zd
-zv
+GK
 Bq
 HV
 HV
 Xc
 zv
-WJ
+YX
 zv
 xV
 xV
@@ -19139,7 +20178,7 @@ xV
 xV
 xV
 xV
-xV
+hh
 xk
 xV
 xV
@@ -19164,13 +20203,13 @@ sD
 sD
 sD
 dw
-cv
-cv
-cv
-WJ
-WJ
-WJ
-zv
+mZ
+mZ
+mZ
+YX
+YX
+YX
+qB
 fI
 Zd
 iQ
@@ -19182,22 +20221,22 @@ KM
 UO
 JQ
 KM
-UO
-JQ
-KM
-Zd
-kZ
-JQ
-KM
-UO
-JQ
-KM
-UO
-JQ
-KM
-Zd
-Zd
-kZ
+mP
+Gx
+Co
+gV
+Bi
+Gx
+Co
+mP
+Gx
+Co
+mP
+Gx
+Co
+gV
+gV
+Bi
 JQ
 KM
 UO
@@ -19224,6 +20263,15 @@ xV
 xV
 xV
 xV
+Ss
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+Ss
 xV
 xV
 xV
@@ -19232,6 +20280,7 @@ xV
 xV
 xV
 xV
+Ss
 xV
 xV
 xV
@@ -19240,6 +20289,7 @@ xV
 xV
 xV
 xV
+Ss
 xV
 xV
 xV
@@ -19248,33 +20298,22 @@ xV
 xV
 xV
 xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
+Ss
 xV
 xV
 xV
 zN
 xV
 xV
-xV
-xV
+hh
 xk
+DO
 xV
 xV
 xV
 xV
 xV
-xV
+Ss
 "}
 (100,1,1) = {"
 sD
@@ -19291,11 +20330,11 @@ sD
 sD
 sD
 dw
-cv
-cv
-cv
-WJ
-WJ
+mZ
+mZ
+mZ
+YX
+YX
 Gs
 zv
 Wf
@@ -19309,6 +20348,24 @@ fk
 WI
 ld
 fk
+mm
+HQ
+nF
+gV
+tb
+HQ
+nF
+mm
+HQ
+nF
+mm
+HQ
+nF
+gV
+gV
+tb
+ld
+fk
 WI
 ld
 fk
@@ -19319,25 +20376,7 @@ fk
 WI
 ld
 fk
-WI
-ld
-fk
-Zd
-Zd
-zd
-ld
-fk
-WI
-ld
-fk
-Zd
-zd
-ld
-fk
-WI
-ld
-fk
-Zd
+aH
 zv
 HV
 HV
@@ -19346,7 +20385,7 @@ HV
 zv
 gW
 zv
-xV
+eW
 xV
 xV
 xV
@@ -19393,10 +20432,10 @@ xV
 xV
 xV
 zN
-xV
-xV
-xV
+hh
+hh
 xk
+xV
 xV
 xV
 xV
@@ -19418,13 +20457,13 @@ sD
 sD
 sD
 dw
-cv
-cv
-WJ
-WJ
-WJ
-WC
-zv
+mZ
+mZ
+YX
+YX
+YX
+YX
+qB
 fI
 Zd
 iQ
@@ -19436,6 +20475,24 @@ Rq
 Rq
 Zd
 hL
+hV
+hV
+Xh
+gV
+vv
+vv
+vv
+vv
+gV
+hV
+hV
+hV
+hV
+DY
+gV
+vv
+Rq
+Rq
 hL
 hL
 hL
@@ -19443,29 +20500,11 @@ Zd
 Rq
 Rq
 Rq
-Rq
-Zd
-hL
-hL
-hL
-hL
-Zd
-Zd
-Rq
-Rq
-Rq
 hL
 hL
 hL
 Zd
-Rq
-Rq
-Rq
-hL
-hL
-hL
-aH
-zv
+GK
 HV
 kv
 kv
@@ -19521,9 +20560,9 @@ xV
 xV
 xV
 xV
-xV
-xV
+hh
 xk
+xV
 xV
 xV
 xV
@@ -19542,20 +20581,20 @@ sD
 sD
 sD
 sD
-sD
+Td
 sD
 dw
-cv
-cv
-WJ
-WJ
-WJ
+mZ
+mZ
+YX
+YX
+YX
 WC
-zv
+qd
 fI
 Zd
 iQ
-cQ
+GK
 Zd
 Zd
 Zd
@@ -19563,22 +20602,22 @@ aX
 Zd
 Zd
 aX
-Zd
-Zd
-aX
-Zd
-Zd
-Zd
-aX
-BH
-uN
+gV
+gV
+PC
+gV
+gV
+gV
+PC
+UI
+QE
 Ur
-Zd
-Zd
-aX
-Zd
-Zd
-Zd
+gV
+gV
+PC
+gV
+gV
+gV
 Zd
 aX
 Zd
@@ -19592,7 +20631,7 @@ uN
 Np
 Zd
 Zd
-zv
+GK
 gJ
 rB
 vD
@@ -19648,9 +20687,9 @@ xV
 xV
 xV
 xV
-xV
-xV
+hh
 xk
+xV
 xV
 xV
 Wl
@@ -19668,21 +20707,21 @@ sD
 sD
 sD
 sD
-sD
-sD
-sD
+Td
+WJ
+Td
 dw
-sp
-sp
+bx
+bx
 XN
-WJ
-WJ
-WJ
-zv
+YX
+YX
+YX
+qB
 fI
 Zd
 iQ
-BN
+GK
 Zd
 eP
 Mm
@@ -19690,6 +20729,24 @@ nM
 pi
 Mm
 nM
+OH
+Gg
+Pc
+gV
+dD
+Gg
+Pc
+OH
+Gg
+Pc
+OH
+Gg
+Pc
+gV
+gV
+dD
+Mm
+nM
 pi
 Mm
 nM
@@ -19700,26 +20757,8 @@ nM
 pi
 Mm
 nM
-pi
-Mm
-nM
 Zd
-Zd
-eP
-Mm
-nM
-pi
-Mm
-nM
-Zd
-eP
-Mm
-nM
-pi
-Mm
-nM
-Zd
-zv
+GK
 HV
 vD
 Nr
@@ -19775,9 +20814,9 @@ xV
 xV
 xV
 xV
-xV
-xV
+hh
 xk
+xV
 xV
 xV
 xV
@@ -19795,21 +20834,21 @@ sD
 sD
 sD
 sD
-sD
-sD
-sD
+Td
+WJ
+Td
 dw
 zr
-sp
-WJ
-WJ
-WJ
-WJ
+bx
+YX
+YX
+YX
+AX
 zv
-fI
+xT
 Zd
 iQ
-Ju
+GK
 Zd
 kZ
 JQ
@@ -19817,6 +20856,24 @@ KM
 UO
 JQ
 KM
+mP
+Gx
+Co
+gV
+Bi
+Gx
+Co
+mP
+Gx
+Co
+mP
+Gx
+Co
+gV
+gV
+Bi
+JQ
+KM
 UO
 JQ
 KM
@@ -19827,26 +20884,8 @@ KM
 UO
 JQ
 KM
-UO
-JQ
-KM
 Zd
-Zd
-kZ
-JQ
-KM
-UO
-JQ
-KM
-Zd
-kZ
-JQ
-KM
-UO
-JQ
-KM
-Zd
-zv
+GK
 HV
 CY
 CY
@@ -19902,7 +20941,7 @@ xV
 xV
 xV
 xV
-xV
+hh
 xk
 xV
 xV
@@ -19923,20 +20962,20 @@ sD
 sD
 Ac
 cv
-Ac
+WJ
 Ac
 dw
-sp
-sp
-WJ
-WJ
-WJ
-WJ
-zv
+bx
+bx
+YX
+YX
+YX
+YX
+OB
 fI
 Zd
 iQ
-zv
+LY
 Ir
 zd
 ld
@@ -19944,6 +20983,24 @@ fk
 WI
 ld
 fk
+mm
+HQ
+nF
+gV
+tb
+HQ
+nF
+mm
+HQ
+nF
+mm
+HQ
+nF
+gV
+gV
+tb
+ld
+fk
 WI
 ld
 fk
@@ -19954,32 +21011,14 @@ fk
 WI
 ld
 fk
-WI
-ld
-fk
 Zd
-Zd
-zd
-ld
-fk
-WI
-ld
-fk
-Zd
-zd
-ld
-fk
-WI
-ld
-fk
-aH
 zv
 rH
 aP
 aP
 HV
 zv
-WJ
+YX
 zv
 xV
 xV
@@ -19987,6 +21026,7 @@ xV
 xV
 xV
 xV
+ii
 xV
 xV
 xV
@@ -20028,8 +21068,7 @@ xV
 xV
 xV
 xV
-xV
-xV
+hh
 xk
 xV
 Wl
@@ -20054,12 +21093,12 @@ WJ
 iD
 dw
 wx
-WJ
-WJ
-WJ
-WJ
-WJ
-TI
+YX
+YX
+YX
+YX
+YX
+FC
 fI
 Zd
 VB
@@ -20071,22 +21110,22 @@ Rq
 Rq
 Zd
 hL
-hL
-hL
-hL
-Zd
-Rq
-Rq
-Rq
-Rq
-Zd
-hL
-hL
-hL
-hL
-Zd
-Zd
-Rq
+hV
+hV
+hV
+gV
+vv
+vv
+vv
+vv
+DY
+hV
+hV
+hV
+hV
+gV
+gV
+vv
 Rq
 Rq
 hL
@@ -20097,9 +21136,9 @@ Rq
 Rq
 Rq
 zJ
+dK
 hL
-hL
-Zd
+aH
 zv
 HV
 kv
@@ -20108,6 +21147,13 @@ HV
 zv
 us
 zv
+eW
+xV
+xV
+xV
+xV
+xV
+xG
 xV
 xV
 xV
@@ -20149,14 +21195,7 @@ xV
 xV
 xV
 xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
+hh
 xk
 xV
 xV
@@ -20181,11 +21220,11 @@ Td
 iD
 wx
 wx
-WJ
+YX
 bC
-WJ
-WJ
-WJ
+YX
+YX
+YX
 TI
 fI
 Zd
@@ -20198,22 +21237,22 @@ aX
 BH
 uN
 Pg
-Zd
-Zd
-aX
-Zd
-Zd
-Zd
-aX
-Zd
-Zd
-aX
-Zd
-Zd
-aX
-Zd
-Zd
-Zd
+gV
+gV
+PC
+gV
+gV
+gV
+PC
+gV
+gV
+PC
+gV
+gV
+PC
+gV
+gV
+gV
 Zd
 NP
 uN
@@ -20233,13 +21272,22 @@ rB
 yL
 HV
 zv
-WJ
+YX
 zv
 xV
 xV
 xV
 xV
 xV
+Ss
+xV
+xV
+xV
+xV
+xV
+xV
+xV
+Ss
 xV
 xV
 xV
@@ -20274,16 +21322,7 @@ xV
 xV
 xV
 xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
+hh
 xk
 xV
 xV
@@ -20308,16 +21347,16 @@ Td
 iD
 wx
 wx
-WJ
+YX
 xh
 ay
-WJ
-Na
-zv
+YX
+YX
+TI
 fI
 Zd
-iQ
-zv
+iF
+LY
 Zd
 eP
 Mm
@@ -20325,22 +21364,22 @@ nM
 pi
 Mm
 nM
-pi
-Mm
-nM
-Zd
-eP
-Mm
-nM
-pi
-Mm
-nM
-pi
-Mm
-nM
-Zd
-Zd
-eP
+OH
+Gg
+Pc
+gV
+dD
+Gg
+Pc
+OH
+Gg
+Pc
+OH
+Gg
+Pc
+gV
+gV
+dD
 Mm
 nM
 pi
@@ -20360,7 +21399,7 @@ vD
 rB
 bY
 zv
-WJ
+YX
 zv
 xV
 xV
@@ -20382,37 +21421,37 @@ xV
 xV
 xV
 xV
+xa
+OG
+Bu
+xV
+xV
+xV
+Bu
 xV
 xV
 xV
 xV
 xV
+Bu
+xV
+xa
+xa
+xV
+xV
+Bu
 xV
 xV
 xV
 xV
 xV
+Bu
 xV
 xV
 xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-xV
+hh
 xk
-xV
+aG
 xV
 Wl
 xV
@@ -20435,16 +21474,16 @@ WJ
 jV
 cn
 cn
-WJ
+YX
 mF
 dH
-WJ
+YX
 al
-zv
+OB
 fI
 Zd
 iQ
-cQ
+GK
 Zd
 kZ
 JQ
@@ -20452,6 +21491,24 @@ KM
 UO
 JQ
 KM
+mP
+Gx
+Co
+gV
+Bi
+Gx
+Co
+mP
+Gx
+Co
+mP
+Gx
+Co
+gV
+gV
+Bi
+JQ
+KM
 UO
 JQ
 KM
@@ -20462,32 +21519,14 @@ KM
 UO
 JQ
 KM
-UO
-JQ
-KM
 Zd
-Zd
-kZ
-JQ
-KM
-UO
-JQ
-KM
-Zd
-kZ
-JQ
-KM
-UO
-JQ
-KM
-aH
-zv
+GK
 HV
 CY
 CY
 HV
 zv
-WJ
+YX
 zv
 xV
 xV
@@ -20495,6 +21534,7 @@ xV
 xV
 xV
 xV
+jm
 xV
 xV
 xV
@@ -20508,9 +21548,8 @@ xV
 xV
 xV
 xV
-xV
-zv
-zv
+Ed
+lk
 zv
 Kq
 ce
@@ -20523,8 +21562,8 @@ dw
 dw
 dw
 dw
-dw
-dw
+Nd
+pu
 dw
 dw
 dw
@@ -20562,16 +21601,16 @@ WJ
 iD
 dw
 wx
-WJ
+YX
 mF
 Qp
-WJ
+YX
 Mo
-zv
+FC
 fI
 Zd
 uh
-BN
+GK
 Zd
 zd
 ld
@@ -20579,6 +21618,24 @@ fk
 WI
 ld
 fk
+mm
+HQ
+nF
+gV
+tb
+HQ
+nF
+mm
+HQ
+nF
+mm
+HQ
+nF
+gV
+gV
+tb
+ld
+fk
 WI
 ld
 fk
@@ -20589,32 +21646,14 @@ fk
 WI
 ld
 fk
-WI
-ld
-fk
 Zd
-Zd
-zd
-ld
-fk
-WI
-ld
-fk
-Zd
-zd
-ld
-fk
-WI
-ld
-fk
-Zd
-zv
+GK
 HV
 HV
 HV
 HV
 zv
-WJ
+YX
 zv
 xV
 xV
@@ -20622,6 +21661,7 @@ xV
 xV
 xV
 xV
+xa
 xV
 xV
 xV
@@ -20634,13 +21674,12 @@ xV
 xV
 xV
 xV
-xV
-xV
+NL
 zv
 VQ
-Ac
+Yb
 vq
-WJ
+YX
 Rd
 qQ
 dw
@@ -20688,17 +21727,17 @@ Td
 WJ
 sp
 dw
-WJ
-WJ
-WJ
-WJ
-WJ
+YX
+YX
+YX
+YX
+YX
 Yl
 zv
-fI
+xT
 Zd
 iQ
-Ju
+GK
 aX
 Rq
 Rq
@@ -20734,7 +21773,7 @@ ln
 fg
 hL
 hL
-ld
+su
 zv
 hN
 hb
@@ -20766,8 +21805,8 @@ xV
 zv
 VQ
 zv
-Ac
-WJ
+Yb
+YX
 dw
 dw
 dw
@@ -20815,12 +21854,12 @@ WJ
 WJ
 sp
 dw
-WJ
-WJ
-WJ
-WJ
-WJ
-WJ
+Ab
+YX
+YX
+YX
+YX
+YX
 zv
 fI
 Zd
@@ -20870,7 +21909,7 @@ zv
 zv
 us
 zv
-xV
+eW
 xV
 xV
 xV
@@ -20977,25 +22016,25 @@ PE
 PE
 Yv
 zv
-Dm
-Ab
+qy
+Py
 Cf
-WJ
+YX
 WM
 zv
-WJ
-WJ
+YX
+YX
 Cf
 Ad
-WJ
-Cf
-WJ
+YX
+BC
+YX
 Aq
-WJ
+YX
 VQ
 zv
 VQ
-WJ
+YX
 Kq
 xV
 xV
@@ -21018,10 +22057,10 @@ xV
 xV
 xV
 Kq
-WJ
+YX
 vq
-WJ
-WJ
+YX
+YX
 dw
 sD
 sD
@@ -21107,25 +22146,25 @@ zv
 px
 Cf
 WM
-WJ
+YX
 ag
 zv
 Cf
 zv
-Ac
+Yb
 Cm
-Ac
-Ac
-Ac
+Yb
+Yb
+Yb
 VQ
 bC
-WJ
+YX
 Rd
 Cf
 Cf
 Zh
 xV
-xV
+oZ
 xV
 xV
 xV
@@ -21145,10 +22184,10 @@ xV
 xV
 xV
 ce
-WJ
+YX
 Rd
-WJ
-WJ
+YX
+YX
 dw
 sD
 sD
@@ -21196,16 +22235,16 @@ sD
 sD
 sD
 dw
-Zd
-Zd
-Zd
-Zd
-Zd
-Zd
+Na
+lQ
+lQ
+lQ
+lQ
+Tb
 dw
 fI
 Zd
-iQ
+iF
 zv
 wD
 PE
@@ -21249,13 +22288,14 @@ dw
 dw
 dw
 dw
-WJ
+YX
 Kq
 xV
 xV
 xV
 xV
 xV
+Ss
 xV
 xV
 xV
@@ -21263,8 +22303,7 @@ xV
 xV
 xV
 xV
-xV
-xV
+Ss
 xV
 xV
 xV
@@ -21272,7 +22311,7 @@ xV
 xV
 xV
 Kq
-WJ
+YX
 dw
 dw
 dw
@@ -21323,7 +22362,7 @@ sD
 sD
 sD
 dw
-Zd
+Ir
 Zd
 Zd
 Zd
@@ -21359,9 +22398,9 @@ PE
 Yv
 zv
 oQ
-WJ
-WJ
-RH
+YX
+YX
+mN
 CG
 zv
 gW
@@ -21378,6 +22417,7 @@ sD
 dw
 mE
 zv
+eW
 xV
 xV
 xV
@@ -21396,8 +22436,7 @@ xV
 xV
 xV
 xV
-xV
-xV
+NL
 zv
 mE
 dw
@@ -21450,7 +22489,7 @@ sD
 sD
 sD
 dw
-Zd
+Ir
 Zd
 Zd
 Zd
@@ -21491,7 +22530,7 @@ ce
 zv
 zv
 zv
-WJ
+YX
 dw
 sD
 sD
@@ -21577,7 +22616,7 @@ sD
 sD
 sD
 dw
-Xn
+RH
 Xn
 Xn
 Zd
@@ -21614,11 +22653,11 @@ ME
 zv
 Cf
 Cf
-WJ
+YX
 Rd
 XM
-WJ
-WJ
+YX
+YX
 dw
 sD
 sD
@@ -21704,14 +22743,14 @@ sD
 sD
 sD
 dw
-Zd
-Zd
-Xn
+Ir
 Zd
 Xn
-uL
+Zd
+Xn
+oO
 dw
-mJ
+Ci
 Zd
 iQ
 zv
@@ -21831,7 +22870,7 @@ sD
 sD
 sD
 dw
-Xn
+RH
 Xn
 Xn
 Xn
@@ -21958,12 +22997,12 @@ sD
 sD
 sD
 dw
-Xn
+RH
 Zd
 Xn
 Zd
 Zd
-uL
+oO
 dw
 fI
 Zd
@@ -21993,7 +23032,7 @@ ce
 zv
 zv
 zv
-WJ
+YX
 dw
 sD
 sD
@@ -22085,7 +23124,7 @@ sD
 sD
 sD
 dw
-Xn
+RH
 Zd
 Xn
 Xn
@@ -22096,31 +23135,31 @@ fI
 Zd
 iQ
 ce
-WJ
-WJ
+YX
+YX
 Cf
 HW
 Cf
-WJ
-WJ
-WJ
-WJ
+YX
+YX
+YX
+YX
 Rd
-WJ
-WJ
-WJ
-WJ
-WJ
+YX
+YX
+YX
+YX
+YX
 bC
 Rd
-WJ
+YX
 Cf
 Cf
 Cf
 Cf
 Rd
-WJ
-WJ
+YX
+YX
 dw
 sD
 sD
@@ -22140,6 +23179,7 @@ sD
 sD
 sD
 dw
+eW
 xV
 xV
 xV
@@ -22158,8 +23198,7 @@ xV
 xV
 xV
 xV
-xV
-xV
+NL
 dw
 sD
 sD
@@ -22212,7 +23251,7 @@ sD
 sD
 sD
 dw
-Zd
+Ir
 Zd
 Zd
 Zd
@@ -22221,7 +23260,7 @@ Zd
 Cc
 fI
 Zd
-iQ
+iF
 dw
 dw
 dw
@@ -22272,6 +23311,7 @@ xV
 xV
 xV
 xV
+Ss
 xV
 xV
 xV
@@ -22279,8 +23319,7 @@ xV
 xV
 xV
 xV
-xV
-xV
+Ss
 xV
 xV
 xV
@@ -22339,16 +23378,16 @@ sD
 sD
 sD
 dw
-Zd
+Ir
 Zd
 Zd
 Zd
 Zd
 Zd
 HO
-qt
-IH
-eq
+fI
+Zd
+iQ
 dw
 sD
 sD
@@ -22466,12 +23505,12 @@ sD
 sD
 sD
 dw
+UT
 uL
 uL
 uL
 uL
-uL
-uL
+oO
 dw
 qf
 OI
