@@ -422,8 +422,8 @@
 			var/turf/end_T = get_turf(target)
 			if(start_T && end_T)
 				var/mob/living/M = item
-				var/start_T_descriptor = "<font color='#6b5d00'>tile at [start_T.x], [start_T.y], [start_T.z] in area [get_area(start_T)]</font>"
-				var/end_T_descriptor = "<font color='#6b4400'>tile at [end_T.x], [end_T.y], [end_T.z] in area [get_area(end_T)]</font>"
+				var/start_T_descriptor = "<font color='#6b5d00'>tile at [COORD(start_T)] in area [get_area(start_T)]</font>"
+				var/end_T_descriptor = "<font color='#6b4400'>tile at [COORD(end_T)] in area [get_area(end_T)]</font>"
 
 				M.log_combat(usr, "thrown from [start_T_descriptor] with the target [end_T_descriptor]")
 
@@ -534,7 +534,7 @@
 	if(IsSleeping())
 		to_chat(src, "<span class='rose'>You are already sleeping</span>")
 		return
-	if(alert(src, "You sure you want to sleep for a while?","Sleep","Yes","No") == "Yes")
+	if(tgui_alert(src, "You sure you want to sleep for a while?","Sleep", list("Yes","No")) == "Yes")
 		SetSleeping(40 SECONDS) //Short nap
 
 //Check for brain worms in head.
