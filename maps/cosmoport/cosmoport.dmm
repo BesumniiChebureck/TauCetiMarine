@@ -19,6 +19,32 @@
 	icon_state = "white"
 	},
 /area/spacecounter/cosmoport/main)
+"ad" = (
+/obj/structure/window/reinforced,
+/obj/structure/table,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/shuttle/floor/erokez{
+	icon_state = "sign_2"
+	},
+/area/spacecounter/cosmoport/main)
+"ae" = (
+/obj/item/toy/plushie/tabby_cat{
+	name = "Plushie Bucherck"
+	},
+/turf/simulated/shuttle/floor/evac,
+/area/spacecounter/cosmoport/main)
+"af" = (
+/obj/structure/window/reinforced,
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/table,
+/turf/simulated/shuttle/floor/erokez{
+	icon_state = "sign_2"
+	},
+/area/spacecounter/cosmoport/main)
 "ag" = (
 /obj/structure/mopbucket,
 /obj/item/weapon/mop,
@@ -42,11 +68,76 @@
 	icon_state = "arrival"
 	},
 /area/spacecounter/cosmoport/plant_a)
+"aj" = (
+/obj/structure/window/reinforced,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/wine,
+/obj/structure/table,
+/turf/simulated/shuttle/floor/erokez{
+	icon_state = "sign_2"
+	},
+/area/spacecounter/cosmoport/main)
+"ak" = (
+/obj/machinery/recharger/wallcharger{
+	pixel_x = -26;
+	pixel_y = -9
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "bluecorner"
+	},
+/area/spacecounter/cosmoport/main)
 "al" = (
 /obj/structure/table,
 /obj/item/clothing/suit/storage/hazardvest,
 /obj/item/clothing/mask/gas/coloured,
 /turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
+"am" = (
+/obj/machinery/light/spot{
+	dir = 4
+	},
+/obj/machinery/recharger/wallcharger{
+	pixel_x = 34
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "neutralcorner"
+	},
+/area/spacecounter/cosmoport/main)
+"an" = (
+/obj/machinery/light/spot{
+	dir = 8
+	},
+/obj/machinery/recharger/wallcharger{
+	pixel_x = -26;
+	pixel_y = -9
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "bluecorner"
+	},
+/area/spacecounter/cosmoport/main)
+"ao" = (
+/obj/machinery/recharger/wallcharger{
+	pixel_x = 34
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "neutralcorner"
+	},
+/area/spacecounter/cosmoport/main)
+"ap" = (
+/obj/structure/closet/crate/bin{
+	density = 0
+	},
+/obj/machinery/recharger/wallcharger{
+	pixel_x = -26;
+	pixel_y = -9
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "bluecorner"
+	},
 /area/spacecounter/cosmoport/main)
 "aq" = (
 /obj/structure/object_wall/evac{
@@ -54,6 +145,41 @@
 	opacity = 0
 	},
 /turf/simulated/floor/engine,
+/area/spacecounter/cosmoport/main)
+"ar" = (
+/obj/item/trash/chips,
+/obj/structure/closet/crate/bin{
+	density = 0
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/spacecounter/cosmoport/main)
+"as" = (
+/obj/machinery/light/spot,
+/obj/structure/closet/crate/bin{
+	density = 0
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/spacecounter/cosmoport/main)
+"at" = (
+/obj/machinery/door/airlock/command/glass{
+	locked = 1;
+	name = "BoSS Room"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/spacecounter/cosmoport/main)
+"au" = (
+/obj/structure/closet/crate/bin{
+	density = 0
+	},
+/turf/simulated/floor{
+	icon_state = "white"
+	},
 /area/spacecounter/cosmoport/main)
 "av" = (
 /obj/structure/cable{
@@ -74,6 +200,12 @@
 	},
 /turf/simulated/floor/engine,
 /area/spacecounter/cosmoport/main)
+"ax" = (
+/obj/structure/closet/crate/bin{
+	density = 0
+	},
+/turf/simulated/floor/wood,
+/area/spacecounter/cosmoport/main)
 "ay" = (
 /obj/structure/table,
 /obj/item/clothing/glasses/welding,
@@ -81,6 +213,10 @@
 	pixel_x = 4;
 	pixel_y = 8
 	},
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
+"az" = (
+/obj/structure/lattice,
 /turf/simulated/floor/plating,
 /area/spacecounter/cosmoport/main)
 "aA" = (
@@ -102,6 +238,11 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
+/area/spacecounter/cosmoport/main)
+"aB" = (
+/obj/structure/lattice,
+/obj/structure/inflatable,
+/turf/simulated/floor/plating,
 /area/spacecounter/cosmoport/main)
 "aC" = (
 /obj/machinery/cryopod/right,
@@ -148,6 +289,17 @@
 /obj/machinery/light/spot,
 /turf/simulated/floor,
 /area/spacecounter/cosmoport/main)
+"aI" = (
+/obj/item/stack/sheet/metal,
+/turf/simulated/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/spacecounter/cosmoport/main)
+"aJ" = (
+/turf/simulated/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/spacecounter/cosmoport/main)
 "aK" = (
 /obj/machinery/light{
 	dir = 8
@@ -180,6 +332,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/spacecounter/cosmoport/main)
+"aO" = (
+/obj/structure/girder/displaced,
+/turf/simulated/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/spacecounter/cosmoport/main)
 "aP" = (
 /turf/simulated/floor/carpet/black,
 /area/spacecounter/cosmoport/main)
@@ -196,6 +354,15 @@
 	},
 /turf/simulated/shuttle/floor/evac/medbay,
 /area/spacecounter/cosmoport/main)
+"aS" = (
+/obj/item/weapon/shard,
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
+"aT" = (
+/turf/simulated/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/spacecounter/cosmoport/main)
 "aU" = (
 /turf/simulated/floor/beach/sand,
 /area/spacecounter/cosmoport/main)
@@ -205,11 +372,23 @@
 	},
 /turf/simulated/floor/engine,
 /area/spacecounter/cosmoport/main)
+"aW" = (
+/obj/item/weapon/shard{
+	icon_state = "medium"
+	},
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
 "aX" = (
 /obj/machinery/light/spot{
 	dir = 4
 	},
 /turf/simulated/floor,
+/area/spacecounter/cosmoport/main)
+"aY" = (
+/obj/effect/decal/cleanable/blood/oil,
+/turf/simulated/floor/plating{
+	icon_state = "platingdmg1"
+	},
 /area/spacecounter/cosmoport/main)
 "aZ" = (
 /obj/random/scrap/moderate_weighted,
@@ -223,9 +402,80 @@
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/plating,
 /area/spacecounter/cosmoport/main)
+"bb" = (
+/obj/item/stack/sheet/metal,
+/turf/simulated/floor/plating{
+	icon_state = "platingdmg2"
+	},
+/area/spacecounter/cosmoport/main)
+"bc" = (
+/obj/structure/object_wall/velocity{
+	dir = 8;
+	icon_state = "vel_wall02"
+	},
+/turf/simulated/floor/plating{
+	icon_state = "platingdmg2"
+	},
+/area/spacecounter/cosmoport/main)
+"bd" = (
+/obj/structure/object_wall/velocity{
+	dir = 8;
+	icon_state = "vel_wall01"
+	},
+/turf/simulated/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/spacecounter/cosmoport/main)
+"be" = (
+/obj/item/weapon/shard,
+/obj/item/weapon/shard{
+	icon_state = "medium"
+	},
+/obj/effect/decal/cleanable/blood/drip,
+/turf/simulated/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/spacecounter/cosmoport/main)
+"bf" = (
+/obj/item/stack/cable_coil/red{
+	amount = 5
+	},
+/turf/simulated/floor/plating{
+	icon_state = "platingdmg2"
+	},
+/area/spacecounter/cosmoport/main)
+"bg" = (
+/obj/structure/object_wall/velocity{
+	dir = 8;
+	icon_state = "vel_a01"
+	},
+/turf/simulated/floor/plating{
+	icon_state = "platingdmg2"
+	},
+/area/spacecounter/cosmoport/main)
+"bh" = (
+/obj/structure/object_wall/velocity{
+	dir = 8;
+	icon_state = "vel_b01"
+	},
+/turf/simulated/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/spacecounter/cosmoport/main)
 "bi" = (
 /obj/effect/decal/mecha_wreckage/gygax/dark,
 /turf/simulated/floor/engine,
+/area/spacecounter/cosmoport/main)
+"bj" = (
+/obj/machinery/light_construct/small,
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
+"bk" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/stack/sheet/metal,
+/turf/simulated/floor/plating{
+	icon_state = "platingdmg3"
+	},
 /area/spacecounter/cosmoport/main)
 "bl" = (
 /obj/structure/object_wall/evac{
@@ -234,11 +484,85 @@
 	},
 /turf/simulated/floor/engine,
 /area/spacecounter/cosmoport/main)
+"bm" = (
+/obj/structure/object_wall/velocity{
+	dir = 8;
+	icon_state = "vel_w01";
+	name = "shuttle window";
+	opacity = 0
+	},
+/turf/simulated/floor/plating{
+	icon_state = "platingdmg2"
+	},
+/area/spacecounter/cosmoport/main)
+"bn" = (
+/obj/structure/object_wall/velocity{
+	dir = 8;
+	icon_state = "vel_w04";
+	layer = 3.2;
+	name = "shuttle window";
+	opacity = 0
+	},
+/obj/structure/grille,
+/turf/simulated/shuttle/plating,
+/area/spacecounter/cosmoport/main)
 "bo" = (
 /obj/machinery/light/spot{
 	dir = 8
 	},
 /turf/simulated/floor/wood,
+/area/spacecounter/cosmoport/main)
+"bp" = (
+/turf/simulated/shuttle/wall/newes_shuttle{
+	dir = 8;
+	icon_state = "vel_wall04"
+	},
+/area/spacecounter/cosmoport/main)
+"bq" = (
+/obj/structure/stool/bed/chair/schair/monorail_chair{
+	icon_state = "chair_c03";
+	name = "shuttle chair"
+	},
+/turf/simulated/shuttle/floor{
+	icon_state = "floor4"
+	},
+/area/spacecounter/cosmoport/main)
+"br" = (
+/obj/structure/stool/bed/chair/schair/monorail_chair{
+	icon_state = "chair_c02";
+	name = "shuttle chair"
+	},
+/obj/item/weapon/shard{
+	icon_state = "small"
+	},
+/turf/simulated/shuttle/floor{
+	icon_state = "floor4"
+	},
+/area/spacecounter/cosmoport/main)
+"bs" = (
+/obj/structure/stool/bed/chair/schair/monorail_chair{
+	icon_state = "chair_c01";
+	name = "shuttle chair"
+	},
+/obj/effect/decal/cleanable/blood/gibs/body,
+/turf/simulated/shuttle/floor{
+	icon_state = "floor4"
+	},
+/area/spacecounter/cosmoport/main)
+"bt" = (
+/obj/item/weapon/shard,
+/turf/simulated/shuttle/floor/shuttle_new{
+	icon_state = "vel_f03"
+	},
+/area/spacecounter/cosmoport/main)
+"bu" = (
+/obj/structure/object_wall/velocity{
+	dir = 8;
+	icon_state = "vel_c01"
+	},
+/turf/simulated/floor/plating{
+	icon_state = "platingdmg3"
+	},
 /area/spacecounter/cosmoport/main)
 "bv" = (
 /obj/machinery/washing_machine,
@@ -248,8 +572,17 @@
 	icon_state = "barber"
 	},
 /area/spacecounter/cosmoport/main)
+"bw" = (
+/obj/structure/girder/reinforced,
+/obj/effect/landmark/blockway,
+/turf/simulated/floor/plating{
+	icon_state = "platingdmg2"
+	},
+/area/spacecounter/cosmoport/main)
 "bx" = (
-/obj/structure/closet/crate,
+/obj/structure/closet/crate{
+	can_be_pulled = 0
+	},
 /turf/simulated/floor/plating,
 /area/spacecounter/cosmoport/main)
 "by" = (
@@ -262,13 +595,84 @@
 	icon_state = "solarpanel"
 	},
 /area/spacecounter/cosmoport/main)
+"bz" = (
+/obj/structure/object_wall/velocity{
+	dir = 8;
+	icon_state = "vel_w02";
+	layer = 3.2;
+	name = "shuttle window";
+	opacity = 0
+	},
+/obj/structure/grille,
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
+"bA" = (
+/obj/machinery/light_construct{
+	dir = 8
+	},
+/obj/structure/computerframe{
+	dir = 4
+	},
+/turf/simulated/shuttle/floor/shuttle_new{
+	dir = 8;
+	icon_state = "vel_f01"
+	},
+/area/spacecounter/cosmoport/main)
+"bB" = (
+/obj/structure/stool/bed/chair/schair/velocity_s_chair{
+	dir = 8;
+	name = "shuttle chair"
+	},
+/obj/effect/decal/cleanable/blood/oil,
+/obj/item/stack/cable_coil/red{
+	amount = 5
+	},
+/turf/simulated/shuttle/floor/shuttle_new{
+	dir = 8;
+	icon_state = "vel_f01"
+	},
+/area/spacecounter/cosmoport/main)
 "bC" = (
 /obj/effect/decal/cleanable/generic,
 /turf/simulated/floor/plating,
 /area/spacecounter/cosmoport/main)
+"bD" = (
+/obj/effect/decal/cleanable/blood/drip,
+/obj/effect/decal/cleanable/blood/gibs,
+/turf/simulated/shuttle/floor/shuttle_new{
+	dir = 8;
+	icon_state = "vel_f01"
+	},
+/area/spacecounter/cosmoport/main)
 "bE" = (
 /obj/structure/stool/bed/chair/schair/wagon,
 /turf/simulated/shuttle/floor/evac/eng2,
+/area/spacecounter/cosmoport/main)
+"bF" = (
+/obj/structure/closet,
+/turf/simulated/shuttle/floor/shuttle_new{
+	dir = 8;
+	icon_state = "vel_f01"
+	},
+/area/spacecounter/cosmoport/main)
+"bG" = (
+/obj/item/weapon/shard{
+	icon_state = "medium"
+	},
+/obj/item/weapon/shard{
+	icon_state = "small"
+	},
+/turf/simulated/shuttle/floor/shuttle_new{
+	dir = 8;
+	icon_state = "vel_f01"
+	},
+/area/spacecounter/cosmoport/main)
+"bH" = (
+/obj/effect/decal/cleanable/blood/gibs/down,
+/turf/simulated/shuttle/floor/shuttle_new{
+	dir = 8;
+	icon_state = "vel_f01"
+	},
 /area/spacecounter/cosmoport/main)
 "bI" = (
 /obj/structure/table/reinforced,
@@ -294,6 +698,109 @@
 	icon_state = "vault"
 	},
 /area/spacecounter/cosmoport/main)
+"bK" = (
+/obj/machinery/door/unpowered/shuttle/officer,
+/turf/simulated/shuttle/floor/shuttle_new{
+	dir = 8;
+	icon_state = "vel_f01"
+	},
+/area/spacecounter/cosmoport/main)
+"bL" = (
+/obj/item/stack/sheet/metal,
+/turf/simulated/floor/engine,
+/area/spacecounter/cosmoport/main)
+"bM" = (
+/obj/structure/inflatable,
+/obj/structure/lattice,
+/turf/space,
+/area/space)
+"bN" = (
+/obj/structure/object_wall/velocity{
+	dir = 8;
+	icon_state = "vel_w03";
+	name = "shuttle window";
+	opacity = 0
+	},
+/obj/structure/lattice,
+/turf/space,
+/area/spacecounter/cosmoport/main)
+"bO" = (
+/obj/structure/object_wall/velocity{
+	dir = 8;
+	icon_state = "vel_w05";
+	layer = 3.2;
+	name = "shuttle window";
+	opacity = 0
+	},
+/obj/structure/grille,
+/turf/simulated/floor/plating,
+/area/spacecounter/cosmoport/main)
+"bP" = (
+/turf/simulated/shuttle/wall/newes_shuttle{
+	icon_state = "vel_wall04"
+	},
+/area/spacecounter/cosmoport/main)
+"bQ" = (
+/obj/structure/stool/bed/chair/schair/monorail_chair{
+	dir = 1;
+	icon_state = "chair_c01";
+	name = "shuttle chair"
+	},
+/obj/item/stack/sheet/metal,
+/turf/simulated/shuttle/floor{
+	icon_state = "floor4"
+	},
+/area/spacecounter/cosmoport/main)
+"bR" = (
+/obj/structure/stool/bed/chair/schair/monorail_chair{
+	dir = 1;
+	icon_state = "chair_c02";
+	name = "shuttle chair"
+	},
+/obj/effect/decal/cleanable/blood/drip,
+/turf/simulated/shuttle/floor{
+	icon_state = "floor4"
+	},
+/area/spacecounter/cosmoport/main)
+"bS" = (
+/obj/structure/stool/bed/chair/schair/monorail_chair{
+	dir = 1;
+	icon_state = "chair_c03";
+	name = "shuttle chair"
+	},
+/obj/item/weapon/shard{
+	icon_state = "medium"
+	},
+/turf/simulated/shuttle/floor{
+	icon_state = "floor4"
+	},
+/area/spacecounter/cosmoport/main)
+"bT" = (
+/turf/simulated/shuttle/floor/shuttle_new{
+	dir = 1;
+	icon_state = "vel_f02"
+	},
+/area/spacecounter/cosmoport/main)
+"bU" = (
+/obj/structure/object_wall/velocity{
+	dir = 8;
+	icon_state = "vel_c02"
+	},
+/turf/simulated/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/spacecounter/cosmoport/main)
+"bV" = (
+/obj/effect/decal/cleanable/blood/oil,
+/turf/simulated/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/spacecounter/cosmoport/main)
+"bW" = (
+/obj/structure/lattice,
+/obj/structure/inflatable,
+/turf/space,
+/area/space)
 "bX" = (
 /obj/structure/stool/bed/roller,
 /obj/machinery/iv_drip,
@@ -302,6 +809,49 @@
 "bY" = (
 /obj/machinery/light/spot,
 /turf/simulated/floor/wood,
+/area/spacecounter/cosmoport/main)
+"bZ" = (
+/obj/structure/object_wall/velocity{
+	dir = 8;
+	icon_state = "vel_wall03"
+	},
+/turf/unsimulated/wall,
+/area/spacecounter/cosmoport/main)
+"ca" = (
+/obj/item/weapon/shard,
+/obj/item/weapon/shard{
+	icon_state = "small"
+	},
+/obj/effect/decal/cleanable/blood/oil,
+/turf/simulated/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/spacecounter/cosmoport/main)
+"cb" = (
+/obj/item/weapon/shard{
+	icon_state = "medium"
+	},
+/turf/simulated/floor/plating{
+	icon_state = "platingdmg2"
+	},
+/area/spacecounter/cosmoport/main)
+"cc" = (
+/obj/structure/object_wall/velocity{
+	dir = 4;
+	icon_state = "vel_wall01"
+	},
+/turf/simulated/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/spacecounter/cosmoport/main)
+"cd" = (
+/obj/structure/object_wall/velocity{
+	dir = 8;
+	icon_state = "vel_a02"
+	},
+/turf/simulated/floor/plating{
+	icon_state = "platingdmg3"
+	},
 /area/spacecounter/cosmoport/main)
 "ce" = (
 /obj/machinery/door/airlock/maintenance{
@@ -320,11 +870,36 @@
 	icon_state = "cafeteria"
 	},
 /area/spacecounter/cosmoport/main)
+"cg" = (
+/obj/structure/object_wall/velocity{
+	dir = 8;
+	icon_state = "vel_b02"
+	},
+/turf/simulated/floor/plating{
+	icon_state = "platingdmg2"
+	},
+/area/spacecounter/cosmoport/main)
 "ch" = (
 /obj/machinery/light/spot,
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "warndark"
+	},
+/area/spacecounter/cosmoport/main)
+"ci" = (
+/obj/effect/decal/cleanable/generic,
+/obj/effect/decal/cleanable/blood/drip,
+/obj/item/stack/cable_coil/red{
+	amount = 5
+	},
+/turf/simulated/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/spacecounter/cosmoport/main)
+"cj" = (
+/obj/item/stack/sheet/metal,
+/turf/simulated/floor/plating{
+	icon_state = "platingdmg3"
 	},
 /area/spacecounter/cosmoport/main)
 "ck" = (
@@ -334,6 +909,21 @@
 /obj/structure/window/basic,
 /turf/simulated/floor{
 	icon_state = "dark"
+	},
+/area/spacecounter/cosmoport/main)
+"cl" = (
+/obj/structure/girder,
+/turf/simulated/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/spacecounter/cosmoport/main)
+"cm" = (
+/obj/item/weapon/shard,
+/obj/item/weapon/shard{
+	icon_state = "medium"
+	},
+/turf/simulated/floor/plating{
+	icon_state = "platingdmg1"
 	},
 /area/spacecounter/cosmoport/main)
 "cn" = (
@@ -355,8 +945,13 @@
 /turf/simulated/floor/engine,
 /area/spacecounter/cosmoport/main)
 "cu" = (
-/obj/structure/closet/crate/bin,
-/turf/simulated/floor/wood,
+/obj/machinery/recharger/wallcharger{
+	pixel_x = 34
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "neutralcorner"
+	},
 /area/spacecounter/cosmoport/main)
 "cv" = (
 /obj/structure/girder/displaced,
@@ -587,19 +1182,10 @@
 /turf/simulated/floor/wood,
 /area/spacecounter/cosmoport/main)
 "dR" = (
-/obj/structure/window/reinforced,
-/obj/item/weapon/reagent_containers/food/snacks/friedbanana,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/whiskey,
-/obj/structure/table,
-/obj/machinery/light{
-	dir = 4
+/obj/structure/closet/crate/bin{
+	density = 0
 	},
-/obj/item/toy/plushie/tabby_cat{
-	name = "Plushie Bucherck"
-	},
-/turf/simulated/shuttle/floor/erokez{
-	icon_state = "sign_2"
-	},
+/turf/simulated/floor,
 /area/spacecounter/cosmoport/main)
 "dT" = (
 /obj/structure/window/reinforced/tinted{
@@ -966,18 +1552,24 @@
 /turf/simulated/floor/wood,
 /area/spacecounter/cosmoport/main)
 "gL" = (
-/obj/structure/computerframe,
+/obj/structure/computerframe{
+	can_be_pulled = 0
+	},
 /turf/simulated/floor/plating,
 /area/spacecounter/cosmoport/main)
 "gN" = (
-/obj/structure/closet/crate,
 /obj/item/stack/sheet/wood{
 	amount = 10
+	},
+/obj/structure/closet/crate{
+	can_be_pulled = 0
 	},
 /turf/simulated/floor/plating,
 /area/spacecounter/cosmoport/main)
 "gP" = (
-/obj/structure/closet/crate/bin,
+/obj/structure/closet/crate/bin{
+	density = 0
+	},
 /turf/simulated/floor{
 	dir = 10;
 	icon_state = "arrival"
@@ -1532,9 +2124,11 @@
 /turf/simulated/floor/plating,
 /area/spacecounter/cosmoport/main)
 "kD" = (
-/obj/structure/closet/crate,
 /obj/item/weapon/screwdriver,
 /obj/item/weapon/crowbar,
+/obj/structure/closet/crate{
+	can_be_pulled = 0
+	},
 /turf/simulated/floor/plating,
 /area/spacecounter/cosmoport/main)
 "kE" = (
@@ -1880,11 +2474,15 @@
 /turf/simulated/floor/plating,
 /area/spacecounter/cosmoport/main)
 "mH" = (
-/obj/structure/closet/crate/bin,
-/obj/machinery/light/spot,
-/turf/simulated/floor{
-	icon_state = "dark"
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/spot{
+	invisibility = 101;
+	name = "invisible spotlight"
 	},
+/obj/structure/closet/crate/bin{
+	density = 0
+	},
+/turf/simulated/floor,
 /area/spacecounter/cosmoport/main)
 "mI" = (
 /obj/structure/cable/yellow{
@@ -1979,14 +2577,17 @@
 /turf/simulated/floor/plating,
 /area/spacecounter/cosmoport/main)
 "nb" = (
+/obj/item/trash/syndi_cakes,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/spot{
-	dir = 8
+	invisibility = 101;
+	name = "invisible spotlight"
 	},
-/turf/simulated/floor{
-	dir = 8;
-	icon_state = "bluecorner"
+/obj/structure/closet/crate/bin{
+	density = 0
 	},
-/area/spacecounter/cosmoport/main)
+/turf/simulated/floor,
+/area/spacecounter/cosmoport/plant_b)
 "nd" = (
 /obj/structure/rack,
 /obj/machinery/light/spot{
@@ -2046,9 +2647,11 @@
 /turf/simulated/floor/engine,
 /area/spacecounter/cosmoport/main)
 "nC" = (
-/obj/structure/closet/crate,
 /obj/machinery/light/spot{
 	dir = 1
+	},
+/obj/structure/closet/crate{
+	can_be_pulled = 0
 	},
 /turf/simulated/floor/plating,
 /area/spacecounter/cosmoport/main)
@@ -2438,10 +3041,10 @@
 	},
 /area/spacecounter/cosmoport/main)
 "qf" = (
-/obj/effect/landmark/blockway,
 /obj/machinery/door/airlock/glass{
 	locked = 1
 	},
+/obj/machinery/door/poddoor/shutters/syndi,
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "arrival"
@@ -2730,6 +3333,9 @@
 /area/spacecounter/cosmoport/main)
 "rR" = (
 /obj/structure/table,
+/obj/machinery/recharger{
+	pixel_y = 4
+	},
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "darkbrown"
@@ -2888,10 +3494,11 @@
 	},
 /area/spacecounter/cosmoport/main)
 "tl" = (
-/obj/structure/closet/crate/bin,
-/obj/item/trash/chips,
-/turf/simulated/floor{
-	icon_state = "dark"
+/obj/structure/window/reinforced,
+/obj/item/weapon/reagent_containers/food/snacks/cakeslice,
+/obj/structure/table,
+/turf/simulated/shuttle/floor/erokez{
+	icon_state = "sign_2"
 	},
 /area/spacecounter/cosmoport/main)
 "tm" = (
@@ -3379,8 +3986,7 @@
 "xp" = (
 /obj/structure/inflatable/door{
 	density = 0;
-	icon_state = "door_open";
-	opacity = 1
+	icon_state = "door_open"
 	},
 /turf/simulated/floor/engine,
 /area/spacecounter/cosmoport/main)
@@ -3681,12 +4287,14 @@
 /turf/simulated/floor/engine,
 /area/spacecounter/cosmoport/main)
 "zr" = (
-/obj/structure/closet/crate,
 /obj/item/stack/rods{
 	amount = 10
 	},
 /obj/machinery/light/spot{
 	dir = 1
+	},
+/obj/structure/closet/crate{
+	can_be_pulled = 0
 	},
 /turf/simulated/floor/plating,
 /area/spacecounter/cosmoport/main)
@@ -4197,17 +4805,22 @@
 	},
 /area/spacecounter/cosmoport/main)
 "CH" = (
-/obj/structure/window/reinforced,
-/obj/machinery/light{
-	dir = 8
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/obj/structure/table,
-/obj/item/toy/plushie/orange_fox{
-	name = "Plushie Wendy"
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
 	},
-/turf/simulated/shuttle/floor/erokez{
-	icon_state = "sign_2"
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
 	},
+/turf/simulated/floor/plating/airless/catwalk,
 /area/spacecounter/cosmoport/main)
 "CI" = (
 /obj/structure/inflatable/door{
@@ -4416,15 +5029,13 @@
 /turf/simulated/floor/engine,
 /area/spacecounter/cosmoport/main)
 "Ej" = (
-/obj/structure/window/reinforced,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/wine,
-/obj/structure/table,
-/obj/item/toy/plushie/white_cat{
-	name = "Plushie Scinia"
+/obj/machinery/light/spot{
+	dir = 1
 	},
-/turf/simulated/shuttle/floor/erokez{
-	icon_state = "sign_2"
+/obj/machinery/light/spot{
+	dir = 4
 	},
+/turf/simulated/floor,
 /area/spacecounter/cosmoport/main)
 "El" = (
 /turf/simulated/shuttle/floor/evac/eva,
@@ -5005,11 +5616,9 @@
 /turf/simulated/floor/carpet/black,
 /area/spacecounter/cosmoport/main)
 "HL" = (
-/obj/structure/closet/crate/bin,
-/turf/simulated/floor{
-	icon_state = "white"
-	},
-/area/spacecounter/cosmoport/main)
+/obj/item/clothing/head/helmet/space/syndicate/infiltrator,
+/turf/space,
+/area/space)
 "HM" = (
 /obj/structure/table,
 /obj/item/weapon/folder/blue,
@@ -5197,13 +5806,9 @@
 /turf/simulated/floor/engine,
 /area/spacecounter/cosmoport/main)
 "Js" = (
-/obj/machinery/door/airlock/command/glass{
-	name = "BoSS Room"
-	},
-/turf/simulated/floor{
-	icon_state = "dark"
-	},
-/area/spacecounter/cosmoport/main)
+/obj/item/clothing/head/helmet/space/rig/ert/commander,
+/turf/space,
+/area/space)
 "Ju" = (
 /obj/machinery/light/spot{
 	invisibility = 101;
@@ -5771,9 +6376,9 @@
 	},
 /area/spacecounter/cosmoport/main)
 "Np" = (
-/obj/structure/closet/crate/bin,
-/turf/simulated/floor,
-/area/spacecounter/cosmoport/main)
+/obj/item/device/radio/headset/syndicate/alt,
+/turf/space,
+/area/space)
 "Nq" = (
 /obj/structure/table,
 /obj/item/device/flashlight/lamp/green{
@@ -6006,11 +6611,13 @@
 /turf/simulated/floor,
 /area/spacecounter/cosmoport/plant_b)
 "OI" = (
-/obj/effect/landmark/blockway,
-/obj/machinery/door/airlock/glass{
+/obj/machinery/deployable/barrier{
 	locked = 1
 	},
-/turf/simulated/floor,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "arrival"
+	},
 /area/spacecounter/cosmoport/main)
 "OK" = (
 /obj/structure/window/reinforced/shuttle/evac{
@@ -6040,25 +6647,13 @@
 /turf/simulated/floor,
 /area/spacecounter/cosmoport/plant_b)
 "Pf" = (
-/obj/structure/window/reinforced,
-/obj/item/weapon/reagent_containers/food/snacks/cakeslice,
-/obj/structure/table,
-/obj/item/toy/plushie/space_whale{
-	name = "Plushie Oculus"
-	},
-/turf/simulated/shuttle/floor/erokez{
-	icon_state = "sign_2"
-	},
-/area/spacecounter/cosmoport/main)
+/obj/item/clothing/suit/space/rig/syndi/heavy,
+/turf/space,
+/area/space)
 "Pg" = (
-/obj/structure/closet/crate/bin,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/spot{
-	invisibility = 101;
-	name = "invisible spotlight"
-	},
-/turf/simulated/floor,
-/area/spacecounter/cosmoport/main)
+/obj/item/clothing/suit/space/rig/ert/commander,
+/turf/space,
+/area/space)
 "Pp" = (
 /obj/machinery/conveyor{
 	dir = 8;
@@ -6265,8 +6860,11 @@
 /turf/simulated/floor/plating,
 /area/spacecounter/cosmoport/main)
 "Qr" = (
-/obj/effect/decal/cleanable/blood/gibs,
-/turf/simulated/floor/plating,
+/obj/machinery/door/airlock/glass{
+	locked = 1
+	},
+/obj/machinery/door/poddoor/shutters/syndi,
+/turf/simulated/floor,
 /area/spacecounter/cosmoport/main)
 "Qv" = (
 /obj/structure/table/glass,
@@ -6330,12 +6928,9 @@
 	},
 /area/spacecounter/cosmoport/plant_a)
 "QX" = (
-/obj/structure/closet/crate/bin,
-/turf/simulated/floor{
-	dir = 8;
-	icon_state = "bluecorner"
-	},
-/area/spacecounter/cosmoport/main)
+/obj/item/weapon/storage/backpack/ert/commander,
+/turf/space,
+/area/space)
 "Ra" = (
 /obj/structure/object_wall/evac{
 	icon_state = "15,8"
@@ -6435,9 +7030,8 @@
 	},
 /area/spacecounter/cosmoport/plant_a)
 "RH" = (
-/obj/structure/sign/poster/official/no_erp,
-/obj/machinery/light/spot{
-	dir = 1
+/obj/machinery/deployable/barrier{
+	locked = 1
 	},
 /turf/simulated/floor,
 /area/spacecounter/cosmoport/main)
@@ -6683,11 +7277,12 @@
 	},
 /area/spacecounter/cosmoport/main)
 "Tb" = (
-/obj/machinery/light/spot{
-	dir = 8
+/obj/machinery/deployable/barrier{
+	locked = 1
 	},
-/obj/machinery/light/spot,
-/turf/simulated/floor,
+/turf/simulated/floor{
+	icon_state = "arrival"
+	},
 /area/spacecounter/cosmoport/main)
 "Tc" = (
 /obj/structure/sign/mark{
@@ -6906,15 +7501,17 @@
 	},
 /area/spacecounter/cosmoport/main)
 "Ur" = (
-/obj/structure/closet/crate/bin,
-/obj/item/trash/syndi_cakes,
-/obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/spot{
-	invisibility = 101;
-	name = "invisible spotlight"
+	dir = 1
+	},
+/obj/machinery/recharger/wallcharger{
+	pixel_y = 30
+	},
+/obj/machinery/recharger/wallcharger{
+	pixel_y = 30
 	},
 /turf/simulated/floor,
-/area/spacecounter/cosmoport/plant_b)
+/area/spacecounter/cosmoport/main)
 "Ut" = (
 /obj/effect/plant_a{
 	icon_state = "plantA_3";
@@ -6998,9 +7595,8 @@
 	},
 /area/spacecounter/cosmoport/main)
 "UT" = (
-/obj/effect/landmark/blockway,
-/obj/machinery/light/spot{
-	dir = 1
+/obj/machinery/recharger/wallcharger{
+	pixel_y = 30
 	},
 /turf/simulated/floor,
 /area/spacecounter/cosmoport/main)
@@ -7089,7 +7685,9 @@
 	},
 /area/spacecounter/cosmoport/plant_a)
 "VE" = (
-/obj/structure/closet/crate/bin,
+/obj/structure/closet/crate/bin{
+	density = 0
+	},
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
@@ -7243,10 +7841,10 @@
 	},
 /area/spacecounter/cosmoport/main)
 "WQ" = (
-/obj/effect/landmark/blockway,
 /obj/machinery/door/airlock/glass{
 	locked = 1
 	},
+/obj/machinery/door/poddoor/shutters/syndi,
 /turf/simulated/floor{
 	icon_state = "arrival"
 	},
@@ -7304,6 +7902,7 @@
 /obj/machinery/door/airlock{
 	locked = 1
 	},
+/obj/machinery/door/poddoor/shutters/syndi,
 /turf/simulated/floor,
 /area/spacecounter/cosmoport/main)
 "Xn" = (
@@ -7409,8 +8008,10 @@
 /turf/simulated/floor/plating,
 /area/spacecounter/cosmoport/main)
 "XN" = (
-/obj/structure/closet/crate,
 /obj/item/device/multitool,
+/obj/structure/closet/crate{
+	can_be_pulled = 0
+	},
 /turf/simulated/floor/plating,
 /area/spacecounter/cosmoport/main)
 "XP" = (
@@ -8105,7 +8706,7 @@ NH
 NH
 NH
 NH
-ll
+CH
 Qf
 Qf
 Qf
@@ -8619,9 +9220,9 @@ dw
 dw
 sD
 sD
-sD
-sD
-sD
+WJ
+WJ
+WJ
 sD
 sD
 sD
@@ -8746,7 +9347,7 @@ oC
 dw
 sD
 sD
-sD
+WJ
 sD
 sD
 sD
@@ -8874,7 +9475,7 @@ dw
 sD
 sD
 sD
-sD
+WJ
 sD
 sD
 sD
@@ -9000,9 +9601,9 @@ Rw
 dw
 dw
 sD
-sD
-sD
-sD
+WJ
+WJ
+WJ
 sD
 sD
 sD
@@ -9131,7 +9732,7 @@ sD
 sD
 sD
 sD
-sD
+WJ
 sD
 sD
 sD
@@ -9254,13 +9855,13 @@ Rw
 dw
 dw
 sD
-sD
-sD
-sD
-sD
-sD
-sD
-sD
+WJ
+WJ
+WJ
+WJ
+WJ
+WJ
+HL
 sD
 sD
 sD
@@ -9385,12 +9986,12 @@ sD
 sD
 sD
 sD
+WJ
 sD
 sD
 sD
 sD
-sD
-sD
+Np
 sD
 sD
 sD
@@ -9508,16 +10109,16 @@ EL
 dw
 sD
 sD
+WJ
+WJ
+WJ
 sD
 sD
 sD
 sD
 sD
 sD
-sD
-sD
-sD
-sD
+Pf
 sD
 sD
 sD
@@ -9635,16 +10236,16 @@ dw
 dw
 sD
 sD
+WJ
+sD
+WJ
 sD
 sD
 sD
 sD
 sD
-sD
-sD
-sD
-sD
-sD
+Js
+Pg
 sD
 sD
 sD
@@ -9662,10 +10263,10 @@ xV
 xV
 xV
 xV
+Tf
 xV
 xV
-xV
-xV
+Tf
 xV
 xV
 xV
@@ -9762,16 +10363,16 @@ sD
 sD
 sD
 sD
+WJ
+WJ
+WJ
 sD
 sD
 sD
 sD
 sD
 sD
-sD
-sD
-sD
-sD
+QX
 sD
 sD
 sD
@@ -9786,7 +10387,7 @@ xV
 xV
 xV
 xV
-xV
+Tf
 xV
 xV
 xV
@@ -9956,7 +10557,7 @@ Cf
 YX
 YX
 dw
-sD
+Td
 sD
 sD
 sD
@@ -10083,7 +10684,7 @@ nR
 dw
 YX
 dw
-sD
+Td
 sD
 sD
 sD
@@ -10197,20 +10798,20 @@ rm
 SJ
 xA
 dw
-Td
-Td
+az
+az
 YX
-Td
-Td
-Td
+az
+az
+az
 YX
-Td
-Td
-Td
+az
+az
+aB
 dw
 YX
 dw
-sD
+Td
 sD
 sD
 sD
@@ -10302,7 +10903,7 @@ xV
 xV
 xV
 xV
-xV
+Tf
 xV
 Ss
 xV
@@ -10324,21 +10925,21 @@ YX
 rm
 ph
 dw
-Td
-Td
+az
+az
 YX
-Td
-Td
-Td
+az
+az
+az
 YX
-Td
-Td
-Td
+az
+az
+aB
 dw
-us
+bj
 dw
-sD
-sD
+bM
+Td
 sD
 sD
 sD
@@ -10455,17 +11056,17 @@ dw
 dw
 dw
 YX
-Qr
+YX
 ba
 YX
 YX
 YX
+wx
 YX
-dw
-Cf
-dw
-sD
-sD
+bk
+bw
+bM
+bW
 sD
 sD
 sD
@@ -10581,18 +11182,18 @@ YX
 YX
 Cf
 dw
-Td
-Td
-Td
+az
+az
+az
 YX
-Td
-Td
-Td
-dw
-YX
-dw
-sD
-sD
+az
+aB
+aB
+aT
+bm
+bz
+bN
+bW
 sD
 sD
 sD
@@ -10708,18 +11309,18 @@ uK
 YX
 Ch
 dw
-Td
-Td
-Td
+az
+az
+az
 YX
-Td
-Td
-Td
-dw
-YX
-dw
-sD
-sD
+az
+aB
+aJ
+bb
+bn
+bA
+bO
+bW
 sD
 sD
 sD
@@ -10841,12 +11442,12 @@ dw
 dw
 dw
 dw
-dw
-dw
-ce
-dw
-dw
-dw
+aO
+bc
+bp
+bB
+bP
+bZ
 dw
 dw
 dw
@@ -10968,14 +11569,14 @@ Cf
 Cf
 Cf
 Aq
-YX
-YX
-YX
-YX
-YX
-Aq
-bC
-YX
+aS
+bd
+bq
+bD
+bQ
+ca
+ci
+cm
 YX
 Cf
 Cf
@@ -11094,15 +11695,15 @@ zv
 zv
 zv
 zv
-zv
-zv
-zv
-zv
-zv
-zv
-zv
-zv
-zv
+aI
+aT
+be
+br
+bF
+bR
+cb
+cj
+Yb
 zv
 zv
 zv
@@ -11222,13 +11823,13 @@ is
 is
 is
 is
-is
-is
-is
-is
-is
-is
-is
+aW
+bf
+bs
+bG
+bS
+cc
+cb
 is
 is
 is
@@ -11349,14 +11950,14 @@ zv
 zv
 zv
 zv
-zv
-zv
-zv
-zv
-zv
-zv
-zv
-zv
+aY
+bg
+bt
+bH
+bT
+cd
+cl
+Yb
 zv
 zv
 zv
@@ -11476,13 +12077,13 @@ xV
 FP
 xV
 xV
-xV
-xV
-xV
-FP
-xV
-xV
-xV
+aI
+bh
+bu
+bK
+bU
+cg
+cj
 xV
 xV
 FP
@@ -11604,11 +12205,11 @@ xV
 xV
 xV
 xV
-xV
-xV
-xV
-xV
-xV
+aT
+aI
+aT
+bV
+aT
 xV
 xV
 xV
@@ -11733,9 +12334,9 @@ xV
 xV
 xV
 xV
-xV
-xV
-xV
+bL
+aJ
+bL
 xV
 xV
 xV
@@ -12089,9 +12690,9 @@ xV
 xV
 jb
 Sl
-Pf
+tl
 Sl
-CH
+af
 Ce
 It
 RU
@@ -12217,7 +12818,7 @@ xV
 PZ
 It
 It
-It
+ae
 It
 It
 It
@@ -12343,9 +12944,9 @@ xV
 xV
 OK
 Sl
-dR
+ad
 Sl
-Ej
+aj
 It
 It
 xl
@@ -14593,7 +15194,7 @@ sD
 sD
 sD
 sD
-sD
+Td
 dw
 dw
 dw
@@ -14720,7 +15321,7 @@ sD
 sD
 sD
 sD
-sD
+Td
 dw
 ZY
 yx
@@ -14847,7 +15448,7 @@ sD
 sD
 sD
 sD
-sD
+Td
 dw
 aE
 oz
@@ -14974,7 +15575,7 @@ sD
 sD
 sD
 sD
-sD
+Td
 dw
 GP
 oz
@@ -15101,7 +15702,7 @@ sD
 sD
 sD
 sD
-sD
+Td
 dw
 wv
 xi
@@ -15228,7 +15829,7 @@ sD
 sD
 sD
 sD
-sD
+Td
 dw
 No
 xi
@@ -15270,7 +15871,7 @@ SH
 AL
 Zd
 iQ
-tl
+ar
 GK
 UQ
 GK
@@ -15355,7 +15956,7 @@ sD
 sD
 sD
 sD
-sD
+Td
 dw
 lC
 ZQ
@@ -15482,7 +16083,7 @@ sD
 sD
 sD
 sD
-sD
+Td
 dw
 CM
 ZQ
@@ -15609,7 +16210,7 @@ sD
 sD
 sD
 sD
-sD
+Td
 dw
 wA
 ZQ
@@ -15736,7 +16337,7 @@ sD
 sD
 sD
 sD
-sD
+Td
 dw
 dw
 GK
@@ -15862,9 +16463,9 @@ sD
 sD
 sD
 sD
-sD
-sD
-sD
+Td
+Td
+Td
 dw
 tM
 tZ
@@ -16497,7 +17098,7 @@ sD
 sD
 sD
 sD
-sD
+Td
 sD
 sD
 dw
@@ -16624,7 +17225,7 @@ sD
 sD
 sD
 sD
-sD
+Td
 sD
 sD
 dw
@@ -16751,7 +17352,7 @@ sD
 sD
 sD
 sD
-sD
+Td
 sD
 sD
 dw
@@ -16878,7 +17479,7 @@ sD
 sD
 sD
 sD
-sD
+Td
 sD
 sD
 dw
@@ -17048,7 +17649,7 @@ Zd
 Zd
 Zd
 iQ
-mH
+as
 VT
 VT
 Vw
@@ -17513,7 +18114,7 @@ sD
 sD
 sD
 sD
-sD
+Td
 sD
 sD
 dw
@@ -17640,7 +18241,7 @@ sD
 sD
 sD
 sD
-sD
+Td
 sD
 sD
 dw
@@ -17767,7 +18368,7 @@ sD
 sD
 sD
 sD
-sD
+Td
 sD
 sD
 dw
@@ -17894,7 +18495,7 @@ sD
 sD
 sD
 sD
-sD
+Td
 sD
 sD
 dw
@@ -17939,7 +18540,7 @@ eu
 uK
 uK
 Zk
-HL
+au
 wI
 uK
 uK
@@ -18021,7 +18622,7 @@ sD
 sD
 sD
 sD
-sD
+Td
 sD
 sD
 dw
@@ -18065,7 +18666,7 @@ uK
 uK
 uK
 NJ
-Js
+at
 uK
 uK
 uK
@@ -18148,7 +18749,7 @@ sD
 sD
 sD
 sD
-sD
+Td
 sD
 sD
 dw
@@ -18275,7 +18876,7 @@ sD
 sD
 sD
 sD
-sD
+Td
 sD
 sD
 dw
@@ -18398,13 +18999,13 @@ sD
 sD
 sD
 sD
-sD
-sD
-sD
-sD
-sD
-sD
-sD
+Td
+Td
+Td
+Td
+Td
+Td
+Td
 dw
 fI
 Zd
@@ -18781,7 +19382,7 @@ sD
 sD
 dw
 Nb
-Nb
+YX
 YX
 YX
 YX
@@ -18908,7 +19509,7 @@ sD
 sD
 dw
 Dm
-Dm
+YX
 YX
 YX
 YX
@@ -19035,7 +19636,7 @@ sD
 sD
 dw
 xR
-xR
+YX
 gL
 YX
 YX
@@ -19134,7 +19735,7 @@ xV
 xV
 xV
 xV
-xV
+zN
 xV
 xV
 hh
@@ -19259,11 +19860,11 @@ xV
 Ss
 xV
 xV
+zN
 xV
 xV
 xV
-xV
-xV
+zN
 hh
 DO
 xV
@@ -19286,7 +19887,7 @@ sD
 sD
 sD
 sD
-sD
+Td
 dw
 xR
 xR
@@ -19336,7 +19937,7 @@ uK
 uK
 Tl
 zv
-cu
+ax
 HV
 HV
 HV
@@ -19413,7 +20014,7 @@ sD
 sD
 sD
 sD
-sD
+Td
 dw
 ab
 ab
@@ -19540,7 +20141,7 @@ sD
 sD
 sD
 sD
-sD
+Td
 dw
 ab
 YX
@@ -19667,7 +20268,7 @@ sD
 sD
 sD
 sD
-sD
+Td
 dw
 bx
 gN
@@ -19681,7 +20282,7 @@ Zd
 iQ
 zv
 Xp
-Np
+dR
 rN
 Tg
 QO
@@ -19701,7 +20302,7 @@ rN
 Tg
 QO
 Xp
-Np
+dR
 EI
 QO
 xb
@@ -19712,9 +20313,9 @@ Zd
 Zd
 Zd
 rN
-rN
-nb
-QX
+ak
+an
+ap
 Th
 GK
 FT
@@ -19794,7 +20395,7 @@ sD
 sD
 sD
 sD
-sD
+Td
 dw
 nC
 bx
@@ -19921,11 +20522,11 @@ sD
 sD
 sD
 sD
-sD
+Td
 dw
 bx
-bx
-bx
+YX
+YX
 YX
 YX
 YX
@@ -20182,13 +20783,13 @@ mZ
 mZ
 YX
 YX
-YX
+xR
 qB
 fI
 Zd
 iQ
 zv
-Zd
+UT
 kZ
 JQ
 KM
@@ -20315,7 +20916,7 @@ Wf
 vO
 mX
 zv
-Ir
+Ur
 zd
 ld
 fk
@@ -20442,7 +21043,7 @@ fI
 Zd
 iQ
 zv
-Zd
+UT
 Rq
 Rq
 Rq
@@ -20529,7 +21130,7 @@ xV
 xV
 xV
 xV
-xV
+zN
 xV
 xV
 xV
@@ -20585,7 +21186,7 @@ gV
 KW
 UI
 QE
-Ur
+nb
 gV
 gV
 KW
@@ -20602,7 +21203,7 @@ Zd
 Zd
 NP
 uN
-Np
+dR
 Zd
 Zd
 GK
@@ -21210,7 +21811,7 @@ Zd
 Ju
 BH
 uN
-Pg
+mH
 gV
 gV
 KW
@@ -21230,7 +21831,7 @@ gV
 Zd
 NP
 uN
-Np
+dR
 Ju
 Zd
 Zd
@@ -21713,9 +22314,9 @@ Zd
 iQ
 GK
 aX
-Rq
-Rq
-Rq
+cu
+cu
+cu
 sL
 Zd
 hL
@@ -21744,9 +22345,9 @@ ld
 Rq
 Rq
 ln
-fg
-hL
-hL
+am
+ao
+ao
 su
 zv
 hN
@@ -22207,14 +22808,14 @@ sD
 sD
 sD
 sD
-sD
 dw
-Na
-lQ
-lQ
-lQ
-lQ
-Tb
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 dw
 fI
 Zd
@@ -22334,14 +22935,14 @@ sD
 sD
 sD
 sD
-sD
 dw
-Ir
+Na
 Zd
-Zd
-Zd
-Zd
-Zd
+lQ
+lQ
+lQ
+lQ
+lQ
 AF
 fI
 Zd
@@ -22461,9 +23062,9 @@ sD
 sD
 sD
 sD
-sD
 dw
 Ir
+Zd
 Zd
 Zd
 Zd
@@ -22588,9 +23189,9 @@ sD
 sD
 sD
 sD
-sD
 dw
-RH
+Ir
+Xn
 Xn
 Xn
 Zd
@@ -22715,9 +23316,9 @@ sD
 sD
 sD
 sD
-sD
 dw
 Ir
+Zd
 Zd
 Xn
 Zd
@@ -22842,9 +23443,9 @@ sD
 sD
 sD
 sD
-sD
 dw
-RH
+Ir
+Xn
 Xn
 Dq
 Xn
@@ -22969,9 +23570,9 @@ sD
 sD
 sD
 sD
-sD
 dw
-RH
+Ir
+Xn
 Zd
 Xn
 Zd
@@ -23096,9 +23697,9 @@ sD
 sD
 sD
 sD
-sD
 dw
-RH
+Ir
+Xn
 Zd
 Xn
 Xn
@@ -23223,9 +23824,9 @@ sD
 sD
 sD
 sD
-sD
 dw
 Ir
+Zd
 Zd
 Zd
 Zd
@@ -23350,18 +23951,18 @@ sD
 sD
 sD
 sD
-sD
 dw
-Ir
+Ej
 Zd
-Zd
-Zd
-Zd
-Zd
+aX
+aX
+aX
+aX
+aX
 HO
-fI
-Zd
-iQ
+OI
+RH
+Tb
 dw
 sD
 sD
@@ -23477,17 +24078,17 @@ sD
 sD
 sD
 sD
-sD
 dw
-UT
-uL
-uL
-uL
-uL
-oO
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 dw
 qf
-OI
+Qr
 WQ
 dw
 sD
