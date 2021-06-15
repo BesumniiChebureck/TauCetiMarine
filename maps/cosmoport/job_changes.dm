@@ -17,16 +17,9 @@
 	supervisors = "Supreme Council of the Syndicat"
 	selection_color = "#ffeeee"
 	idtype = /obj/item/weapon/card/id/centcom
-	access = list() //access = get_all_accesses()+get_all_centcom_access()+get_all_syndicate_access() //Zatestit'
+	access = get_all_accesses()+get_all_centcom_access()+get_all_syndicate_access() //Zatestit'
 	salary = 1001
 	minimal_player_ingame_minutes = 11001
-
-	//Only humans (balance)
-	/datum/job/hos/special_species_check(datum/species/S)
-		return S.name == HUMAN
-
-	/datum/job/hos/get_access()
-	return get_all_accesses()
 
 
 /datum/outfit/job/hos/New()
