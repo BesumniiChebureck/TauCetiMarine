@@ -94,7 +94,7 @@ var/list/department_radio_keys = list(
 		if(client.prefs.muted & MUTE_IC)
 			to_chat(src, "You cannot send IC messages (muted).")
 			return
-		if (src.client.handle_spam_prevention(message,MUTE_IC))
+		if (client.handle_spam_prevention(message,MUTE_IC))
 			return
 	if(sanitize)
 		message = sanitize(message)
@@ -111,7 +111,7 @@ var/list/department_radio_keys = list(
 	if (speaking)
 		if (speaking.flags & NONVERBAL)
 			if (prob(30))
-				src.custom_emote(1, "[pick(speaking.signlang_verb)].")
+				custom_emote(1, "[pick(speaking.signlang_verb)].")
 
 		if (speaking.flags & SIGNLANG)
 			say_signlang(message, pick(speaking.signlang_verb), speaking)

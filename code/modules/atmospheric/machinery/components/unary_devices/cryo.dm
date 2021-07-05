@@ -250,7 +250,7 @@
 		to_chat(user, "<span class='warning'>You can not comprehend what to do with this.</span>")
 		return
 
-	if(!user.incapacitated() && in_range(user, src))
+	if(!user.incapacitated() && Adjacent(user))
 		if(!state_open)
 			on = !on
 			update_icon()
@@ -260,7 +260,7 @@
 		to_chat(user, "<span class='warning'>You can not comprehend what to do with this.</span>")
 		return
 
-	if(!user.incapacitated() && in_range(user, src))
+	if(!user.incapacitated() && Adjacent(user))
 		if(state_open)
 			close_machine()
 		else
@@ -299,10 +299,9 @@
 		if(beaker)
 			to_chat(user, "<span class='warning'>A beaker is already loaded into [src]!</span>")
 			return
-		if(!user.drop_item())
+		if(!user.drop_from_inventory(I, src))
 			return
 		beaker = I
-		I.forceMove(src)
 		user.visible_message(
 			"[user] places [I] in [src].",
 			"<span class='notice'>You place [I] in [src].</span>")

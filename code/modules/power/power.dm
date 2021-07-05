@@ -9,7 +9,7 @@
 /obj/machinery/power
 	name = null
 	icon = 'icons/obj/power.dmi'
-	anchored = 1.0
+	anchored = TRUE
 	var/datum/powernet/powernet = null
 	use_power = NO_POWER_USE
 	idle_power_usage = 0
@@ -131,7 +131,7 @@
 		if(T.intact || !istype(T, /turf/simulated/floor))
 			return
 
-		if(!in_range(src, user))
+		if(!Adjacent(user))
 			return
 
 		coil.turf_place(T, user)

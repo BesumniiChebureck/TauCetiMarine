@@ -715,7 +715,7 @@ var/list/turret_icons
 	shot_synth = TC.shot_synth
 	ailock = TC.ailock
 
-	src.power_change()
+	power_change()
 
 /*
 		Portable turret constructions
@@ -883,7 +883,7 @@ var/list/turret_icons
 		var/t = sanitize_safe(input(user, "Enter new turret name", name, input_default(finish_name)), MAX_NAME_LEN)
 		if(!t)
 			return
-		if(!in_range(src, usr) && loc != usr)
+		if(!Adjacent(user))
 			return
 
 		finish_name = t

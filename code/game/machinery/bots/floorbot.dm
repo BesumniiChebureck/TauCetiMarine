@@ -177,7 +177,7 @@
 
 	var/area/t_area = get_area(t)
 
-	if(istype(t_area, /area/station/))
+	if(istype(t_area, /area/station))
 		return TRUE
 
 /obj/machinery/bot/floorbot/proc/is_broken(turf/simulated/floor/t)
@@ -438,7 +438,7 @@
 
 /obj/machinery/bot/floorbot/explode()
 	src.on = 0
-	src.visible_message("<span class='warning'><B>[src] blows apart!</B></span>")
+	visible_message("<span class='warning'><B>[src] blows apart!</B></span>")
 	var/turf/Tsec = get_turf(src)
 
 	var/obj/item/weapon/storage/toolbox/mechanical/N = new /obj/item/weapon/storage/toolbox/mechanical(Tsec)
@@ -493,7 +493,7 @@
 		var/t = sanitize_safe(input(user, "Enter new robot name", name, input_default(created_name)),MAX_NAME_LEN)
 		if (!t)
 			return
-		if (!in_range(src, usr) && src.loc != usr)
+		if (!user.Adjacent(src))
 			return
 
 		created_name = t
@@ -515,7 +515,7 @@
 
 		if (!t)
 			return
-		if (!in_range(src, usr) && src.loc != usr)
+		if (!user.Adjacent(src))
 			return
 
 		created_name = t
