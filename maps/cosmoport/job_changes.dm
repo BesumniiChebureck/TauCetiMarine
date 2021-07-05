@@ -30,6 +30,8 @@
 
 	uniform = /obj/item/clothing/under/acj/special
 	uniform_f = /obj/item/clothing/under/acj/special_fem
+	suit = /obj/item/clothing/suit/space/rig/syndi/heavy/special
+	head = /obj/item/clothing/head/helmet/space/rig/syndi/heavy/special
 	gloves = /obj/item/clothing/gloves/combat
 	shoes = /obj/item/clothing/shoes/boots/combat
 	l_ear = /obj/item/device/radio/headset/syndicate
@@ -46,7 +48,7 @@
 
 	implants = list(/obj/item/weapon/implant/dexplosive)
 
-	back = PREFERENCE_BACKPACK_FORCE
+	back = /obj/item/weapon/storage/backpack
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/m9mm,
 		/obj/item/ammo_box/magazine/m9mm,
@@ -81,6 +83,8 @@
 
 	uniform = /obj/item/clothing/under/acj/special
 	uniform_f = /obj/item/clothing/under/acj/special_fem
+	suit = /obj/item/clothing/suit/space/rig/ert/commander/special
+	head = /obj/item/clothing/head/helmet/space/rig/ert/commander/special
 	gloves = /obj/item/clothing/gloves/combat
 	shoes = /obj/item/clothing/shoes/boots/combat
 	l_ear = /obj/item/device/radio/headset/ert
@@ -97,7 +101,7 @@
 
 	implants = list(/obj/item/weapon/implant/mindshield/loyalty, /obj/item/weapon/implant/dexplosive)
 
-	back = PREFERENCE_BACKPACK_FORCE
+	back = /obj/item/weapon/storage/backpack/ert
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/m9mm,
 		/obj/item/ammo_box/magazine/m9mm,
@@ -106,7 +110,7 @@
 	survival_box = FALSE
 
 
-//CIVILIAN
+/*//CIVILIAN
 
 /datum/job/bartender/New()
 	..()
@@ -168,129 +172,6 @@
 		/obj/item/weapon/reagent_containers/pill/cyanide
 		)
 	survival_box = FALSE
-
-
-/*/datum/job/captain/equip(mob/living/carbon/human/H, visualsOnly = FALSE)
-	MAP_JOB_CHECK_BASE
-
-	if(!H)
-		return 0
-
-	H.equip_to_slot_or_del(new /obj/item/weapon/storage/backpack/clown(H), SLOT_BACK)
-	H.equip_to_slot_or_del(new /obj/item/clothing/mask/gas/clown_hat(H), SLOT_WEAR_MASK)
-
-	..()
-*/
-
-/*
-
-//NT OPERATIVE
-/datum/job/nt_space_op
-	title = "NanoTrasen Space Operative"
-	//flag = NT
-	department_flag = ENGSEC
-	faction = "Station"
-	total_positions = 6
-	spawn_positions = 6
-	supervisors = "Supreme Council of the NanoTrasen"
-	selection_color = "#ccccff"
-	idtype = /obj/item/weapon/card/id/centcom
-	access = list() //See get_access()
-	salary = 1000
-	minimal_player_age = 14
-	minimal_player_ingame_minutes = 11000
-	outfit = /datum/outfit/job/nt_space_op
-
-	//Only humans (balance)
-	/datum/job/nt_space_op/special_species_check(datum/species/S)
-		return S.name == HUMAN
-
-	/datum/job/nt_space_op/get_access()
-	return get_all_accesses()
-
-
-/datum/outfit/job/nt_space_op
-	name = OUTFIT_JOB_NAME("NanoTrasen Space Operative")
-
-	uniform = /obj/item/clothing/under/acj/special
-	uniform_f = /obj/item/clothing/under/acj/special_fem
-	gloves = /obj/item/clothing/gloves/combat
-	shoes = /obj/item/clothing/shoes/boots/combat
-	l_ear = /obj/item/device/radio/headset/ert
-	id = /obj/item/weapon/card/id/centcom/ert
-	glasses = /obj/item/clothing/glasses/sunglasses/hud/secmed
-
-	belt = /obj/item/weapon/storage/belt/military
-	belt_contents = list(
-		/obj/item/weapon/gun/projectile/automatic/pistol,
-		/obj/item/ammo_box/magazine/m9mm,
-		/obj/item/ammo_box/magazine/m9mm,
-		)
-	l_pocket_back = /obj/item/device/flashlight/seclite
-	r_pocket = /obj/item/weapon/melee/energy/sword
-
-	implants = list(/obj/item/weapon/implant/mindshield/loyalty, /obj/item/weapon/implant/dexplosive)
-
-	back = PREFERENCE_BACKPACK_FORCE
-	backpack_contents = list(
-		/obj/item/device/radio/uplink,
-		/obj/item/weapon/reagent_containers/pill/cyanide,
-		)
-	survival_box = FALSE
-
-//SYND OPERATIVE
-/datum/job/synd_space_op
-	title = "Syndicat Space Operative"
-	//flag = Synd
-	department_flag = ENGSEC
-	faction = "Station"
-	total_positions = 6
-	spawn_positions = 6
-	supervisors = "Supreme Council of the Syndicat"
-	selection_color = "#ffeeee"
-	idtype = /obj/item/weapon/card/id/centcom
-	access = list()
-	salary = 1001
-	minimal_player_age = 14
-	minimal_player_ingame_minutes = 11001
-	outfit = /datum/outfit/job/synd_space_op
-
-	//Only humans (balance)
-	/datum/job/synd_space_op/special_species_check(datum/species/S)
-		return S.name == HUMAN
-
-	/datum/job/synd_space_op/get_access()
-	return get_all_accesses()
-
-
-/datum/outfit/job/synd_space_op
-	name = OUTFIT_JOB_NAME("Syndicat Space Operative")
-
-	uniform = /obj/item/clothing/under/acj/special
-	uniform_f = /obj/item/clothing/under/acj/special_fem
-	gloves = /obj/item/clothing/gloves/combat
-	shoes = /obj/item/clothing/shoes/boots/combat
-	l_ear = /obj/item/device/radio/headset/syndicate
-	id = /obj/item/weapon/card/id/syndicate/all_access
-	glasses = /obj/item/clothing/glasses/sunglasses/hud/secmed
-
-	belt = /obj/item/weapon/storage/belt/military
-	belt_contents = list(
-		/obj/item/weapon/gun/projectile/automatic/pistol,
-		/obj/item/ammo_box/magazine/m9mm,
-		/obj/item/ammo_box/magazine/m9mm,
-		)
-	l_pocket_back = /obj/item/device/flashlight/seclite
-	r_pocket = /obj/item/weapon/melee/energy/sword
-
-	implants = list(/obj/item/weapon/implant/dexplosive)
-
-	back = PREFERENCE_BACKPACK_FORCE
-	backpack_contents = list(
-		/obj/item/device/radio/uplink,
-		/obj/item/weapon/reagent_containers/pill/cyanide,
-		)
-	survival_box = FALSE
 */
 
 ///////////////////////////////////////////////
@@ -307,7 +188,7 @@ MAP_REMOVE_JOB(mining)
 MAP_REMOVE_JOB(recycler)
 
 // Civilian
-//MAP_REMOVE_JOB(bartender) - Staff member, Civilian
+AP_REMOVE_JOB(bartender) //Make he Civilian?
 MAP_REMOVE_JOB(chef)
 MAP_REMOVE_JOB(hydro)
 MAP_REMOVE_JOB(janitor)

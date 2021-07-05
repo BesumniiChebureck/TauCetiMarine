@@ -1132,6 +1132,9 @@
 /obj/structure/stool/bed/chair{
 	dir = 8
 	},
+/obj/effect/landmark{
+	name = "JoinLate"
+	},
 /turf/unsimulated/floor{
 	dir = 8;
 	icon_state = "redbluefull"
@@ -4699,6 +4702,9 @@
 /obj/structure/stool/bed/chair{
 	dir = 8
 	},
+/obj/effect/landmark{
+	name = "JoinLate"
+	},
 /turf/unsimulated/floor{
 	dir = 8;
 	icon_state = "redbluefull"
@@ -5615,10 +5621,6 @@
 /obj/structure/stool/bed/chair/comfy/brown,
 /turf/simulated/floor/carpet/black,
 /area/spacecounter/cosmoport/main)
-"HL" = (
-/obj/item/clothing/head/helmet/space/syndicate/infiltrator,
-/turf/space,
-/area/space)
 "HM" = (
 /obj/structure/table,
 /obj/item/weapon/folder/blue,
@@ -5805,10 +5807,6 @@
 /obj/effect/decal/droppod_wreckage,
 /turf/simulated/floor/engine,
 /area/spacecounter/cosmoport/main)
-"Js" = (
-/obj/item/clothing/head/helmet/space/rig/ert/commander,
-/turf/space,
-/area/space)
 "Ju" = (
 /obj/machinery/light/spot{
 	invisibility = 101;
@@ -6163,6 +6161,9 @@
 /obj/structure/stool/bed/chair{
 	dir = 4
 	},
+/obj/effect/landmark/start{
+	name = "Fallback-Start"
+	},
 /turf/unsimulated/floor{
 	dir = 8;
 	icon_state = "redbluefull"
@@ -6326,6 +6327,9 @@
 /obj/structure/stool/bed/chair{
 	dir = 8
 	},
+/obj/effect/landmark{
+	name = "JoinLate"
+	},
 /turf/unsimulated/floor{
 	dir = 8;
 	icon_state = "redbluefull"
@@ -6375,10 +6379,6 @@
 	icon_state = "floor"
 	},
 /area/spacecounter/cosmoport/main)
-"Np" = (
-/obj/item/device/radio/headset/syndicate/alt,
-/turf/space,
-/area/space)
 "Nq" = (
 /obj/structure/table,
 /obj/item/device/flashlight/lamp/green{
@@ -6646,14 +6646,6 @@
 /obj/structure/window/basic,
 /turf/simulated/floor,
 /area/spacecounter/cosmoport/plant_b)
-"Pf" = (
-/obj/item/clothing/suit/space/rig/syndi/heavy,
-/turf/space,
-/area/space)
-"Pg" = (
-/obj/item/clothing/suit/space/rig/ert/commander,
-/turf/space,
-/area/space)
 "Pp" = (
 /obj/machinery/conveyor{
 	dir = 8;
@@ -6927,10 +6919,6 @@
 	icon_state = "dark"
 	},
 /area/spacecounter/cosmoport/plant_a)
-"QX" = (
-/obj/item/weapon/storage/backpack/ert/commander,
-/turf/space,
-/area/space)
 "Ra" = (
 /obj/structure/object_wall/evac{
 	icon_state = "15,8"
@@ -7952,13 +7940,10 @@
 /turf/simulated/floor/grass,
 /area/spacecounter/cosmoport/main)
 "XA" = (
-/obj/structure/table/glass,
-/obj/item/weapon/reagent_containers/food/snacks/csandwich{
-	pixel_y = 12
-	},
 /obj/structure/window/basic{
 	dir = 4
 	},
+/obj/item/weapon/twohanded/flora/pottedplant/thinbush,
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "darkblue"
@@ -8351,26 +8336,26 @@ sD
 sD
 sD
 dw
-xV
-xV
-xV
-xV
-xV
-xV
-xV
-Ss
-dV
-xV
-xV
-xV
-xV
-xV
-Ss
-xV
-xV
-xV
-xV
-xV
+aF
+aF
+aF
+aF
+aF
+aF
+aF
+aF
+aF
+aF
+aF
+aF
+aF
+aF
+aF
+aF
+aF
+aF
+aF
+aF
 dw
 sD
 sD
@@ -8486,7 +8471,7 @@ xV
 xV
 xV
 xV
-xV
+dV
 xV
 xV
 xV
@@ -9220,9 +9205,9 @@ dw
 dw
 sD
 sD
-WJ
-WJ
-WJ
+sD
+sD
+sD
 sD
 sD
 sD
@@ -9347,7 +9332,7 @@ oC
 dw
 sD
 sD
-WJ
+sD
 sD
 sD
 sD
@@ -9475,7 +9460,7 @@ dw
 sD
 sD
 sD
-WJ
+sD
 sD
 sD
 sD
@@ -9601,9 +9586,9 @@ Rw
 dw
 dw
 sD
-WJ
-WJ
-WJ
+sD
+sD
+sD
 sD
 sD
 sD
@@ -9732,7 +9717,7 @@ sD
 sD
 sD
 sD
-WJ
+sD
 sD
 sD
 sD
@@ -9855,13 +9840,13 @@ Rw
 dw
 dw
 sD
-WJ
-WJ
-WJ
-WJ
-WJ
-WJ
-HL
+sD
+sD
+sD
+sD
+sD
+sD
+sD
 sD
 sD
 sD
@@ -9986,12 +9971,12 @@ sD
 sD
 sD
 sD
-WJ
 sD
 sD
 sD
 sD
-Np
+sD
+sD
 sD
 sD
 sD
@@ -10109,16 +10094,16 @@ EL
 dw
 sD
 sD
-WJ
-WJ
-WJ
 sD
 sD
 sD
 sD
 sD
 sD
-Pf
+sD
+sD
+sD
+sD
 sD
 sD
 sD
@@ -10236,16 +10221,16 @@ dw
 dw
 sD
 sD
-WJ
-sD
-WJ
 sD
 sD
 sD
 sD
 sD
-Js
-Pg
+sD
+sD
+sD
+sD
+sD
 sD
 sD
 sD
@@ -10363,16 +10348,16 @@ sD
 sD
 sD
 sD
-WJ
-WJ
-WJ
 sD
 sD
 sD
 sD
 sD
 sD
-QX
+sD
+sD
+sD
+sD
 sD
 sD
 sD
@@ -16224,7 +16209,7 @@ Iu
 xX
 zY
 aQ
-YX
+QG
 YX
 Pp
 zv
@@ -18856,7 +18841,7 @@ xk
 xV
 xV
 xV
-xV
+aF
 "}
 (84,1,1) = {"
 sD
@@ -18983,7 +18968,7 @@ xk
 xV
 xV
 xV
-xV
+aF
 "}
 (85,1,1) = {"
 sD
@@ -19110,7 +19095,7 @@ zz
 xV
 xV
 xV
-Ss
+aF
 "}
 (86,1,1) = {"
 sD
@@ -19237,7 +19222,7 @@ xV
 xV
 xV
 xV
-xV
+aF
 "}
 (87,1,1) = {"
 sD
@@ -19364,7 +19349,7 @@ xV
 xV
 xV
 Jr
-xV
+aF
 "}
 (88,1,1) = {"
 sD
@@ -19491,7 +19476,7 @@ xV
 xV
 xV
 xV
-xV
+aF
 "}
 (89,1,1) = {"
 sD
@@ -19618,7 +19603,7 @@ Wl
 xV
 xV
 xV
-xV
+aF
 "}
 (90,1,1) = {"
 sD
@@ -19745,7 +19730,7 @@ xV
 xV
 xV
 xV
-xV
+aF
 "}
 (91,1,1) = {"
 sD
@@ -19872,7 +19857,7 @@ xV
 xV
 xV
 xV
-Ss
+aF
 "}
 (92,1,1) = {"
 sD
@@ -19999,7 +19984,7 @@ xV
 Wl
 xV
 xV
-xV
+aF
 "}
 (93,1,1) = {"
 sD
@@ -20126,7 +20111,7 @@ xV
 xV
 xV
 xV
-xV
+aF
 "}
 (94,1,1) = {"
 sD
@@ -20253,7 +20238,7 @@ xV
 xV
 Jr
 xV
-xV
+aF
 "}
 (95,1,1) = {"
 sD
@@ -20380,7 +20365,7 @@ xV
 xV
 xV
 xV
-xV
+aF
 "}
 (96,1,1) = {"
 sD
@@ -20507,7 +20492,7 @@ xV
 xV
 xV
 xV
-xV
+aF
 "}
 (97,1,1) = {"
 sD
@@ -20634,7 +20619,7 @@ xV
 xV
 xV
 xV
-xV
+aF
 "}
 (98,1,1) = {"
 sD
@@ -20761,7 +20746,7 @@ xV
 bi
 xV
 xV
-xV
+aF
 "}
 (99,1,1) = {"
 sD
@@ -20888,7 +20873,7 @@ xV
 xV
 xV
 xV
-Ss
+aF
 "}
 (100,1,1) = {"
 sD
@@ -21015,7 +21000,7 @@ xV
 xV
 xV
 xV
-xV
+aF
 "}
 (101,1,1) = {"
 sD
@@ -21142,7 +21127,7 @@ xV
 xV
 xV
 xV
-xV
+aF
 "}
 (102,1,1) = {"
 sD
@@ -21269,7 +21254,7 @@ xV
 xV
 Wl
 xV
-xV
+aF
 "}
 (103,1,1) = {"
 sD
@@ -21396,7 +21381,7 @@ xV
 xV
 xV
 xV
-xV
+aF
 "}
 (104,1,1) = {"
 sD
@@ -21523,7 +21508,7 @@ xV
 xV
 xV
 xV
-xV
+aF
 "}
 (105,1,1) = {"
 sD
@@ -21650,7 +21635,7 @@ Wl
 xV
 xV
 xV
-xV
+aF
 "}
 (106,1,1) = {"
 sD
@@ -21777,7 +21762,7 @@ xV
 xV
 xV
 xV
-xV
+aF
 "}
 (107,1,1) = {"
 sD
@@ -21904,7 +21889,7 @@ xV
 xV
 xV
 xV
-xV
+aF
 "}
 (108,1,1) = {"
 sD
@@ -22031,7 +22016,7 @@ xV
 Wl
 xV
 xV
-xV
+aF
 "}
 (109,1,1) = {"
 sD

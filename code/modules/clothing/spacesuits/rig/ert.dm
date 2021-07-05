@@ -46,6 +46,11 @@
 	item_color = "ert_commander"
 	armor = list(melee = 60, bullet = 65, laser = 55, energy = 45, bomb = 50, bio = 100, rad = 60)
 
+/obj/item/clothing/head/helmet/space/rig/ert/commander/special
+	name = "NanoTrasen Space Operative Helmet"
+	desc = "A helmet worn by the NanoTrasen Space Operative. Has blue highlights. Armoured and space ready."
+	armor = list(melee = 70, bullet = 70, laser = 60, energy = 60, bomb = 50, bio = 100, rad = 100)
+
 /obj/item/clothing/suit/space/rig/ert/commander
 	name = "emergency response team commander suit"
 	desc = "A suit worn by the commander of a NanoTrasen Emergency Response Team. Has blue highlights. Armoured, space ready, and fire resistant."
@@ -54,6 +59,14 @@
 	armor = list(melee = 60, bullet = 65, laser = 55, energy = 55, bomb = 50, bio = 100, rad = 60)
 	breach_threshold = 28
 	initial_modules = list(/obj/item/rig_module/simple_ai/advanced, /obj/item/rig_module/selfrepair, /obj/item/rig_module/mounted/taser, /obj/item/rig_module/mounted, /obj/item/rig_module/grenade_launcher/flashbang, /obj/item/rig_module/cooling_unit)
+
+/obj/item/clothing/suit/space/rig/ert/commander/special
+	name = "NanoTrasen Space Operative Suit"
+	desc = "A suit worn by the commander of a NanoTrasen Space Operative. Has blue highlights. Armoured, space ready, and fire resistant."
+	slowdown = 0
+	can_breach = 0
+	armor = list(melee = 70, bullet = 70, laser = 60, energy = 60, bomb = 50, bio = 100, rad = 100)
+	initial_modules = list(/obj/item/rig_module/simple_ai/advanced, /obj/item/rig_module/selfrepair, /obj/item/rig_module/chem_dispenser/combat, /obj/item/rig_module/cooling_unit)
 
 //Security
 /obj/item/clothing/head/helmet/space/rig/ert/security

@@ -827,6 +827,11 @@
 	space_armor = list(melee = 60, bullet = 65, laser = 55, energy = 45, bomb = 50, bio = 100, rad = 60)
 	rig_type = "heavy"
 
+/obj/item/clothing/head/helmet/space/rig/syndi/heavy/special
+	armor = list(melee = 70, bullet = 70, laser = 60, energy = 60, bomb = 50, bio = 100, rad = 100)
+	combat_armor = list(melee = 70, bullet = 70, laser = 60,energy = 60, bomb = 50, bio = 100, rad = 100)
+	space_armor = list(melee = 70, bullet = 70, laser = 60, energy = 60, bomb = 50, bio = 100, rad = 100)
+
 /obj/item/clothing/suit/space/rig/syndi/heavy
 	name = "heavy hybrid suit"
 	desc = "An advanced suit that protects against injuries during special operations. Heavily armored and rarely used aside from open combat conflicts."
@@ -839,6 +844,15 @@
 	combat_armor = list(melee = 75, bullet = 80, laser = 70,energy = 55, bomb = 50, bio = 100, rad = 30)
 	space_armor = list(melee = 60, bullet = 65, laser = 55, energy = 45, bomb = 50, bio = 100, rad = 60)
 	combat_slowdown = 0.5
+
+/obj/item/clothing/suit/space/rig/syndi/heavy/special
+	can_breach = 0
+	slowdown = 0
+	combat_slowdown = 0
+	armor = list(melee = 70, bullet = 70, laser = 60, energy = 60, bomb = 50, bio = 100, rad = 100)
+	initial_modules = list(/obj/item/rig_module/simple_ai/advanced, /obj/item/rig_module/selfrepair, /obj/item/rig_module/chem_dispenser/combat, /obj/item/rig_module/cooling_unit)
+	combat_armor = list(melee = 70, bullet = 70, laser = 60,energy = 60, bomb = 50, bio = 100, rad = 100)
+	space_armor = list(melee = 70, bullet = 70, laser = 60, energy = 60, bomb = 50, bio = 100, rad = 100)
 
 /obj/item/clothing/head/helmet/space/rig/syndi/elite
 	name = "Syndicate elite hybrid helmet"
