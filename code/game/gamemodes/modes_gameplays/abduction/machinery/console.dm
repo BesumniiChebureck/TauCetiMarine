@@ -24,7 +24,7 @@
 
 /obj/machinery/abductor/console
 	name = "abductor console"
-	desc = "Ship command center."
+	desc = "Центр управления кораблем."
 	icon = 'icons/obj/abductor.dmi'
 	icon_state = "console"
 	density = TRUE
@@ -47,7 +47,7 @@
 	if(!IsAbductor(user) && !isAI(user) && !isobserver(user))
 		if(user.is_busy())
 			return
-		to_chat(user, "<span class='warning'>You start mashing alien buttons at random!</span>")
+		to_chat(user, "<span class='warning'>Вы начинаете нажимать случайные инопланетные кнопки в случайном порядке!</span>")
 		if(do_after(user, 100, target = src))
 			TeleporterSend()
 	else
@@ -55,7 +55,7 @@
 
 /obj/machinery/abductor/console/ui_interact(mob/user)
 	var/dat = ""
-	dat += "<H2> Abductsoft 3000 </H2>"
+	dat += "<H2> Абдуктсофт 3000 </H2>"
 
 	if(experiment != null)
 		var/points = experiment.points

@@ -1,6 +1,6 @@
 /obj/machinery/computer/cargo
 	name = "Supply console"
-	desc = "Used to order supplies, approve requests, and control the shuttle."
+	desc = "Используется для заказа расходных материалов, утверждения запросов и управления шаттлом."
 	icon = 'icons/obj/computer.dmi'
 	icon_state = "supply"
 	state_broken_preset = "techb"
@@ -14,13 +14,13 @@
 	var/temp = ""
 	var/last_viewed_group = "categories"
 	var/reqtime = 0 //Cooldown for requisitions - Quarxink
-	var/safety_warning = "For safety reasons the automated supply shuttle \
-		cannot transport live organisms, classified nuclear weaponry or \
-		homing beacons."
+	var/safety_warning = "По соображениям безопасности автоматический шаттл снабжения \
+		не может перевозить живые организмы, классифицированное ядерное оружие или \
+		самонаводящиеся маяки."
 
 /obj/machinery/computer/cargo/request
 	name = "Supply request console"
-	desc = "Used to request supplies from cargo."
+	desc = "Используется для запроса поставок из карго."
 	icon = 'icons/obj/computer.dmi'
 	icon_state = "request"
 	light_color = "#b88b2e"
@@ -41,18 +41,18 @@
 	if(temp)
 		dat = temp
 	else
-		dat += {"<BR><B>Supply shuttle</B><HR>
-		Location: [SSshuttle.moving ? "Moving to station ([SSshuttle.eta] Mins.)":SSshuttle.at_station ? "Station":"Dock"]<BR>
-		<HR>Supply points: [SSshuttle.points]<BR>\n<BR>"}
+		dat += {"<BR><B>Шаттл снабжения</B><HR>
+		Местонахождение: [SSshuttle.moving ? "Движение к станции ([SSshuttle.eta] мин.)":SSshuttle.at_station ? "Станции":"Док"]<BR>
+		<HR>Очки снабжения: [SSshuttle.points]<BR>\n<BR>"} //ОБЯЗАТЕЛЬНО ЗАТЕСТИТЬ "Станции":"Док" и т.д.
 		if(requestonly)
-			dat += "\n<A href='?src=\ref[src];order=categories'>Request items</A><BR><BR>"
+			dat += "\n<A href='?src=\ref[src];order=categories'>Запросить товары</A><BR><BR>" //Поставки?
 		else
-			dat += {"[SSshuttle.moving ? "\n*Must be away to order items*<BR>\n<BR>":SSshuttle.at_station ? "\n*Must be away to order items*<BR>\n<BR>":"\n<A href='?src=\ref[src];order=categories'>Order items</A><BR>\n<BR>"]
-			[SSshuttle.moving ? "\n*Shuttle already called*<BR>\n<BR>":SSshuttle.at_station ? "\n<A href='?src=\ref[src];send=1'>Send away</A><BR>\n<BR>":"\n<A href='?src=\ref[src];send=1'>Send to station</A><BR>\n<BR>"]"}
-		dat += {"<A href='?src=\ref[src];viewrequests=1'>View requests</A><BR><BR>
-		<A href='?src=\ref[src];vieworders=1'>View approved orders</A><BR><BR>"}
+			dat += {"[SSshuttle.moving ? "\n*Должен быть в отъезде, чтобы заказать товары*<BR>\n<BR>":SSshuttle.at_station ? "\n*Должен быть в отъезде, чтобы заказать товары*<BR>\n<BR>":"\n<A href='?src=\ref[src];order=categories'>Товары для заказа</A><BR>\n<BR>"]
+			[SSshuttle.moving ? "\n*Шаттл уже вызван*<BR>\n<BR>":SSshuttle.at_station ? "\n<A href='?src=\ref[src];send=1'>Отослать на ЦК</A><BR>\n<BR>":"\n<A href='?src=\ref[src];send=1'>Отправить на станцию</A><BR>\n<BR>"]"} //ТЕСТИТЬ И ТЕСТИТЬ
+		dat += {"<A href='?src=\ref[src];viewrequests=1'>Просмотреть запросы</A><BR><BR>
+		<A href='?src=\ref[src];vieworders=1'>Просмотреть утвержденные запросы</A><BR><BR>"}
 		if(!requestonly)
-			dat += "<A href='?src=\ref[src];viewcentcom=1'>View Centcom message</A><BR><BR>"
+			dat += "<A href='?src=\ref[src];viewcentcom=1'>Просмотреть сообщение от ЦК</A><BR><BR>"
 
 
 	var/datum/browser/popup = new(user, "computer", name, 500, 600)
@@ -67,17 +67,17 @@
 
 	if(href_list["send"])
 		if(!SSshuttle.can_move())
-			temp = "[safety_warning]<BR><BR><A href='?src=\ref[src];mainmenu=1'>OK</A>"
+			temp = "[safety_warning]<BR><BR><A href='?src=\ref[src];mainmenu=1'>ОК</A>"
 		else if(SSshuttle.at_station)
 			SSshuttle.moving = -1
 			SSshuttle.sell()
 			SSshuttle.send()
-			temp = "The supply shuttle has departed.<BR><BR><A href='?src=\ref[src];mainmenu=1'>OK</A>"
+			temp = "Шаттл снабжения отбыл.<BR><BR><A href='?src=\ref[src];mainmenu=1'>ОК</A>"
 		else
 			SSshuttle.moving = 1
 			SSshuttle.buy()
 			SSshuttle.eta_timeofday = (world.timeofday + SSshuttle.movetime) % 864000
-			temp = "The supply shuttle has been called and will arrive in [round(SSshuttle.movetime/600,1)] minutes.<BR><BR><A href='?src=\ref[src];mainmenu=1'>OK</A>"
+			temp = "Вызван шаттл снабжения, он прибудет через [round(SSshuttle.movetime/600,1)] мин.<BR><BR><A href='?src=\ref[src];mainmenu=1'>ОК</A>"
 			post_signal("supply")
 
 	if(href_list["order"])
@@ -87,16 +87,16 @@
 			//all_supply_groups
 			//Request what?
 			last_viewed_group = "categories"
-			temp = "<b>Supply points: [SSshuttle.points]</b><BR>"
-			temp += "<A href='?src=\ref[src];mainmenu=1'>Main Menu</A><HR><BR><BR>"
-			temp += "<b>Select a category</b><BR><BR>"
+			temp = "<b>Очки снабжения: [SSshuttle.points]</b><BR>"
+			temp += "<A href='?src=\ref[src];mainmenu=1'>Главное меню</A><HR><BR><BR>"
+			temp += "<b>Выбрать категорию</b><BR><BR>"
 			for(var/supply_group_name in all_supply_groups )
 				temp += "<A href='?src=\ref[src];order=[supply_group_name]'>[supply_group_name]</A><BR>"
 		else
 			last_viewed_group = href_list["order"]
-			temp = "<b>Supply points: [SSshuttle.points]</b><BR>"
-			temp += "<b>Request from: [last_viewed_group]</b><BR>"
-			temp += "<A href='?src=\ref[src];order=categories'>Back to all categories</A><HR>"
+			temp = "<b>Очки снабжения: [SSshuttle.points]</b><BR>"
+			temp += "<b>Запрос от: [last_viewed_group]</b><BR>"
+			temp += "<A href='?src=\ref[src];order=categories'>Вернуться ко всем категориям</A><HR>"
 			temp += "<div class='blockCargo'>"
 			for(var/supply_name in SSshuttle.supply_packs)
 				var/datum/supply_pack/N = SSshuttle.supply_packs[supply_name]
@@ -107,7 +107,7 @@
 					continue
 				temp += {"<div class="spoiler"><input type="checkbox" id='[supply_name]'>"}
 				temp += {"<table><tr><td><span class="cargo32x32 [replace_characters("[N.crate_type]",  list("[/obj]/" = "", "/" = "-"))]"></span></td>"}
-				temp += {"<td><label for='[supply_name]'><b>[supply_name]</b></label></td><td><A href='?src=\ref[src];doorder=[supply_name]'>Cost: [N.cost]</A></td></tr></table>"}		//the obj because it would get caught by the garbage
+				temp += {"<td><label for='[supply_name]'><b>[supply_name]</b></label></td><td><A href='?src=\ref[src];doorder=[supply_name]'>Стоимость: [N.cost]</A></td></tr></table>"}		//the obj because it would get caught by the garbage
 				temp += "<div><table>"
 				if(ispath(N.crate_type, /obj/structure/closet/critter))
 					var/obj/structure/closet/critter/C = N.crate_type
@@ -139,27 +139,27 @@
 
 	if(href_list["doorder"])
 		if(world.time < reqtime)
-			visible_message("<b>[src]</b>'s monitor flashes, \"[world.time - reqtime] seconds remaining until another requisition form may be printed.\"")
+			visible_message("монитор <b>[src]</b> мигает, \"[world.time - reqtime] сек. осталось до того, как можно будет распечатать другую форму заявки.\"")
 			return FALSE
 		//Find the correct supply_pack datum
 		var/datum/supply_pack/P = SSshuttle.supply_packs[href_list["doorder"]]
 		if(!istype(P))
 			return FALSE
 		var/timeout = world.time + 600
-		var/reason = sanitize(input(usr,"Reason:","Why do you require this item?","") as null|text)
+		var/reason = sanitize(input(usr,"Причина:","Зачем вам нужен этот предмет?","") as null|text)
 		if(world.time > timeout)
 			return FALSE
 		if(!reason)
 			return FALSE
-		var/idname = "*None Provided*"
-		var/idrank = "*None Provided*"
+		var/idname = "*Не указано*"
+		var/idrank = "*Не указано*"
 		if(ishuman(usr))
 			var/mob/living/carbon/human/H = usr
 			idname = H.get_authentification_name()
 			idrank = H.get_assignment()
 		else if(issilicon(usr))
 			idname = usr.real_name
-			idrank = "Silicon"
+			idrank = "Синтет"
 
 		reqtime = (world.time + 5) % 1e5
 
@@ -169,18 +169,18 @@
 		O.generateRequisition(loc) //print supply request
 
 		if(requestonly)
-			temp = "Thanks for your request. The cargo team will process it as soon as possible.<BR>"
-			temp += "<BR><A href='?src=\ref[src];order=[last_viewed_group]'>Back</A> <A href='?src=\ref[src];mainmenu=1'>Main Menu</A>"
+			temp = "Спасибо за ваш заказ. Грузовая бригада обработает его в кратчайшие сроки..<BR>"
+			temp += "<BR><A href='?src=\ref[src];order=[last_viewed_group]'>Назад</A> <A href='?src=\ref[src];mainmenu=1'>Главное меню</A>"
 		else
-			temp = "Order request placed.<BR>"
-			temp += "<BR><A href='?src=\ref[src];order=[last_viewed_group]'>Back</A> | <A href='?src=\ref[src];mainmenu=1'>Main Menu</A> | <A href='?src=\ref[src];confirmorder=[O.id]'>Authorize Order</A>"
+			temp = "Запрос на поставку размещен.<BR>"
+			temp += "<BR><A href='?src=\ref[src];order=[last_viewed_group]'>Назад</A> | <A href='?src=\ref[src];mainmenu=1'>Главное меню</A> | <A href='?src=\ref[src];confirmorder=[O.id]'>Авторизовать заказ</A>"
 
 	if(href_list["confirmorder"])
 		//Find the correct supply_order datum
 		var/ordernum = text2num(href_list["confirmorder"])
 		var/datum/supply_order/O
 		var/datum/supply_pack/P
-		temp = "Invalid Request"
+		temp = "Неверный запрос"
 		for(var/i = 1 to SSshuttle.requestlist.len)
 			var/datum/supply_order/SO = SSshuttle.requestlist[i]
 			if(SO.id == ordernum)
@@ -190,59 +190,59 @@
 					SSshuttle.requestlist.Cut(i,i+1)
 					SSshuttle.points -= P.cost
 					SSshuttle.shoppinglist += O
-					temp = "Thanks for your order.<BR>"
-					temp += "<BR><A href='?src=\ref[src];viewrequests=1'>Back</A> <A href='?src=\ref[src];mainmenu=1'>Main Menu</A>"
+					temp = "Спасибо за ваш заказ.<BR>"
+					temp += "<BR><A href='?src=\ref[src];viewrequests=1'>Назад</A> <A href='?src=\ref[src];mainmenu=1'>Главное меню</A>"
 				else
-					temp = "Not enough supply points.<BR>"
-					temp += "<BR><A href='?src=\ref[src];viewrequests=1'>Back</A> <A href='?src=\ref[src];mainmenu=1'>Main Menu</A>"
+					temp = "Недостаточно очков снабжения.<BR>"
+					temp += "<BR><A href='?src=\ref[src];viewrequests=1'>Назад</A> <A href='?src=\ref[src];mainmenu=1'>Главное меню</A>"
 				break
 
 	if(href_list["vieworders"])
-		temp = "Current approved orders: <BR><BR>"
+		temp = "Текущие утвержденные заказы: <BR><BR>"
 		for(var/S in SSshuttle.shoppinglist)
 			var/datum/supply_order/SO = S
 			if(requestonly)
-				temp += "[SO.object.name] approved by [SO.orderer] [SO.reason ? "([SO.reason])":""]<BR>"
+				temp += "[SO.object.name] утвержденно [SO.orderer] [SO.reason ? "([SO.reason])":""]<BR>"//беда с падежами
 			else
-				temp += "#[SO.id] - [SO.object.name] approved by [SO.orderer][SO.reason ? " ([SO.reason])":""]<BR>"
-		temp += "<BR><A href='?src=\ref[src];mainmenu=1'>OK</A>"
+				temp += "#[SO.id] - [SO.object.name] утвержденно [SO.orderer][SO.reason ? " ([SO.reason])":""]<BR>"//беда с падежами
+		temp += "<BR><A href='?src=\ref[src];mainmenu=1'>ОК</A>"
 
 	if(href_list["viewrequests"])
-		temp = "Current requests: <BR><BR>"
+		temp = "Текущие запросы: <BR><BR>"
 		for(var/S in SSshuttle.requestlist)
 			var/datum/supply_order/SO = S
 			if(requestonly)
-				temp += "#[SO.id] - [SO.object.name] requested by [SO.orderer]<BR>"
+				temp += "#[SO.id] - [SO.object.name] запрошенно [SO.orderer]<BR>" //беда с падежами
 			else
-				temp += "#[SO.id] - [SO.object.name] requested by [SO.orderer]  [SSshuttle.moving ? "":SSshuttle.at_station ? "":"<A href='?src=\ref[src];confirmorder=[SO.id]'>Approve</A> <A href='?src=\ref[src];rreq=[SO.id]'>Remove</A>"]<BR>"
+				temp += "#[SO.id] - [SO.object.name] запрошенно [SO.orderer]  [SSshuttle.moving ? "":SSshuttle.at_station ? "":"<A href='?src=\ref[src];confirmorder=[SO.id]'>Утвердить</A> <A href='?src=\ref[src];rreq=[SO.id]'>Удалить</A>"]<BR>"//беда с падежами
 		if(!requestonly)
-			temp += "<BR><A href='?src=\ref[src];clearreq=1'>Clear list</A>"
-		temp += "<BR><A href='?src=\ref[src];mainmenu=1'>OK</A>"
+			temp += "<BR><A href='?src=\ref[src];clearreq=1'>Очистить список</A>"
+		temp += "<BR><A href='?src=\ref[src];mainmenu=1'>ОК</A>"
 
 	else if (href_list["rreq"])
 		var/ordernum = text2num(href_list["rreq"])
-		temp = "Invalid Request.<BR>"
+		temp = "Неверный запрос.<BR>"
 		for(var/i = 1 to SSshuttle.requestlist.len)
 			var/datum/supply_order/SO = SSshuttle.requestlist[i]
 			if(SO.id == ordernum)
 				SSshuttle.requestlist.Cut(i,i+1)
-				temp = "Request removed.<BR>"
+				temp = "Запрос удален.<BR>"
 				break
-		temp += "<BR><A href='?src=\ref[src];viewrequests=1'>Back</A> <A href='?src=\ref[src];mainmenu=1'>Main Menu</A>"
+		temp += "<BR><A href='?src=\ref[src];viewrequests=1'>Назад</A> <A href='?src=\ref[src];mainmenu=1'>Главное Меню</A>"
 
 	else if (href_list["clearreq"])
 		SSshuttle.requestlist.Cut()
-		temp = "List cleared.<BR>"
-		temp += "<BR><A href='?src=\ref[src];mainmenu=1'>OK</A>"
+		temp = "Список очищен.<BR>"
+		temp += "<BR><A href='?src=\ref[src];mainmenu=1'>ОК</A>"
 
 	if(href_list["viewcentcom"])
 		if(SSshuttle && SSshuttle.centcom_message)
-			temp += "Latest Centcom message: <BR><BR>"
+			temp += "Последнее сообщение ЦентрКома: <BR><BR>"
 			temp += SSshuttle.centcom_message
 			temp += "<BR><BR>"
 		else
-			temp += "Can not find any messages from Centcom. <BR><BR>"
-		temp += "<BR><A href='?src=\ref[src];mainmenu=1'>OK</A>"
+			temp += "Невозможно найти сообщения от ЦентрКома. <BR><BR>"
+		temp += "<BR><A href='?src=\ref[src];mainmenu=1'>ОК</A>"
 
 	if(href_list["mainmenu"])
 		temp = null
@@ -252,11 +252,11 @@
 /obj/machinery/computer/cargo/emag_act(mob/user)
 	if(hacked)
 		return FALSE
-	to_chat(user, "<span class='notice'>Special supplies unlocked.</span>")
+	to_chat(user, "<span class='notice'>Разблокированы специальные поставки.</span>")
 	hacked = TRUE
 	contraband = TRUE
-	user.visible_message("<span class='warning'>[user] swipes a suspicious card through [src]!</span>",
-	"<span class='notice'>You adjust [src]'s routing and receiver spectrum, unlocking special supplies and contraband.</span>")
+	user.visible_message("<span class='warning'>[user] проводит подозрительной картой через [src]!</span>", //без бед с падежами
+	"<span class='notice'>Вы настраиваете маршрутизацию и спектр приемников консоли снабжения, разблокируя специальные поставки и контрабанду.</span>")
 
 	// This also permamently sets this on the circuit board
 	var/obj/item/weapon/circuitboard/computer/cargo/board = circuit
