@@ -136,16 +136,6 @@ var/list/blacklisted_builds = list(
 		cmd_admin_pm(C,null)
 		return
 
-	if(href_list["irc_msg"])
-		if(!holder && received_irc_pm < world.time - 6000) //Worse they can do is spam IRC for 10 minutes
-			to_chat(usr, "<span class='warning'>You are no longer able to use this, it's been more then 10 minutes since an admin on IRC has responded to you</span>")
-			return
-		if(mute_irc)
-			to_chat(usr, "<span class='warning'You cannot use this as your client has been muted from sending messages to the admins on IRC</span>")
-			return
-		cmd_admin_irc_pm()
-		return
-
 	//Logs all hrefs
 	log_href("[src] (usr:[usr]) || [hsrc ? "[hsrc] " : ""][href]")
 
@@ -264,6 +254,7 @@ var/list/blacklisted_builds = list(
 		preferences_datums[ckey] = prefs
 	prefs.last_ip = address				//these are gonna be used for banning
 	prefs.last_id = computer_id			//these are gonna be used for banning
+	fps = (prefs.clientfps < 0) ? RECOMMENDED_FPS : prefs.clientfps
 
 	var/cur_date = time2text(world.realtime, "YYYY/MM/DD hh:mm:ss")
 	if("[computer_id]" in prefs.cid_list)
@@ -650,21 +641,11 @@ var/list/blacklisted_builds = list(
 		void = new()
 		screen += void
 
-//This may help with UI's that were stuck and don't want to open anymore.
-/client/verb/close_nanouis()
-	set name = "Fix UI (Close All)"
-	set category = "OOC"
-	set desc = "Closes all opened NanoUI/TGUI."
-
-	nanomanager.close_user_uis(usr)
-	SStgui.force_close_all_windows(usr)
-	to_chat(src, "<span class='notice'>You forcibly close any opened TGUI/NanoUI interfaces.</span>")
-
 /client/proc/show_character_previews(mutable_appearance/MA)
 	var/pos = 0
 	for(var/D in cardinal)
 		pos++
-		var/obj/screen/O = LAZYACCESS(char_render_holders, "[D]")
+		var/atom/movable/screen/O = LAZYACCESS(char_render_holders, "[D]")
 		if(!O)
 			O = new
 			LAZYSET(char_render_holders, "[D]", O)
@@ -676,7 +657,7 @@ var/list/blacklisted_builds = list(
 
 /client/proc/clear_character_previews()
 	for(var/index in char_render_holders)
-		var/obj/screen/S = char_render_holders[index]
+		var/atom/movable/screen/S = char_render_holders[index]
 		screen -= S
 		qdel(S)
 	char_render_holders = null
