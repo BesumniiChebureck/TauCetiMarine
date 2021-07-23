@@ -8,7 +8,7 @@
 	throw_speed = 3
 	throw_range = 7
 	var/amount = 30					//How much paper is in the bin.
-	var/list/papers = new/list()	//List of papers put in the bin for reference.
+	var/list/papers = list()	//List of papers put in the bin for reference.
 
 
 /obj/item/weapon/paper_bin/MouseDrop(mob/user)
@@ -44,7 +44,7 @@
 		else
 			if(response == "Regular")
 				P = new /obj/item/weapon/paper
-				if(Holiday == "April Fool's Day")
+				if(SSholiday.holidays[APRIL_FOOLS])
 					if(prob(30))
 						P.info = "<font face=\"[P.crayonfont]\" color=\"red\"><b>HONK HONK HONK HONK HONK HONK HONK<br>HOOOOOOOOOOOOOOOOOOOOOONK<br>APRIL FOOLS</b></font>"
 						P.rigged = 1
