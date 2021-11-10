@@ -10615,22 +10615,14 @@
 	},
 /area/station/medical/morgue)
 "auY" = (
-/obj/structure/window/reinforced{
-	dir = 8;
-	req_access = list(72)
-	},
-/obj/machinery/door/window/southright{
-	dir = 4;
-	name = "Medbay Storage";
-	req_access = list(72)
-	},
-/obj/structure/window/reinforced{
-	dir = 1
+/obj/structure/sign/departments/science{
+	pixel_y = -32
 	},
 /turf/simulated/floor{
-	icon_state = "delivery"
+	dir = 8;
+	icon_state = "neutralcorner"
 	},
-/area/station/medical/storage)
+/area/space)
 "auZ" = (
 /obj/structure/disposalpipe/segment{
 	dir = 1;
@@ -12628,6 +12620,952 @@
 	},
 /turf/space,
 /area/shuttle/administration/station)
+"ayY" = (
+/obj/machinery/door/airlock/research{
+	name = "Research Division Access";
+	req_access = list(47)
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor,
+/area/space)
+"ayZ" = (
+/obj/structure/sign/warning/securearea,
+/turf/simulated/wall,
+/area/space)
+"aza" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/shutters{
+	id = "Skynet_launch";
+	name = "Mech Bay"
+	},
+/turf/simulated/floor{
+	icon_state = "delivery"
+	},
+/area/space)
+"azb" = (
+/turf/simulated/floor{
+	icon_state = "bot"
+	},
+/area/space)
+"azc" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/machinery/alarm{
+	dir = 4;
+	pixel_x = -25
+	},
+/obj/structure/closet/firecloset,
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "warnwhite"
+	},
+/area/space)
+"azd" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "white"
+	},
+/area/space)
+"aze" = (
+/obj/machinery/camera{
+	c_tag = "Research Division Access";
+	network = list("SS13","Research")
+	},
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 12
+	},
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = 24
+	},
+/turf/simulated/floor{
+	icon_state = "freezerfloor"
+	},
+/area/space)
+"azf" = (
+/obj/machinery/r_n_d/circuit_imprinter,
+/obj/item/weapon/reagent_containers/glass/beaker/sulphuric,
+/turf/simulated/floor{
+	icon_state = "delivery"
+	},
+/area/space)
+"azg" = (
+/obj/machinery/computer/rdconsole/robotics,
+/turf/simulated/floor{
+	icon_state = "delivery"
+	},
+/area/space)
+"azh" = (
+/obj/machinery/door_control{
+	id = "Skynet_launch";
+	name = "Mech Bay Door Control";
+	pixel_x = 24;
+	pixel_y = 24
+	},
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "warning"
+	},
+/area/space)
+"azi" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "Biohazard";
+	name = "Biohazard Shutter";
+	opacity = 0
+	},
+/obj/machinery/door/window/southright{
+	dir = 1;
+	name = "Robotics Desk";
+	req_access = list(29,47)
+	},
+/obj/item/weapon/paper_bin,
+/obj/item/weapon/pen,
+/turf/simulated/floor/plating,
+/area/space)
+"azj" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "Biohazard";
+	name = "Biohazard Shutter";
+	opacity = 0
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"azk" = (
+/obj/structure/closet/firecloset,
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/item/device/radio/intercom{
+	name = "Station Intercom (General)";
+	pixel_x = -28
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "warnwhite"
+	},
+/area/space)
+"azl" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor{
+	icon_state = "white"
+	},
+/area/space)
+"azm" = (
+/obj/machinery/shower{
+	dir = 8
+	},
+/obj/structure/drain{
+	drainage = 2
+	},
+/turf/simulated/floor{
+	icon_state = "freezerfloor"
+	},
+/area/space)
+"azn" = (
+/obj/structure/table,
+/obj/item/stack/sheet/metal{
+	amount = 50
+	},
+/obj/item/stack/sheet/metal{
+	amount = 50
+	},
+/obj/item/stack/sheet/metal{
+	amount = 50
+	},
+/obj/item/stack/sheet/metal{
+	amount = 50
+	},
+/obj/item/stack/sheet/metal{
+	amount = 50
+	},
+/obj/item/stack/sheet/metal{
+	amount = 50
+	},
+/obj/item/stack/sheet/glass{
+	amount = 50;
+	pixel_x = 2;
+	pixel_y = 1
+	},
+/obj/item/device/flash,
+/obj/item/device/flash,
+/turf/simulated/floor{
+	icon_state = "delivery"
+	},
+/area/space)
+"azo" = (
+/obj/structure/stool/bed/chair/office/light{
+	dir = 8
+	},
+/obj/effect/landmark/start{
+	name = "Roboticist"
+	},
+/turf/simulated/floor{
+	dir = 9;
+	icon_state = "warning"
+	},
+/area/space)
+"azp" = (
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "warningcorner"
+	},
+/area/space)
+"azq" = (
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "bot"
+	},
+/area/space)
+"azr" = (
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "warningcorner"
+	},
+/area/space)
+"azs" = (
+/obj/machinery/vending/robotics,
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "warning"
+	},
+/area/space)
+"azt" = (
+/obj/structure/stool/bed/chair/office/light{
+	dir = 1
+	},
+/turf/simulated/floor{
+	icon_state = "delivery"
+	},
+/area/space)
+"azu" = (
+/obj/structure/filingcabinet/chestdrawer,
+/turf/simulated/floor{
+	icon_state = "delivery"
+	},
+/area/space)
+"azv" = (
+/obj/structure/table,
+/turf/simulated/floor{
+	icon_state = "delivery"
+	},
+/area/space)
+"azw" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/structure/closet/l3closet/scientist,
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "warnwhite"
+	},
+/area/space)
+"azx" = (
+/obj/effect/landmark/start{
+	name = "Research Assistant"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "white"
+	},
+/area/space)
+"azy" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 12
+	},
+/turf/simulated/floor{
+	icon_state = "freezerfloor"
+	},
+/area/space)
+"azz" = (
+/obj/machinery/mecha_part_fabricator{
+	dir = 8
+	},
+/turf/simulated/floor{
+	icon_state = "delivery"
+	},
+/area/space)
+"azA" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
+	},
+/turf/simulated/floor,
+/area/space)
+"azB" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "bot"
+	},
+/area/space)
+"azC" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "warning"
+	},
+/area/space)
+"azD" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "delivery"
+	},
+/area/space)
+"azE" = (
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
+/obj/machinery/disposal,
+/turf/simulated/floor{
+	icon_state = "delivery"
+	},
+/area/space)
+"azF" = (
+/obj/structure/sign/departments/science,
+/turf/simulated/wall/r_wall,
+/area/space)
+"azG" = (
+/obj/machinery/door/airlock/research{
+	name = "Research Division Access";
+	req_access = list(47)
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor,
+/area/space)
+"azH" = (
+/obj/structure/sign/warning/securearea,
+/turf/simulated/wall/r_wall,
+/area/space)
+"azI" = (
+/obj/structure/rack,
+/obj/item/stack/sheet/plasteel{
+	amount = 50
+	},
+/obj/item/stack/cable_coil/red,
+/obj/item/weapon/storage/toolbox/electrical{
+	pixel_y = 4
+	},
+/obj/item/weapon/storage/toolbox/mechanical,
+/obj/item/clothing/head/welding,
+/obj/item/clothing/head/welding,
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24
+	},
+/turf/simulated/floor{
+	icon_state = "delivery"
+	},
+/area/space)
+"azJ" = (
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "warningcorner"
+	},
+/area/space)
+"azK" = (
+/obj/structure/disposalpipe/segment,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "bot"
+	},
+/area/space)
+"azL" = (
+/turf/simulated/floor{
+	icon_state = "warningcorner"
+	},
+/area/space)
+"azM" = (
+/obj/structure/closet/wardrobe/robotics_black,
+/turf/simulated/floor{
+	icon_state = "delivery"
+	},
+/area/space)
+"azN" = (
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "Biohazard";
+	name = "Biohazard Shutter";
+	opacity = 0
+	},
+/turf/simulated/floor{
+	icon_state = "delivery"
+	},
+/area/space)
+"azO" = (
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "Biohazard";
+	name = "Biohazard Shutter";
+	opacity = 0
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor{
+	icon_state = "delivery"
+	},
+/area/space)
+"azP" = (
+/obj/structure/table,
+/obj/item/device/flash/synthetic,
+/obj/item/device/flash/synthetic,
+/obj/item/device/flash/synthetic,
+/obj/item/device/flash/synthetic,
+/obj/item/device/flash/synthetic,
+/obj/item/device/flash/synthetic,
+/obj/item/device/mmi/posibrain,
+/obj/item/device/robotanalyzer,
+/turf/simulated/floor{
+	icon_state = "delivery"
+	},
+/area/space)
+"azQ" = (
+/obj/structure/table,
+/obj/item/device/mmi,
+/obj/item/device/mmi,
+/obj/item/device/mmi,
+/obj/item/weapon/storage/box/bodybags{
+	pixel_x = -1;
+	pixel_y = -2
+	},
+/turf/simulated/floor{
+	icon_state = "delivery"
+	},
+/area/space)
+"azR" = (
+/obj/structure/disposalpipe/segment,
+/turf/simulated/floor{
+	icon_state = "warning"
+	},
+/area/space)
+"azS" = (
+/obj/structure/table,
+/obj/item/weapon/storage/firstaid/regular{
+	empty = 1;
+	name = "First-Aid (empty)"
+	},
+/obj/item/weapon/storage/firstaid/regular{
+	empty = 1;
+	name = "First-Aid (empty)"
+	},
+/obj/item/weapon/storage/firstaid/regular{
+	empty = 1;
+	name = "First-Aid (empty)"
+	},
+/obj/item/device/healthanalyzer,
+/obj/item/device/healthanalyzer,
+/obj/item/device/healthanalyzer,
+/turf/simulated/floor{
+	icon_state = "delivery"
+	},
+/area/space)
+"azT" = (
+/obj/machinery/computer/mech_bay_power_console,
+/turf/simulated/floor/bluegrid,
+/area/space)
+"azU" = (
+/turf/simulated/floor/mech_bay_recharge_floor,
+/area/space)
+"azV" = (
+/obj/machinery/mech_bay_recharge_port{
+	dir = 8
+	},
+/turf/simulated/floor/plating{
+	icon_state = "platebot";
+	nitrogen = 0.01;
+	oxygen = 0.01
+	},
+/area/space)
+"azW" = (
+/obj/machinery/door/window/southright{
+	dir = 4;
+	name = "Medbay Storage";
+	req_access = list(72)
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/simulated/floor{
+	icon_state = "delivery"
+	},
+/area/station/medical/storage)
+"azX" = (
+/obj/machinery/door/firedoor,
+/turf/simulated/floor{
+	icon_state = "whitecorner"
+	},
+/area/space)
+"azY" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/landmark{
+	name = "lightsout"
+	},
+/turf/simulated/floor{
+	icon_state = "whitehall"
+	},
+/area/space)
+"azZ" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = 24
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "whitecorner"
+	},
+/area/space)
+"aAa" = (
+/obj/structure/table,
+/obj/item/weapon/scalpel{
+	pixel_y = 6
+	},
+/obj/item/weapon/circular_saw{
+	pixel_y = -4
+	},
+/obj/item/weapon/razor,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/simulated/floor{
+	icon_state = "white"
+	},
+/area/space)
+"aAb" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/optable{
+	name = "Robotics Operating Table"
+	},
+/turf/simulated/floor{
+	icon_state = "white"
+	},
+/area/space)
+"aAc" = (
+/obj/structure/disposalpipe/segment,
+/turf/simulated/floor{
+	icon_state = "delivery"
+	},
+/area/space)
+"aAd" = (
+/obj/structure/table,
+/obj/item/device/assembly/prox_sensor{
+	pixel_x = -8;
+	pixel_y = 4
+	},
+/obj/item/device/assembly/prox_sensor{
+	pixel_x = -8;
+	pixel_y = 4
+	},
+/obj/item/device/assembly/prox_sensor{
+	pixel_x = -8;
+	pixel_y = 4
+	},
+/obj/item/device/assembly/prox_sensor{
+	pixel_x = -6;
+	pixel_y = 2
+	},
+/obj/item/weapon/stock_parts/cell/high{
+	charge = 100;
+	maxcharge = 15000;
+	pixel_x = 2;
+	pixel_y = 6
+	},
+/obj/item/weapon/stock_parts/cell/high{
+	charge = 100;
+	maxcharge = 15000;
+	pixel_x = 3;
+	pixel_y = -2
+	},
+/turf/simulated/floor{
+	icon_state = "delivery"
+	},
+/area/space)
+"aAe" = (
+/obj/structure/table,
+/obj/item/weapon/crowbar,
+/obj/item/device/radio/headset/headset_sci{
+	pixel_x = -3
+	},
+/obj/item/device/multitool{
+	pixel_x = 3
+	},
+/obj/item/device/multitool{
+	pixel_x = 3
+	},
+/obj/item/clothing/glasses/welding,
+/obj/item/clothing/glasses/welding,
+/turf/simulated/floor{
+	icon_state = "delivery"
+	},
+/area/space)
+"aAf" = (
+/obj/item/weapon/twohanded/flora/random,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "whitepurplecorner"
+	},
+/area/space)
+"aAg" = (
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "whitepurplecorner"
+	},
+/area/space)
+"aAh" = (
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "whitepurplecorner"
+	},
+/area/space)
+"aAi" = (
+/obj/item/weapon/twohanded/flora/random,
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "whitepurplecorner"
+	},
+/area/space)
+"aAj" = (
+/obj/machinery/door/airlock/research/glass{
+	name = "Robotics Lab";
+	req_access = list(29,47)
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/disposalpipe/segment,
+/turf/simulated/floor,
+/area/space)
+"aAk" = (
+/obj/structure/disposalpipe/segment{
+	dir = 1;
+	icon_state = "pipe-c"
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "whitepurple"
+	},
+/area/space)
+"aAl" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "whitepurplecorner"
+	},
+/area/space)
+"aAm" = (
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "Biohazard";
+	name = "Biohazard Shutter";
+	opacity = 0
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "delivery"
+	},
+/area/space)
+"aAn" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/maintenance{
+	name = "Science Maintenance";
+	req_access = list(47)
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"aAo" = (
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "whitepurplecorner"
+	},
+/area/space)
+"aAp" = (
+/turf/simulated/floor{
+	icon_state = "whitepurplecorner"
+	},
+/area/space)
+"aAq" = (
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "Biohazard";
+	name = "Biohazard Shutter";
+	opacity = 0
+	},
+/obj/machinery/door/window/eastright{
+	dir = 8;
+	name = "Research Division Delivery";
+	req_access = list(47)
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/simulated/floor{
+	icon_state = "delivery"
+	},
+/area/space)
+"aAr" = (
+/obj/machinery/navbeacon{
+	codes_txt = "delivery;dir=4";
+	freq = 1400;
+	location = "Research Division"
+	},
+/obj/structure/plasticflaps{
+	opacity = 1
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "bot"
+	},
+/area/space)
+"aAs" = (
+/obj/item/weapon/twohanded/flora/random,
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "whitepurplecorner"
+	},
+/area/space)
+"aAt" = (
+/obj/structure/disposalpipe/segment,
+/turf/simulated/floor{
+	icon_state = "whitepurple"
+	},
+/area/space)
+"aAu" = (
+/obj/item/weapon/twohanded/flora/random,
+/turf/simulated/floor{
+	icon_state = "whitepurplecorner"
+	},
+/area/space)
+"aAv" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/space)
+"aAw" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/door/airlock/research/glass{
+	name = "Break Room";
+	req_access = list(47)
+	},
+/turf/simulated/floor{
+	icon_state = "whitepurplefull"
+	},
+/area/space)
+"aAx" = (
+/obj/structure/table/glass,
+/obj/item/weapon/twohanded/flora/deskleaf{
+	pixel_x = -4;
+	pixel_y = 14
+	},
+/obj/item/weapon/storage/box/donkpockets{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "cafeteria"
+	},
+/area/space)
+"aAy" = (
+/obj/structure/stool/bed/chair/comfy/black{
+	dir = 8
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "whitepurplecorner"
+	},
+/area/space)
+"aAz" = (
+/obj/structure/disposalpipe/segment,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "whitepurple"
+	},
+/area/space)
+"aAA" = (
+/obj/structure/stool/bed/chair/comfy/black{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "whitepurplecorner"
+	},
+/area/space)
+"aAB" = (
+/obj/item/device/radio/intercom{
+	name = "Station Intercom (General)";
+	pixel_x = 31
+	},
+/obj/structure/table/glass,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "whitehall"
+	},
+/area/space)
+"aAC" = (
+/obj/structure/stool/bed/chair/comfy/black{
+	dir = 1
+	},
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "cafeteria"
+	},
+/area/space)
+"aAD" = (
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "cafeteria"
+	},
+/area/space)
+"aAE" = (
+/obj/structure/disposalpipe/segment{
+	dir = 1;
+	icon_state = "pipe-c"
+	},
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "cafeteria"
+	},
+/area/space)
+"aAF" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "cafeteria"
+	},
+/area/space)
+"aAG" = (
+/obj/structure/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
+	},
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 12
+	},
+/obj/structure/mirror{
+	pixel_x = 28
+	},
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "cafeteria"
+	},
+/area/space)
+"aAH" = (
+/obj/structure/table,
+/obj/machinery/kitchen_machine/microwave{
+	pixel_x = -3;
+	pixel_y = 6
+	},
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "cafeteria"
+	},
+/area/space)
+"aAI" = (
+/obj/machinery/vending/coffee,
+/turf/simulated/floor{
+	icon_state = "whitepurplecorner"
+	},
+/area/space)
+"aAJ" = (
+/obj/random/vending/cola,
+/turf/simulated/floor{
+	icon_state = "whitepurple"
+	},
+/area/space)
+"aAK" = (
+/obj/random/vending/snack,
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "whitepurplecorner"
+	},
+/area/space)
+"aAL" = (
+/obj/machinery/disposal,
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "cafeteria"
+	},
+/area/space)
 "aHA" = (
 /obj/structure/rack,
 /obj/item/clothing/shoes/magboots,
@@ -42389,10 +43327,10 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
+hMb
+aAg
+aAo
+hMb
 aaa
 aaa
 aaa
@@ -42646,10 +43584,10 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
+hMb
+aAg
+aAo
+hMb
 aaa
 aaa
 aaa
@@ -42903,10 +43841,10 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
+hMb
+aAg
+aAo
+hMb
 aaa
 aaa
 aaa
@@ -43159,16 +44097,16 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+hMb
+hMb
+aAg
+aAo
+hMb
+hMb
+hMb
+hMb
+hMb
+hMb
 aaa
 aaa
 aaa
@@ -43390,6 +44328,10 @@ aaa
 aaa
 aaa
 aaa
+hMb
+aaM
+ajN
+hMb
 aaa
 aaa
 aaa
@@ -43403,29 +44345,25 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+hMb
+aaM
+ajN
+aaC
+aaC
+aaC
+aaC
+aaC
+hMb
+hMb
+aAf
+aAg
+aAo
+aAs
+hMb
+aAx
+aAC
+aAH
+hMb
 aaa
 aaa
 aaa
@@ -43647,6 +44585,10 @@ aaa
 aaa
 aaa
 aaa
+hMb
+aaM
+ajN
+hMb
 aaa
 aaa
 aaa
@@ -43660,29 +44602,25 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+hMb
+aaM
+auY
+hMb
+azc
+azk
+azw
+azF
+azN
+azX
+aAg
+aAg
+aAo
+aAo
+aAv
+aAy
+aAD
+aAI
+hMb
 aaa
 aaa
 aaa
@@ -43904,6 +44842,10 @@ aaa
 aaa
 aaa
 aaa
+hMb
+aaM
+ajN
+hMb
 aaa
 aaa
 aaa
@@ -43917,29 +44859,25 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+hMb
+aaM
+ajN
+ayY
+azd
+azl
+azx
+azG
+azO
+azY
+and
+and
+and
+aAt
+aAw
+aAz
+aAE
+aAJ
+hMb
 aaa
 aaa
 aaa
@@ -44161,6 +45099,10 @@ aaa
 aaa
 aaa
 aaa
+hMb
+aaM
+ajN
+hMb
 aaa
 aaa
 aaa
@@ -44174,29 +45116,25 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+hMb
+aaM
+ajN
+ayZ
+aze
+azm
+azy
+azH
+azN
+azZ
+aAh
+aAh
+aAp
+aAp
+aAv
+aAA
+aAF
+aAK
+hMb
 aaa
 aaa
 aaa
@@ -44418,6 +45356,10 @@ aaa
 aaa
 aaa
 aaa
+hMb
+aaM
+ajN
+hMb
 aaa
 aaa
 aaa
@@ -44431,29 +45373,25 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+hMb
+aaM
+ajN
+aaC
+aaC
+aaC
+aaC
+aaC
+hMb
+hMb
+aAi
+aAh
+aAp
+aAu
+hMb
+aAB
+aAG
+aAL
+hMb
 aaa
 aaa
 aaa
@@ -44675,6 +45613,10 @@ aaa
 aaa
 aaa
 aaa
+hMb
+aaM
+ajN
+hMb
 aaa
 aaa
 aaa
@@ -44688,29 +45630,25 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+hMb
+aaM
+ajN
+hMb
+azf
+azn
+azz
+azI
+azP
+hMb
+hMb
+aAh
+aAp
+hMb
+hMb
+hMb
+hMb
+hMb
+hMb
 aaa
 aaa
 aaa
@@ -44932,6 +45870,10 @@ aaa
 aaa
 aaa
 aaa
+hMb
+aaM
+ajN
+hMb
 aaa
 aaa
 aaa
@@ -44945,24 +45887,20 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+hMb
+aaM
+ajN
+hMb
+azg
+azo
+qDx
+smp
+azQ
+aAa
+hMb
+aAh
+aAp
+hMb
 aaa
 aaa
 aaa
@@ -45189,6 +46127,10 @@ aaa
 aaa
 aaa
 aaa
+hMb
+aaM
+ajN
+hMb
 aaa
 aaa
 aaa
@@ -45202,24 +46144,20 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+hMb
+aaM
+ajN
+aza
+bnh
+azp
+azq
+azJ
+smp
+aAb
+hMb
+aAh
+aAp
+hMb
 aaa
 aaa
 aaa
@@ -45446,6 +46384,10 @@ aaa
 aaa
 aaa
 aaa
+hMb
+aaM
+ajN
+hMb
 aaa
 aaa
 aaa
@@ -45459,24 +46401,20 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+hMb
+aaM
+ajN
+aza
+bqi
+azq
+azA
+azK
+azR
+aAc
+aAj
+aAk
+aAp
+hMb
 aaa
 aaa
 aaa
@@ -45703,6 +46641,10 @@ aaa
 aaa
 aaa
 aaa
+hMb
+aaM
+ajN
+hMb
 aaa
 aaa
 aaa
@@ -45716,24 +46658,20 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+hMb
+aaM
+ajN
+aza
+azh
+azr
+azB
+azL
+dRT
+aAd
+hMb
+aAl
+aAp
+hMb
 aaa
 aaa
 aaa
@@ -45981,16 +46919,16 @@ hMb
 aaM
 ajN
 hMb
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+hMb
+azs
+azC
+dRT
+azS
+aAe
+hMb
+aAm
+aAq
+hMb
 aaa
 aaa
 aaa
@@ -46237,17 +47175,17 @@ aaa
 hMb
 aaM
 ajN
-hMb
-aaa
-aaa
-aaa
-hMb
-hMb
-hMb
-hMb
+agE
+azi
+azt
+azD
+agE
+azT
 hMb
 hMb
-aaa
+aAn
+aAr
+hMb
 aaa
 aaa
 aaa
@@ -46494,17 +47432,17 @@ aaa
 hMb
 aaM
 ajN
+azb
+azj
+azu
+azD
+agE
+azU
 hMb
-aaa
-aaa
-aaa
+aaB
+aaB
+aaB
 hMb
-aaa
-aaa
-aaa
-aaa
-hMb
-aaa
 aaa
 aaa
 aaa
@@ -46730,39 +47668,39 @@ asn
 arp
 aaa
 aaa
-aaa
-hMb
-awP
-awT
-hMb
-hMb
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
 hMb
 hMb
 awP
 awT
 hMb
-aaa
-aaa
-aaa
 hMb
 aaa
 aaa
 aaa
 aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 hMb
-aaa
-aaa
+hMb
+awP
+awT
+hMb
+hMb
+azv
+azE
+azM
+azV
+hMb
+aaB
+aaB
+hMb
+hMb
+hMb
 aaa
 aaa
 aaa
@@ -46988,7 +47926,7 @@ arp
 arp
 arp
 arp
-hMb
+awK
 aaM
 ajN
 awV
@@ -47008,18 +47946,18 @@ hMb
 axv
 aaM
 ajN
+axJ
+axM
+axM
+axM
+axM
+axM
 hMb
-axM
-axM
-axM
-axM
-axM
-aaa
-aaa
-aaa
+aaB
+aaB
 hMb
-aaa
-aaa
+aaB
+hMb
 aaa
 aaa
 aaa
@@ -47245,7 +48183,7 @@ awr
 awz
 awD
 awH
-awK
+awL
 wYU
 wYU
 awW
@@ -47265,21 +48203,21 @@ hMb
 axy
 wYU
 wYU
-axJ
+axK
 axO
 axU
 ayd
 ayo
 axM
-aaa
-aaa
-aaa
+aaB
+aaB
+aaB
 hMb
-aaa
-aaa
-aaa
-aaa
-aaa
+aaB
+hMb
+hMb
+hMb
+hMb
 aaa
 aaa
 aaa
@@ -47528,15 +48466,15 @@ axV
 aye
 ayp
 axM
-aaa
-aaa
-aaa
+aaB
+aaB
+aaB
 hMb
-aaa
-aaa
-aaa
-aaa
-aaa
+aaB
+aaB
+aaB
+aaB
+hMb
 aaa
 aaa
 aaa
@@ -47785,15 +48723,15 @@ axW
 ayf
 ayp
 axM
-aaa
-aaa
-aaa
+aaB
+aaB
+aaB
 hMb
-aaa
-aaa
-aaa
-aaa
-aaa
+aaB
+aaB
+aaB
+aaB
+hMb
 aaa
 aaa
 aaa
@@ -48042,15 +48980,15 @@ axX
 ayg
 ayq
 axM
-aaa
-aaa
-aaa
+aaB
+aaB
+aaB
 hMb
-aaa
-aaa
-aaa
-aaa
-aaa
+aaB
+aaB
+aaB
+aaB
+hMb
 aaa
 aaa
 aaa
@@ -48299,15 +49237,15 @@ axY
 ayh
 ayq
 axM
-aaa
-aaa
-aaa
+aaB
+aaB
+aaB
 hMb
-aaa
-aaa
-aaa
-aaa
-aaa
+aaB
+hMb
+hMb
+hMb
+hMb
 aaa
 aaa
 aaa
@@ -48556,13 +49494,13 @@ axZ
 ayi
 ayq
 axM
-aaa
-aaa
-aaa
+aaB
+aaB
+aaB
 hMb
-aaa
-aaa
-aaa
+aaB
+aaB
+hMb
 aaa
 aaa
 aaa
@@ -48817,9 +49755,9 @@ hMb
 hMb
 hMb
 hMb
-aaa
-aaa
-aaa
+aaB
+hMb
+hMb
 aaa
 aaa
 aaa
@@ -49069,14 +50007,14 @@ axS
 ayb
 ayk
 ays
-auY
+azW
 avn
 aaB
 aaB
 hMb
-aaa
-aaa
-aaa
+aaB
+aaB
+hMb
 aaa
 aaa
 aaa
@@ -49331,9 +50269,9 @@ avo
 aaB
 aaB
 hMb
-aaa
-aaa
-aaa
+aaB
+aaB
+hMb
 aaa
 aaa
 aaa
@@ -49588,9 +50526,9 @@ asP
 aaB
 aaB
 hMb
-aaa
-aaa
-aaa
+aaB
+aaB
+hMb
 aaa
 aaa
 aaa
@@ -49845,9 +50783,9 @@ asP
 aaB
 aaB
 hMb
-aaa
-aaa
-aaa
+aaB
+aaB
+hMb
 aaa
 aaa
 aaa
@@ -50102,9 +51040,9 @@ asP
 aaB
 aaB
 hMb
+aaB
 hMb
-aaa
-aaa
+hMb
 aaa
 aaa
 aaa
@@ -50358,9 +51296,9 @@ auh
 auh
 auh
 aaB
+hMb
 aaB
 hMb
-aaa
 aaa
 aaa
 aaa
@@ -50615,9 +51553,9 @@ ayy
 ayD
 auh
 aaB
+hMb
 aaB
 hMb
-aaa
 aaa
 aaa
 aaa
@@ -50872,10 +51810,10 @@ ayz
 ayz
 auh
 aaB
+hMb
 aaB
 hMb
-aaa
-aaa
+hMb
 aaa
 aaa
 aaa
@@ -51129,10 +52067,10 @@ ayA
 ayE
 auh
 aaB
+hMb
+aaB
 aaB
 hMb
-aaa
-aaa
 aaa
 aaa
 aaa
@@ -51386,10 +52324,10 @@ asS
 asS
 asS
 aaB
+hMb
+aaB
 aaB
 hMb
-aaa
-aaa
 aaa
 aaa
 aaa
@@ -51643,10 +52581,10 @@ auy
 avq
 avC
 avG
+hMb
+aaB
 aaB
 hMb
-aaa
-aaa
 aaa
 aaa
 aaa
@@ -51900,10 +52838,10 @@ ayB
 avr
 asS
 aaB
+hMb
+aaB
 aaB
 hMb
-aaa
-aaa
 aaa
 aaa
 aaa
@@ -52157,16 +53095,16 @@ asS
 asS
 asS
 aaB
+hMb
+hMb
 aaB
 hMb
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+hMb
+hMb
+hMb
+hMb
+hMb
+bGk
 aaa
 aaa
 aaa
@@ -52416,14 +53354,14 @@ aul
 aaB
 aaB
 hMb
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+aaB
+aaB
+aaB
+aaB
+aaB
+aaB
+hMb
+hMb
 aaa
 aaa
 aaa
@@ -52673,14 +53611,14 @@ aul
 aaB
 aaB
 hMb
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+hMb
+hMb
+hMb
+hMb
+aaB
+aaB
+aaB
+hMb
 aaa
 aaa
 aaa
@@ -52933,11 +53871,11 @@ hMb
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+hMb
+hMb
+aaB
+aaB
+hMb
 aaa
 aaa
 aaa
@@ -53191,10 +54129,10 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
+hMb
+aaB
+aaB
+hMb
 aaa
 aaa
 aaa
@@ -53448,10 +54386,10 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
+hMb
+aaB
+aaB
+hMb
 aaa
 aaa
 aaa
@@ -53705,10 +54643,10 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
+hMb
+aaB
+aaB
+hMb
 aaa
 aaa
 aaa
@@ -53962,10 +54900,10 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
+hMb
+aaB
+aaB
+hMb
 aaa
 aaa
 aaa
@@ -54219,10 +55157,10 @@ bGk
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
+hMb
+aaB
+aaB
+hMb
 aaa
 aaa
 aaa
@@ -54476,10 +55414,10 @@ bGk
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
+hMb
+aaB
+aaB
+hMb
 aaa
 aaa
 ayW
@@ -54733,10 +55671,10 @@ bGk
 bGk
 bGk
 bGk
+hMb
 bGk
 bGk
-bGk
-aaa
+hMb
 aaa
 ayW
 ayW
@@ -54990,10 +55928,10 @@ hMb
 hMb
 hMb
 aaa
-aaa
-aaa
+hMb
+aaB
 bGk
-aaa
+hMb
 aaa
 ayW
 ayW
@@ -55247,10 +56185,10 @@ aaB
 aaB
 hMb
 aaa
-aaa
-aaa
+hMb
+aaB
 bGk
-aaa
+hMb
 aaa
 ayW
 ayW
@@ -55507,7 +56445,7 @@ anR
 anR
 anR
 bGk
-bGk
+hMb
 ayT
 ayW
 ayW
