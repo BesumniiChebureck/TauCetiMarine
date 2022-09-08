@@ -28,6 +28,7 @@
 	attack_verb = list("bashed", "battered", "bludgeoned", "whacked")
 	usesound = 'sound/items/Ratchet.ogg'
 	var/random_color = TRUE
+	required_skills = list(/datum/skill/engineering = SKILL_LEVEL_TRAINED)
 
 /obj/item/weapon/wrench/atom_init(mapload, param_color)
 	. = ..()
@@ -83,6 +84,8 @@
 	stab_eyes = TRUE
 
 	var/random_color = TRUE
+
+	required_skills = list(/datum/skill/engineering = SKILL_LEVEL_TRAINED)
 
 /obj/item/weapon/screwdriver/suicide_act(mob/user)
 	to_chat(viewers(user), pick("<span class='danger'>[user] is stabbing the [src.name] into \his temple! It looks like \he's trying to commit suicide.</span>", \
@@ -146,6 +149,7 @@
 	edge = 1
 	usesound = 'sound/items/Wirecutter.ogg'
 	var/random_color = TRUE
+	required_skills = list(/datum/skill/engineering = SKILL_LEVEL_TRAINED)
 
 /obj/item/weapon/wirecutters/atom_init(mapload, param_color)
 	. = ..()
@@ -157,16 +161,15 @@
 
 /obj/item/weapon/wirecutters/attack(mob/living/carbon/C, mob/user)
 	if(istype(C) && C.handcuffed && user.a_intent == INTENT_HELP)
-		if(istype(C.handcuffed, /obj/item/weapon/handcuffs/cable))
-			usr.visible_message("\The [usr] cuts \the [C]'s restraints with \the [src]!",\
-			"<span class='notice'>You cut \the [C]'s restraints with \the [src]!</span>",\
-			"You hear cable being cut.")
-			QDEL_NULL(C.handcuffed)
+		var/obj/item/weapon/handcuffs/cuffs = C.handcuffed
+		if(do_mob(user, C, 2 SECONDS) && C.unEquip(cuffs))
+			QDEL_NULL(cuffs)
+			usr.visible_message("\The [usr] cuts \the [C]'s handcuffs with \the [src]!",\
+			"<span class='notice'>You cut \the [C]'s handcuffs with \the [src]!</span>",\
+			"You hear handcuffs being cut.")
 			if(C.buckled && C.buckled.buckle_require_restraints)
 				C.buckled.unbuckle_mob()
 			C.update_inv_handcuffed()
-		else
-			to_chat(user, "The [C.handcuffed] are too tough to cut with [src].")
 		return
 	else
 		..()
@@ -221,14 +224,16 @@
 	var/max_fuel = 20           // The max amount of fuel the welder can hold
 	var/image/welding_sparks    // Welding overlay for targets
 
+	required_skills = list(/datum/skill/engineering = SKILL_LEVEL_TRAINED)
+
 /obj/item/weapon/weldingtool/atom_init()
 	. = ..()
 	var/datum/reagents/R = new/datum/reagents(max_fuel)
 	reagents = R
 	R.my_atom = src
 	R.add_reagent("fuel", max_fuel)
-	welding_sparks = image('icons/effects/effects.dmi', "welding_sparks", ABOVE_LIGHTING_LAYER)
-	welding_sparks.plane = LIGHTING_PLANE + 1
+	welding_sparks = image('icons/effects/effects.dmi', "welding_sparks", layer = ABOVE_LIGHTING_LAYER)
+	welding_sparks.plane = ABOVE_LIGHTING_PLANE
 
 /obj/item/weapon/weldingtool/examine(mob/user)
 	..()
@@ -345,11 +350,11 @@
 /obj/item/weapon/weldingtool/proc/get_fuel()
 	return reagents.get_reagent_amount("fuel")
 
-/obj/item/weapon/weldingtool/use_tool(atom/target, mob/living/user, delay, amount = 0, volume = 0, datum/callback/extra_checks)
+/obj/item/weapon/weldingtool/use_tool(atom/target, mob/living/user, delay, amount = 0, volume = 0, quality = null, datum/callback/extra_checks, required_skills_override, skills_speed_bonus = -0.4)
 	target.add_overlay(welding_sparks)
 	INVOKE_ASYNC(src, .proc/start_welding, target)
 	var/datum/callback/checks  = CALLBACK(src, .proc/check_active_and_extra, extra_checks)
-	. = ..(target, user, delay, amount, volume, extra_checks = checks)
+	. = ..(target, user, delay, amount, volume, extra_checks = checks, required_skills_override = required_skills_override, skills_speed_bonus = skills_speed_bonus)
 	stop_welding()
 	target.cut_overlay(welding_sparks)
 
@@ -452,7 +457,7 @@
 /obj/item/weapon/weldingtool/proc/eyecheck(mob/user)
 	if(!iscarbon(user)) return 1
 	var/safety = user:eyecheck()
-	if(istype(user, /mob/living/carbon/human))
+	if(ishuman(user))
 		var/mob/living/carbon/human/H = user
 		var/obj/item/organ/internal/eyes/IO = H.organs_by_name[O_EYES]
 		if(H.species.flags[IS_SYNTHETIC])
@@ -462,7 +467,7 @@
 				to_chat(usr, "<span class='warning'>Your eyes sting a little.</span>")
 				IO.damage += rand(1, 2)
 				if(IO.damage > 12)
-					user.eye_blurry += rand(3,6)
+					user.adjustBlurriness(rand(3,6))
 			if(0)
 				to_chat(usr, "<span class='warning'>Your eyes burn.</span>")
 				IO.damage += rand(2, 4)
@@ -470,7 +475,7 @@
 					IO.damage += rand(4,10)
 			if(-1)
 				to_chat(usr, "<span class='danger'>Your thermals intensify the welder's glow. Your eyes itch and burn severely.</span>")
-				user.eye_blurry += rand(12,20)
+				user.adjustBlurriness(rand(12,20))
 				IO.damage += rand(12, 16)
 		if(safety<2)
 			if(IO.damage > 10)
@@ -481,7 +486,7 @@
 			else if (IO.damage >= IO.min_bruised_damage)
 				to_chat(user, "<span class='danger'>You go blind!</span>")
 				user.eye_blind = 5
-				user.eye_blurry = 5
+				user.adjustBlurriness(5)
 				user.disabilities |= NEARSIGHTED
 				spawn(100)
 					user.disabilities &= ~NEARSIGHTED
@@ -545,16 +550,34 @@
 	force = 5.0
 	throwforce = 7.0
 	item_state = "crowbar"
-	w_class = SIZE_TINY
+
+	w_class = SIZE_SMALL
+
 	m_amt = 50
 	origin_tech = "engineering=1"
 	hitsound = list('sound/items/tools/crowbar-hit.ogg')
 	attack_verb = list("attacked", "bashed", "battered", "bludgeoned", "whacked")
 	usesound = 'sound/items/Crowbar.ogg'
+	required_skills = list(/datum/skill/engineering = SKILL_LEVEL_TRAINED)
+
+	qualities = list(
+		QUALITY_PRYING = 1
+	)
 
 /obj/item/weapon/crowbar/red
+	name = "emergency crowbar"
+	desc = "A little emergency crowbar, used to open unpowered doors and emergency shutters."
 	icon_state = "red_crowbar"
 	item_state = "crowbar_red"
+	force = 4.0
+	throwforce = 5.0
+
+	w_class = SIZE_TINY
+	m_amt = 15
+
+	qualities = list(
+		QUALITY_PRYING = 0.7
+	)
 
 /obj/item/weapon/crowbar/power
 	name = "Jaws of Life"

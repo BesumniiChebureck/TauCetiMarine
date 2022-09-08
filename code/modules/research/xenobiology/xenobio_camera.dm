@@ -147,7 +147,7 @@
 /proc/slime_scan(mob/living/carbon/slime/T, mob/living/user)
 	var/to_render = "========================\
 					\n<b>Slime scan results:</b>\
-					\n<span class='notice'>[T.colour] [istype(T,/mob/living/carbon/slime/adult) ? "adult" : "baby"] slime</span>\
+					\n<span class='notice'>[T.colour] [isslimeadult(T) ? "adult" : "baby"] slime</span>\
 					\nNutrition: [T.nutrition]/[T.get_max_nutrition()]"
 	if (T.nutrition < T.get_starve_nutrition())
 		to_render += "\n<span class='warning'>Warning: slime is starving!</span>"
@@ -164,7 +164,7 @@
 	QDEL_IN(animation, 10)		//After flick finishes, animation is invisible. One second in more than enough to finish without artifacts
 	animation.icon = 'icons/mob/slimes.dmi'
 	animation.master = src
-	if(istype(src, /mob/living/carbon/slime/adult))
+	if(isslimeadult(src))
 		flick("big_jaunt_out", animation)
 	else
 		flick("small_jaunt_out", animation)
@@ -186,7 +186,7 @@
 	if(cameranet.checkTurfVis(remote_eye.loc))
 		for(var/mob/living/carbon/slime/S in X.stored_slimes)
 			S.forceMove(remote_eye.loc)
-			if(istype(S, /mob/living/carbon/slime/adult))
+			if(isslimeadult(S))
 				flick("big_jaunt_in", S)
 			else
 				flick("small_jaunt_in", S)
@@ -212,7 +212,7 @@
 		for(var/mob/living/carbon/slime/S in remote_eye.loc)
 			if(X.stored_slimes.len >= X.max_slimes)
 				break
-			if(S.stat)
+			if(S.stat != CONSCIOUS)
 				if(!X.connected_recycler)
 					to_chat(owner, "<span class='warning'>There is no connected recycler. Use a multitool to link one.</span>")
 					return
@@ -295,7 +295,7 @@
 		return
 	if(cameranet.checkTurfVis(remote_eye.loc))
 		for(var/mob/living/carbon/monkey/M in remote_eye.loc)
-			if(M.stat)
+			if(M.stat != CONSCIOUS)
 				M.visible_message("<span class='notice'>[M] vanishes!</span>")
 				X.connected_recycler.grind(M,owner)
 	else
@@ -368,7 +368,7 @@
 	var/mob/camera/Eye/remote/xenobio/E = C.remote_control
 	var/obj/machinery/computer/camera_advanced/xenobio/X = E.origin
 	if (istype(get_area(S), E.allowed_area_type))
-		if(S.stat)
+		if(S.stat != CONSCIOUS)
 			if(!X.connected_recycler)
 				to_chat(C, "<span class='warning'>There is no connected recycler. Use a multitool to link one.</span>")
 				return
@@ -400,7 +400,7 @@
 	if (istype(turfarea, E.allowed_area_type))
 		for(var/mob/living/carbon/slime/S in X.stored_slimes)
 			S.forceMove(T)
-			if(istype(S, /mob/living/carbon/slime/adult))
+			if(isslimeadult(S))
 				flick("big_jaunt_in", S)
 			else
 				flick("small_jaunt_in", S)
@@ -442,7 +442,7 @@
 		return
 
 	if (istype(get_area(M), E.allowed_area_type))
-		if(!M.stat)
+		if(M.stat == CONSCIOUS)
 			return
 		M.visible_message("<span class='notice'>[M] vanishes!</span>")
 		X.connected_recycler.grind(M,user)

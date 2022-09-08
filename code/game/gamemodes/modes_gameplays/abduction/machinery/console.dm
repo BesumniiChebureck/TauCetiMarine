@@ -11,15 +11,6 @@
 	abductor_machinery_list -= src
 	return ..()
 
-/obj/machinery/abductor/proc/IsAbductor(mob/living/carbon/human/H)
-	return H.species?.name == ABDUCTOR
-
-/obj/machinery/abductor/proc/IsAgent(mob/living/carbon/human/H)
-	return isabductoragent(H)
-
-/obj/machinery/abductor/proc/IsScientist(mob/living/carbon/human/H)
-	return isabductorsci(H)
-
 //*************-Console-*************//
 
 /obj/machinery/abductor/console
@@ -44,7 +35,9 @@
 							"radio silencer"=1)
 
 /obj/machinery/abductor/console/interact(mob/user)
-	if(!IsAbductor(user) && !isAI(user) && !isobserver(user))
+	if(issilicon(user)) //Borgs probably shouldn't be able to interact with it
+		return
+	if(!isabductor(user) && !isobserver(user))
 		if(user.is_busy())
 			return
 		to_chat(user, "<span class='warning'>You start mashing alien buttons at random!</span>")
@@ -209,12 +202,13 @@
 		to_chat(user, "<span class='notice'>You link the tool to the console.</span>")
 		gizmo = G
 		G.console = src
-	else if(istype(O, /obj/item/clothing/suit/armor/abductor/vest))
+		return FALSE
+	if(istype(O, /obj/item/clothing/suit/armor/abductor/vest))
 		var/obj/item/clothing/suit/armor/abductor/vest/V = O
 		to_chat(user, "<span class='notice'>You link the vest to the console.</span>")
 		vest = V
-	else
-		return ..()
+		return FALSE
+	return ..()
 
 /obj/machinery/abductor/console/proc/Dispense(item,cost=1)
 	if(experiment && experiment.points >= cost)

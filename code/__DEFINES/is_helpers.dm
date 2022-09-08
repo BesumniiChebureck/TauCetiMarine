@@ -1,8 +1,27 @@
+// This file is used to test the entire build
+// To use istype-defines from this file for tests, wrap your istype in brackets
+// Example: isabductor(A) (istype(A, /mob/living/carbon/human/abductor))
+// Bad example: isabductor(A) istype(A, /mob/living/carbon/human/abductor)
+
+// TURFS
+
+#define isenvironmentturf(A) (istype(A, /turf/environment))
+
+#define isspaceturf(A) (istype(A, /turf/environment/space))
+
+#define isiceturf(A) (istype(A, /turf/environment/snow/ice))
+
+#define isfloorturf(A) (istype(A, /turf/simulated/floor))
+
+#define isplatingturf(A) (istype(A, /turf/simulated/floor/plating))
+
+#define iswallturf(A) (istype(A, /turf/simulated/wall))
+
 // HUMAN
 
-#define isabductor(A) (istype(A, /mob/living/carbon/human/abductor))
-
 #define ishuman(A) (istype(A, /mob/living/carbon/human))
+
+#define isskeleton(A) (A.get_species() in list(SKELETON, SKELETON_UNATHI, SKELETON_TAJARAN, SKELETON_SKRELL, SKELETON_VOX))
 
 // CARBON
 #define isxenoqueen(A) (istype(A, /mob/living/carbon/xenomorph/humanoid/queen))
@@ -77,6 +96,10 @@
 
 #define isnewplayer(A) (istype(A, /mob/dead/new_player))
 
+#define isautosay(A) (istype(A, /mob/autosay))
+
+#define isMMI(A) (istype(A, /obj/item/device/mmi))
+
 // ELSE
 
 #define isbodypart(A) (istype(A, /obj/item/organ/external))
@@ -87,9 +110,9 @@
 
 // GOONCHAT PORT
 
-#define isatom(A) istype(A, /atom)
+#define isatom(A) (istype(A, /atom))
 
-#define isclient(A) istype(A, /client)
+#define isclient(A) (istype(A, /client))
 
 
 // ASSEMBLY HELPERS
@@ -108,19 +131,19 @@
 
 // TOOLS HELPERS
 
-#define iswrench(A) istype(A, /obj/item/weapon/wrench)
+#define iswrench(A) (istype(A, /obj/item/weapon/wrench))
 
-#define iswelder(A) istype(A, /obj/item/weapon/weldingtool)
+#define iswelder(A) (istype(A, /obj/item/weapon/weldingtool))
 
-#define iswirecutter(A) istype(A, /obj/item/weapon/wirecutters)
+#define iswirecutter(A) (istype(A, /obj/item/weapon/wirecutters))
 
-#define isscrewdriver(A) istype(A, /obj/item/weapon/screwdriver)
+#define isscrewdriver(A) (istype(A, /obj/item/weapon/screwdriver))
 
-#define iscrowbar(A) istype(A, /obj/item/weapon/crowbar)
+#define iscrowbar(A) (istype(A, /obj/item/weapon/crowbar))
 
-#define ismultitool(A) istype(A, /obj/item/device/multitool)
+#define ismultitool(A) (istype(A, /obj/item/device/multitool))
 
-#define iscoil(A) istype(A, /obj/item/stack/cable_coil)
+#define iscoil(A) (istype(A, /obj/item/stack/cable_coil))
 
 // OBJECTS
 
@@ -136,6 +159,8 @@
 
 #define isanyantag(H) (H?.mind && H.mind.antag_roles.len)
 
+#define isabductor(H) isrolebytype(/datum/role/abductor, H)
+
 #define isabductorsci(H) isrole(ABDUCTOR_SCI, H)
 
 #define isabductoragent(H) isrole(ABDUCTOR_AGENT, H)
@@ -150,7 +175,7 @@
 
 #define ischangeling(H) isrolebytype(/datum/role/changeling, H)
 
-#define isanyrev(H) (isrevnothead(H) || isrevhead(H))
+#define isanyrev(H) (isrev(H) || isrevhead(H))
 
 #define isrev(H) isrole(REV, H)
 
@@ -165,6 +190,8 @@
 #define isnukeop(H) isrole(NUKE_OP, H)
 
 #define iswizard(H) isrole(WIZARD, H)
+
+#define iswizardapprentice(H) isrole(WIZ_APPRENTICE, H)
 
 #define isdeathsquad(H) isrole(DEATHSQUADIE, H)
 
@@ -186,18 +213,20 @@
 
 #define isanycop(H) isrolebytype(/datum/role/cop, H)
 
+#define isanyblob(H) isrolebytype(/datum/role/blob_overmind, H)
+
 // BLOB
 
-#define isblob(A) istype(A, /obj/effect/blob)
+#define isblob(A) (istype(A, /obj/effect/blob))
 
-#define isblobnormal(A) istype(A, /obj/effect/blob/normal)
+#define isblobnormal(A) (istype(A, /obj/effect/blob/normal))
 
-#define isblobcore(A) istype(A, /obj/effect/blob/core)
+#define isblobcore(A) (istype(A, /obj/effect/blob/core))
 
-#define isblobnode(A) istype(A, /obj/effect/blob/node)
+#define isblobnode(A) (istype(A, /obj/effect/blob/node))
 
-#define isblobfactory(A) istype(A, /obj/effect/blob/factory)
+#define isblobfactory(A) (istype(A, /obj/effect/blob/factory))
 
-#define isblobshield(A) istype(A, /obj/effect/blob/shield)
+#define isblobshield(A) (istype(A, /obj/effect/blob/shield))
 
-#define isblobresource(A) istype(A, /obj/effect/blob/resource)
+#define isblobresource(A) (istype(A, /obj/effect/blob/resource))

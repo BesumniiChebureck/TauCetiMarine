@@ -107,6 +107,7 @@
 		if(istype(H.wear_suit, /obj/item/clothing/suit/lasertag))
 			var/obj/item/clothing/suit/lasertag/L = H.wear_suit
 			if(L.lasertag_color != lasertag_color)
+				H.Stun(1)
 				H.Weaken(2)
 	return TRUE
 
@@ -136,9 +137,7 @@
 /obj/item/projectile/beam/sniper
 	name = "sniper beam"
 	icon_state = "laser"
-	damage = 60
-	stun = 5
-	weaken = 5
+	damage = 50
 	stutter = 5
 
 	muzzle_type = /obj/effect/projectile/laser/muzzle
@@ -148,7 +147,6 @@
 /obj/item/projectile/beam/rails
 	name = "rails beam"
 	icon_state = "omnilaser"
-	layer = ABOVE_HUD_LAYER
 	plane = ABOVE_HUD_PLANE
 
 	damage = 50

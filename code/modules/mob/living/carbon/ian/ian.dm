@@ -51,6 +51,7 @@ ADD_TO_GLOBAL_LIST(/mob/living/carbon/ian, chief_animal_list)
 	var/facehugger = FALSE
 	var/pose_prev = 0
 	var/pose_last = 0
+	var/ian_sit = 0
 
 /mob/living/carbon/ian/atom_init()
 	reagents = new(1000)
@@ -64,8 +65,6 @@ ADD_TO_GLOBAL_LIST(/mob/living/carbon/ian, chief_animal_list)
 	dna.SetUIState(DNA_UI_GENDER)
 
 	. = ..()
-
-	verbs += /mob/living/carbon/proc/crawl
 
 /mob/living/carbon/ian/UnarmedAttack(atom/A)
 	..()
@@ -85,7 +84,7 @@ ADD_TO_GLOBAL_LIST(/mob/living/carbon/ian, chief_animal_list)
 					return
 
 				var/message = "<span class='notice'>[src] licks [A].</span>"
-				if(istype(A, /turf/simulated/floor))
+				if(isfloorturf(A))
 					var/turf/simulated/S = A
 					S.make_wet_floor(soap_eaten ? LUBE_FLOOR : WATER_FLOOR)
 				else if(isliving(A))
@@ -111,12 +110,12 @@ ADD_TO_GLOBAL_LIST(/mob/living/carbon/ian, chief_animal_list)
 					else if(iscorgi(A))
 						adjustBruteLoss(-1)
 						adjustFireLoss(-1)
-				else if(istype(A, /obj/item/weapon/soap))
+				else if(istype(A, /obj/item/weapon/reagent_containers/food/snacks/soap))
 					var/expression = pick("amused","annoyed","confused")
 					message = "<span class='notice'>[src] ate [A] and looks [expression]!</span>"
 					qdel(A)
 					soap_eaten += 200
-				else if(istype(A, /obj/item))
+				else if(isitem(A))
 					var/obj/item/I = A
 					I.make_wet()
 				visible_message(message)
@@ -288,12 +287,14 @@ ADD_TO_GLOBAL_LIST(/mob/living/carbon/ian, chief_animal_list)
 /mob/living/carbon/ian/IsAdvancedToolUser()
 	return FALSE
 
-/mob/living/carbon/ian/movement_delay(tally = 0)
-	if(crawling)
+/mob/living/carbon/ian/movement_delay()
+	var/tally = speed
+
+	if(lying)
 		tally += 5
 	else if(reagents && reagents.has_reagent("hyperzine") || reagents.has_reagent("nuka_cola"))
 		return -1
-	else if(m_intent == "run" && a_intent == INTENT_HARM && stamina >= 10)
+	else if(m_intent == MOVE_INTENT_RUN && a_intent == INTENT_HARM && stamina >= 10)
 		stamina = max(0, stamina - 10)
 		tally -= 1
 
@@ -304,8 +305,8 @@ ADD_TO_GLOBAL_LIST(/mob/living/carbon/ian, chief_animal_list)
 	if(pull_debuff)
 		tally += pull_debuff
 
-	if (bodytemperature < 283.222)
-		tally += (283.222 - bodytemperature) / 10 * 1.75
+	if(bodytemperature < BODYTEMP_NORMAL - 30)
+		tally += 1.75 * (BODYTEMP_NORMAL - 30 - bodytemperature) / 10
 	return tally
 
 /mob/living/carbon/ian/SelfMove(turf/n, direct)
@@ -332,7 +333,7 @@ ADD_TO_GLOBAL_LIST(/mob/living/carbon/ian, chief_animal_list)
 			                     "<span class='notice'>You can't reach its skin.</span>")
 		if(prob(15) && stat == CONSCIOUS)
 			var/expression = pick("an amused","an annoyed","a confused","a resentful","a happy","an excited")
-			emote("me",1,"looks at [user] with [expression] expression on his face")
+			me_emote("looks at [user] with [expression] expression on his face")
 		return
 	..()
 
@@ -352,14 +353,14 @@ ADD_TO_GLOBAL_LIST(/mob/living/carbon/ian, chief_animal_list)
 		flash_eyes()
 
 	switch(severity)
-		if(1)
+		if(EXPLODE_DEVASTATE)
 			gib()
-		if(2)
+		if(EXPLODE_HEAVY)
 			if (stat != DEAD)
 				adjustBruteLoss(60)
 				adjustFireLoss(60)
 				updatehealth()
-		if(3)
+		if(EXPLODE_LIGHT)
 			if (stat != DEAD)
 				adjustBruteLoss(30)
 				updatehealth()
@@ -381,7 +382,7 @@ ADD_TO_GLOBAL_LIST(/mob/living/carbon/ian, chief_animal_list)
 	var/retFlags = DAM_SHARP
 	var/retVerb = "chaw" // Since bited doesn't sound good.
 	var/retSound = 'sound/weapons/bite.ogg'
-	var/retMissSound = 'sound/weapons/punchmiss.ogg'
+	var/retMissSound = 'sound/effects/mob/hits/miss_1.ogg'
 
 	if(HULK in mutations)
 		retDam += 4
@@ -398,7 +399,7 @@ ADD_TO_GLOBAL_LIST(/mob/living/carbon/ian, chief_animal_list)
 /mob/living/carbon/ian/is_usable_leg(targetzone = null)
 	return TRUE
 
-/mob/living/carbon/ian/bullet_act(obj/item/projectile/Proj)
+/mob/living/carbon/ian/bullet_act(obj/item/projectile/Proj, def_zone)
 	var/chance = 0
 	if(head && istype(head,/obj/item/clothing/head/helmet))
 		chance += 50
@@ -413,8 +414,8 @@ ADD_TO_GLOBAL_LIST(/mob/living/carbon/ian, chief_animal_list)
 			visible_message("<span class='notice'>[src] dodges [Proj].</span>")
 		if(prob(15))
 			var/expression = pick("a resentful","a happy","an excited")
-			emote("me",1,"looks with [expression] expression on his face and wants to play more!")
-		return
+			me_emote("looks with [expression] expression on his face and wants to play more!")
+		return PROJECTILE_ABSORBED
 
 	return ..()
 
@@ -430,7 +431,7 @@ ADD_TO_GLOBAL_LIST(/mob/living/carbon/ian, chief_animal_list)
 	if(back && istype(back,/obj/item/clothing/suit/armor))
 		chance += luck
 
-	if(chance && prob(chance) && !stat)
+	if(chance && prob(chance) && stat == CONSCIOUS)
 		switch(msg)
 			if("dodges")
 				msg = "<span class='notice'>[src] dodges [AM]'s attack!</span>"
@@ -439,7 +440,7 @@ ADD_TO_GLOBAL_LIST(/mob/living/carbon/ian, chief_animal_list)
 		visible_message(msg)
 		if(prob(15))
 			var/expression = pick("an amused","an annoyed","a confused","a resentful","a happy","an excited")
-			emote("me",1,"looks at [AM] with [expression] expression on his face")
+			me_emote("looks at [AM] with [expression] expression on his face")
 		return TRUE
 	return FALSE
 
@@ -452,8 +453,15 @@ ADD_TO_GLOBAL_LIST(/mob/living/carbon/ian, chief_animal_list)
 /mob/living/carbon/ian/throw_mode_off()
 	return
 
+/mob/living/carbon/ian/gib()
+	if(butcher_results)
+		for(var/path in butcher_results)
+			for(var/i = 1 to butcher_results[path])
+				new path(loc)
+	..()
+
 /mob/living/carbon/ian/say(message)
-	if(stat)
+	if(stat != CONSCIOUS)
 		return
 
 	message = sanitize(message)
@@ -462,7 +470,7 @@ ADD_TO_GLOBAL_LIST(/mob/living/carbon/ian, chief_animal_list)
 		return
 
 	if(message[1] == "*")
-		return emote(copytext(message,2))
+		return emote(copytext(message, 2))
 
 	var/verb = "says"
 
@@ -477,3 +485,10 @@ ADD_TO_GLOBAL_LIST(/mob/living/carbon/ian, chief_animal_list)
 	if(!speak.len)
 		return null
 	return pick(speak)
+
+/mob/living/carbon/ian/verb/ian_sit()
+	set name = "Ian Sit"
+	set category = "IC"
+	ian_sit = !ian_sit
+	to_chat(src, "<span class='notice'>You are now [ian_sit ? "sitting" : "getting up"].</span>")
+	update_canmove()

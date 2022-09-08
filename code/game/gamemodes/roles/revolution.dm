@@ -6,6 +6,8 @@
 
 	antag_hud_type = ANTAG_HUD_REV
 	antag_hud_name = "hudrevolutionary"
+	skillset_type = /datum/skillset/revolutionary
+	change_to_maximum_skills = FALSE
 
 /datum/role/rev/CanBeAssigned(datum/mind/M)
 	if(!..())
@@ -13,6 +15,14 @@
 	if(M.current.ismindprotect())
 		return FALSE
 	return TRUE
+
+/datum/role/rev/OnPreSetup(greeting, custom)
+	. = ..()
+	SEND_SIGNAL(antag.current, COMSIG_ADD_MOOD_EVENT, "rev_convert", /datum/mood_event/rev)
+
+/datum/role/rev/RemoveFromRole(datum/mind/M, msg_admins)
+	SEND_SIGNAL(antag.current, COMSIG_CLEAR_MOOD_EVENT, "rev_convert")
+	..()
 
 /datum/role/rev/Greet(greeting, custom)
 	. = ..()
@@ -30,6 +40,7 @@
 	antag_hud_name = "hudheadrevolutionary"
 
 	var/rev_cooldown = 0
+	skillset_type = /datum/skillset/max
 
 /datum/role/rev_leader/New()
 	..()
@@ -60,7 +71,7 @@
 
 	var/list/Possible = list()
 	for(var/mob/living/carbon/human/P in oview(src))
-		if(!stat && P.client && P.mind && (!isrev(P) || !isrevhead(P)))
+		if(stat == CONSCIOUS && P.client && P.mind && (!isrev(P) || !isrevhead(P)))
 			Possible += P
 	if(!Possible.len)
 		to_chat(src, "<span class='warning'>There doesn't appear to be anyone available for you to convert here.</span>")

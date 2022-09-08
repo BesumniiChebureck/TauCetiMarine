@@ -16,7 +16,7 @@
 /obj/machinery/abductor/experiment/MouseDrop_T(mob/target, mob/user)
 	if(user.incapacitated() || !ishuman(target))
 		return
-	if(IsAbductor(target))
+	if(isabductor(target))
 		return
 	if(!user.IsAdvancedToolUser())
 		to_chat(user, "<span class='warning'>You can not comprehend what to do with this.</span>")
@@ -24,7 +24,7 @@
 	close_machine(target)
 
 /obj/machinery/abductor/experiment/allow_drop()
-	return 0
+	return FALSE
 
 /obj/machinery/abductor/experiment/open_machine()
 	if(!state_open && !panel_open)
@@ -32,7 +32,7 @@
 
 /obj/machinery/abductor/experiment/close_machine(mob/target)
 	for(var/mob/living/carbon/C in loc)
-		if(IsAbductor(C))
+		if(isabductor(C))
 			return
 	if(state_open && !panel_open)
 		..(target)
@@ -182,7 +182,7 @@
 				req_f = F
 				break
 
-		req_f.abductees += create_and_setup_role(/datum/role/abducted, H)
+		add_faction_member(req_f, H, TRUE)
 		for(var/obj/item/gland/G in H)
 			G.Start()
 			point_reward++
@@ -192,14 +192,12 @@
 			playsound(src, 'sound/machines/ding.ogg', VOL_EFFECTS_MASTER)
 			points += point_reward
 			return "<span class='good'>Experiment successfull! [point_reward] new data-points collected.</span>"
-		else
-			playsound(src, 'sound/machines/buzz-sigh.ogg', VOL_EFFECTS_MASTER)
-			return "<span class='bad'>Experiment failed! No replacement organ detected.</span>"
-	else
-		visible_message("Brain activity nonexistant - disposing Sample...")
-		open_machine()
-		SendBack(H)
-		return "<span class='bad'>Specimen braindead - disposed</span>"
+		playsound(src, 'sound/machines/buzz-sigh.ogg', VOL_EFFECTS_MASTER)
+		return "<span class='bad'>Experiment failed! No replacement organ detected.</span>"
+	visible_message("Brain activity nonexistant - disposing Sample...")
+	open_machine()
+	SendBack(H)
+	return "<span class='bad'>Specimen braindead - disposed</span>"
 
 /obj/machinery/abductor/experiment/proc/SendBack(mob/living/carbon/human/H)
 	H.Sleeping(16 SECONDS)

@@ -82,7 +82,6 @@
 		/datum/aspect/wacky = 1,
 		/datum/aspect/chaos = 1,
 		/datum/aspect/resources = 1,
-		/datum/aspect/herd = 1,
 	)
 
 /datum/religion_sect/custom/chaplain
@@ -152,10 +151,32 @@
 		/datum/aspect/conjure = 2,
 	)
 
+/datum/religion_sect/preset/cult/salvation
+	name = "The Cult of Salvation"
+	desc = "Save life of cultists at any cost."
+	convert_opener = "Become immortal!"
+	aspect_preset = list(
+		/datum/aspect/resources = 1,
+		/datum/aspect/rescue = 1,
+		/datum/aspect/chaos = 1,
+		/datum/aspect/mystic = 1,
+		/datum/aspect/lightbending/darkness = 2,
+	)
+
+/datum/religion_sect/preset/cult/darkness
+	name = "The Cult of Darkness"
+	desc = "The seizure of territories can be not only aggressive for darkness"
+	convert_opener = "May the Darkness lead your way."
+	aspect_preset = list(
+		/datum/aspect/lightbending/darkness = 3,
+		/datum/aspect/weapon = 2,
+		/datum/aspect/technology = 1,
+	)
+
 /datum/religion_sect/custom/cult
 	name = "Custom Cult"
 	convert_opener = "Chaos is power."
 
-	aspects_count = 5
+	aspects_count = 6
 
 	add_religion_name = FALSE

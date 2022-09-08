@@ -5,7 +5,7 @@
 	flags = ANNOUNCE_TEXT | ANNOUNCE_SOUND
 /datum/announcement/station/play()
 	..()
-	add_communication_log(type = "station", title = title ? title : subtitle, author = announcer, content = message)
+	SSStatistics.add_communication_log(type = "station", title = title ? title : subtitle, author = announcer, content = message)
 
 /datum/announcement/station/command/play(message)
 	if(message)
@@ -43,6 +43,16 @@
 		message = "Обнаружена активация ядерной боеголовки в [initial(A.name)]. Кто-то пытается взорвать станцию!"
 	..()
 
+/datum/announcement/station/nuke_teleport
+	name = "Alert: Nuke Translocation"
+	message =  "Обнаружено подпространственное перемещение ядерной боеголовки где-то на станции. Кто-то пытается взорвать станцию!"
+	sound = "commandreport"
+
+/datum/announcement/station/nuke_teleport/play(area/new_loc, area/old_loc)
+	if(new_loc && old_loc)
+		message = "Обнаружено подпространственное перемещение ядерной боеголовки из [initial(old_loc.name)] в [initial(new_loc.name)]. Требуется немедленное вмешательство!"
+	..()
+
 /datum/announcement/station/maint_revoke
 	name = "Alert: Maintenance Access Revoked"
 	message = "Был аннулирован доступ на все технические туннели."
@@ -55,22 +65,21 @@
 	name = "Secret: Gravity On"
 	message = "Генераторы гравитации снова функционируют с нормальными показателями. Приносим извинения за неудобства."
 	sound = "gravon"
-/datum/announcement/station/gravity_on/play()
+/datum/announcement/station/gravity_on/New()
 	subtitle = "Система Предотвращения Аварий [station_name_ru()]"
-	..()
 
 /datum/announcement/station/gravity_off
 	name = "Secret: Gravity Off"
 	message = "Всплеск ошибок обнаружен в системе распределения массы. Искусственная гравитация будет выключена для перезагрузки системы. " + \
 			"Дальнейшие ошибки могут привести к гравитационному коллапсу и формированию черной дыры. Хорошего дня."
 	sound = "gravoff"
-/datum/announcement/station/gravity_off/play()
+/datum/announcement/station/gravity_off/New()
 	subtitle = "Система Предотвращения Аварий [station_name_ru()]"
-	..()
 
 /* Shuttles */
 /datum/announcement/station/shuttle/crew_called
 	name = "Shuttle: Crew Called"
+	message = "Процедура смены экипажа начата. Шаттл вызван. Он прибудет через несколько минут."
 	sound = "crew_shut_called"
 /datum/announcement/station/shuttle/crew_called/play()
 	message = "Процедура смены экипажа начата. Шаттл вызван. Он прибудет через [shuttleminutes2text()]."
@@ -83,6 +92,7 @@
 
 /datum/announcement/station/shuttle/crew_docked
 	name = "Shuttle: Crew Docked"
+	message = "Шаттл Транспортировки Экипажа пристыковался к станции в соответствии с расписанием. Отправление через несколько минут."
 	sound = "crew_shut_docked"
 /datum/announcement/station/shuttle/crew_docked/play()
 	message = "Шаттл Транспортировки Экипажа пристыковался к станции в соответствии с расписанием. Отправление через [shuttleminutes2text()]."
@@ -99,6 +109,7 @@
 
 /datum/announcement/station/shuttle/emer_called
 	name = "Shuttle: Emergency Called"
+	message = "Эвакуационный Шаттл был вызван. Он прибудет через несколько минут."
 	sound = "emer_shut_called"
 /datum/announcement/station/shuttle/emer_called/play()
 	message = "Эвакуационный Шаттл был вызван. Он прибудет через [shuttleminutes2text()]."
@@ -111,6 +122,7 @@
 
 /datum/announcement/station/shuttle/emer_docked
 	name = "Shuttle: Emergency Docked"
+	message = "Эвакуационный Шаттл пристыковался к станции. У вас есть несколько минут для посадки."
 	sound = "emer_shut_docked"
 /datum/announcement/station/shuttle/emer_docked/play()
 	message = "Эвакуационный Шаттл пристыковался к станции. У вас есть [shuttleminutes2text()] для посадки."

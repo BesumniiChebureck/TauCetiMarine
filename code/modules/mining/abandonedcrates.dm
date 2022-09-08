@@ -41,7 +41,7 @@
 		if(1)
 			new/obj/item/weapon/melee/classic_baton(src)
 		if(2)
-			new/obj/item/weapon/twohanded/sledgehammer(src)
+			new/obj/item/weapon/sledgehammer(src)
 		if(3)
 			new/obj/item/weapon/gun/energy/xray(src)
 
@@ -154,6 +154,7 @@
 					playsound(src, 'sound/misc/mining_crate_fail.ogg', VOL_EFFECTS_MASTER, 100, FALSE)
 				if(!attempts)
 					GetReward(successful_numbers)
+				. = TRUE
 
 #undef GOOD_LOOT
 #undef MEDIUM_LOOT

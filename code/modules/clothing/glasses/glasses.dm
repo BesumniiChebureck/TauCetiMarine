@@ -48,6 +48,7 @@
 	toggleable = 1
 	sightglassesmod = "meson"
 	vision_flags = SEE_TURFS
+	lighting_alpha = LIGHTING_PLANE_ALPHA_INVISIBLE
 
 /obj/item/clothing/glasses/meson/prescription
 	name = "prescription mesons"
@@ -76,6 +77,16 @@
 	active = 1
 	off_state = "night"
 	activation_sound = 'sound/effects/glasses_on.ogg'
+	lighting_alpha = LIGHTING_PLANE_ALPHA_MOSTLY_VISIBLE
+
+/obj/item/clothing/glasses/night/hos_nights
+	name = "augmented shades"
+	desc = "Polarized bioneural eyewear, designed to augment your vision."
+	sightglassesmod = "hos"
+	icon_state = "hos_shades"
+	item_state = "hos_shades"
+	toggleable = FALSE
+	action_button_name = null
 
 /obj/item/clothing/glasses/eyepatch
 	name = "eyepatch"
@@ -258,12 +269,12 @@
 	lighting_alpha = LIGHTING_PLANE_ALPHA_MOSTLY_VISIBLE
 
 /obj/item/clothing/glasses/thermal/emp_act(severity)
-	if(istype(src.loc, /mob/living/carbon/human))
+	if(ishuman(src.loc))
 		var/mob/living/carbon/human/M = src.loc
 		to_chat(M, "<span class='warning'>The Optical Thermal Scanner overloads and blinds you!</span>")
 		if(M.glasses == src)
 			M.eye_blind = 3
-			M.eye_blurry = 5
+			M.blurEyes(15)
 			M.disabilities |= NEARSIGHTED
 			spawn(100)
 				M.disabilities &= ~NEARSIGHTED
@@ -300,14 +311,6 @@
 	icon_state = "thermalimplants"
 	item_state = "syringe_kit"
 
-/obj/item/clothing/glasses/thermal/hos_thermals
-	name = "augmented shades"
-	desc = "Polarized bioneural eyewear, designed to augment your vision."
-	icon_state = "hos_shades"
-	item_state = "hos_shades"
-	toggleable = 0
-	action_button_name = null
-
 /obj/item/clothing/glasses/rosas_eyepatch
 	name = "white eyepatch"
 	icon_state = "rosas_eye"
@@ -322,6 +325,8 @@
 	action_button_name = "Toggle Goggles"
 	active = 1
 	off_state = "healthhudnight"
+	hud_types = list(DATA_HUD_MEDICAL_ADV)
+	lighting_alpha = LIGHTING_PLANE_ALPHA_MOSTLY_VISIBLE
 
 /obj/item/clothing/glasses/gar
 	name = "gar glasses"

@@ -118,13 +118,10 @@
 	icon = 'icons/effects/blood.dmi'
 	icon_state = "vomit_1"
 	random_icon_states = list("vomit_1", "vomit_2", "vomit_3", "vomit_4")
-	var/list/viruses = list()
 
 	beauty = -250
 
 /obj/effect/decal/cleanable/vomit/Destroy()
-	for(var/datum/disease/D in viruses)
-		D.cure(0)
 	set_light(0)
 	return ..()
 
@@ -174,7 +171,7 @@
 
 	beauty = -100
 
-var/list/toilet_overlay_cache = list()
+var/global/list/toilet_overlay_cache = list()
 
 /obj/effect/decal/cleanable/toilet_paint/atom_init(mapload, main = random_color(), shade = random_color())
 	. = ..()

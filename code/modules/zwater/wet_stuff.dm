@@ -4,7 +4,7 @@
 /obj/item/proc/make_wet(shower = 0)
 	if(!src)
 		return
-	if(src.flags & THICKMATERIAL)
+	if(src.pierce_protection)
 		return
 
 	var/wet_weight = rand(18,28)
@@ -17,10 +17,11 @@
 		wet = wet_weight
 		SSdrying.drying |= src
 
-	SEND_SIGNAL(src, COMSIG_ITEM_MAKE_WET)
+		SEND_SIGNAL(src, COMSIG_ITEM_MAKE_WET)
 
 
 /obj/item/Destroy()
+	SEND_SIGNAL(src, COMSIG_ITEM_MAKE_DRY)
 	SSdrying.drying -= src
 	return ..()
 
@@ -74,7 +75,7 @@
 		var/obj/effect/fluid/F = locate() in T
 		if(F)
 			F.electrocute_act(120)
-		else if(istype(loc, /mob/living))
+		else if(isliving(loc))
 			var/mob/living/L = loc
 			L.apply_effect(120,AGONY,0)
 			var/datum/effect/effect/system/spark_spread/s = new /datum/effect/effect/system/spark_spread

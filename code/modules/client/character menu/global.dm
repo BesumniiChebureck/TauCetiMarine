@@ -24,7 +24,6 @@
 	//	if(unlock_content)
 	//		. += "<b>BYOND Membership Publicity:</b> <a href='?_src_=prefs;preference=publicity'>[(toggles & MEMBER_PUBLIC) ? "Public" : "Hidden"]</a><br>"
 	//		. += "<b>Ghost Form:</b> <a href='?_src_=prefs;task=input;preference=ghostform'>[ghost_form]</a><br>"
-	//		. += "<B>Ghost Orbit: </B> <a href='?_src_=prefs;task=input;preference=ghostorbit'>[ghost_orbit]</a><br>"
 	. += 			"</table>"
 	. += 		"</td>"
 	. += 		"<td>"
@@ -71,10 +70,6 @@
 	. += 					"</a></b></td>"
 	. += 				"</tr>"
 	. += 				"<tr>"
-	. += 					"<td width='45%'>Parallax theme:</td>"
-	. += 					"<td><a href='?_src_=prefs;preference=parallax_theme'><b>[parallax_theme]</b></a></td>"
-	. += 				"</tr>"
-	. += 				"<tr>"
 	. += 					"<td width='45%'>Ambient Occlusion:</td>"
 	. += 					"<td><a href='?_src_=prefs;preference=ambientocclusion'><b>[ambientocclusion ? "Enabled" : "Disabled"]</b></a></td>"
 	. += 				"</tr>"
@@ -114,12 +109,6 @@
 				var/new_metadata = sanitize(input(user, "Enter any OOC information you'd like others to see:", "Game Preference", input_default(metadata)) as message|null)
 				if(new_metadata)
 					metadata = new_metadata
-
-			//if(href_list["preference"] == "ghostorbit")
-			//	if(unlock_content)
-			//		var/new_orbit = input(user, "Thanks for supporting BYOND - Choose your ghostly orbit:","Thanks for supporting BYOND", null) as null|anything in ghost_orbits
-			//		if(new_orbit)
-			//			ghost_orbit = new_orbit
 
 		if("reset")
 			UI_style_color = initial(UI_style_color)
@@ -191,13 +180,6 @@
 			auto_fit_viewport = !auto_fit_viewport
 			if(auto_fit_viewport && parent)
 				parent.fit_viewport()
-
-		if("parallax_theme")
-			switch(parallax_theme)
-				if(PARALLAX_THEME_CLASSIC)
-					parallax_theme = PARALLAX_THEME_TG
-				if(PARALLAX_THEME_TG)
-					parallax_theme = PARALLAX_THEME_CLASSIC
 
 		if("ghost_sight")
 			switch(chat_ghostsight)

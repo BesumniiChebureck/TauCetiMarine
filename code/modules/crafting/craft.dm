@@ -88,7 +88,10 @@
 	var/list/contents = get_surroundings(user)
 	if(check_contents(R, contents))
 		if(check_tools(user, R, contents))
-			if(do_after(user, R.time, target = user))
+			var/required_time = R.time
+			if(R.required_proficiency)
+				required_time = apply_skill_bonus(user, R.time, R.required_proficiency, multiplier = -0.4)
+			if(do_after(user, required_time, target = user))
 				contents = get_surroundings(user)
 				if(!check_contents(R, contents))
 					return ", missing component."
@@ -367,6 +370,6 @@
 	if(recipe_image_cache[R.result])
 		return recipe_image_cache[R.result]
 	var/obj/stored_result = new R.result
-	recipe_image_cache[R.result] = icon2base64(icon(stored_result.icon, stored_result.icon_state))
+	recipe_image_cache[R.result] = bicon_raw(icon(stored_result.icon, stored_result.icon_state))
 	qdel(stored_result)
 	return recipe_image_cache[R.result]

@@ -10,6 +10,9 @@
 	damage_absorption = list("brute"=0.7,"fire"=1,"bullet"=0.7,"laser"=0.85,"energy"=1,"bomb"=0.8)
 	var/am = "d3c2fbcadca903a41161ccc9df9cf948"
 	var/animated = 0
+	speed_skills = list(/datum/skill/combat_mech = SKILL_LEVEL_MASTER)
+	interface_skills = list(/datum/skill/combat_mech = SKILL_LEVEL_TRAINED)
+
 
 /*
 /obj/mecha/combat/range_action(target)
@@ -20,28 +23,18 @@
 	return
 */
 
-/obj/mecha/combat/melee_action(target)
+/obj/mecha/combat/melee_action(atom/target)
 	if(internal_damage&MECHA_INT_CONTROL_LOST)
 		target = safepick(oview(1,src))
-	if(!melee_can_hit || !istype(target, /atom)) return
-	if(istype(target, /mob/living))
+	if(!melee_can_hit || !isatom(target)) return
+	if(isliving(target))
 		var/mob/living/M = target
 		if(src.occupant.a_intent == INTENT_HARM)
-			playsound(src, 'sound/weapons/punch4.ogg', VOL_EFFECTS_MASTER)
+			playsound(src, pick(SOUNDIN_PUNCH_VERYHEAVY), VOL_EFFECTS_MASTER)
 			if(damtype == "brute")
 				step_away(M,src,15)
-			/*
-			if(M.stat>1)
-				M.gib()
-				melee_can_hit = 0
-				if(do_after(melee_cooldown))
-					melee_can_hit = 1
-				return
-			*/
-			if(istype(target, /mob/living/carbon/human))
+			if(ishuman(target))
 				var/mob/living/carbon/human/H = target
-	//			if (M.health <= 0) return
-
 				var/obj/item/organ/external/BP = H.bodyparts_by_name[pick(BP_CHEST , BP_CHEST , BP_CHEST , BP_HEAD)]
 				if(BP)
 					switch(damtype)
@@ -83,29 +76,29 @@
 			occupant_message("You push [target] out of the way.")
 			visible_message("[src] pushes [target] out of the way.")
 
-		melee_can_hit = 0
-		if(do_after(melee_cooldown))
-			melee_can_hit = 1
+		melee_can_hit = FALSE
+		VARSET_IN(src, melee_can_hit, TRUE, melee_cooldown)
 		return
 
 	else
 		if(damtype == "brute")
-			for(var/target_type in src.destroyable_obj)
+			for(var/target_type in destroyable_obj)
 				if(istype(target, target_type) && hascall(target, "attackby"))
 					occupant_message("You hit [target].")
-					visible_message("<font color='red'><b>[src.name] hits [target]</b></font>")
-					if(!istype(target, /turf/simulated/wall))
-						target:attackby(src,src.occupant)
-					else if(prob(5))
-						target:dismantle_wall(1)
-						occupant_message("<span class='notice'>You smash through the wall.</span>")
-						visible_message("<b>[src.name] smashes through the wall</b>")
-						playsound(src, 'sound/weapons/smash.ogg', VOL_EFFECTS_MASTER)
-					melee_can_hit = 0
-					if(do_after(melee_cooldown))
-						melee_can_hit = 1
+					visible_message("<font color='red'><b>[name] hits [target]</b></font>")
+					if(iswallturf(target))
+						var/turf/simulated/wall/W = target
+						W.add_dent(WALL_DENT_HIT)
+						if(prob(5))
+							W.dismantle_wall(TRUE)
+							occupant_message("<span class='notice'>You smash through the wall.</span>")
+							visible_message("<b>[name] smashes through the wall</b>")
+							playsound(src, 'sound/weapons/smash.ogg', VOL_EFFECTS_MASTER)
+					else
+						target.attackby(src,src.occupant)
+					melee_can_hit = FALSE
+					VARSET_IN(src, melee_can_hit, TRUE, melee_cooldown)
 					break
-	return
 
 /obj/mecha/combat/moved_inside(mob/living/carbon/human/H)
 	if(..())

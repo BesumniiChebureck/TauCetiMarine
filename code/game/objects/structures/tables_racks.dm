@@ -97,18 +97,14 @@
 
 /obj/structure/table/ex_act(severity)
 	switch(severity)
-		if(1.0)
-			qdel(src)
-			return
-		if(2.0)
-			if (prob(50))
-				qdel(src)
+		if(EXPLODE_HEAVY)
+			if(prob(50))
 				return
-		if(3.0)
-			if (prob(25))
+		if(EXPLODE_LIGHT)
+			if(prob(25))
 				destroy()
-		else
-	return
+				return
+	qdel(src)
 
 /obj/structure/table/airlock_crush_act()
 	destroy()
@@ -165,7 +161,7 @@
 		destroy()
 
 /obj/structure/table/attack_tk() // no telehulk sorry
-	return
+	return FALSE
 
 /obj/structure/table/CanPass(atom/movable/mover, turf/target, height=0, air_group=0)
 	if(air_group || (height==0)) return 1
@@ -192,10 +188,15 @@
 		return 1
 	if (get_turf(P.original) == cover)
 		var/chance = 20
+		if (!flipable)
+			chance += 20	//reinforced table covers legs so 20 common chance + lying 20 chance
 		if (ismob(P.original))
 			var/mob/M = P.original
 			if (M.lying)
-				chance += 20				//Lying down lets you catch less bullets
+				if(!flipable)
+					chance = 100				//reinforced table is REINFORCED so it cant be penetrated
+				else
+					chance += 20				//Lying down lets you catch less bullets
 		if(flipped)
 			if(get_dir(loc, from) == dir)	//Flipped tables catch mroe bullets
 				chance += 20
@@ -264,11 +265,7 @@
 		return
 
 	if(user.a_intent == INTENT_HARM)
-		if(istype(W, /obj/item/weapon/melee/energy))
-			if(W.force > 3)
-				laser_cut(W, user)
-				return
-		if(istype(W, /obj/item/weapon/pen/edagger) || istype(W,/obj/item/weapon/twohanded/dualsaber))
+		if(istype(W, /obj/item/weapon/melee/energy) || istype(W, /obj/item/weapon/pen/edagger)  || istype(W,/obj/item/weapon/dualsaber))
 			if(W.force > 3)
 				laser_cut(W, user)
 				return
@@ -449,6 +446,7 @@
 		return FALSE
 
 	if(has_gravity(M) && ishuman(M))
+		M.Stun(2)
 		M.Weaken(5)
 		shatter()
 		return TRUE
@@ -459,6 +457,7 @@
 	var/mob/living/assailant = G.assailant
 	var/mob/living/victim = G.affecting
 
+	victim.Stun(2)
 	victim.Weaken(5)
 	visible_message("<span class='danger'>[assailant] slams [victim]'s face against \the [src], breaking it!</span>")
 	playsound(src, 'sound/weapons/tablehit1.ogg', VOL_EFFECTS_MASTER)
@@ -602,16 +601,17 @@
 
 /obj/structure/rack/ex_act(severity)
 	switch(severity)
-		if(1.0)
+		if(EXPLODE_DEVASTATE)
 			qdel(src)
-		if(2.0)
-			qdel(src)
+			return
+		if(EXPLODE_HEAVY)
 			if(prob(50))
 				new /obj/item/weapon/rack_parts(src.loc)
-		if(3.0)
-			if(prob(25))
-				qdel(src)
-				new /obj/item/weapon/rack_parts(src.loc)
+		if(EXPLODE_LIGHT)
+			if(prob(75))
+				return
+	qdel(src)
+	new /obj/item/weapon/rack_parts(src.loc)
 
 /obj/structure/rack/airlock_crush_act()
 	destroy()
@@ -649,9 +649,9 @@
 	if(istype(W, /obj/item/weapon/melee/energy))
 		var/obj/item/weapon/melee/energy/E = W
 		can_cut = E.active
-	else if(istype(W, /obj/item/weapon/twohanded/dualsaber))
-		var/obj/item/weapon/twohanded/dualsaber/D = W
-		can_cut = D.wielded
+	else if(istype(W, /obj/item/weapon/dualsaber))
+		var/obj/item/weapon/dualsaber/D = W
+		can_cut = HAS_TRAIT(D, TRAIT_DOUBLE_WIELDED)
 
 	if(!can_cut)
 		return ..()
@@ -699,4 +699,4 @@
 		destroy()
 
 /obj/structure/rack/attack_tk() // no telehulk sorry
-	return
+	return FALSE
