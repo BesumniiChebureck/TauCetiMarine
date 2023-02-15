@@ -11,6 +11,8 @@
 	var/burning = null
 	var/list/hitsound = list()
 	var/usesound = null
+	var/pickup_sound = null
+	var/dropped_sound = null
 	var/wet = 0
 	var/can_embed = 1
 	var/slot_flags = 0		//This is used to determine on which slots an item can fit.
@@ -77,10 +79,38 @@
 
 	// Whether this item is currently being swiped.
 	var/swiping = FALSE
+	// Is heavily utilized by swiping component. Perhaps use to determine how "quick" the strikes with this weapon are?
+	// See swiping.dm for more details.
+	var/sweep_step = 4
 	// Is using this item requires any specific skills?
 	var/list/required_skills
 
 	var/dyed_type
+
+	var/can_get_wet = TRUE
+
+/obj/item/atom_init()
+	SHOULD_CALL_PARENT(FALSE)
+	if(initialized)
+		stack_trace("Warning: [src]([type]) initialized multiple times!")
+	initialized = TRUE
+
+	if(light_power && light_range)
+		update_light()
+
+	if(opacity && isturf(src.loc))
+		var/turf/T = src.loc
+		T.has_opaque_atom = TRUE // No need to recalculate it in this case, it's guaranteed to be on afterwards anyways.
+
+	if(uses_integrity)
+		if (!armor)
+			armor = list()
+		atom_integrity = max_integrity
+
+	if(item_state_world)
+		update_world_icon()
+
+	return INITIALIZE_HINT_NORMAL
 
 /obj/item/proc/check_allowed_items(atom/target, not_inside, target_self)
 	if(((src in target) && !target_self) || ((!istype(target.loc, /turf)) && (!istype(target, /turf)) && (not_inside)) || is_type_in_list(target, can_be_placed_into))
@@ -96,7 +126,7 @@
 	if(!output_to_chat)
 		message += "<HTML><head><meta http-equiv='Content-Type' content='text/html; charset=utf-8'><title>[M.name]'s scan results</title></head><BODY>"
 
-	if(((CLUMSY in user.mutations) || user.getBrainLoss() >= 60) && prob(50))
+	if(user.ClumsyProbabilityCheck(50) || (user.getBrainLoss() >= 60 && prob(50)))
 		user.visible_message("<span class='warning'>[user] has analyzed the floor's vitals!</span>", "<span class = 'warning'>You try to analyze the floor's vitals!</span>")
 		message += "<span class='notice'>Analyzing Results for The floor:\n&emsp; Overall Status: Healthy</span><br>"
 		message += "<span class='notice'>&emsp; Damage Specifics: [0]-[0]-[0]-[0]</span><br>"
@@ -420,7 +450,7 @@
 /obj/item/proc/after_throw(datum/callback/callback)
 	if (callback) //call the original callback
 		. = callback.Invoke()
-	flags &= ~IN_INVENTORY // #10047
+	flags_2 &= ~IN_INVENTORY // #10047
 	update_world_icon()
 
 /obj/item/proc/talk_into(mob/M, text)
@@ -432,8 +462,10 @@
 // apparently called whenever an item is removed from a slot, container, or anything else.
 /obj/item/proc/dropped(mob/user)
 	SHOULD_CALL_PARENT(TRUE)
+	if(user && user.loc != loc && isturf(loc))
+		playsound(user, dropped_sound, VOL_EFFECTS_MASTER)
 	SEND_SIGNAL(src, COMSIG_ITEM_DROPPED, user)
-	flags &= ~IN_INVENTORY
+	flags_2 &= ~IN_INVENTORY
 	if(flags & DROPDEL)
 		qdel(src)
 	update_world_icon()
@@ -444,17 +476,18 @@
 	SHOULD_CALL_PARENT(TRUE)
 	if(SEND_SIGNAL(src, COMSIG_ITEM_PICKUP, user) & COMPONENT_ITEM_NO_PICKUP)
 		return FALSE
+	playsound(user, pickup_sound, VOL_EFFECTS_MASTER)
 	return TRUE
 
 // called when this item is removed from a storage item, which is passed on as S. The loc variable is already set to the new destination before this is called.
 /obj/item/proc/on_exit_storage(obj/item/weapon/storage/S)
-	flags |= IN_STORAGE
+	flags_2 &= ~IN_STORAGE
 	update_world_icon()
 	return
 
 // called when this item is added into a storage item, which is passed on as S. The loc variable is already set to the storage item.
 /obj/item/proc/on_enter_storage(obj/item/weapon/storage/S)
-	flags &= ~IN_STORAGE
+	flags_2 |= IN_STORAGE
 	update_world_icon()
 	return
 
@@ -469,7 +502,7 @@
 // note this isn't called during the initial dressing of a player
 /obj/item/proc/equipped(mob/user, slot)
 	SHOULD_CALL_PARENT(TRUE)
-	flags |= IN_INVENTORY
+	flags_2 |= IN_INVENTORY
 	SEND_SIGNAL(src, COMSIG_ITEM_EQUIPPED, user, slot)
 	SEND_SIGNAL(user, COMSIG_MOB_EQUIPPED, src, slot)
 	update_world_icon()
@@ -493,7 +526,7 @@
 				to_chat(H, "<span class='warning'>Your species can not wear clothing of this type.</span>")
 			return FALSE
 		//fat mutation
-		if(istype(src, /obj/item/clothing/under) || istype(src, /obj/item/clothing/suit))
+		if(isunder(src) || istype(src, /obj/item/clothing/suit))
 			if(HAS_TRAIT(H, TRAIT_FAT))
 				//testing("[M] TOO FAT TO WEAR [src]!")
 				if(!(flags & ONESIZEFITSALL))
@@ -1108,7 +1141,7 @@
 
 /obj/item/burn()
 	var/turf/T = get_turf(src)
-	var/ash_type 
+	var/ash_type
 	if(w_class >= SIZE_BIG)
 		ash_type = /obj/effect/decal/cleanable/ash/large
 	else
@@ -1123,12 +1156,12 @@
 	if(!item_state_world)
 		return
 
-	if((flags && IN_INVENTORY || flags && IN_STORAGE) && icon_state == item_state_world)
-		// moving to inventory, restore icon
+	if((flags_2 & IN_INVENTORY || flags_2 & IN_STORAGE) && icon_state == item_state_world)
+		// moving to inventory, restore icon (big inventory icon)
 		icon_state = initial(icon_state)
 
 	else if(icon_state != item_state_world)
-		// moving to world, change icon
+		// moving to world, change icon (small world icon)
 		icon_state = item_state_world
 
 /obj/item/CtrlShiftClick(mob/user)

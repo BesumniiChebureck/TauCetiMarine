@@ -90,7 +90,7 @@
 		return 1
 
 /obj/item/weapon/gun/projectile/revolver/detective/attackby(obj/item/I, mob/user, params)
-	if(isscrewdriver(I))
+	if(isscrewing(I))
 		if(magazine.caliber == "38")
 			to_chat(user, "<span class='notice'>You begin to reinforce the barrel of [src].</span>")
 			if(magazine.ammo_count())
@@ -125,7 +125,7 @@
 	name = "mateba"
 	desc = "When you absolutely, positively need a 10mm hole in the other guy. Uses .357 ammo."	//>10mm hole >.357
 	icon_state = "mateba"
-	item_state = "revolver"
+	item_state = "mateba"
 	origin_tech = "combat=2;materials=2"
 
 // A gun to play Russian Roulette!
